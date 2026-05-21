@@ -1,0 +1,88 @@
+name: Daily Job Scout
+
+on:
+  schedule:
+    # 8 AM EST  (13:00 UTC)
+    - cron: "0 13 * * *"
+    # 1 PM EST  (18:00 UTC)
+    - cron: "0 18 * * *"
+    # 5 PM EST  (22:00 UTC, weekdays only)
+    - cron: "0 22 * * 1-5"
+    # 9 PM EST  (02:00 UTC next day)
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      run_number:
+        description: "Run number override (1-4)"
+        required: false
+        default: "1"
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine run number
+        id: run_number
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "number=${{ github.event.inputs.run_number }}" >> "$GITHUB_OUTPUT"
+          else
+            HOUR=$(date -u +%H)
+            if   [ "$HOUR" -eq 13 ]; then echo "number=1" >> "$GITHUB_OUTPUT"
+            elif [ "$HOUR" -eq 18 ]; then echo "number=2" >> "$GITHUB_OUTPUT"
+            elif [ "$HOUR" -eq 22 ]; then echo "number=3" >> "$GITHUB_OUTPUT"
+            else                          echo "number=4" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Scrape job boards
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scrapers/scraper_orchestrator.py --run-number ${{ steps.run_number.outputs.number }}
+
+      - name: Deduplicate jobs
+        run: python utils/deduplicator.py
+
+      - name: Score jobs with AI
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scoring/multi_resume_scorer.py --run-number ${{ steps.run_number.outputs.number }}
+
+      - name: Commit scored jobs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs_scored.json data/applied_jobs.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update jobs_scored.json [run ${{ steps.run_number.outputs.number }}] [skip ci]"
+            git push
+          fi
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dashboard
+          publish_branch: gh-pages
+          commit_message: "deploy: dashboard update [run ${{ steps.run_number.outputs.number }}]"

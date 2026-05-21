@@ -1,0 +1,37 @@
+# Environment
+.env
+
+# Ephemeral scrape artifacts (rebuilt each run)
+data/jobs_raw.json
+data/jobs_unique.json
+data/jobs_filtered.json
+
+# Committed data files (dashboard reads these)
+# data/jobs_scored.json  → committed
+# data/applied_jobs.json → committed
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ChromeDriver / Selenium artifacts
+chromedriver
+chromedriver.exe
+*.crdownload
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

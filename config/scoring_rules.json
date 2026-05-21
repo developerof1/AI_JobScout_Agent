@@ -1,0 +1,77 @@
+{
+  "title_match": {
+    "weight": 40,
+    "negative_keywords": ["junior", "associate", "coordinator", "intern", "entry level", "entry-level"]
+  },
+
+  "seniority_match": {
+    "weight": 20,
+    "preferred": ["VP", "Vice President", "Head of", "Principal", "Staff", "Director"],
+    "acceptable": ["Senior Director", "Senior"],
+    "reject_below": ["Manager", "Lead", "Associate"]
+  },
+
+  "domain_match": {
+    "weight": 20,
+    "primary_domains": ["healthcare", "health tech", "digital health", "fintech", "payments", "banking", "financial services"],
+    "adjacent_domains": ["pharma", "life sciences", "capital markets", "trading", "B2B SaaS"],
+    "bonus_keywords": ["regulated", "compliance", "PE-backed", "Series C", "Series D"]
+  },
+
+  "experience_match": {
+    "weight": 20
+  },
+
+  "red_flags": {
+    "auto_reject": [
+      "hands-on coding required",
+      "hands-on Rails",
+      "hands-on React",
+      "Rails developer",
+      "React developer",
+      "software engineer",
+      "on-site only NYC",
+      "on-site required New York",
+      "no remote"
+    ],
+    "score_penalty_15": [
+      "manage 20+ PMs",
+      "manage 25+ PMs",
+      "Bay Area required",
+      "San Francisco required",
+      "must relocate"
+    ],
+    "score_penalty_10": [
+      "quarterly travel to SF",
+      "seed stage",
+      "pre-seed",
+      "early stage pre-revenue"
+    ],
+    "score_penalty_5": [
+      "hybrid required",
+      "in-office 3 days"
+    ]
+  },
+
+  "bonus_criteria": {
+    "score_boost_10": [
+      "product operations",
+      "product delivery",
+      "hybrid product engineering",
+      "product-delivery",
+      "program delivery"
+    ],
+    "score_boost_5": [
+      "remote first",
+      "remote-first",
+      "fully remote",
+      "healthcare impact",
+      "financial inclusion",
+      "mission driven",
+      "just raised",
+      "Series C",
+      "Series D",
+      "PE-backed"
+    ]
+  }
+}

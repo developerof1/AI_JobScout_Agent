@@ -1,0 +1,63 @@
+{
+  "ai_provider": "anthropic",
+
+  "ai_providers": {
+    "anthropic": {
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 2000,
+      "temperature": 0.3
+    },
+    "openai": {
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "gpt-4-turbo-preview",
+      "max_tokens": 2000,
+      "temperature": 0.3
+    },
+    "google": {
+      "api_key_env": "GOOGLE_API_KEY",
+      "model": "gemini-pro",
+      "max_tokens": 2000,
+      "temperature": 0.3
+    }
+  },
+
+  "scraping": {
+    "enabled_sources": ["linkedin", "wellfound", "builtin", "indeed", "yc_jobs"],
+    "scrape_jobs_posted_within_hours": 8,
+    "skip_already_seen": true,
+    "daily_job_limit": 200,
+    "rate_limit_delay_seconds": 2,
+    "linkedin_max_results": 100,
+    "wellfound_max_results": 50,
+    "builtin_max_results": 30,
+    "indeed_max_results": 50,
+    "yc_jobs_max_results": 25
+  },
+
+  "scoring": {
+    "min_score_to_display": 70,
+    "high_priority_threshold": 85,
+    "batch_size": 10,
+    "batch_delay_seconds": 1,
+    "scoring_rules_path": "config/scoring_rules.json"
+  },
+
+  "notifications": {
+    "enabled": false,
+    "email_on_new_high_priority": false,
+    "email_threshold_score": 85,
+    "email_recipient": "developerof1@gmail.com"
+  },
+
+  "dashboard": {
+    "show_backup_resumes": true,
+    "show_score_breakdown": true
+  },
+
+  "applied_jobs_tracking": {
+    "enabled": true,
+    "filter_applied_before_scoring": true,
+    "track_resume_used": true
+  }
+}

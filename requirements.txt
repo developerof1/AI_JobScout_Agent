@@ -1,0 +1,9 @@
+anthropic>=0.49.0
+openai>=1.12.0
+google-generativeai>=0.3.2
+pdfplumber>=0.10.3
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+undetected-chromedriver>=3.5.5
+selenium>=4.15.2
+python-dotenv>=1.0.0

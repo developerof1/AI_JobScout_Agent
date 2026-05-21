@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Scout — Satwik Bardhan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <div>
+    <h1>Job Scout</h1>
+    <div class="subtitle">Multi-resume AI scoring · Satwik Bardhan</div>
+  </div>
+  <div id="last-updated" class="last-updated">Loading...</div>
+</header>
+
+<main class="main">
+
+  <div id="loading" class="loading">Loading jobs...</div>
+
+  <div id="content" style="display:none">
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stat-card green">
+        <div id="stat-high" class="value">—</div>
+        <div class="label">Apply Now (≥85)</div>
+      </div>
+      <div class="stat-card yellow">
+        <div id="stat-review" class="value">—</div>
+        <div class="label">Review (70-84)</div>
+      </div>
+      <div class="stat-card blue">
+        <div id="stat-new" class="value">—</div>
+        <div class="label">New Today</div>
+      </div>
+      <div class="stat-card">
+        <div id="stat-total" class="value">—</div>
+        <div class="label">Total Jobs</div>
+      </div>
+      <div class="stat-card">
+        <div id="stat-applied" class="value">—</div>
+        <div class="label">Applied</div>
+      </div>
+    </div>
+
+    <!-- Resume Usage -->
+    <div style="margin-bottom: 20px;">
+      <div style="font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">Resume Usage</div>
+      <div id="resume-usage" style="display:flex; gap:6px; flex-wrap:wrap;"></div>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all"         onclick="setFilter('all')">All Open</button>
+      <button class="filter-btn"        data-filter="new"         onclick="setFilter('new')">New This Run</button>
+      <button class="filter-btn"        data-filter="urgent"      onclick="setFilter('urgent')">Urgent (&lt;4h)</button>
+      <button class="filter-btn"        data-filter="today"       onclick="setFilter('today')">Today</button>
+      <button class="filter-btn"        data-filter="high"        onclick="setFilter('high')">High Priority</button>
+      <button class="filter-btn"        data-filter="applied"     onclick="setFilter('applied')">Applied</button>
+    </div>
+
+    <!-- High Priority Section -->
+    <div id="section-high">
+      <div class="section-header">
+        <h2>Apply Now</h2>
+        <span id="count-high" class="section-badge">0</span>
+      </div>
+      <div id="high-list" class="job-list"></div>
+    </div>
+
+    <!-- Review Needed Section -->
+    <div id="section-review">
+      <div class="section-header">
+        <h2>Review &amp; Apply</h2>
+        <span id="count-review" class="section-badge">0</span>
+      </div>
+      <div id="review-list" class="job-list"></div>
+    </div>
+
+    <!-- Maybe Section -->
+    <div id="section-maybe">
+      <div class="section-header">
+        <h2>Maybe</h2>
+        <span id="count-maybe" class="section-badge">0</span>
+      </div>
+      <div id="maybe-list" class="job-list"></div>
+    </div>
+
+  </div><!-- #content -->
+
+</main>
+
+<div id="toast-container" class="toast-container"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
