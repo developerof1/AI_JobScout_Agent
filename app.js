@@ -2,7 +2,7 @@
 // Loads jobs_scored.json once on page load. No auto-refresh.
 // Fresh data arrives after each GitHub Actions run redeploys GitHub Pages.
 
-const JOBS_URL = "../data/jobs_scored.json";
+const JOBS_URL = "./data/jobs_scored.json";
 const HIGH_PRIORITY_THRESHOLD = 85;
 const REVIEW_THRESHOLD = 70;
 const URGENT_HOURS = 4;
