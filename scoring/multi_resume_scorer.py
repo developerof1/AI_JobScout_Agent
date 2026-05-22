@@ -226,7 +226,9 @@ def main(run_number: int = 1):
     existing_scored = []
     if SCORED_OUTPUT.exists():
         with open(SCORED_OUTPUT) as f:
-            existing_scored = json.load(f)
+            data = json.load(f)
+            # Handle both new format (with _metadata) and old format (array)
+            existing_scored = data.get("jobs", []) if isinstance(data, dict) else data
 
     existing_hashes = {j.get("_hash") for j in existing_scored if j.get("_hash")}
 
