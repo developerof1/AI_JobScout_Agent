@@ -228,8 +228,15 @@ def main(run_number: int = 1):
         with open(SCORED_OUTPUT) as f:
             data = json.load(f)
             # Handle both new format (with _metadata) and old format (array)
-            existing_scored = data.get("jobs", []) if isinstance(data, dict) else data
+            if isinstance(data, dict) and "jobs" in data:
+                existing_scored = data.get("jobs", [])
+            elif isinstance(data, list):
+                existing_scored = data
+            else:
+                existing_scored = []
 
+    # Ensure existing_scored is a list of dicts
+    existing_scored = [j for j in existing_scored if isinstance(j, dict)]
     existing_hashes = {j.get("_hash") for j in existing_scored if j.get("_hash")}
 
     scored_jobs = []
