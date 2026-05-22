@@ -40,7 +40,7 @@ body {
 }
 .app-header h1 { font-size: 18px; font-weight: 700; color: var(--text); }
 .app-header .subtitle { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
-.last-updated { font-size: 11px; color: var(--text-muted); }
+.last-updated { font-size: 20px; font-weight: 600; color: var(--text); }
 
 .main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
 

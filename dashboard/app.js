@@ -11,13 +11,43 @@ const FRESH_HOURS = 12;
 let allJobs = [];
 let activeFilter = "all";
 
+function formatTimestamp(date) {
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+
+  const dateStr = date.toLocaleDateString("en-US", { month: "numeric", day: "numeric", year: "numeric" });
+  const todayStr = today.toLocaleDateString("en-US", { month: "numeric", day: "numeric", year: "numeric" });
+  const yesterdayStr = yesterday.toLocaleDateString("en-US", { month: "numeric", day: "numeric", year: "numeric" });
+
+  let label = "";
+  if (dateStr === todayStr) {
+    label = "Today";
+  } else if (dateStr === yesterdayStr) {
+    label = "Yesterday";
+  } else {
+    label = dateStr;
+  }
+
+  const time = date.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", hour12: true });
+  return `${label} at ${time}`;
+}
+
 // ─── Bootstrap ──────────────────────────────────────────────────────────────
 
 async function init() {
+  let metadata = null;
   try {
     const res = await fetch(JOBS_URL + "?t=" + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    allJobs = await res.json();
+    const data = await res.json();
+
+    if (data._metadata) {
+      metadata = data._metadata;
+      allJobs = data.jobs || [];
+    } else {
+      allJobs = Array.isArray(data) ? data : [];
+    }
   } catch (err) {
     document.getElementById("loading").innerHTML =
       `<div class="empty-state"><h3>No jobs data yet</h3><p>Run the scraper + scorer to generate jobs_scored.json</p></div>`;
@@ -26,8 +56,17 @@ async function init() {
 
   document.getElementById("loading").style.display = "none";
   document.getElementById("content").style.display = "block";
-  document.getElementById("last-updated").textContent =
-    `Updated: ${new Date().toLocaleString()}`;
+
+  if (metadata?.last_run) {
+    const lastRunDate = new Date(metadata.last_run);
+    const isRecent = (Date.now() - lastRunDate.getTime()) < 12 * 60 * 60 * 1000;
+    const statusDot = isRecent ? "🟢" : "🔴";
+    document.getElementById("last-updated").textContent =
+      `${statusDot} Last agent run: ${formatTimestamp(lastRunDate)}`;
+  } else {
+    document.getElementById("last-updated").textContent =
+      `Last agent run: Unknown`;
+  }
 
   renderStats();
   renderJobs(allJobs);
@@ -42,12 +81,13 @@ async function init() {
 
 function renderStats() {
   const applied = getAppliedIds();
-  const highPriority = allJobs.filter(j => j.score >= HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
-  const reviewNeeded = allJobs.filter(j => j.score >= REVIEW_THRESHOLD && j.score < HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
-  const newToday = allJobs.filter(j => (j.metadata?.age_hours ?? 999) < 24 && !applied.has(j._hash));
+  const jobs = Array.isArray(allJobs) ? allJobs : [];
+  const highPriority = jobs.filter(j => j.score >= HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
+  const reviewNeeded = jobs.filter(j => j.score >= REVIEW_THRESHOLD && j.score < HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
+  const newToday = jobs.filter(j => (j.metadata?.age_hours ?? 999) < 24 && !applied.has(j._hash));
   const appliedToday = getAppliedToday();
 
-  set("stat-total",    allJobs.length);
+  set("stat-total",    jobs.length);
   set("stat-high",     highPriority.length);
   set("stat-review",   reviewNeeded.length);
   set("stat-new",      newToday.length);
@@ -55,7 +95,7 @@ function renderStats() {
 
   // Resume usage breakdown
   const usageCounts = {};
-  allJobs.forEach(j => {
+  jobs.forEach(j => {
     const name = j.primary_resume_name;
     if (name) usageCounts[name] = (usageCounts[name] || 0) + 1;
   });

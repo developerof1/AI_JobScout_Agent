@@ -301,8 +301,17 @@ def main(run_number: int = 1):
     merged.sort(key=lambda j: (-j.get("score", 0), j.get("metadata", {}).get("age_hours", 999)))
 
     SCORED_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    output = {
+        "_metadata": {
+            "last_run": now.isoformat(),
+            "run_number": run_number,
+            "total_jobs": len(merged),
+            "scored_this_run": len(scored_jobs),
+        },
+        "jobs": merged,
+    }
     with open(SCORED_OUTPUT, "w") as f:
-        json.dump(merged, f, indent=2)
+        json.dump(output, f, indent=2)
 
     high_priority = [j for j in scored_jobs if j.get("score", 0) >= 85]
     review_needed = [j for j in scored_jobs if 70 <= j.get("score", 0) < 85]
@@ -312,7 +321,7 @@ def main(run_number: int = 1):
     print(f"  Scored this run: {len(scored_jobs)}")
     print(f"  Auto-rejected:   {rejected_count}")
     print(f"  Errors:          {error_count}")
-    print(f"  High priority (≥85): {len(high_priority)}")
+    print(f"  High priority (>=85): {len(high_priority)}")
     print(f"  Review needed (70-84): {len(review_needed)}")
     print(f"  Total in dashboard: {len(merged)}")
     print(f"  Saved to: {SCORED_OUTPUT}")
