@@ -1,0 +1,461 @@
+{
+  "resumes": [
+    {
+      "id": 1,
+      "name": "TPM - Healthcare",
+      "file": "Bardhan_Satwik_H_TPJM_v2026.pdf",
+      "positioning": "Technical Program Manager focused on healthcare technology",
+      "target_criteria": {
+        "titles": [
+          "Technical Program Manager",
+          "Senior Technical Program Manager",
+          "Director of Program Management",
+          "Head of Product and Technology",
+          "Chief Product Officer",
+          "Technology Delivery Lead"
+        ],
+        "domains": [
+          "Healthcare Technology",
+          "Fintech",
+          "SaaS",
+          "Pharmaceutical",
+          "Digital Health",
+          "Enterprise Technology"
+        ],
+        "seniority": [
+          "Senior",
+          "Director",
+          "VP",
+          "Head of",
+          "Chief"
+        ],
+        "company_stages": [
+          "PE-backed",
+          "Series B",
+          "Series C",
+          "Growth stage",
+          "Enterprise"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Senior Technical Program Manager at CareMetX leading IT transformation for PE-backed healthcare technology organization",
+        "Senior Technical Program Manager at Chronicled managing blockchain-enabled SaaS platform for 20+ pharmaceutical manufacturers",
+        "Product and Technology Lead at Pandemic Insights leading cross-functional agile development for healthcare mobile app",
+        "Chief Product Officer at EMPO building product from concept to app store launch",
+        "Technology Delivery Lead at Accenture directing $8M Azure data platform migration for healthcare client",
+        "Client Account Lead at Accenture growing agribusiness account to $4M+ over 3 years",
+        "Founded and launched fintech mobile app MarketCue to 10K+ users with AI-assisted development"
+      ],
+      "key_metrics": [
+        "$8M Azure data platform migration with +5% margin impact",
+        "20+ SaaS implementations securing $3M+ annual revenue",
+        "$4M+ account growth over 3 years while preventing $1.5M chargeback",
+        "10K+ users for founded fintech mobile app MarketCue",
+        "$2M+ revenue growth through offshore-led solutions design",
+        "60%+ win rate on new opportunities through technical discovery",
+        "$70K+ annual savings delivered through Sybase-to-SQL migration"
+      ],
+      "differentiators": [
+        "Executive-level experience reporting directly to C-suite in PE-backed healthcare organizations with P&L ownership",
+        "HIPAA compliance training across multiple healthcare organizations ensuring regulatory adherence",
+        "Dual role experience combining Technical Program Management with Customer Success and Product Management",
+        "Entrepreneurial background as fintech founder with hands-on AI/LLM integration experience",
+        "Cross-functional orchestration across multi-geography engineering teams and M&A integration expertise",
+        "Direct customer engagement experience bridging technical complexity with financial targets and business outcomes"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TPM - Fintech",
+      "file": "Bardhan_Satwik_F_TPJM_v2026.pdf",
+      "positioning": "Technical Program Manager with founder experience in fintech",
+      "target_criteria": {
+        "titles": [
+          "Technical Program Manager",
+          "Senior Technical Program Manager",
+          "Product Manager",
+          "Director of Program Management",
+          "VP of Product",
+          "Head of Technical Programs"
+        ],
+        "domains": [
+          "Fintech",
+          "Healthcare Technology",
+          "SaaS",
+          "Capital Markets",
+          "Blockchain"
+        ],
+        "seniority": [
+          "Senior",
+          "Director",
+          "VP"
+        ],
+        "company_stages": [
+          "Series B",
+          "Series C",
+          "PE-backed",
+          "Growth-stage"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Founded and launched fintech mobile app MarketCue from concept to 10K+ users across iOS and Android",
+        "Senior Technical Program Manager at CareMetX (PE-backed healthcare technology) reporting to CTO",
+        "Senior Technical Program Manager at Chronicled managing $3M+ annual revenue for blockchain SaaS platform serving 20+ pharmaceutical clients",
+        "Product and Technology Lead at Pandemic Insights leading cross-functional agile development for healthcare mobile app",
+        "Technology Delivery Lead at Accenture directing $8M Azure data platform migration across multi-geography teams",
+        "Client Account Lead at Accenture growing agribusiness account to $4M+ over 3 years",
+        "15+ years experience across fintech, healthcare technology, and enterprise consulting with direct C-suite reporting"
+      ],
+      "key_metrics": [
+        "Founded and grew fintech app to 10K+ users with 5-star ratings",
+        "Managed $8M Azure data platform migration enabling +5% margin impact",
+        "Ensured $3M+ annual revenue recognition through 20+ client implementations",
+        "Grew agribusiness account to $4M+ in 3 years while preventing $1.5M chargeback",
+        "Achieved $70K+ annual savings through database migration for banking client",
+        "Drove $2M+ revenue growth through offshore-led solutions design",
+        "Achieved 60%+ win rate on new opportunities through technical discovery"
+      ],
+      "differentiators": [
+        "Founder experience with successful fintech product launch and scaling to 10K+ users",
+        "Executive-level experience reporting directly to C-suite in PE-backed environments with P&L ownership",
+        "Deep capital markets and trading expertise gained through personal product development and investor psychology understanding",
+        "Customer-facing program management with direct client engagement for validation and adoption",
+        "AI/LLM integration experience using personal fintech platform as learning sandbox",
+        "Cross-industry expertise spanning fintech, healthcare technology, and enterprise consulting with measurable financial impact"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Technical PM",
+      "file": "Bardhan_Satwik_Ldr_TPDM_v2026.pdf",
+      "positioning": "Technical Product Manager with founder DNA, domain-agnostic",
+      "target_criteria": {
+        "titles": [
+          "Technical Product Manager",
+          "Senior Product Manager",
+          "Product Manager",
+          "Head of Product",
+          "Chief Product Officer",
+          "Technical Program Manager"
+        ],
+        "domains": [
+          "Healthcare",
+          "Fintech",
+          "B2B SaaS",
+          "Mobile Products",
+          "Technology Consulting"
+        ],
+        "seniority": [
+          "Senior",
+          "Director",
+          "Head of",
+          "VP"
+        ],
+        "company_stages": [
+          "Early-stage",
+          "Series B",
+          "Series C",
+          "PE-backed"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Solo-founded MarketCue fintech mobile app, scaling to 10K+ users with 5-star ratings",
+        "Managed B2B SaaS platform at Chronicled serving 20+ pharma clients with $3M+ revenue responsibility",
+        "Led product integration of newly acquired patient CRM at PE-backed CareMetX",
+        "Built mobile product from concept to app stores as Head of Products at EMPO",
+        "Delivered $8M+ Azure analytics transformation at Accenture for healthcare client",
+        "Led cross-functional product development across multiple healthcare startups",
+        "Established product development frameworks and OKRs at early-stage companies"
+      ],
+      "key_metrics": [
+        "10K+ users with 5-star ratings on fintech mobile app",
+        "$3M+ annual revenue recognition for B2B SaaS platform",
+        "20+ healthcare clients served across pharma manufacturers and distributors",
+        "$8M+ Azure-based analytics transformation delivery",
+        "60%+ win rate through direct customer engagement at Accenture",
+        "+5% potential margin impact through revenue cycle automation",
+        "3 cross-functional scrum teams coordinated for product delivery"
+      ],
+      "differentiators": [
+        "Solo founder experience with successful mobile app scaling to 10K+ users",
+        "Rebuilt entire product from scratch using AI-aided development in 2025",
+        "Cross-functional leadership spanning engineering, sales, and customer success",
+        "Direct customer engagement through discovery sessions and feedback loops",
+        "Technical fluency across cloud platforms, mobile development, and AI/ML",
+        "Experience bridging business needs with technical specifications across multiple domains"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Executive Leadership - Healthcare",
+      "file": "Bardhan_Satwik_H_Ldr_D_v2026.pdf",
+      "positioning": "VP/Director-level product-delivery executive in healthcare",
+      "target_criteria": {
+        "titles": [
+          "VP of Product",
+          "Director of Product Management",
+          "VP of Delivery",
+          "Director of Program Management",
+          "VP of Product Delivery",
+          "Head of Product Operations"
+        ],
+        "domains": [
+          "Healthcare Technology",
+          "Life Sciences",
+          "Pharmaceutical",
+          "Healthcare Analytics",
+          "Digital Health"
+        ],
+        "seniority": [
+          "Director",
+          "VP",
+          "Senior Director"
+        ],
+        "company_stages": [
+          "PE-backed",
+          "Series B",
+          "Series C",
+          "Growth Stage"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Led IT transformation and M&A integration at PE-backed CareMetX as Program Management Leadership reporting to CTO",
+        "Senior Delivery Lead at Chronicled managing $3M+ revenue across 20+ pharmaceutical clients on blockchain platform",
+        "Product Leader at Pandemic Insights/Resilienci.ai leading mobile health app from concept to app store launch",
+        "Managing Partner at Brightside Partners/Accelerator evaluating 100+ startups and mentoring portfolio founders",
+        "Technology Delivery Lead at Accenture directing $8M+ Azure analytics transformation for healthcare client",
+        "Founded fintech platform MarketCue achieving 10K+ users and 5-star ratings with successful product-market fit",
+        "Account Lead at Accenture growing agribusiness account to $4M+ across 3 concurrent projects"
+      ],
+      "key_metrics": [
+        "$8M+ Azure-based digital transformation enabling +5% margin impact through automated revenue cycle management",
+        "$3M+ annual revenue recognition across 20+ pharmaceutical manufacturers, distributors, and GPOs",
+        "$4M+ agribusiness account growth over 3 concurrent projects with $1.5M+ chargeback prevention",
+        "$2M+ revenue growth as Application Services Sales Lead across Midwest region",
+        "10K+ users and 5-star ratings for founded fintech platform MarketCue",
+        "$300K seed funding round success for mentored portfolio company EMPO",
+        "100+ startup pitch deck evaluations and investment recommendations"
+      ],
+      "differentiators": [
+        "Dual operator and founder experience with successful 0\u21921 product-market validation",
+        "PE-backed company transformation experience with C-suite partnership and M&A integration leadership",
+        "Healthcare-specific regulatory compliance and app store submission expertise",
+        "Blockchain and pharmaceutical supply chain domain expertise with contract transparency solutions",
+        "Investment and accelerator experience providing strategic business perspective beyond pure execution",
+        "Cross-functional leadership spanning product, delivery, sales, and customer success with revenue accountability"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Executive Leadership - Fintech",
+      "file": "Bardhan_Satwik_F_Ldr_PD_v2026.pdf",
+      "positioning": "VP/Director-level product-delivery executive with founder experience",
+      "target_criteria": {
+        "titles": [
+          "VP of Product",
+          "Director of Product",
+          "Head of Product",
+          "VP of Engineering",
+          "Director of Product Management",
+          "Chief Product Officer"
+        ],
+        "domains": [
+          "Fintech",
+          "Financial Services",
+          "Healthcare Technology",
+          "Enterprise Software",
+          "Consumer Technology"
+        ],
+        "seniority": [
+          "Director",
+          "VP",
+          "Head of",
+          "C-Suite"
+        ],
+        "company_stages": [
+          "Series B",
+          "Series C",
+          "PE-backed",
+          "Growth Stage",
+          "Early Stage"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Solo-founded MarketCue fintech platform, scaling to 10K+ users with 5-star app store ratings",
+        "Head of Products and Engineering at EMPO, building product from concept to app stores",
+        "Managing Partner at Brightside Partners venture capital firm, evaluating 100+ startup pitch decks",
+        "Senior Delivery Lead at Chronicled managing $3M+ annual revenue across 20+ healthcare clients",
+        "Program Management Leadership at PE-backed CareMetX, leading M&A integration initiatives",
+        "Technology Delivery Lead at Accenture serving banking, fintech, and healthcare clients for 9 years",
+        "Led $8M+ digital transformation program with multi-geography team coordination"
+      ],
+      "key_metrics": [
+        "Scaled MarketCue to 10K+ users with 5-star ratings on both app stores",
+        "Managed $3M+ annual revenue recognition across 20+ client base at Chronicled",
+        "Delivered $8M+ digital transformation program at Accenture",
+        "Grew client accounts to $4M+ in professional services revenue",
+        "Achieved $70K+ annual renewal cost savings through database migration",
+        "Contributed to $300K seed funding round through founder mentorship",
+        "Improved delivery visibility enabling 15-20% faster issue resolution"
+      ],
+      "differentiators": [
+        "Dual founder and operator experience with successful consumer fintech platform launch",
+        "Venture capital experience evaluating 100+ startups and mentoring portfolio founders",
+        "AI-aided development expertise demonstrated through 2025 product rebuild",
+        "Cross-industry expertise spanning fintech, healthcare, and enterprise technology",
+        "Proven M&A integration leadership in PE-backed environment",
+        "Direct customer engagement focus with sustained high win rates and renewal outcomes"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Product Engineering Leader",
+      "file": "Bardhan_Satwik_Ldr_PE_v2026.pdf",
+      "positioning": "Founding/Head of Product for early-stage startups, AI-first",
+      "target_criteria": {
+        "titles": [
+          "Head of Product",
+          "Founding Product Leader",
+          "CPO",
+          "VP of Product",
+          "Product Engineering Leader",
+          "Head of Products and Engineering"
+        ],
+        "domains": [
+          "Fintech",
+          "Healthcare Tech",
+          "AI-First Startups",
+          "Consumer Tech",
+          "Early-stage Startups"
+        ],
+        "seniority": [
+          "Head",
+          "VP",
+          "CPO",
+          "Founding"
+        ],
+        "company_stages": [
+          "Pre-seed",
+          "Seed",
+          "Series A",
+          "Early-stage",
+          "PE-backed"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "Solo-founded MarketCue fintech platform, scaling to 10K+ users and rebuilding entire platform using AI-aided development in 2025",
+        "Served as Head of Products and Engineering at EMPO, building product from concept to app stores across iOS and Android",
+        "Managing Partner at Brightside Partners venture capital firm, evaluating 100+ startup pitch decks and mentoring portfolio founders",
+        "Senior Delivery Lead at Chronicled healthcare company, managing $3M+ revenue across 20+ client base while establishing product frameworks",
+        "Technology Delivery Lead at Accenture for 9 years, leading $8M+ digital transformation programs across banking and fintech clients",
+        "Product and Solutions Lead at Pandemic Insights, leading product development from concept to functioning mobile app",
+        "Program Management Leadership at CareMetX PE-backed healthcare technology company focusing on M&A integration"
+      ],
+      "key_metrics": [
+        "Scaled MarketCue to 10K+ users with 5-star ratings on both app stores",
+        "Led $8M+ digital transformation program delivery with measurable business impact",
+        "Managed $3M+ revenue across 20+ client base at Chronicled",
+        "Evaluated 100+ startup pitch decks and business models as Managing Partner",
+        "Contributed to $300K seed funding round for portfolio company EMPO",
+        "Achieved sustained 60%+ win rate in technology solution sales at Accenture",
+        "Grew client accounts to $4M+ in revenue through cross-functional team leadership"
+      ],
+      "differentiators": [
+        "Rebuilt entire production platform solo using AI-aided development (Claude, Cursor) in 2025, proving ability to ship without traditional engineering teams",
+        "Combines executive product leadership experience with hands-on technical building capability and solo shipping ability",
+        "Brings investor perspective from Managing Partner role evaluating 100+ startups, adding strategic investment lens to product decisions",
+        "Deep capital markets expertise through personal trading experience and building stock market platforms",
+        "15+ years spanning product leadership, venture capital, and hands-on founding experience across fintech and healthcare",
+        "Proven ability to operate in early-stage environments where speed and execution trump process, with track record of 0\u21921 product development"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "TPM - General",
+      "file": "Bardhan_Satwik_G_TPJM_v2026.pdf",
+      "positioning": "Technical Program Manager with domain-agnostic expertise",
+      "target_criteria": {
+        "titles": [
+          "Technical Program Manager",
+          "Senior Technical Program Manager",
+          "Director of Program Management",
+          "Head of Product and Engineering",
+          "Chief Product Officer",
+          "Technology Delivery Lead"
+        ],
+        "domains": [
+          "Healthcare Technology",
+          "Fintech",
+          "SaaS",
+          "Enterprise Technology Consulting",
+          "Digital Health"
+        ],
+        "seniority": [
+          "Senior",
+          "Director",
+          "VP"
+        ],
+        "company_stages": [
+          "Series B",
+          "Series C",
+          "PE-backed",
+          "Growth Stage"
+        ],
+        "locations": [
+          "Remote",
+          "Chicago, IL"
+        ]
+      },
+      "key_experiences": [
+        "CareMetX - Senior TPM reporting to CTO in PE-backed healthcare technology organization",
+        "Chronicled - Led delivery for blockchain-enabled SaaS platform serving 20+ pharmaceutical clients",
+        "Accenture - 9 years across multiple roles from Solution Architect to Technology Delivery Lead",
+        "Founded fintech mobile app MarketCue with 10K+ users across iOS and Android",
+        "Pandemic Insights - Product and Technology Lead for healthcare mobile app development",
+        "EMPO - Head of Products and Engineering building product from concept to app store launch",
+        "Led $8M Azure data platform migration across multi-geography teams at Accenture"
+      ],
+      "key_metrics": [
+        "$8M Azure data platform migration with +5% margin impact",
+        "20+ SaaS implementations securing $3M+ annual revenue",
+        "Grew agribusiness account to $4M+ in 3 years",
+        "Prevented $1.5M project chargeback through delivery improvements",
+        "Founded fintech app reaching 10K+ users",
+        "Achieved 60%+ win rate as solutions architect",
+        "Drove $2M+ revenue growth through offshore-led solutions"
+      ],
+      "differentiators": [
+        "Executive-level experience reporting directly to C-suite in PE-backed environments",
+        "Founder experience with successful fintech product launch and AI integration",
+        "Domain-agnostic expertise across healthcare technology, fintech, and enterprise consulting",
+        "Customer-facing program management with direct client engagement and P&L ownership",
+        "M&A integration and IT transformation experience in PE-backed organizations",
+        "Dual role capability spanning technical program management and product management"
+      ]
+    }
+  ]
+}

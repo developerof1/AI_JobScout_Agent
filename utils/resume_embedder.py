@@ -54,6 +54,12 @@ RESUME_REGISTRY = [
         "file": "Bardhan_Satwik_Ldr_PE_v2026.pdf",
         "positioning": "Founding/Head of Product for early-stage startups, AI-first",
     },
+    {
+        "id": 7,
+        "name": "TPM - General",
+        "file": "Bardhan_Satwik_G_TPJM_v2026.pdf",
+        "positioning": "Technical Program Manager with domain-agnostic expertise",
+    },
 ]
 
 EXTRACTION_PROMPT = """\
@@ -122,9 +128,20 @@ def main():
     ai = AIProvider()
     print(f"Using {ai.get_provider_info()['provider']} - {ai.get_provider_info()['model']}")
 
+    # Optional: run only a specific resume by ID (e.g., python resume_embedder.py 7)
+    target_id = None
+    if len(sys.argv) > 1:
+        try:
+            target_id = int(sys.argv[1])
+        except ValueError:
+            print(f"Usage: python resume_embedder.py [resume_id]\n  Example: python resume_embedder.py 7")
+            sys.exit(1)
+
     profiles = []
 
     for meta in RESUME_REGISTRY:
+        if target_id is not None and meta["id"] != target_id:
+            continue
         pdf_path = RESUMES_DIR / meta["file"]
         if not pdf_path.exists():
             print(f"  SKIPPED (file not found): {meta['file']}")
@@ -158,12 +175,24 @@ def main():
         print("No profiles extracted. Check that PDFs are in the resumes/ directory.")
         sys.exit(1)
 
-    output = {"resumes": profiles}
+    # Load existing profiles and merge with new ones
+    existing = {}
+    if OUTPUT_PATH.exists():
+        with open(OUTPUT_PATH, "r") as f:
+            data = json.load(f)
+            existing = {p["id"]: p for p in data.get("resumes", [])}
+
+    # Update with newly extracted profiles
+    for profile in profiles:
+        existing[profile["id"]] = profile
+
+    # Sort by ID and save
+    output = {"resumes": sorted(existing.values(), key=lambda p: p["id"])}
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"\nSaved {len(profiles)} resume profiles to {OUTPUT_PATH}")
+    print(f"\nSaved {len(output['resumes'])} total resume profiles to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

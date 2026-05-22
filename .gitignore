@@ -1,6 +1,9 @@
 # Environment
 .env
 
+# Resume PDFs (private, local only)
+resumes/*.pdf
+
 # Ephemeral scrape artifacts (rebuilt each run)
 data/jobs_raw.json
 data/jobs_unique.json
