@@ -23,16 +23,15 @@
   },
 
   "scraping": {
-    "enabled_sources": ["linkedin", "wellfound", "builtin", "indeed", "yc_jobs"],
-    "scrape_jobs_posted_within_hours": 8,
+    "enabled_sources": ["remotive"],
     "skip_already_seen": true,
     "daily_job_limit": 200,
-    "rate_limit_delay_seconds": 2,
-    "linkedin_max_results": 100,
-    "wellfound_max_results": 50,
-    "builtin_max_results": 30,
-    "indeed_max_results": 50,
-    "yc_jobs_max_results": 25
+    "rate_limit_delay_seconds": 1
+  },
+
+  "job_filters": {
+    "countries": ["US", "USA", "United States", "Remote - US"],
+    "include_worldwide": false
   },
 
   "scoring": {

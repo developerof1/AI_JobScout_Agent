@@ -1,0 +1,59 @@
+{
+  "active_sources": ["remotive"],
+
+  "sources": {
+    "remotive": {
+      "type": "api",
+      "categories": ["product", "project-management"]
+    },
+    "adzuna": {
+      "type": "api"
+    },
+    "jsearch": {
+      "type": "api"
+    },
+    "linkedin": {
+      "type": "scraper",
+      "requires": "selenium"
+    }
+  },
+
+  "active_tiers": ["tier2"],
+
+  "tiers": {
+    "tier2": {
+      "name": "Mid-Senior",
+      "title_keywords": [
+        "Director Technical Program",
+        "Director TPM",
+        "Senior Technical Program Manager",
+        "Director Program Management",
+        "Head of Delivery",
+        "Director Product Operations",
+        "Product Operations Director",
+        "Head of Product Operations",
+        "Director of Product",
+        "Senior Director Product",
+        "Head of Product",
+        "Group Product Manager",
+        "Principal Product Manager",
+        "Chief of Staff"
+      ],
+      "title_required_pairs": [
+        ["Chief of Staff", ["CPO", "CTO", "Product", "Technology"]]
+      ],
+      "filters": {
+        "location": ["Remote", "Chicago"],
+        "include_worldwide": false,
+        "posted_within_days": 6,
+        "company_size_min": 5,
+        "company_size_max": 5000
+      }
+    },
+    "tier1": {
+      "name": "Executive",
+      "title_keywords": [],
+      "filters": {}
+    }
+  }
+}

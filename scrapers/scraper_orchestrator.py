@@ -1,10 +1,15 @@
 """
-Scraper orchestrator: reads enabled_sources from system_config.json,
-dynamically imports each scraper, merges results, saves to data/jobs_raw.json.
+Scraper orchestrator: loads active_sources from search_config.json,
+runs each source, applies tier filters, saves to data/jobs_raw.json.
 
-Adding a new scraper:
-  1. Create scrapers/<name>_scraper.py with a scrape(config) -> list[dict] function
-  2. Add "<name>" to config/system_config.json -> scraping.enabled_sources
+Adding a new source:
+  1. Create scrapers/<name>_scraper.py with scrape(config) -> list[dict]
+  2. Add "<name>" to config/search_config.json -> sources
+  3. Add "<name>" to config/search_config.json -> active_sources
+
+Adding a new tier:
+  1. Add tier definition to config/search_config.json -> tiers
+  2. Add tier name to config/search_config.json -> active_tiers
 
 No changes to this file needed.
 """
@@ -19,60 +24,109 @@ ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
 OUTPUT_PATH = ROOT / "data" / "jobs_raw.json"
+SYSTEM_CONFIG_PATH = ROOT / "config" / "system_config.json"
+SEARCH_CONFIG_PATH = ROOT / "config" / "search_config.json"
 
 
-def load_config() -> dict:
-    with open(ROOT / "config" / "system_config.json") as f:
-        return json.load(f)
+def load_configs() -> tuple[dict, dict]:
+    with open(SYSTEM_CONFIG_PATH) as f:
+        system_config = json.load(f)
+    with open(SEARCH_CONFIG_PATH) as f:
+        search_config = json.load(f)
+    return system_config, search_config
 
 
-def run_scraper(source_name: str, config: dict) -> list[dict]:
+def run_source(source_name: str, config: dict) -> list[dict]:
     module_name = f"scrapers.{source_name}_scraper"
     try:
         module = importlib.import_module(module_name)
         jobs = module.scrape(config)
         return jobs if isinstance(jobs, list) else []
     except ModuleNotFoundError:
-        print(f"  [orchestrator] Scraper not found: {module_name}")
+        print(f"  [orchestrator] Source module not found: {module_name}")
         return []
     except Exception as e:
-        print(f"  [orchestrator] Error in {source_name} scraper: {e}")
+        print(f"  [orchestrator] Error in {source_name}: {e}")
         return []
+
+
+def apply_tiers(all_jobs: list[dict], search_config: dict) -> list[dict]:
+    from utils.job_filter import JobFilter
+
+    active_tiers = search_config.get("active_tiers", [])
+    tiers = search_config.get("tiers", {})
+
+    final_jobs = []
+    seen_hashes = {}
+
+    for tier_name in active_tiers:
+        tier = tiers.get(tier_name)
+        if not tier:
+            print(f"  [orchestrator] Tier '{tier_name}' not found in search_config.json")
+            continue
+
+        f = JobFilter(tier)
+        matched = f.apply_all(all_jobs)
+        matched = f.tag_tier(matched, tier_name)
+
+        for job in matched:
+            # Dedup across tiers — keep first (highest priority) tier match
+            key = (
+                (job.get("company") or "").lower(),
+                (job.get("title") or "").lower(),
+                (job.get("url") or ""),
+            )
+            if key not in seen_hashes:
+                seen_hashes[key] = True
+                final_jobs.append(job)
+
+        print(f"  [orchestrator] Tier '{tier_name}' ({tier['name']}): {len(matched)} jobs matched")
+
+    return final_jobs
 
 
 def main(run_number: int = 1):
-    config = load_config()
-    scraping_config = config["scraping"]
-    enabled_sources = scraping_config.get("enabled_sources", [])
+    system_config, search_config = load_configs()
+    scraping_config = system_config["scraping"]
+    active_sources = search_config.get("active_sources", [])
 
     print(f"\n{'='*60}")
-    print(f"Job Scout Scraper — Run {run_number}")
+    print(f"Job Scout — Run {run_number}")
     print(f"Timestamp: {datetime.now(timezone.utc).isoformat()}")
-    print(f"Enabled sources: {', '.join(enabled_sources)}")
+    print(f"Active sources: {', '.join(active_sources)}")
+    print(f"Active tiers:   {', '.join(search_config.get('active_tiers', []))}")
     print(f"{'='*60}\n")
 
-    all_jobs = []
+    # Step 1: Fetch all raw jobs from active sources
+    all_raw_jobs = []
     source_counts = {}
 
-    for source in enabled_sources:
-        print(f"\nRunning {source} scraper...")
-        jobs = run_scraper(source, scraping_config)
+    for source in active_sources:
+        print(f"\nRunning {source}...")
+        jobs = run_source(source, scraping_config)
         source_counts[source] = len(jobs)
-        all_jobs.extend(jobs)
+        all_raw_jobs.extend(jobs)
 
-    # Enforce daily job limit
+    print(f"\n  Total raw jobs fetched: {len(all_raw_jobs)}")
+
+    # Step 2: Apply tier filters — keep only jobs matching active tiers
+    print(f"\nApplying tier filters...")
+    all_jobs = apply_tiers(all_raw_jobs, search_config)
+
+    # Step 3: Enforce daily job limit
     daily_limit = scraping_config.get("daily_job_limit", 200)
     if len(all_jobs) > daily_limit:
         all_jobs = all_jobs[:daily_limit]
 
-    # Attach run metadata to every job
+    # Step 4: Attach run metadata
     discovered_at = datetime.now(timezone.utc).isoformat()
     for job in all_jobs:
-        job["metadata"] = {
+        job.setdefault("metadata", {})
+        job["metadata"].update({
             "run_number": run_number,
             "discovered_at": discovered_at,
             "is_new_since_last_run": True,
-        }
+        })
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
@@ -80,9 +134,10 @@ def main(run_number: int = 1):
 
     print(f"\n{'='*60}")
     print(f"Scraping complete")
-    print(f"  Total jobs: {len(all_jobs)}")
+    print(f"  Raw fetched:    {len(all_raw_jobs)}")
     for source, count in source_counts.items():
-        print(f"  {source}: {count}")
+        print(f"    {source}: {count}")
+    print(f"  After tier filter: {len(all_jobs)}")
     print(f"  Saved to: {OUTPUT_PATH}")
     print(f"{'='*60}\n")
 
