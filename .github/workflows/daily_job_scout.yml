@@ -55,6 +55,8 @@ jobs:
       - name: Scrape job boards
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: |
           python scrapers/scraper_orchestrator.py --run-number ${{ steps.run_number.outputs.number }}
 

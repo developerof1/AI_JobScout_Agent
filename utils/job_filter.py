@@ -52,6 +52,10 @@ class JobFilter:
                 result.append(job)
                 continue
 
+            if self._is_us_location(loc):
+                result.append(job)
+                continue
+
             # Check against explicitly allowed locations (e.g. "Chicago")
             for allowed_loc in allowed:
                 if allowed_loc in loc or loc in allowed_loc:
@@ -106,9 +110,12 @@ class JobFilter:
         return result
 
     def tag_tier(self, jobs: list[dict], tier_name: str) -> list[dict]:
+        result = []
         for job in jobs:
-            job["tier"] = tier_name
-        return jobs
+            tagged = dict(job)
+            tagged["tier"] = tier_name
+            result.append(tagged)
+        return result
 
     # ── Private helpers ─────────────────────────────────────────────────────
 
@@ -126,6 +133,36 @@ class JobFilter:
                 return True
         return False
 
+    def _is_us_location(self, loc: str) -> bool:
+        us_states_abbr = [
+            "al", "ak", "az", "ar", "ca", "co", "ct", "de", "fl", "ga",
+            "hi", "id", "il", "in", "ia", "ks", "ky", "la", "me", "md",
+            "ma", "mi", "mn", "ms", "mo", "mt", "ne", "nv", "nh", "nj",
+            "nm", "ny", "nc", "nd", "oh", "ok", "or", "pa", "ri", "sc",
+            "sd", "tn", "tx", "ut", "vt", "va", "wa", "wv", "wi", "wy",
+            "dc", "pr", "vi"
+        ]
+        us_states_full = [
+            "alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut",
+            "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa",
+            "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan",
+            "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new hampshire",
+            "new jersey", "new mexico", "new york", "north carolina", "north dakota", "ohio",
+            "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina", "south dakota",
+            "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia",
+            "wisconsin", "wyoming", "district of columbia", "puerto rico", "virgin islands"
+        ]
+        words = loc.split()
+        words_lower = [word.rstrip(",").lower() for word in words]
+
+        # Check abbreviations
+        if any(word in us_states_abbr for word in words_lower):
+            return True
+
+        # Check full state names (handle multi-word states like "New York")
+        loc_lower = loc.lower()
+        return any(state in loc_lower for state in us_states_full)
+
     def _check_required_pair(
         self,
         keyword: str,
@@ -133,8 +170,10 @@ class JobFilter:
         description: str,
         required_pairs: list,
     ) -> bool:
-        for pair_keyword, pair_required in required_pairs:
+        for pair in required_pairs:
+            pair_keyword, pair_required = pair[0], pair[1]
+            title_only = pair[2] if len(pair) > 2 else False
             if pair_keyword.lower() == keyword.lower():
-                combined = title + " " + description
-                return any(req.lower() in combined for req in pair_required)
+                text = title if title_only else (title + " " + description)
+                return any(req.lower() in text for req in pair_required)
         return True

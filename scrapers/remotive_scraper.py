@@ -12,6 +12,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 ROOT = Path(__file__).parent.parent
 SEARCH_CONFIG_PATH = ROOT / "config" / "search_config.json"

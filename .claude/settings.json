@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__get_file_contents",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(python*)",
+      "Bash(python *)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
