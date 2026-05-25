@@ -1,9 +1,197 @@
 {
   "_metadata": {
-    "last_run": "2026-05-25T15:46:16.092995+00:00",
-    "run_number": 4,
-    "total_jobs": 0,
+    "last_run": "2026-05-25T16:20:59.648069+00:00",
+    "run_number": 1,
+    "total_jobs": 4,
     "scored_this_run": 0
   },
-  "jobs": []
+  "jobs": [
+    {
+      "title": "Principal Product Manager-Tech, Advertising",
+      "company": "Amazon.com Services LLC",
+      "location": "New York City, New York",
+      "description": "Job Description Amazon Advertising seeks the world's brightest and best Product Managers to lead next-generation solutions that enable advertisers to reach customers across our owned and operated sites, on other high-quality publisher sites across the web, and on millions of desktops, mobile, and connected TV devices. We seek candidates who want to join a team focused on building large-scale systems that integrate across multiple sources to provide unique advertising products. We are seeking a \u2026",
+      "url": "https://www.adzuna.com/land/ad/5740101363?se=HEhyyFFY8RGTDdJK-7cL6w&utm_medium=api&utm_source=0f9d6273&v=1BEF1BDD7CF2E96640BF29E3534E370084877DDC",
+      "posted_date": "2026-05-24T20:28:58Z",
+      "source": "adzuna",
+      "tier": "tier3",
+      "metadata": {
+        "run_number": 1,
+        "discovered_at": "2026-05-25T15:53:00.086326+00:00",
+        "is_new_since_last_run": false,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-25T15:53:21.039823+00:00"
+      },
+      "_hash": "928a00eee865a09d",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 65,
+      "primary_resume": 3,
+      "primary_resume_name": "Technical PM",
+      "primary_resume_file": "technical_pm.pdf",
+      "reasoning": "Resume 3 (Technical PM) is the best fit as it targets Product Manager roles and has strong B2B SaaS experience with technical depth. The Principal Product Manager-Tech title aligns well with Technical Product Manager positioning, and the large-scale systems experience at Chronicled ($3M+ revenue, 20+ clients) demonstrates relevant enterprise product management capabilities.",
+      "backup_resume": 6,
+      "backup_resume_name": "Product Engineering Leader",
+      "backup_resume_file": "product_engineering_leader.pdf",
+      "backup_reasoning": "Resume 6 offers stronger technical credentials with AI-first development experience and Head of Product positioning that could appeal to Amazon's innovation focus. The founding experience demonstrates ability to build products from scratch at scale.",
+      "breakdown": {
+        "title_match": 30,
+        "seniority_match": 15,
+        "domain_match": 10,
+        "experience_match": 15,
+        "adjustments": -5
+      },
+      "highlights": [
+        "Strong B2B SaaS platform experience managing $3M+ revenue across 20+ enterprise clients",
+        "Technical Product Manager background aligns well with Principal Product Manager-Tech role requirements",
+        "Founder experience with MarketCue demonstrates ability to build and scale products to 10K+ users"
+      ],
+      "red_flags": [
+        "No direct advertising technology or Amazon ecosystem experience"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Chief Of Staff",
+      "company": "Pandit View Software",
+      "location": "Alaska, US",
+      "description": "Job Title: Chief of Staff Location: [Remote] Department: [IT] Reports To: Vice President Work Authorization: Must be permitted to work in the USA Job Summary: We are seeking a strategic and highly organized Chief of Staff for our client to support the Vice President in driving departmental efficiency, managing key initiatives, and producing high-impact executive communications. This role requires a proactive leader who can navigate complex challenges, synthesize information for C-suite audience\u2026",
+      "url": "https://www.adzuna.com/land/ad/5735318850?se=IOvMy1FY8RGTDdJK-7cL6w&utm_medium=api&utm_source=0f9d6273&v=29A31B1AA92F7E821A876B77C785DB440A2D8395",
+      "posted_date": "2026-05-20T14:10:15Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 1,
+        "discovered_at": "2026-05-25T15:53:00.086326+00:00",
+        "is_new_since_last_run": false,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-25T15:53:21.039823+00:00"
+      },
+      "_hash": "f1380a5a14c1c3fb",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 65,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "The Executive Leadership - Healthcare resume is the best fit as it demonstrates VP/Director-level executive experience with direct C-suite reporting, which aligns with the Chief of Staff role supporting a Vice President. The PE-backed company transformation experience and M&A integration leadership directly translate to the strategic initiatives management required.",
+      "backup_resume": 5,
+      "backup_resume_name": "Executive Leadership - Fintech",
+      "backup_resume_file": "satwik_bardhan_executive_leadership_fintech.pdf",
+      "backup_reasoning": "Similar executive-level experience with C-suite interaction and strategic leadership, though less domain-specific alignment with the IT department context.",
+      "breakdown": {
+        "title_match": 15,
+        "seniority_match": 20,
+        "domain_match": 15,
+        "experience_match": 20,
+        "adjustments": -5
+      },
+      "highlights": [
+        "VP/Director-level experience with direct C-suite reporting relationship",
+        "PE-backed company transformation and M&A integration leadership experience",
+        "Proven track record managing complex strategic initiatives with measurable business impact"
+      ],
+      "red_flags": [
+        "Chief of Staff is not explicitly listed in target titles, representing a lateral move into operations"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Chief of Staff",
+      "company": "Amentum",
+      "location": "Washington, D.C., US",
+      "description": "Location: Washington Navy Yard On-Site Team Clearance: Active SECRET AMENTUM is seeking an experienced Chief of Staff for the Program Manager (PM) and Deputy Program Manager (DPM). You are a proactive, forward-leaning leader who will be responsible for driving operational excellence and ensuring the seamless execution of the program's objectives. You possess exceptional judgment, the ability to operate autonomously, and the foresight to anticipate and resolve challenges before they arise. Situa\u2026",
+      "url": "https://www.adzuna.com/land/ad/5738296954?se=IOvMy1FY8RGTDdJK-7cL6w&utm_medium=api&utm_source=0f9d6273&v=FEF85ABD24FB93537FB2D64F80ABB00718D7D285",
+      "posted_date": "2026-05-22T21:53:34Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 1,
+        "discovered_at": "2026-05-25T15:53:00.086326+00:00",
+        "is_new_since_last_run": false,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-25T15:53:21.039823+00:00"
+      },
+      "_hash": "7357b5560d83a775",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 45,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "Resume 4 provides the best match with VP/Director-level executive experience and proven ability to work with C-suite leadership in PE-backed environments. The Chief of Staff role requires executive presence and operational excellence capabilities that align with the healthcare executive leadership background.",
+      "backup_resume": 7,
+      "backup_resume_name": "TPM - General",
+      "backup_resume_file": "satwik_bardhan_tpm_general.pdf",
+      "backup_reasoning": "Resume 7 offers strong executive-level experience reporting to C-suite in PE-backed environments with proven operational delivery capabilities. The domain-agnostic expertise could be valuable for a Chief of Staff role requiring broad organizational support.",
+      "breakdown": {
+        "title_match": 10,
+        "seniority_match": 15,
+        "domain_match": 0,
+        "experience_match": 15,
+        "adjustments": 5
+      },
+      "highlights": [
+        "Executive-level experience with C-suite partnership and PE-backed company transformation",
+        "Proven operational excellence through $8M+ digital transformation delivery",
+        "Strong leadership experience managing complex programs and M&A integration"
+      ],
+      "red_flags": [
+        "No direct Chief of Staff experience and limited government/defense sector exposure",
+        "Requires active SECRET clearance which candidate may not possess"
+      ],
+      "confidence": "low"
+    },
+    {
+      "title": "Program Manager of Construction",
+      "company": "*US AMR-Jones Lang LaSalle Americas, Inc.",
+      "location": "K-Town, Chicago",
+      "description": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to thrive, grow meaningful careers and to find a place where they belong. Whether you\u2019ve got deep experience in commercial real estate, skilled trades or technology, or you\u2019re looking to apply your relevant experience to a new \u2026",
+      "url": "https://www.adzuna.com/details/5734266647?utm_medium=api&utm_source=0f9d6273",
+      "posted_date": "2026-05-19T16:19:20Z",
+      "source": "adzuna",
+      "tier": "tier3",
+      "metadata": {
+        "run_number": 1,
+        "discovered_at": "2026-05-25T15:53:00.086326+00:00",
+        "is_new_since_last_run": false,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-25T15:53:21.039823+00:00"
+      },
+      "_hash": "41930c195b68639c",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 15,
+      "primary_resume": 7,
+      "primary_resume_name": "TPM - General",
+      "primary_resume_file": "satwik_bardhan_tpm_general.pdf",
+      "reasoning": "Resume 7 provides the most transferable program management experience, but this construction program manager role is a significant domain shift from Satwik's tech-focused background. The title has some alignment with program management, but the construction industry requires specialized knowledge not present in any resume.",
+      "backup_resume": 4,
+      "backup_resume_name": "Executive Leadership - Healthcare",
+      "backup_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "backup_reasoning": "The executive leadership experience and program management skills could potentially transfer to construction project oversight, though still a significant domain mismatch.",
+      "breakdown": {
+        "title_match": 15,
+        "seniority_match": 15,
+        "domain_match": 0,
+        "experience_match": 5,
+        "adjustments": -20
+      },
+      "highlights": [
+        "Strong program management experience across multiple organizations",
+        "Executive-level leadership and delivery experience",
+        "Experience managing large-scale projects and transformations"
+      ],
+      "red_flags": [
+        "Complete domain mismatch - no construction or real estate experience",
+        "Lacks industry-specific knowledge of construction processes and regulations",
+        "May be overqualified for a non-senior construction PM role"
+      ],
+      "confidence": "low"
+    }
+  ]
 }
