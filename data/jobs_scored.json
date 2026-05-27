@@ -1,11 +1,57 @@
 {
   "_metadata": {
-    "last_run": "2026-05-27T20:12:05.104387+00:00",
+    "last_run": "2026-05-27T23:17:02.244611+00:00",
     "run_number": 4,
-    "total_jobs": 5,
-    "scored_this_run": 0
+    "total_jobs": 6,
+    "scored_this_run": 1
   },
   "jobs": [
+    {
+      "title": "Chief of Staff",
+      "company": "Oracle",
+      "location": "La Cienga, Santa Fe County",
+      "description": "Job Description At Oracle Cloud Infrastructure (OCI), we build the future of the cloud for Enterprises as a diverse team of fellow creators and inventors. We act with the speed and attitude of a start-up, with the scale and customer-focus of the leading enterprise software company in the world. Learn why people come to work for Oracle at https://video.oracle.com/detail/video/579539284100 We are looking for an experienced, self-driven Chief of Staff or an exceptional candidate looking to grow in\u2026",
+      "url": "https://www.adzuna.com/land/ad/5742764253?se=-ktFKCJa8RG15Otl31cBag&utm_medium=api&utm_source=0f9d6273&v=804FB4413FD7700D8AE9E499209D26FC058FE5D2",
+      "posted_date": "2026-05-27T18:29:09Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-05-27T23:17:01.192615+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-27T23:17:02.244611+00:00"
+      },
+      "_hash": "e5d47590ff4f76ec",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 75,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "Resume 4 provides the best fit with VP/Director-level executive experience that aligns with Chief of Staff seniority expectations. The healthcare technology domain experience at Oracle's enterprise scale, combined with PE-backed company transformation and C-suite partnership experience, directly matches the strategic leadership requirements of a Chief of Staff role.",
+      "backup_resume": 5,
+      "backup_resume_name": "Executive Leadership - Fintech",
+      "backup_resume_file": "satwik_bardhan_executive_leadership_fintech.pdf",
+      "backup_reasoning": "Resume 5 offers similar executive-level experience with founder DNA and venture capital perspective that could bring valuable strategic insights to Oracle's Chief of Staff role, though healthcare domain alignment is stronger.",
+      "breakdown": {
+        "title_match": 25,
+        "seniority_match": 20,
+        "domain_match": 15,
+        "experience_match": 20,
+        "adjustments": -5
+      },
+      "highlights": [
+        "VP/Director-level executive experience with C-suite partnership at PE-backed organizations",
+        "Healthcare technology domain expertise relevant to Oracle's enterprise healthcare solutions",
+        "Proven track record managing $8M+ digital transformations and M&A integrations"
+      ],
+      "red_flags": [
+        "Chief of Staff is not explicitly listed in target titles, requiring role transition justification"
+      ],
+      "confidence": "medium"
+    },
     {
       "title": "Principal Product Manager-Tech, Advertising",
       "company": "Amazon.com Services LLC",
