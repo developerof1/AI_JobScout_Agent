@@ -2,18 +2,37 @@
   {
     "title": "Chief of Staff",
     "company": "Oracle",
-    "location": "La Cienga, Santa Fe County",
+    "location": "Ny State Campus, Albany County",
     "description": "Job Description At Oracle Cloud Infrastructure (OCI), we build the future of the cloud for Enterprises as a diverse team of fellow creators and inventors. We act with the speed and attitude of a start-up, with the scale and customer-focus of the leading enterprise software company in the world. Learn why people come to work for Oracle at https://video.oracle.com/detail/video/579539284100 We are looking for an experienced, self-driven Chief of Staff or an exceptional candidate looking to grow in\u2026",
-    "url": "https://www.adzuna.com/land/ad/5742764253?se=-ktFKCJa8RG15Otl31cBag&utm_medium=api&utm_source=0f9d6273&v=804FB4413FD7700D8AE9E499209D26FC058FE5D2",
-    "posted_date": "2026-05-27T18:29:09Z",
+    "url": "https://www.adzuna.com/land/ad/5742885404?se=Pq28IVxa8RGkl-rYGC2FkA&utm_medium=api&utm_source=0f9d6273&v=06A30E18570FB8FC3712396A7A81F05BA3FB42C8",
+    "posted_date": "2026-05-27T21:38:39Z",
     "source": "adzuna",
     "tier": "tier2",
     "metadata": {
       "run_number": 4,
-      "discovered_at": "2026-05-27T23:17:01.192615+00:00",
+      "discovered_at": "2026-05-28T06:12:01.027245+00:00",
       "is_new_since_last_run": true
     },
     "_hash": "e5d47590ff4f76ec",
+    "sources": [
+      "adzuna"
+    ]
+  },
+  {
+    "title": "Principal Tech Program Manager, Sponsored Ads",
+    "company": "Amazon.com Services LLC",
+    "location": "Denver, Colorado",
+    "description": "Job Description Application deadline: May 30, 2026 At Amazon Ads, we\u2019re re-imagining the advertising landscape through advanced generative AI technologies and AI agents, revolutionizing how millions of customers discover products and engage with brands online. We are at the forefront of re-inventing advertising experiences, bridging human creativity with artificial intelligence to transform every aspect of the advertising lifecycle from ad creation and optimization to performance analysis and c\u2026",
+    "url": "https://www.adzuna.com/land/ad/5738882480?se=kudmIFxa8RGs3Me5X3pAAw&utm_medium=api&utm_source=0f9d6273&v=3EBF14E80F570870F3E91D80B9C47956C7CB0F6C",
+    "posted_date": "2026-05-23T12:30:00Z",
+    "source": "adzuna",
+    "tier": "tier3",
+    "metadata": {
+      "run_number": 4,
+      "discovered_at": "2026-05-28T06:12:01.027245+00:00",
+      "is_new_since_last_run": true
+    },
+    "_hash": "13e26865d8a13b2c",
     "sources": [
       "adzuna"
     ]
