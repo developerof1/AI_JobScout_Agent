@@ -1,11 +1,57 @@
 {
   "_metadata": {
-    "last_run": "2026-05-28T23:15:59.393751+00:00",
+    "last_run": "2026-05-29T06:13:54.297826+00:00",
     "run_number": 4,
-    "total_jobs": 7,
-    "scored_this_run": 0
+    "total_jobs": 8,
+    "scored_this_run": 1
   },
   "jobs": [
+    {
+      "title": "Technical Product Manager - Principal 1, Digital Products (SAFe)",
+      "company": "DIRECTV",
+      "location": "Chicago, Cook County",
+      "description": "DIRECTV is seeking a Technical Product Manager - Principal 1, Digital Products (SAFe) to join our team! The Technical Product Manager - Principal 1, Digital Products (SAFe) is a product leader responsible for defining, delivering, and evolving DIRECTV online service products that support business and IT objectives. This role bridges business stakeholders and technical teams, translating business goals into scalable, secure, and high-performing solutions. The ideal candidate combines strong prod\u2026",
+      "url": "https://www.adzuna.com/land/ad/5742296955?se=1JLAjCVb8RGO7q8tRfw9bQ&utm_medium=api&utm_source=0f9d6273&v=DC46EE73FA027B7F39B02B2A9FA0E80D814EAE85",
+      "posted_date": "2026-05-27T10:36:20Z",
+      "source": "adzuna",
+      "tier": "tier3",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-05-29T06:13:53.597478+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-05-29T06:13:54.297826+00:00"
+      },
+      "_hash": "a544086852c4a5ce",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 85,
+      "primary_resume": 3,
+      "primary_resume_name": "Technical PM",
+      "primary_resume_file": "satwik_technical_pm.pdf",
+      "reasoning": "Resume 3 provides an excellent match with Technical Product Manager as a primary target title and strong B2B SaaS experience at Chronicled managing $3M+ revenue across 20+ clients. The founder experience with MarketCue demonstrates end-to-end product ownership and technical depth required for this principal-level role.",
+      "backup_resume": 7,
+      "backup_resume_name": "TPM - General",
+      "backup_resume_file": "satwik_tpm_general.pdf",
+      "backup_reasoning": "Resume 7 offers strong Technical Program Manager experience with domain-agnostic expertise and executive-level experience in PE-backed environments, providing solid alternative positioning for this role.",
+      "breakdown": {
+        "title_match": 40,
+        "seniority_match": 15,
+        "domain_match": 15,
+        "experience_match": 20,
+        "adjustments": -5
+      },
+      "highlights": [
+        "Exact title match with Technical Product Manager as primary target role",
+        "Strong B2B SaaS platform experience managing $3M+ revenue across 20+ clients at Chronicled",
+        "Solo founder experience with MarketCue demonstrates end-to-end product ownership and technical execution"
+      ],
+      "red_flags": [
+        "Limited experience with enterprise-scale digital products and SAFe methodology specifically mentioned in the role"
+      ],
+      "confidence": "high"
+    },
     {
       "title": "Principal Tech Program Manager, Sponsored Ads",
       "company": "Amazon.com Services LLC",
