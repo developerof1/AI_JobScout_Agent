@@ -1,9 +1,9 @@
 {
   "_metadata": {
-    "last_run": "2026-05-31T19:13:36.597006+00:00",
+    "last_run": "2026-06-01T06:56:04.699206+00:00",
     "run_number": 4,
-    "total_jobs": 8,
-    "scored_this_run": 0
+    "total_jobs": 12,
+    "scored_this_run": 4
   },
   "jobs": [
     {
@@ -95,6 +95,98 @@
       ],
       "red_flags": [
         "No direct advertising or e-commerce technology experience"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Senior Director Product Operations and AI Transformation",
+      "company": "Teradata",
+      "location": "Wyoming, Kent County",
+      "description": "Our Company At Teradata, we believe that people thrive when empowered with better information. Teradata Autonomous Knowledge Platform activates enterprise intelligence by unifying data, knowledge and business context to achieve tangible outcomes. With Teradata, organizations can provide agents with full context for impact when it matters. Our solution lets businesses connect and scale on premises, in the cloud, or through a hybrid approach. Teradata delivers real business value with AI. What Yo\u2026",
+      "url": "https://www.adzuna.com/land/ad/5745129743?se=hrf784Zd8RGbGvW-bcCcHA&utm_medium=api&utm_source=0f9d6273&v=86D64CEB787D0F776678E131D2DD4EECD020BCDC",
+      "posted_date": "2026-05-29T22:00:37Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-01T06:56:03.963902+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-01T06:56:04.699206+00:00"
+      },
+      "_hash": "e599f591a8888641",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 75,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "This Senior Director Product Operations and AI Transformation role at Teradata requires executive-level product leadership with transformation experience. Resume 4's VP/Director-level healthcare technology experience, including $8M+ digital transformation leadership and PE-backed company experience, aligns well with the seniority and transformation focus.",
+      "backup_resume": 6,
+      "backup_resume_name": "Product Engineering Leader",
+      "backup_resume_file": "satwik_bardhan_product_engineering_leader.pdf",
+      "backup_reasoning": "The AI-first focus and hands-on AI-aided development experience from rebuilding MarketCue platform could be valuable for an AI Transformation role, though it may be slightly junior for Senior Director level.",
+      "breakdown": {
+        "title_match": 25,
+        "seniority_match": 20,
+        "domain_match": 15,
+        "experience_match": 15,
+        "adjustments": 0
+      },
+      "highlights": [
+        "Executive-level experience with $8M+ digital transformation delivery matching the transformation scope",
+        "Director/VP seniority aligns perfectly with Senior Director role requirements",
+        "Healthcare technology and enterprise software experience transfers well to Teradata's enterprise data platform"
+      ],
+      "red_flags": [
+        "Product Operations is not explicitly covered in healthcare-focused experience"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Senior Product Manager - Technical, Outbound Communications",
+      "company": "Amazon.com Services LLC",
+      "location": "New York City, New York",
+      "description": "Job Description We are seeking a customer-obsessed, results-driven PMT to join the Outbound Communications team. We operate the foundational systems that enable Amazon and its subsidiaries to communicate with customers on Whatsapp, Email, SMS, and Push messages. Our mission is to serve as Amazon\u2019s digital companion to guide customer actions and drive long-term engagement with Amazon through communications that are relevant, timely, and indispensable. Key job responsibilities As a senior Product\u2026",
+      "url": "https://www.adzuna.com/land/ad/5746979973?se=cqYv74Zd8RGbGvW-bcCcHA&utm_medium=api&utm_source=0f9d6273&v=CC3B8AAAB0BDABAA4597D51E06AC2CABFF693660",
+      "posted_date": "2026-05-31T23:13:07Z",
+      "source": "adzuna",
+      "tier": "tier3",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-01T06:56:03.963902+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-01T06:56:04.699206+00:00"
+      },
+      "_hash": "8ba69575de5e057e",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 75,
+      "primary_resume": 3,
+      "primary_resume_name": "Technical PM",
+      "primary_resume_file": "technical_pm.pdf",
+      "reasoning": "Resume 3 (Technical PM) is the best fit as it directly targets 'Technical Product Manager' and 'Senior Product Manager' roles, matching the job title exactly. The resume demonstrates strong B2B SaaS platform experience at Chronicled and mobile product development, which aligns well with Amazon's outbound communications platform needs.",
+      "backup_resume": 6,
+      "backup_resume_name": "Product Engineering Leader",
+      "backup_resume_file": "product_engineering_leader.pdf",
+      "backup_reasoning": "Resume 6 offers similar product leadership experience with additional AI-first development capabilities that could be valuable for Amazon's technical communications platform evolution.",
+      "breakdown": {
+        "title_match": 40,
+        "seniority_match": 20,
+        "domain_match": 10,
+        "experience_match": 15,
+        "adjustments": -10
+      },
+      "highlights": [
+        "Exact title match for Technical Product Manager and Senior Product Manager roles",
+        "Strong B2B SaaS platform experience managing $3M+ revenue across 20+ clients at Chronicled",
+        "Mobile product development expertise from concept to app stores, relevant for multi-channel communications"
+      ],
+      "red_flags": [
+        "No direct experience with communications platforms, email/SMS systems, or customer engagement technologies"
       ],
       "confidence": "medium"
     },
@@ -327,6 +419,101 @@
       "red_flags": [
         "No direct Chief of Staff experience and limited government/defense sector exposure",
         "Requires active SECRET clearance which candidate may not possess"
+      ],
+      "confidence": "low"
+    },
+    {
+      "title": "Chief of Staff - Finance",
+      "company": "BKV Corporation",
+      "location": "Denver, Colorado",
+      "description": "Job Description Job Description BKV Corporation (NYSE: BKV) is a forward-thinking, growth-driven energy company building the future of low-carbon energy and reliable baseload power. Headquartered in Denver, Colorado, we are the largest natural gas producer by gross operated volume in the Barnett Shale \u2014 and we\u2019re just getting started. At BKV, we don\u2019t just operate assets \u2014 we build integrated solutions. Our end-to-end, closed-loop energy platform spans upstream production, midstream infrastruct\u2026",
+      "url": "https://www.adzuna.com/land/ad/5746407396?se=DEks8oZd8RGbGvW-bcCcHA&utm_medium=api&utm_source=0f9d6273&v=0AC5C8F5EBAFE0FDF7DDB4545341E9A927C3D29D",
+      "posted_date": "2026-05-31T07:02:47Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-01T06:56:03.963902+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-01T06:56:04.699206+00:00"
+      },
+      "_hash": "dbabcd0f15c40eee",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 25,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "This Chief of Staff - Finance role at an energy company has no alignment with Satwik's healthcare/fintech background and target titles. The executive leadership experience provides some transferable skills for a C-suite adjacent role, but the domain mismatch and lack of finance/energy experience creates a significant gap.",
+      "backup_resume": 7,
+      "backup_resume_name": "TPM - General",
+      "backup_resume_file": "satwik_bardhan_tpm_general.pdf",
+      "backup_reasoning": "The domain-agnostic positioning and executive-level experience reporting to C-suite provides some relevance for a Chief of Staff role, though still lacks finance and energy sector alignment.",
+      "breakdown": {
+        "title_match": 0,
+        "seniority_match": 15,
+        "domain_match": 0,
+        "experience_match": 10,
+        "adjustments": 0
+      },
+      "highlights": [
+        "Executive-level experience reporting to C-suite in PE-backed environments",
+        "Director/VP seniority level appropriate for Chief of Staff role",
+        "Cross-functional leadership experience across multiple business functions"
+      ],
+      "red_flags": [
+        "No finance or energy sector experience",
+        "Target titles don't include Chief of Staff or finance-related roles",
+        "Complete domain mismatch with natural gas/energy industry"
+      ],
+      "confidence": "low"
+    },
+    {
+      "title": "Chief of Staff - Power",
+      "company": "BKV Corporation",
+      "location": "Denver, Colorado",
+      "description": "Job Description Job Description BKV Corporation (NYSE: BKV) is a forward-thinking, growth-driven energy company building the future of low-carbon energy and reliable baseload power. Headquartered in Denver, Colorado, we are the largest natural gas producer by gross operated volume in the Barnett Shale \u2014 and we\u2019re just getting started. At BKV, we don\u2019t just operate assets \u2014 we build integrated solutions. Our end-to-end, closed-loop energy platform spans upstream production, midstream infrastruct\u2026",
+      "url": "https://www.adzuna.com/land/ad/5746399229?se=DEks8oZd8RGbGvW-bcCcHA&utm_medium=api&utm_source=0f9d6273&v=3DADA1B9D93CCB7C129D520B841468E7B9E696F4",
+      "posted_date": "2026-05-31T06:56:19Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-01T06:56:03.963902+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-01T06:56:04.699206+00:00"
+      },
+      "_hash": "efe2e45c52c9a828",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 25,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "Chief of Staff roles require executive-level experience and strategic leadership, which Resume 4's VP/Director healthcare background provides. However, the energy sector is completely unrelated to healthcare/fintech domains, and the specific 'Chief of Staff - Power' title doesn't align with product/delivery leadership experience.",
+      "backup_resume": 7,
+      "backup_resume_name": "TPM - General",
+      "backup_resume_file": "satwik_bardhan_tpm_general.pdf",
+      "backup_reasoning": "The domain-agnostic expertise and executive-level experience reporting to C-suite could translate to Chief of Staff responsibilities, though still lacks energy sector relevance.",
+      "breakdown": {
+        "title_match": 0,
+        "seniority_match": 15,
+        "domain_match": 0,
+        "experience_match": 10,
+        "adjustments": 0
+      },
+      "highlights": [
+        "Executive-level experience with C-suite reporting relationships",
+        "PE-backed company transformation and M&A integration leadership",
+        "Strategic leadership across $8M+ digital transformation programs"
+      ],
+      "red_flags": [
+        "Complete domain mismatch - no energy sector experience",
+        "Title mismatch - Chief of Staff is different from product/delivery leadership roles"
       ],
       "confidence": "low"
     },
