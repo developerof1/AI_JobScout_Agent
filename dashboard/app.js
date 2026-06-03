@@ -3,6 +3,7 @@
 // Fresh data arrives after each GitHub Actions run redeploys GitHub Pages.
 
 const JOBS_URL = "./data/jobs_scored.json";
+const CONTRACTING_URL = "./data/contracting_jobs.json";
 const HIGH_PRIORITY_THRESHOLD = 85;
 const REVIEW_THRESHOLD = 70;
 const URGENT_HOURS = 4;
@@ -10,6 +11,8 @@ const FRESH_HOURS = 12;
 
 let allJobs = [];
 let activeFilter = "all";
+let contractingData = null;
+let showHidden = false;
 
 function formatTimestamp(date) {
   const today = new Date();
@@ -57,19 +60,26 @@ async function init() {
   document.getElementById("loading").style.display = "none";
   document.getElementById("content").style.display = "block";
 
-  if (metadata?.last_run) {
-    const lastRunDate = new Date(metadata.last_run);
-    const isRecent = (Date.now() - lastRunDate.getTime()) < 12 * 60 * 60 * 1000;
-    const statusDot = isRecent ? "🟢" : "🔴";
-    document.getElementById("last-updated").textContent =
-      `${statusDot} Last agent run: ${formatTimestamp(lastRunDate)}`;
-  } else {
-    document.getElementById("last-updated").textContent =
-      `Last agent run: Unknown`;
+  const jobsLastRun = document.getElementById("jobs-last-run");
+  if (jobsLastRun) {
+    if (metadata?.last_run) {
+      const lastRunDate = new Date(metadata.last_run);
+      const isRecent = (Date.now() - lastRunDate.getTime()) < 12 * 60 * 60 * 1000;
+      const statusDot = isRecent ? "🟢" : "🔴";
+      jobsLastRun.textContent = `${statusDot} Last run: ${formatTimestamp(lastRunDate)}`;
+    } else {
+      jobsLastRun.textContent = "Last run: Unknown";
+    }
   }
 
   renderStats();
   renderJobs(allJobs);
+
+  // Load contracting jobs (non-blocking — failure is acceptable)
+  try {
+    const cr = await fetch(CONTRACTING_URL + "?t=" + Date.now());
+    if (cr.ok) contractingData = await cr.json();
+  } catch (_) {}
 
   // Request browser notification permission for future use
   if ("Notification" in window && Notification.permission === "default") {
@@ -271,7 +281,16 @@ function setFilter(filter) {
   document.querySelectorAll(".filter-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.filter === filter);
   });
-  renderJobs(allJobs);
+
+  const isContracting = filter === "contracting";
+  document.getElementById("jobs-view").style.display          = isContracting ? "none" : "";
+  document.getElementById("contracting-section").style.display = isContracting ? ""     : "none";
+
+  if (isContracting) {
+    renderContractingSection();
+  } else {
+    renderJobs(allJobs);
+  }
 }
 
 function filterJobs(jobs, filter, applied) {
@@ -331,6 +350,100 @@ function showToast(msg, type = "info") {
   toast.textContent = msg;
   container.appendChild(toast);
   setTimeout(() => toast.remove(), 3500);
+}
+
+// ─── Contracting ─────────────────────────────────────────────────────────────
+
+function getHiddenContractingJobs() {
+  try { return new Set(JSON.parse(localStorage.getItem("hiddenContractingJobs") || "[]")); }
+  catch { return new Set(); }
+}
+
+function saveHiddenContractingJobs(set) {
+  localStorage.setItem("hiddenContractingJobs", JSON.stringify([...set]));
+}
+
+function hideContractingJob(hash) {
+  const hidden = getHiddenContractingJobs();
+  hidden.add(hash);
+  saveHiddenContractingJobs(hidden);
+  renderContractingSection();
+  showToast("Job hidden", "info");
+}
+
+function unhideContractingJob(hash) {
+  const hidden = getHiddenContractingJobs();
+  hidden.delete(hash);
+  saveHiddenContractingJobs(hidden);
+  renderContractingSection();
+}
+
+function toggleShowHidden() {
+  showHidden = document.getElementById("show-hidden-toggle").checked;
+  renderContractingSection();
+}
+
+function renderContractingSection() {
+  const firmsList = document.getElementById("firms-list");
+  if (!firmsList) return;
+
+  const contractingLastRun = document.getElementById("contracting-last-run");
+  if (contractingLastRun) {
+    if (contractingData?.last_run) {
+      const d = new Date(contractingData.last_run);
+      const isRecent = (Date.now() - d.getTime()) < 26 * 60 * 60 * 1000;
+      const dot = isRecent ? "🟢" : "🔴";
+      contractingLastRun.textContent = `${dot} Last scouted: ${formatTimestamp(d)}`;
+    } else {
+      contractingLastRun.textContent = "Last scouted: Never";
+    }
+  }
+
+  if (!contractingData || !contractingData.firms || !contractingData.firms.length) {
+    firmsList.innerHTML = `<div class="empty-state"><h3>No contracting jobs yet</h3><p>Run the contracting scraper to populate this section.</p></div>`;
+    return;
+  }
+
+  const hidden = getHiddenContractingJobs();
+
+  firmsList.innerHTML = contractingData.firms.map(firm => {
+    const allJobs = firm.jobs || [];
+    const visibleJobs = showHidden ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
+    if (!visibleJobs.length && !showHidden) return "";
+
+    const jobsHtml = visibleJobs.map(j => {
+      const isHidden = hidden.has(j._hash);
+      const newBadge = j.is_new ? `<span class="badge badge-new">NEW</span>` : "";
+      const hiddenIndicator = isHidden ? `<span class="contracting-hidden-label">Hidden</span>` : "";
+      const hideBtn = !isHidden
+        ? `<button class="btn btn-hide" onclick="hideContractingJob('${escAttr(j._hash)}')">Hide</button>`
+        : `<button class="btn btn-hide" onclick="unhideContractingJob('${escAttr(j._hash)}')">Unhide</button>`;
+      const viewBtn = j.url
+        ? `<button class="btn btn-ghost" onclick="window.open('${escAttr(j.url)}', '_blank')">View</button>`
+        : "";
+
+      return `
+<div class="contracting-job${isHidden ? " is-hidden" : ""}">
+  <div class="contracting-job-left">
+    <div class="contracting-job-title">${escHtml(j.title)}</div>
+    ${j.location ? `<div class="contracting-job-meta">${escHtml(j.location)}</div>` : ""}
+  </div>
+  <div class="contracting-job-actions">
+    ${newBadge}${hiddenIndicator}${viewBtn}${hideBtn}
+  </div>
+</div>`;
+    }).join("");
+
+    const visibleCount = allJobs.filter(j => !hidden.has(j._hash)).length;
+    return `
+<div class="firm-group">
+  <div class="firm-header">
+    <h3>${escHtml(firm.name)}</h3>
+    <span class="section-badge">${visibleCount}</span>
+  </div>
+  <div class="firm-jobs">${jobsHtml}</div>
+</div>`;
+  }).join("");
 }
 
 // ─── Start ───────────────────────────────────────────────────────────────────

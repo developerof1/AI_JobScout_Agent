@@ -40,7 +40,7 @@ body {
 }
 .app-header h1 { font-size: 18px; font-weight: 700; color: var(--text); }
 .app-header .subtitle { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
-.last-updated { font-size: 20px; font-weight: 600; color: var(--text); }
+.tab-last-run { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
 
 .main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
 
@@ -277,6 +277,91 @@ body {
   from { transform: translateX(100%); opacity: 0; }
   to   { transform: translateX(0);    opacity: 1; }
 }
+
+/* ===== Filter Divider ===== */
+.filter-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  align-self: center;
+  margin: 0 4px;
+}
+
+/* ===== Contracting Section ===== */
+.contracting-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+.toggle-label input { cursor: pointer; }
+
+.firm-group { margin-bottom: 32px; }
+.firm-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.firm-header h3 { font-size: 15px; font-weight: 700; color: var(--text); }
+
+.firm-jobs { display: flex; flex-direction: column; gap: 6px; }
+
+.contracting-job {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: border-color 0.15s;
+}
+.contracting-job:hover { border-color: var(--blue); }
+.contracting-job.is-hidden { opacity: 0.35; }
+
+.contracting-job-left { flex: 1; min-width: 0; }
+.contracting-job-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.contracting-job-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+.contracting-job-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.contracting-hidden-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 0 4px;
+}
+.btn-hide {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-muted);
+  padding: 5px 12px;
+  font-size: 12px;
+}
+.btn-hide:hover { border-color: var(--red); color: var(--red); }
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {

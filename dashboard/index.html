@@ -13,7 +13,6 @@
     <h1>Job Scout</h1>
     <div class="subtitle">Multi-resume AI scoring · Satwik Bardhan</div>
   </div>
-  <div id="last-updated" class="last-updated">Loading...</div>
 </header>
 
 <main class="main">
@@ -60,33 +59,53 @@
       <button class="filter-btn"        data-filter="today"       onclick="setFilter('today')">Today</button>
       <button class="filter-btn"        data-filter="high"        onclick="setFilter('high')">High Priority</button>
       <button class="filter-btn"        data-filter="applied"     onclick="setFilter('applied')">Applied</button>
+      <span class="filter-divider"></span>
+      <button class="filter-btn"        data-filter="contracting" onclick="setFilter('contracting')">Contracting</button>
     </div>
 
-    <!-- High Priority Section -->
-    <div id="section-high">
-      <div class="section-header">
-        <h2>Apply Now</h2>
-        <span id="count-high" class="section-badge">0</span>
-      </div>
-      <div id="high-list" class="job-list"></div>
-    </div>
+    <!-- Jobs View -->
+    <div id="jobs-view">
+      <div id="jobs-last-run" class="tab-last-run"></div>
 
-    <!-- Review Needed Section -->
-    <div id="section-review">
-      <div class="section-header">
-        <h2>Review &amp; Apply</h2>
-        <span id="count-review" class="section-badge">0</span>
+      <!-- High Priority Section -->
+      <div id="section-high">
+        <div class="section-header">
+          <h2>Apply Now</h2>
+          <span id="count-high" class="section-badge">0</span>
+        </div>
+        <div id="high-list" class="job-list"></div>
       </div>
-      <div id="review-list" class="job-list"></div>
-    </div>
 
-    <!-- Maybe Section -->
-    <div id="section-maybe">
-      <div class="section-header">
-        <h2>Maybe</h2>
-        <span id="count-maybe" class="section-badge">0</span>
+      <!-- Review Needed Section -->
+      <div id="section-review">
+        <div class="section-header">
+          <h2>Review &amp; Apply</h2>
+          <span id="count-review" class="section-badge">0</span>
+        </div>
+        <div id="review-list" class="job-list"></div>
       </div>
-      <div id="maybe-list" class="job-list"></div>
+
+      <!-- Maybe Section -->
+      <div id="section-maybe">
+        <div class="section-header">
+          <h2>Maybe</h2>
+          <span id="count-maybe" class="section-badge">0</span>
+        </div>
+        <div id="maybe-list" class="job-list"></div>
+      </div>
+
+    </div><!-- #jobs-view -->
+
+    <!-- Contracting Section -->
+    <div id="contracting-section" style="display:none">
+      <div class="contracting-toolbar">
+        <div id="contracting-last-run" class="tab-last-run"></div>
+        <label class="toggle-label">
+          <input type="checkbox" id="show-hidden-toggle" onchange="toggleShowHidden()">
+          Show hidden jobs
+        </label>
+      </div>
+      <div id="firms-list"></div>
     </div>
 
   </div><!-- #content -->

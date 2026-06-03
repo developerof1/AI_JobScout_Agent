@@ -1,0 +1,10 @@
+{
+  "keywords": ["project manager", "program manager", "product manager"],
+  "firms": [
+    {
+      "name": "LaSalle Network",
+      "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
+      "active": true
+    }
+  ]
+}
