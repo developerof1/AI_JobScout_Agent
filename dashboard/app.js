@@ -75,11 +75,12 @@ async function init() {
   renderStats();
   renderJobs(allJobs);
 
-  // Load contracting jobs (non-blocking — failure is acceptable)
+  // Load contracting jobs then render (it's the default tab)
   try {
     const cr = await fetch(CONTRACTING_URL + "?t=" + Date.now());
     if (cr.ok) contractingData = await cr.json();
   } catch (_) {}
+  renderContractingSection();
 
   // Request browser notification permission for future use
   if ("Notification" in window && Notification.permission === "default") {
