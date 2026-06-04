@@ -1,4 +1,20 @@
 {
-  "last_run": null,
-  "firms": []
+  "last_run": "2026-06-04T13:32:34.829173+00:00",
+  "firms": [
+    {
+      "name": "LaSalle Network",
+      "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
+      "jobs": [
+        {
+          "title": "Project Management Consultant",
+          "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "e75b105a5d6b",
+          "discovered_at": "2026-06-04T13:32:34.829086+00:00",
+          "is_new": true
+        }
+      ]
+    }
+  ]
 }
