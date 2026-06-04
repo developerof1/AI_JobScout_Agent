@@ -8,5 +8,13 @@
       "requires_js": true,
       "max_pages": 3
     }
+  ,
+    {
+      "name": "Peterson Technology Partners",
+      "url": "https://www.ptechpartners.com/jobs/",
+      "active": true,
+      "requires_js": false,
+      "max_pages": 8
+    }
   ]
 }
