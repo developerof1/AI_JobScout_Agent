@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-04T13:32:34.829173+00:00",
+  "last_run": "2026-06-04T14:24:24.396820+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,6 +12,60 @@
           "firm": "LaSalle Network",
           "_hash": "e75b105a5d6b",
           "discovered_at": "2026-06-04T13:32:34.829086+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Jr. Project Manager \u2013 Nuclear",
+          "url": "https://www.thelasallenetwork.com/jobs/jr-project-manager-nuclear-161523/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "2063b23bc2e3",
+          "discovered_at": "2026-06-04T14:24:24.396760+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/project-manager-161292/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "5f4691a7d547",
+          "discovered_at": "2026-06-04T14:24:24.396766+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager \u2013 Electrical Construction",
+          "url": "https://www.thelasallenetwork.com/jobs/project-manager-electrical-construction-160497/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "e7100d5ba4ea",
+          "discovered_at": "2026-06-04T14:24:24.396771+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Assistant Project Manager \u2013 Electrical Construction",
+          "url": "https://www.thelasallenetwork.com/jobs/assistant-project-manager-electrical-construction-160532/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "899b6ccf0d42",
+          "discovered_at": "2026-06-04T14:24:24.396776+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Data Modernization Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/data-modernization-project-manager-161611/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "4eb2196286e2",
+          "discovered_at": "2026-06-04T14:24:24.396780+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Sr. Project Manager (Manufacturing, Capital Projects)",
+          "url": "https://www.thelasallenetwork.com/jobs/sr-project-manager-manufacturing-capital-projects-161598/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "99f0710faff0",
+          "discovered_at": "2026-06-04T14:24:24.396785+00:00",
           "is_new": true
         }
       ]
