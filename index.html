@@ -23,12 +23,12 @@
 
     <!-- Tab Navigation -->
     <div class="tab-nav">
-      <button class="tab-btn active" data-tab="scouting" onclick="switchTab('scouting')">Scouting &amp; Scoring</button>
-      <button class="tab-btn"        data-tab="contracting" onclick="switchTab('contracting')">Contracting</button>
+      <button class="tab-btn active" data-tab="contracting" onclick="switchTab('contracting')">Contracting</button>
+      <button class="tab-btn"        data-tab="scouting"    onclick="switchTab('scouting')">Scouting &amp; Scoring</button>
     </div>
 
     <!-- Tab 1: Scouting & Scoring -->
-    <div id="tab-scouting" class="tab-panel">
+    <div id="tab-scouting" class="tab-panel" style="display:none">
 
       <div id="jobs-last-run" class="tab-last-run"></div>
 
@@ -102,7 +102,7 @@
     </div><!-- #tab-scouting -->
 
     <!-- Tab 2: Contracting -->
-    <div id="tab-contracting" class="tab-panel" style="display:none">
+    <div id="tab-contracting" class="tab-panel">
       <div class="contracting-toolbar">
         <div id="contracting-last-run" class="tab-last-run"></div>
         <label class="toggle-label">
