@@ -76,6 +76,59 @@ def _fetch_html_selenium(url: str) -> str | None:
         return None
 
 
+def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages: int) -> list[dict]:
+    """Load page once via Selenium, then click Next to paginate — preserves JS filter state."""
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        from selenium.webdriver.common.by import By
+
+        opts = Options()
+        opts.add_argument("--headless")
+        opts.add_argument("--no-sandbox")
+        opts.add_argument("--disable-dev-shm-usage")
+        opts.add_argument(f"user-agent={HEADERS['User-Agent']}")
+
+        base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
+        all_jobs: list[dict] = []
+        seen_titles: set[str] = set()
+
+        driver = webdriver.Chrome(options=opts)
+        driver.set_page_load_timeout(30)
+        driver.get(start_url)
+        time.sleep(3)
+
+        for page_num in range(1, max_pages + 1):
+            page_jobs = _extract_jobs(driver.page_source, base_url, keywords)
+            new_jobs = [j for j in page_jobs if j["title"].lower() not in seen_titles]
+            for j in new_jobs:
+                seen_titles.add(j["title"].lower())
+            all_jobs.extend(new_jobs)
+            print(f"    page {page_num}: {len(new_jobs)} new match(es)")
+
+            # Try clicking Next
+            try:
+                next_btn = None
+                for a in driver.find_elements(By.TAG_NAME, "a"):
+                    txt = a.text.strip().lower().strip("›»> ")
+                    if txt in ("next", "next page"):
+                        next_btn = a
+                        break
+                if not next_btn:
+                    break
+                next_btn.click()
+                time.sleep(2)
+            except Exception:
+                break
+
+        driver.quit()
+        return all_jobs
+
+    except Exception as e:
+        print(f"  [contracting] selenium click-pagination failed: {e}")
+        return []
+
+
 def _find_next_page(soup, current_url: str) -> str | None:
     # rel="next" is most reliable
     tag = soup.find("a", rel="next") or soup.find("link", rel="next")
@@ -146,20 +199,6 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
     return jobs
 
 
-def _fetch_page(url: str, use_js: bool) -> str | None:
-    if use_js:
-        html = _fetch_html_selenium(url)
-        if not html:
-            print(f"  [contracting] Selenium failed — falling back to requests ...")
-            html = _fetch_html_requests(url)
-    else:
-        html = _fetch_html_requests(url)
-        if not html:
-            print(f"  [contracting] requests failed — falling back to Selenium ...")
-            html = _fetch_html_selenium(url)
-    return html
-
-
 def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     name = firm["name"]
     start_url = firm["url"]
@@ -168,37 +207,41 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
     print(f"  [contracting] Scraping {name} (js={use_js}, max_pages={max_pages}) ...")
 
-    all_jobs: list[dict] = []
-    seen_titles: set[str] = set()
-    current_url = start_url
-    page_num = 1
+    if use_js:
+        # Click-based pagination to preserve JS filter state across pages
+        all_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages)
+        if not all_jobs:
+            # Selenium unavailable — fall back to requests page 1 only
+            print(f"  [contracting] Falling back to requests (page 1 only) ...")
+            html = _fetch_html_requests(start_url)
+            all_jobs = _extract_jobs(html, base_url, keywords) if html else []
+    else:
+        # URL-based pagination for static sites
+        all_jobs = []
+        seen_titles: set[str] = set()
+        current_url = start_url
+        page_num = 1
 
-    while current_url and page_num <= max_pages:
-        html = _fetch_page(current_url, use_js)
-        if not html:
-            break
-
-        soup = BeautifulSoup(html, "html.parser")
-        page_jobs = _extract_jobs(html, base_url, keywords)
-
-        for job in page_jobs:
-            if job["title"].lower() not in seen_titles:
-                seen_titles.add(job["title"].lower())
-                all_jobs.append(job)
-
-        next_url = _find_next_page(soup, current_url)
-        current_url = next_url
-        page_num += 1
-
-        if next_url:
-            time.sleep(random.uniform(0.5, 1.0))
+        while current_url and page_num <= max_pages:
+            html = _fetch_html_requests(current_url)
+            if not html:
+                break
+            soup = BeautifulSoup(html, "html.parser")
+            for job in _extract_jobs(html, base_url, keywords):
+                if job["title"].lower() not in seen_titles:
+                    seen_titles.add(job["title"].lower())
+                    all_jobs.append(job)
+            current_url = _find_next_page(soup, current_url)
+            page_num += 1
+            if current_url:
+                time.sleep(random.uniform(0.5, 1.0))
 
     for job in all_jobs:
         job["firm"] = name
         job["_hash"] = _make_hash(name, job["title"])
         job["discovered_at"] = datetime.now(timezone.utc).isoformat()
 
-    print(f"  [contracting] {name}: {len(all_jobs)} matching jobs across {page_num - 1} page(s)")
+    print(f"  [contracting] {name}: {len(all_jobs)} matching jobs")
     return all_jobs
 
 
