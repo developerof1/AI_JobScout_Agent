@@ -276,21 +276,21 @@ function markAsApplied(hash) {
 
 // ─── Filtering ──────────────────────────────────────────────────────────────
 
+function switchTab(tab) {
+  document.querySelectorAll(".tab-btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.tab === tab);
+  });
+  document.getElementById("tab-scouting").style.display    = tab === "scouting"    ? "" : "none";
+  document.getElementById("tab-contracting").style.display = tab === "contracting" ? "" : "none";
+  if (tab === "contracting") renderContractingSection();
+}
+
 function setFilter(filter) {
   activeFilter = filter;
   document.querySelectorAll(".filter-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.filter === filter);
   });
-
-  const isContracting = filter === "contracting";
-  document.getElementById("jobs-view").style.display          = isContracting ? "none" : "";
-  document.getElementById("contracting-section").style.display = isContracting ? ""     : "none";
-
-  if (isContracting) {
-    renderContractingSection();
-  } else {
-    renderJobs(allJobs);
-  }
+  renderJobs(allJobs);
 }
 
 function filterJobs(jobs, filter, applied) {

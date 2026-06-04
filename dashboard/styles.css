@@ -278,14 +278,26 @@ body {
   to   { transform: translateX(0);    opacity: 1; }
 }
 
-/* ===== Filter Divider ===== */
-.filter-divider {
-  width: 1px;
-  height: 20px;
-  background: var(--border);
-  align-self: center;
-  margin: 0 4px;
+/* ===== Tab Navigation ===== */
+.tab-nav {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
 }
+.tab-btn {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active { color: var(--blue); border-bottom-color: var(--blue); }
 
 /* ===== Contracting Section ===== */
 .contracting-toolbar {

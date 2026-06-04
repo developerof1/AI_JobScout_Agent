@@ -21,51 +21,56 @@
 
   <div id="content" style="display:none">
 
-    <!-- Stats Bar -->
-    <div class="stats-bar">
-      <div class="stat-card green">
-        <div id="stat-high" class="value">—</div>
-        <div class="label">Apply Now (≥85)</div>
-      </div>
-      <div class="stat-card yellow">
-        <div id="stat-review" class="value">—</div>
-        <div class="label">Review (70-84)</div>
-      </div>
-      <div class="stat-card blue">
-        <div id="stat-new" class="value">—</div>
-        <div class="label">New Today</div>
-      </div>
-      <div class="stat-card">
-        <div id="stat-total" class="value">—</div>
-        <div class="label">Total Jobs</div>
-      </div>
-      <div class="stat-card">
-        <div id="stat-applied" class="value">—</div>
-        <div class="label">Applied</div>
-      </div>
+    <!-- Tab Navigation -->
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="scouting" onclick="switchTab('scouting')">Scouting &amp; Scoring</button>
+      <button class="tab-btn"        data-tab="contracting" onclick="switchTab('contracting')">Contracting</button>
     </div>
 
-    <!-- Resume Usage -->
-    <div style="margin-bottom: 20px;">
-      <div style="font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">Resume Usage</div>
-      <div id="resume-usage" style="display:flex; gap:6px; flex-wrap:wrap;"></div>
-    </div>
+    <!-- Tab 1: Scouting & Scoring -->
+    <div id="tab-scouting" class="tab-panel">
 
-    <!-- Filter Bar -->
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all"         onclick="setFilter('all')">All Open</button>
-      <button class="filter-btn"        data-filter="new"         onclick="setFilter('new')">New This Run</button>
-      <button class="filter-btn"        data-filter="urgent"      onclick="setFilter('urgent')">Urgent (&lt;4h)</button>
-      <button class="filter-btn"        data-filter="today"       onclick="setFilter('today')">Today</button>
-      <button class="filter-btn"        data-filter="high"        onclick="setFilter('high')">High Priority</button>
-      <button class="filter-btn"        data-filter="applied"     onclick="setFilter('applied')">Applied</button>
-      <span class="filter-divider"></span>
-      <button class="filter-btn"        data-filter="contracting" onclick="setFilter('contracting')">Contracting</button>
-    </div>
-
-    <!-- Jobs View -->
-    <div id="jobs-view">
       <div id="jobs-last-run" class="tab-last-run"></div>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar">
+        <div class="stat-card green">
+          <div id="stat-high" class="value">—</div>
+          <div class="label">Apply Now (≥85)</div>
+        </div>
+        <div class="stat-card yellow">
+          <div id="stat-review" class="value">—</div>
+          <div class="label">Review (70-84)</div>
+        </div>
+        <div class="stat-card blue">
+          <div id="stat-new" class="value">—</div>
+          <div class="label">New Today</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-total" class="value">—</div>
+          <div class="label">Total Jobs</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-applied" class="value">—</div>
+          <div class="label">Applied</div>
+        </div>
+      </div>
+
+      <!-- Resume Usage -->
+      <div style="margin-bottom: 20px;">
+        <div style="font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px;">Resume Usage</div>
+        <div id="resume-usage" style="display:flex; gap:6px; flex-wrap:wrap;"></div>
+      </div>
+
+      <!-- Slicers -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all"     onclick="setFilter('all')">All Open</button>
+        <button class="filter-btn"        data-filter="new"     onclick="setFilter('new')">New This Run</button>
+        <button class="filter-btn"        data-filter="urgent"  onclick="setFilter('urgent')">Urgent (&lt;4h)</button>
+        <button class="filter-btn"        data-filter="today"   onclick="setFilter('today')">Today</button>
+        <button class="filter-btn"        data-filter="high"    onclick="setFilter('high')">High Priority</button>
+        <button class="filter-btn"        data-filter="applied" onclick="setFilter('applied')">Applied</button>
+      </div>
 
       <!-- High Priority Section -->
       <div id="section-high">
@@ -94,10 +99,10 @@
         <div id="maybe-list" class="job-list"></div>
       </div>
 
-    </div><!-- #jobs-view -->
+    </div><!-- #tab-scouting -->
 
-    <!-- Contracting Section -->
-    <div id="contracting-section" style="display:none">
+    <!-- Tab 2: Contracting -->
+    <div id="tab-contracting" class="tab-panel" style="display:none">
       <div class="contracting-toolbar">
         <div id="contracting-last-run" class="tab-last-run"></div>
         <label class="toggle-label">
@@ -106,7 +111,7 @@
         </label>
       </div>
       <div id="firms-list"></div>
-    </div>
+    </div><!-- #tab-contracting -->
 
   </div><!-- #content -->
 
