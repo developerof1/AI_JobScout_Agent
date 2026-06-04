@@ -146,12 +146,27 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
     return jobs
 
 
+def _fetch_page(url: str, use_js: bool) -> str | None:
+    if use_js:
+        html = _fetch_html_selenium(url)
+        if not html:
+            print(f"  [contracting] Selenium failed — falling back to requests ...")
+            html = _fetch_html_requests(url)
+    else:
+        html = _fetch_html_requests(url)
+        if not html:
+            print(f"  [contracting] requests failed — falling back to Selenium ...")
+            html = _fetch_html_selenium(url)
+    return html
+
+
 def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     name = firm["name"]
     start_url = firm["url"]
-    max_pages = firm.get("max_pages", 50)
+    max_pages = firm.get("max_pages", 10)
+    use_js = firm.get("requires_js", False)
     base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
-    print(f"  [contracting] Scraping {name} ...")
+    print(f"  [contracting] Scraping {name} (js={use_js}, max_pages={max_pages}) ...")
 
     all_jobs: list[dict] = []
     seen_titles: set[str] = set()
@@ -159,13 +174,9 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     page_num = 1
 
     while current_url and page_num <= max_pages:
-        html = _fetch_html_requests(current_url)
+        html = _fetch_page(current_url, use_js)
         if not html:
-            if page_num == 1:
-                print(f"  [contracting] requests failed — retrying page 1 with Selenium ...")
-                html = _fetch_html_selenium(current_url)
-            if not html:
-                break
+            break
 
         soup = BeautifulSoup(html, "html.parser")
         page_jobs = _extract_jobs(html, base_url, keywords)

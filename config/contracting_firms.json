@@ -4,7 +4,9 @@
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
-      "active": true
+      "active": true,
+      "requires_js": true,
+      "max_pages": 3
     }
   ]
 }
