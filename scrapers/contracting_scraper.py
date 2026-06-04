@@ -76,6 +76,19 @@ def _fetch_html_selenium(url: str) -> str | None:
         return None
 
 
+def _find_next_page(soup, current_url: str) -> str | None:
+    # rel="next" is most reliable
+    tag = soup.find("a", rel="next") or soup.find("link", rel="next")
+    if tag and tag.get("href"):
+        return urljoin(current_url, tag["href"])
+    # Common "Next" button text
+    for a in soup.find_all("a", href=True):
+        text = a.get_text(strip=True).lower().strip("›»> ")
+        if text in ("next", "next page"):
+            return urljoin(current_url, a["href"])
+    return None
+
+
 def _extract_location(heading_tag) -> str:
     for element in heading_tag.next_siblings:
         text = (
@@ -135,27 +148,47 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
 
 def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     name = firm["name"]
-    url = firm["url"]
+    start_url = firm["url"]
+    max_pages = firm.get("max_pages", 50)
+    base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
     print(f"  [contracting] Scraping {name} ...")
 
-    html = _fetch_html_requests(url)
-    base_url = f"{urlparse(url).scheme}://{urlparse(url).netloc}"
+    all_jobs: list[dict] = []
+    seen_titles: set[str] = set()
+    current_url = start_url
+    page_num = 1
 
-    jobs = _extract_jobs(html, base_url, keywords) if html else []
+    while current_url and page_num <= max_pages:
+        html = _fetch_html_requests(current_url)
+        if not html:
+            if page_num == 1:
+                print(f"  [contracting] requests failed — retrying page 1 with Selenium ...")
+                html = _fetch_html_selenium(current_url)
+            if not html:
+                break
 
-    if not jobs:
-        print(f"  [contracting] No jobs via requests — retrying with Selenium ...")
-        html = _fetch_html_selenium(url)
-        if html:
-            jobs = _extract_jobs(html, base_url, keywords)
+        soup = BeautifulSoup(html, "html.parser")
+        page_jobs = _extract_jobs(html, base_url, keywords)
 
-    for job in jobs:
+        for job in page_jobs:
+            if job["title"].lower() not in seen_titles:
+                seen_titles.add(job["title"].lower())
+                all_jobs.append(job)
+
+        next_url = _find_next_page(soup, current_url)
+        current_url = next_url
+        page_num += 1
+
+        if next_url:
+            time.sleep(random.uniform(0.5, 1.0))
+
+    for job in all_jobs:
         job["firm"] = name
         job["_hash"] = _make_hash(name, job["title"])
         job["discovered_at"] = datetime.now(timezone.utc).isoformat()
 
-    print(f"  [contracting] {name}: {len(jobs)} matching jobs")
-    return jobs
+    print(f"  [contracting] {name}: {len(all_jobs)} matching jobs across {page_num - 1} page(s)")
+    return all_jobs
 
 
 def main():
