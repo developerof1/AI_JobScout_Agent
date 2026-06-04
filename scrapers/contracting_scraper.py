@@ -211,7 +211,7 @@ def main():
         json.dump(output, f, indent=2)
 
     total = sum(len(r["jobs"]) for r in results)
-    print(f"[contracting] Done. {total} jobs across {len(results)} firm(s) → {OUTPUT_PATH}")
+    print(f"[contracting] Done. {total} jobs across {len(results)} firm(s) -> {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
