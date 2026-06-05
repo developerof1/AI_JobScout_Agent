@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05T17:17:09.031118+00:00",
+  "last_run": "2026-06-05T18:02:01.986350+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -29,6 +29,129 @@
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": []
+    },
+    {
+      "name": "Randstad",
+      "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
+      "jobs": [
+        {
+          "title": "45 project manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "7e5d4aae073f",
+          "discovered_at": "2026-06-05T18:02:01.986268+00:00",
+          "is_new": true
+        },
+        {
+          "title": "lead it project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1335083/lead-it-project-manager_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "4a4a342d69b0",
+          "discovered_at": "2026-06-05T18:02:01.986287+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager iv",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4953314/project-manager-iv_bronx/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "f23b4cd8fdd6",
+          "discovered_at": "2026-06-05T18:02:01.986292+00:00",
+          "is_new": true
+        },
+        {
+          "title": "regulatory submissions project manager",
+          "url": "https://www.randstadusa.com/jobs/137/53740/regulatory-submissions-project-manager_south-san-francisco/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9cd121185e8d",
+          "discovered_at": "2026-06-05T18:02:01.986297+00:00",
+          "is_new": true
+        },
+        {
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4950885/program-manager_washington/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-06-05T18:02:01.986301+00:00",
+          "is_new": true
+        },
+        {
+          "title": "hr project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4947239/hr-project-manager_lakeland/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "d95f030ebb7e",
+          "discovered_at": "2026-06-05T18:02:01.986304+00:00",
+          "is_new": true
+        },
+        {
+          "title": "senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4945147/senior-project-manager_philadelphia/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "e5c1a84be0bd",
+          "discovered_at": "2026-06-05T18:02:01.986308+00:00",
+          "is_new": true
+        },
+        {
+          "title": "clinical project manager (medical device / digital health)",
+          "url": "https://www.randstadusa.com/jobs/137/53728/clinical-project-manager-medical-device-digital-health_skaneateles-falls/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "92a47ff9bba3",
+          "discovered_at": "2026-06-05T18:02:01.986312+00:00",
+          "is_new": true
+        },
+        {
+          "title": "traveling concrete project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1107755/traveling-concrete-project-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "50a3f5831aa3",
+          "discovered_at": "2026-06-05T18:02:01.986315+00:00",
+          "is_new": true
+        },
+        {
+          "title": "36 program manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "2dcdc236a7af",
+          "discovered_at": "2026-06-05T18:02:01.986319+00:00",
+          "is_new": true
+        },
+        {
+          "title": "technical product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1335200/technical-product-manager_minneapolis/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "458c50d16ec8",
+          "discovered_at": "2026-06-05T18:02:01.986323+00:00",
+          "is_new": true
+        },
+        {
+          "title": "sr. product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1330404/sr-product-manager_royal-palm-beach/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "a91d33895675",
+          "discovered_at": "2026-06-05T18:02:01.986327+00:00",
+          "is_new": true
+        },
+        {
+          "title": "31 product manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "495012e39e08",
+          "discovered_at": "2026-06-05T18:02:01.986331+00:00",
+          "is_new": true
+        }
+      ]
     }
   ]
 }
