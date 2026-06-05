@@ -77,7 +77,7 @@ def _fetch_html_selenium(url: str) -> str | None:
         return None
 
 
-def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages: int) -> list[dict]:
+def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages: int, skip_keyword_filter: bool = False) -> list[dict]:
     """Load page once via Selenium, then click Next to paginate — preserves JS filter state."""
     try:
         from selenium import webdriver
@@ -100,27 +100,24 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
         time.sleep(3)
 
         for page_num in range(1, max_pages + 1):
-            page_jobs = _extract_jobs(driver.page_source, base_url, keywords)
+            page_jobs = _extract_jobs(driver.page_source, base_url, keywords, skip_keyword_filter)
             new_jobs = [j for j in page_jobs if j["title"].lower() not in seen_titles]
             for j in new_jobs:
                 seen_titles.add(j["title"].lower())
             all_jobs.extend(new_jobs)
             print(f"    page {page_num}: {len(new_jobs)} new match(es)")
 
-            # Try clicking Next or Load More
+            # Try clicking Next or Load More (a or button tags)
             try:
                 next_btn = None
-                for a in driver.find_elements(By.TAG_NAME, "a"):
-                    txt = a.text.strip().lower().strip("›»> ")
+                for el in driver.find_elements(By.CSS_SELECTOR, "a, button"):
+                    txt = el.text.strip().lower().strip("›»> ")
                     if txt in ("next", "next page"):
-                        next_btn = a
+                        next_btn = el
                         break
-                if not next_btn:
-                    for btn in driver.find_elements(By.TAG_NAME, "button"):
-                        txt = btn.text.strip().lower()
-                        if "more" in txt and ("view" in txt or "load" in txt):
-                            next_btn = btn
-                            break
+                    if "more" in txt and ("view" in txt or "load" in txt):
+                        next_btn = el
+                        break
                 if not next_btn:
                     break
                 next_btn.click()
@@ -164,7 +161,7 @@ def _extract_location(heading_tag) -> str:
     return ""
 
 
-def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
+def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_filter: bool = False) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     jobs = []
     seen_titles: set[str] = set()
@@ -177,7 +174,7 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
                 continue
             if re.search(r'^\d+\s+.+\bjobs?\b', title.lower()):
                 continue
-            if not any(kw in title.lower() for kw in keywords):
+            if not skip_keyword_filter and not any(kw in title.lower() for kw in keywords):
                 continue
 
             link = heading.find_parent("a") or heading.find("a")
@@ -212,6 +209,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     name = firm["name"]
     max_pages = firm.get("max_pages", 10)
     use_js = firm.get("requires_js", False)
+    skip_kw = firm.get("skip_keyword_filter", False)
     url_list = firm.get("urls") or [firm["url"]]
 
     all_jobs: list[dict] = []
@@ -222,11 +220,11 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
         print(f"  [contracting] Scraping {name} @ {start_url} (js={use_js}, max_pages={max_pages}) ...")
 
         if use_js:
-            url_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages)
+            url_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages, skip_kw)
             if not url_jobs:
                 print(f"  [contracting] Falling back to requests (page 1 only) ...")
                 html = _fetch_html_requests(start_url)
-                url_jobs = _extract_jobs(html, base_url, keywords) if html else []
+                url_jobs = _extract_jobs(html, base_url, keywords, skip_kw) if html else []
         else:
             url_jobs = []
             current_url = start_url
@@ -236,7 +234,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
                 if not html:
                     break
                 soup = BeautifulSoup(html, "html.parser")
-                for job in _extract_jobs(html, base_url, keywords):
+                for job in _extract_jobs(html, base_url, keywords, skip_kw):
                     if job["title"].lower() not in seen_titles:
                         url_jobs.append(job)
                 current_url = _find_next_page(soup, current_url)

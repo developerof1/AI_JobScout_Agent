@@ -28,6 +28,7 @@
       ],
       "active": true,
       "requires_js": true,
+      "skip_keyword_filter": true,
       "max_pages": 3
     }
   ]
