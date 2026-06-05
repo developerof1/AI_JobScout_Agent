@@ -106,7 +106,7 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
             all_jobs.extend(new_jobs)
             print(f"    page {page_num}: {len(new_jobs)} new match(es)")
 
-            # Try clicking Next
+            # Try clicking Next or Load More
             try:
                 next_btn = None
                 for a in driver.find_elements(By.TAG_NAME, "a"):
@@ -114,6 +114,12 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
                     if txt in ("next", "next page"):
                         next_btn = a
                         break
+                if not next_btn:
+                    for btn in driver.find_elements(By.TAG_NAME, "button"):
+                        txt = btn.text.strip().lower()
+                        if "more" in txt and ("view" in txt or "load" in txt):
+                            next_btn = btn
+                            break
                 if not next_btn:
                     break
                 next_btn.click()
@@ -201,40 +207,47 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
 
 def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     name = firm["name"]
-    start_url = firm["url"]
     max_pages = firm.get("max_pages", 10)
     use_js = firm.get("requires_js", False)
-    base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
-    print(f"  [contracting] Scraping {name} (js={use_js}, max_pages={max_pages}) ...")
+    url_list = firm.get("urls") or [firm["url"]]
 
-    if use_js:
-        # Click-based pagination to preserve JS filter state across pages
-        all_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages)
-        if not all_jobs:
-            # Selenium unavailable — fall back to requests page 1 only
-            print(f"  [contracting] Falling back to requests (page 1 only) ...")
-            html = _fetch_html_requests(start_url)
-            all_jobs = _extract_jobs(html, base_url, keywords) if html else []
-    else:
-        # URL-based pagination for static sites
-        all_jobs = []
-        seen_titles: set[str] = set()
-        current_url = start_url
-        page_num = 1
+    all_jobs: list[dict] = []
+    seen_titles: set[str] = set()
 
-        while current_url and page_num <= max_pages:
-            html = _fetch_html_requests(current_url)
-            if not html:
-                break
-            soup = BeautifulSoup(html, "html.parser")
-            for job in _extract_jobs(html, base_url, keywords):
-                if job["title"].lower() not in seen_titles:
-                    seen_titles.add(job["title"].lower())
-                    all_jobs.append(job)
-            current_url = _find_next_page(soup, current_url)
-            page_num += 1
-            if current_url:
-                time.sleep(random.uniform(0.5, 1.0))
+    for i, start_url in enumerate(url_list):
+        base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
+        print(f"  [contracting] Scraping {name} @ {start_url} (js={use_js}, max_pages={max_pages}) ...")
+
+        if use_js:
+            url_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages)
+            if not url_jobs:
+                print(f"  [contracting] Falling back to requests (page 1 only) ...")
+                html = _fetch_html_requests(start_url)
+                url_jobs = _extract_jobs(html, base_url, keywords) if html else []
+        else:
+            url_jobs = []
+            current_url = start_url
+            page_num = 1
+            while current_url and page_num <= max_pages:
+                html = _fetch_html_requests(current_url)
+                if not html:
+                    break
+                soup = BeautifulSoup(html, "html.parser")
+                for job in _extract_jobs(html, base_url, keywords):
+                    if job["title"].lower() not in seen_titles:
+                        url_jobs.append(job)
+                current_url = _find_next_page(soup, current_url)
+                page_num += 1
+                if current_url:
+                    time.sleep(random.uniform(0.5, 1.0))
+
+        for job in url_jobs:
+            if job["title"].lower() not in seen_titles:
+                seen_titles.add(job["title"].lower())
+                all_jobs.append(job)
+
+        if i < len(url_list) - 1:
+            time.sleep(random.uniform(1, 2))
 
     for job in all_jobs:
         job["firm"] = name
@@ -283,7 +296,8 @@ def main():
             else:
                 job["is_new"] = True
 
-        results.append({"name": firm["name"], "url": firm["url"], "jobs": firm_jobs})
+        display_url = firm.get("url") or firm.get("urls", [""])[0]
+        results.append({"name": firm["name"], "url": display_url, "jobs": firm_jobs})
 
         if i < len(firms) - 1:
             time.sleep(random.uniform(1, 2))

@@ -15,6 +15,20 @@
       "active": true,
       "requires_js": false,
       "max_pages": 8
+    },
+    {
+      "name": "Randstad",
+      "urls": [
+        "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
+        "https://www.randstadusa.com/jobs/q-project-manager/remote/",
+        "https://www.randstadusa.com/jobs/q-program-manager/illinois/chicago/mi-25/",
+        "https://www.randstadusa.com/jobs/q-program-manager/remote/",
+        "https://www.randstadusa.com/jobs/q-product-manager/illinois/chicago/mi-25/",
+        "https://www.randstadusa.com/jobs/q-product-manager/remote/"
+      ],
+      "active": true,
+      "requires_js": true,
+      "max_pages": 3
     }
   ]
 }
