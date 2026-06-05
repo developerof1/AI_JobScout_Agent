@@ -9,6 +9,7 @@ Output:  data/contracting_jobs.json
 
 import hashlib
 import json
+import re
 import time
 import random
 from datetime import datetime, timezone
@@ -173,6 +174,8 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str]) -> list[dict]:
         for heading in soup.find_all(tag_name):
             title = heading.get_text(strip=True)
             if not title or title.lower() in seen_titles:
+                continue
+            if re.search(r'^\d+\s+.+\bjobs?\b', title.lower()):
                 continue
             if not any(kw in title.lower() for kw in keywords):
                 continue
