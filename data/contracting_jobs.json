@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05T18:02:01.986350+00:00",
+  "last_run": "2026-06-05T18:35:09.895553+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -35,22 +35,13 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "45 project manager jobs found in chicago, illinois",
-          "url": "",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "7e5d4aae073f",
-          "discovered_at": "2026-06-05T18:02:01.986268+00:00",
-          "is_new": true
-        },
-        {
           "title": "lead it project manager",
           "url": "https://www.randstadusa.com/jobs/4/1335083/lead-it-project-manager_saint-louis/",
           "location": "",
           "firm": "Randstad",
           "_hash": "4a4a342d69b0",
           "discovered_at": "2026-06-05T18:02:01.986287+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager iv",
@@ -59,7 +50,7 @@
           "firm": "Randstad",
           "_hash": "f23b4cd8fdd6",
           "discovered_at": "2026-06-05T18:02:01.986292+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "regulatory submissions project manager",
@@ -68,7 +59,7 @@
           "firm": "Randstad",
           "_hash": "9cd121185e8d",
           "discovered_at": "2026-06-05T18:02:01.986297+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "program manager",
@@ -77,7 +68,7 @@
           "firm": "Randstad",
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-06-05T18:02:01.986301+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "hr project manager",
@@ -86,7 +77,7 @@
           "firm": "Randstad",
           "_hash": "d95f030ebb7e",
           "discovered_at": "2026-06-05T18:02:01.986304+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior project manager",
@@ -95,7 +86,7 @@
           "firm": "Randstad",
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-06-05T18:02:01.986308+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "clinical project manager (medical device / digital health)",
@@ -104,7 +95,7 @@
           "firm": "Randstad",
           "_hash": "92a47ff9bba3",
           "discovered_at": "2026-06-05T18:02:01.986312+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "traveling concrete project manager",
@@ -113,16 +104,7 @@
           "firm": "Randstad",
           "_hash": "50a3f5831aa3",
           "discovered_at": "2026-06-05T18:02:01.986315+00:00",
-          "is_new": true
-        },
-        {
-          "title": "36 program manager jobs found in chicago, illinois",
-          "url": "",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "2dcdc236a7af",
-          "discovered_at": "2026-06-05T18:02:01.986319+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "technical product manager",
@@ -131,7 +113,7 @@
           "firm": "Randstad",
           "_hash": "458c50d16ec8",
           "discovered_at": "2026-06-05T18:02:01.986323+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sr. product manager",
@@ -140,16 +122,7 @@
           "firm": "Randstad",
           "_hash": "a91d33895675",
           "discovered_at": "2026-06-05T18:02:01.986327+00:00",
-          "is_new": true
-        },
-        {
-          "title": "31 product manager jobs found in chicago, illinois",
-          "url": "",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "495012e39e08",
-          "discovered_at": "2026-06-05T18:02:01.986331+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
