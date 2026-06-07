@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-06T16:07:31.067387+00:00",
+  "last_run": "2026-06-07T16:17:33.254593+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -41,7 +41,7 @@
           "firm": "Randstad",
           "_hash": "7b1059c2c866",
           "discovered_at": "2026-06-06T16:07:31.067101+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "warehouse team lead - 2nd shift",
@@ -50,7 +50,7 @@
           "firm": "Randstad",
           "_hash": "17314a6d50f3",
           "discovered_at": "2026-06-06T16:07:31.067116+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sales support rep",
@@ -59,7 +59,7 @@
           "firm": "Randstad",
           "_hash": "c3116bd4cd0d",
           "discovered_at": "2026-06-06T16:07:31.067121+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "hr manager",
@@ -68,7 +68,7 @@
           "firm": "Randstad",
           "_hash": "b2dc512c58ca",
           "discovered_at": "2026-06-06T16:07:31.067125+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "business development representative",
@@ -77,7 +77,7 @@
           "firm": "Randstad",
           "_hash": "0ba478462306",
           "discovered_at": "2026-06-06T16:07:31.067129+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior business analyst - sap s/4hana",
@@ -86,7 +86,7 @@
           "firm": "Randstad",
           "_hash": "d5837833dca0",
           "discovered_at": "2026-06-06T16:07:31.067132+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior .net software developer",
@@ -95,7 +95,7 @@
           "firm": "Randstad",
           "_hash": "7063a7474c94",
           "discovered_at": "2026-06-06T16:07:31.067135+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sr. data engineer",
@@ -104,7 +104,7 @@
           "firm": "Randstad",
           "_hash": "e11bce1340e3",
           "discovered_at": "2026-06-06T16:07:31.067139+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "maintenance supervisor",
@@ -113,7 +113,7 @@
           "firm": "Randstad",
           "_hash": "c49e9643b2fe",
           "discovered_at": "2026-06-06T16:07:31.067142+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "shipping clerk - now hiring",
@@ -122,7 +122,7 @@
           "firm": "Randstad",
           "_hash": "6dfe100c15c8",
           "discovered_at": "2026-06-06T16:07:31.067145+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "shipping and receiving clerk - now hiring",
@@ -131,7 +131,7 @@
           "firm": "Randstad",
           "_hash": "82c868fe3ac8",
           "discovered_at": "2026-06-06T16:07:31.067149+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "talent acquisition specialist",
@@ -140,7 +140,7 @@
           "firm": "Randstad",
           "_hash": "7a5ce9713b09",
           "discovered_at": "2026-06-06T16:07:31.067152+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2nd press operator",
@@ -149,7 +149,7 @@
           "firm": "Randstad",
           "_hash": "09b926281ce3",
           "discovered_at": "2026-06-06T16:07:31.067155+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "national account associate",
@@ -158,7 +158,7 @@
           "firm": "Randstad",
           "_hash": "69079e612ae5",
           "discovered_at": "2026-06-06T16:07:31.067158+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "maintenance mechanic",
@@ -167,7 +167,7 @@
           "firm": "Randstad",
           "_hash": "e1bdba04cf58",
           "discovered_at": "2026-06-06T16:07:31.067161+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "cnc applications engineer - siemens specialist",
@@ -176,7 +176,7 @@
           "firm": "Randstad",
           "_hash": "562434bc10b7",
           "discovered_at": "2026-06-06T16:07:31.067164+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "cnc applications engineer",
@@ -185,7 +185,7 @@
           "firm": "Randstad",
           "_hash": "6f3c09c49c6a",
           "discovered_at": "2026-06-06T16:07:31.067168+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "forklift operator - sit down - now hiring",
@@ -194,7 +194,7 @@
           "firm": "Randstad",
           "_hash": "91b297a97070",
           "discovered_at": "2026-06-06T16:07:31.067171+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "membership engagement coordinator",
@@ -203,7 +203,7 @@
           "firm": "Randstad",
           "_hash": "b1f61fa1d086",
           "discovered_at": "2026-06-06T16:07:31.067174+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "press operator",
@@ -212,7 +212,7 @@
           "firm": "Randstad",
           "_hash": "7718833a8c12",
           "discovered_at": "2026-06-06T16:07:31.067177+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "inside sales representative",
@@ -221,7 +221,7 @@
           "firm": "Randstad",
           "_hash": "340da1417b1f",
           "discovered_at": "2026-06-06T16:07:31.067181+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "talent sourcing specialist",
@@ -230,7 +230,7 @@
           "firm": "Randstad",
           "_hash": "4cbfac5252dd",
           "discovered_at": "2026-06-06T16:07:31.067184+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "cnc field service engineer",
@@ -239,7 +239,7 @@
           "firm": "Randstad",
           "_hash": "d2bf60b147d3",
           "discovered_at": "2026-06-06T16:07:31.067187+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "collections representative (remote)",
@@ -248,7 +248,7 @@
           "firm": "Randstad",
           "_hash": "d5eb88d4aa54",
           "discovered_at": "2026-06-06T16:07:31.067190+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "construction manager",
@@ -257,7 +257,7 @@
           "firm": "Randstad",
           "_hash": "2c705960fb61",
           "discovered_at": "2026-06-06T16:07:31.067193+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "forklift operator - pallet jack - now hiring",
@@ -266,7 +266,7 @@
           "firm": "Randstad",
           "_hash": "cdecfd1f165b",
           "discovered_at": "2026-06-06T16:07:31.067196+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "maintenance mechanic 3rdshift",
@@ -275,7 +275,7 @@
           "firm": "Randstad",
           "_hash": "ac6fb4b8e57c",
           "discovered_at": "2026-06-06T16:07:31.067200+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "procurement analyst",
@@ -284,7 +284,7 @@
           "firm": "Randstad",
           "_hash": "408bd466444b",
           "discovered_at": "2026-06-06T16:07:31.067203+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Manage Consent Preferences",
@@ -293,7 +293,7 @@
           "firm": "Randstad",
           "_hash": "969957402835",
           "discovered_at": "2026-06-06T16:07:31.067206+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cookie List",
@@ -302,7 +302,7 @@
           "firm": "Randstad",
           "_hash": "1a0ac00a820b",
           "discovered_at": "2026-06-06T16:07:31.067209+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "lead it project manager",
@@ -383,7 +383,7 @@
           "firm": "Randstad",
           "_hash": "72ce265b7d51",
           "discovered_at": "2026-06-06T16:07:31.067240+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "talent delivery manager - banking & financial services",
@@ -392,7 +392,7 @@
           "firm": "Randstad",
           "_hash": "49ab8d333c6d",
           "discovered_at": "2026-06-06T16:07:31.067243+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "expert devsecops engineer",
@@ -401,6 +401,15 @@
           "firm": "Randstad",
           "_hash": "9d45bfdf5e24",
           "discovered_at": "2026-06-06T16:07:31.067247+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior peoplesoft capps systems analyst",
+          "url": "https://www.randstadusa.com/jobs/4/1335663/senior-peoplesoft-capps-systems-analyst_austin/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "ed409baadfc5",
+          "discovered_at": "2026-06-07T16:17:33.254448+00:00",
           "is_new": true
         },
         {
@@ -410,7 +419,7 @@
           "firm": "Randstad",
           "_hash": "7adad7e04c3f",
           "discovered_at": "2026-06-06T16:07:31.067250+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "telecommunications project lead",
@@ -419,7 +428,7 @@
           "firm": "Randstad",
           "_hash": "e8b0094a5008",
           "discovered_at": "2026-06-06T16:07:31.067253+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "financial analyst",
@@ -428,7 +437,7 @@
           "firm": "Randstad",
           "_hash": "cd9c8baf6a37",
           "discovered_at": "2026-06-06T16:07:31.067256+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "us operations consultant iii",
@@ -437,7 +446,7 @@
           "firm": "Randstad",
           "_hash": "bc3408d8658e",
           "discovered_at": "2026-06-06T16:07:31.067259+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "solution architect - cloud, infrastructure, and security",
@@ -446,7 +455,7 @@
           "firm": "Randstad",
           "_hash": "849ae7dcaba7",
           "discovered_at": "2026-06-06T16:07:31.067262+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it-business systems analyst",
@@ -455,7 +464,7 @@
           "firm": "Randstad",
           "_hash": "66e962533abe",
           "discovered_at": "2026-06-06T16:07:31.067266+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "reporting operations coordinator (manager level)",
@@ -464,7 +473,7 @@
           "firm": "Randstad",
           "_hash": "774d840aa507",
           "discovered_at": "2026-06-06T16:07:31.067269+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "content infrastructure product owner",
@@ -473,6 +482,15 @@
           "firm": "Randstad",
           "_hash": "50c106e56924",
           "discovered_at": "2026-06-06T16:07:31.067272+00:00",
+          "is_new": false
+        },
+        {
+          "title": "operations manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4955948/operations-manager_tampa/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "deac2abc0ffc",
+          "discovered_at": "2026-06-07T16:17:33.254478+00:00",
           "is_new": true
         },
         {
@@ -482,7 +500,7 @@
           "firm": "Randstad",
           "_hash": "fa45769c0bd4",
           "discovered_at": "2026-06-06T16:07:31.067275+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sr revenue operations director",
@@ -491,7 +509,7 @@
           "firm": "Randstad",
           "_hash": "781e1eb362b7",
           "discovered_at": "2026-06-06T16:07:31.067278+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "principal ux designer - mobile platform",
@@ -500,7 +518,7 @@
           "firm": "Randstad",
           "_hash": "186e003f1fb7",
           "discovered_at": "2026-06-06T16:07:31.067281+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "regional business development manager",
@@ -509,7 +527,7 @@
           "firm": "Randstad",
           "_hash": "869e60501f56",
           "discovered_at": "2026-06-06T16:07:31.067284+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "contract compliance business analyst",
@@ -518,7 +536,7 @@
           "firm": "Randstad",
           "_hash": "26412a0a0b91",
           "discovered_at": "2026-06-06T16:07:31.067287+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "hr consultant",
@@ -527,7 +545,7 @@
           "firm": "Randstad",
           "_hash": "e260e00d9a75",
           "discovered_at": "2026-06-06T16:07:31.067290+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sales operations analyst",
@@ -536,25 +554,7 @@
           "firm": "Randstad",
           "_hash": "eff9db8fc98b",
           "discovered_at": "2026-06-06T16:07:31.067293+00:00",
-          "is_new": true
-        },
-        {
-          "title": "vp, revenue cycle management",
-          "url": "https://www.randstadusa.com/jobs/1037/512047/vp-revenue-cycle-management_emeryville/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "79fa58f7e536",
-          "discovered_at": "2026-06-06T16:07:31.067296+00:00",
-          "is_new": true
-        },
-        {
-          "title": "service line principal",
-          "url": "https://www.randstadusa.com/jobs/1027/52418/service-line-principal_united-states/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "d4f96f43bb6c",
-          "discovered_at": "2026-06-06T16:07:31.067299+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "analytical chemist",
@@ -563,7 +563,7 @@
           "firm": "Randstad",
           "_hash": "8de9920b74b7",
           "discovered_at": "2026-06-06T16:07:31.067303+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "electro mechanic",
@@ -572,7 +572,7 @@
           "firm": "Randstad",
           "_hash": "4ad7ec5f5359",
           "discovered_at": "2026-06-06T16:07:31.067306+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "field service engineer",
@@ -581,7 +581,7 @@
           "firm": "Randstad",
           "_hash": "ac5604809b16",
           "discovered_at": "2026-06-06T16:07:31.067309+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sr. product manager",
@@ -593,22 +593,22 @@
           "is_new": false
         },
         {
-          "title": "exception template",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4941617/exception-template_saint-louis/",
+          "title": "service line principal",
+          "url": "https://www.randstadusa.com/jobs/1027/52418/service-line-principal_united-states/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "a510b4eca25f",
-          "discovered_at": "2026-06-06T16:07:31.067315+00:00",
-          "is_new": true
+          "_hash": "d4f96f43bb6c",
+          "discovered_at": "2026-06-06T16:07:31.067299+00:00",
+          "is_new": false
         },
         {
-          "title": "inside sales specialist",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4953787/inside-sales-specialist_fort-lauderdale/",
+          "title": "vp, revenue cycle management",
+          "url": "https://www.randstadusa.com/jobs/1037/512047/vp-revenue-cycle-management_emeryville/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "5494c3674e63",
-          "discovered_at": "2026-06-06T16:07:31.067319+00:00",
-          "is_new": true
+          "_hash": "79fa58f7e536",
+          "discovered_at": "2026-06-06T16:07:31.067296+00:00",
+          "is_new": false
         },
         {
           "title": "2nd shift",
@@ -617,7 +617,7 @@
           "firm": "Randstad",
           "_hash": "085ae2c04784",
           "discovered_at": "2026-06-06T16:07:31.067322+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "assembler - now hiring",
@@ -626,7 +626,7 @@
           "firm": "Randstad",
           "_hash": "3186d61e4e46",
           "discovered_at": "2026-06-06T16:07:31.067325+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sanitor",
@@ -635,7 +635,7 @@
           "firm": "Randstad",
           "_hash": "891e3b0b67d9",
           "discovered_at": "2026-06-06T16:07:31.067328+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "accounts payable clerk",
@@ -644,7 +644,7 @@
           "firm": "Randstad",
           "_hash": "9723ef37cbd5",
           "discovered_at": "2026-06-06T16:07:31.067331+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "business development manager: products and services",
@@ -653,7 +653,7 @@
           "firm": "Randstad",
           "_hash": "6c0d9c735f24",
           "discovered_at": "2026-06-06T16:07:31.067334+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "director of business development - data centers - remote",
@@ -662,7 +662,7 @@
           "firm": "Randstad",
           "_hash": "d3a518dda7b2",
           "discovered_at": "2026-06-06T16:07:31.067337+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "regional account sales manager",
@@ -671,7 +671,7 @@
           "firm": "Randstad",
           "_hash": "d13ce6680b22",
           "discovered_at": "2026-06-06T16:07:31.067340+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "account manager",
@@ -680,7 +680,7 @@
           "firm": "Randstad",
           "_hash": "8dffc6935379",
           "discovered_at": "2026-06-06T16:07:31.067343+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "manager of operational sales performance",
@@ -689,7 +689,7 @@
           "firm": "Randstad",
           "_hash": "7c30a6a7c473",
           "discovered_at": "2026-06-06T16:07:31.067347+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "category manager",
@@ -698,7 +698,7 @@
           "firm": "Randstad",
           "_hash": "c14b9dfe2030",
           "discovered_at": "2026-06-06T16:07:31.067350+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "edp solution architect",
@@ -707,7 +707,7 @@
           "firm": "Randstad",
           "_hash": "aed41f233aba",
           "discovered_at": "2026-06-06T16:07:31.067353+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "l and d measurement and analytics 2",
@@ -716,7 +716,7 @@
           "firm": "Randstad",
           "_hash": "32e9a5ddd044",
           "discovered_at": "2026-06-06T16:07:31.067355+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
