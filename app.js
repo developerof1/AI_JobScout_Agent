@@ -410,9 +410,8 @@ function renderContractingSection() {
   firmsList.innerHTML = contractingData.firms.map(firm => {
     const allJobs = firm.jobs || [];
     const visibleJobs = showHidden ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
-    if (!visibleJobs.length && !showHidden) return "";
 
-    const jobsHtml = visibleJobs.map(j => {
+    const jobsHtml = visibleJobs.length ? visibleJobs.map(j => {
       const isHidden = hidden.has(j._hash);
       const newBadge = j.is_new ? `<span class="badge badge-new">NEW</span>` : "";
       const hiddenIndicator = isHidden ? `<span class="contracting-hidden-label">Hidden</span>` : "";
@@ -433,7 +432,7 @@ function renderContractingSection() {
     ${newBadge}${hiddenIndicator}${viewBtn}${hideBtn}
   </div>
 </div>`;
-    }).join("");
+    }).join("") : `<div class="firm-empty">No matching jobs found</div>`;
 
     const visibleCount = allJobs.filter(j => !hidden.has(j._hash)).length;
     return `
