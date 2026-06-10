@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-06-09T16:31:44.344035+00:00",
+  "last_run": "2026-06-10T00:10:44.562547+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-06-10T00:09:14.029040+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Management Consultant",
           "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
@@ -35,30 +44,12 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4950885/program-manager_washington/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "9f2a0a837ae6",
-          "discovered_at": "2026-06-05T18:02:01.986301+00:00",
-          "is_new": false
-        },
-        {
           "title": "lead it project manager",
           "url": "https://www.randstadusa.com/jobs/4/1335083/lead-it-project-manager_saint-louis/",
           "location": "",
           "firm": "Randstad",
           "_hash": "4a4a342d69b0",
           "discovered_at": "2026-06-05T18:02:01.986287+00:00",
-          "is_new": false
-        },
-        {
-          "title": "regulatory submissions project manager",
-          "url": "https://www.randstadusa.com/jobs/137/53740/regulatory-submissions-project-manager_south-san-francisco/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "9cd121185e8d",
-          "discovered_at": "2026-06-05T18:02:01.986297+00:00",
           "is_new": false
         },
         {
@@ -71,13 +62,49 @@
           "is_new": false
         },
         {
+          "title": "regulatory submissions project manager",
+          "url": "https://www.randstadusa.com/jobs/137/53740/regulatory-submissions-project-manager_south-san-francisco/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9cd121185e8d",
+          "discovered_at": "2026-06-05T18:02:01.986297+00:00",
+          "is_new": false
+        },
+        {
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4950885/program-manager_washington/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-06-05T18:02:01.986301+00:00",
+          "is_new": false
+        },
+        {
+          "title": "construction project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1108925/construction-project-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "ba4ffebf3831",
+          "discovered_at": "2026-06-09T00:03:31.495329+00:00",
+          "is_new": false
+        },
+        {
           "title": "it project manager ii",
           "url": "https://www.randstadusa.com/jobs/4/1334192/it-project-manager-ii_valmy/",
           "location": "",
           "firm": "Randstad",
           "_hash": "dc37701a2285",
           "discovered_at": "2026-06-09T16:31:44.344000+00:00",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "hr project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4947239/hr-project-manager_lakeland/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "d95f030ebb7e",
+          "discovered_at": "2026-06-05T18:02:01.986304+00:00",
+          "is_new": false
         },
         {
           "title": "senior project manager",
@@ -98,39 +125,12 @@
           "is_new": false
         },
         {
-          "title": "hr project manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4947239/hr-project-manager_lakeland/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "d95f030ebb7e",
-          "discovered_at": "2026-06-05T18:02:01.986304+00:00",
-          "is_new": false
-        },
-        {
-          "title": "construction project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1108925/construction-project-manager_houston/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ba4ffebf3831",
-          "discovered_at": "2026-06-09T00:03:31.495329+00:00",
-          "is_new": false
-        },
-        {
           "title": "sr. product manager",
           "url": "https://www.randstadusa.com/jobs/4/1330404/sr-product-manager_royal-palm-beach/",
           "location": "",
           "firm": "Randstad",
           "_hash": "a91d33895675",
           "discovered_at": "2026-06-05T18:02:01.986327+00:00",
-          "is_new": false
-        },
-        {
-          "title": "traveling concrete project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1107755/traveling-concrete-project-manager_houston/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "50a3f5831aa3",
-          "discovered_at": "2026-06-05T18:02:01.986315+00:00",
           "is_new": false
         }
       ]
