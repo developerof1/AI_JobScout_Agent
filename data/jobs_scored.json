@@ -1,9 +1,9 @@
 {
   "_metadata": {
-    "last_run": "2026-06-10T23:24:59.255127+00:00",
+    "last_run": "2026-06-11T06:49:13.659494+00:00",
     "run_number": 4,
-    "total_jobs": 14,
-    "scored_this_run": 0
+    "total_jobs": 15,
+    "scored_this_run": 1
   },
   "jobs": [
     {
@@ -465,6 +465,54 @@
       "red_flags": [
         "No direct Chief of Staff experience and limited government/defense sector exposure",
         "Requires active SECRET clearance which candidate may not possess"
+      ],
+      "confidence": "low"
+    },
+    {
+      "title": "Chief of Staff/PM with Security Clearance",
+      "company": "KBR",
+      "location": "Washington, D.C., US",
+      "description": "Title: Chief of Staff/PM Belong. Connect. Grow. with KBR! KBR's National Security Solutions team provides high-end engineering and advanced technology solutions to our customers in the intelligence and national security communities. In this position, your work will have a profound impact on the country's most critical role - protecting our national security. Why Join Us? * Innovative Projects: KBR's work is at the forefront of engineering, logistics, operations, science, program management, mis\u2026",
+      "url": "https://www.adzuna.com/land/ad/5759535120?se=dOyjpWFl8RGxSPb0W2rJQQ&utm_medium=api&utm_source=0f9d6273&v=7455DC993E91F52953B0FD25856759FB1D719CBD",
+      "posted_date": "2026-06-11T00:48:25Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-11T06:49:12.732074+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-11T06:49:13.659494+00:00"
+      },
+      "_hash": "efc5edcd697af67c",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 25,
+      "primary_resume": 7,
+      "primary_resume_name": "TPM - General",
+      "primary_resume_file": "satwik_bardhan_tpm_general.pdf",
+      "reasoning": "The TPM - General resume provides the best match for program management aspects of this Chief of Staff/PM role, with executive-level experience reporting to C-suite and strong delivery track record. However, the role requires security clearance and national security domain expertise that none of the resumes possess, significantly limiting the overall fit.",
+      "backup_resume": 4,
+      "backup_resume_name": "Executive Leadership - Healthcare",
+      "backup_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "backup_reasoning": "The executive leadership experience and C-suite partnership could translate well to a Chief of Staff role, though still lacks the security clearance and government contracting background required.",
+      "breakdown": {
+        "title_match": 10,
+        "seniority_match": 15,
+        "domain_match": 0,
+        "experience_match": 10,
+        "adjustments": -10
+      },
+      "highlights": [
+        "Executive-level experience reporting directly to C-suite",
+        "Strong program management track record with $8M+ transformations",
+        "Domain-agnostic expertise showing adaptability"
+      ],
+      "red_flags": [
+        "No security clearance mentioned",
+        "No national security or government contracting experience",
+        "Significant domain mismatch with defense/intelligence sector"
       ],
       "confidence": "low"
     },
