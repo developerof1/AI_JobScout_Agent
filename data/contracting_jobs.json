@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-11T00:13:58.114223+00:00",
+  "last_run": "2026-06-11T17:37:22.923085+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -28,35 +28,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Infrastructure Project Manager",
-          "url": "https://www.ptechpartners.com/job/ann-arbor-mi/infrastructure-project-manager/105921",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "165e1b14a484",
-          "discovered_at": "2026-06-11T00:12:53.589148+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Oracle Fusion ERP Project Manager",
-          "url": "https://www.ptechpartners.com/job/ann-arbor-mi/oracle-fusion-erp-project-manager/105920",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "bd2c94431711",
-          "discovered_at": "2026-06-10T16:57:22.770768+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager/105884",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "76f1e10f904a",
-          "discovered_at": "2026-06-10T16:57:22.770782+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
