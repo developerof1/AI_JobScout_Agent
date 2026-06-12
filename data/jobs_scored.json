@@ -1,9 +1,9 @@
 {
   "_metadata": {
-    "last_run": "2026-06-12T16:12:08.295131+00:00",
+    "last_run": "2026-06-12T20:06:30.672092+00:00",
     "run_number": 4,
     "total_jobs": 17,
-    "scored_this_run": 1
+    "scored_this_run": 0
   },
   "jobs": [
     {
@@ -340,7 +340,7 @@
       "metadata": {
         "run_number": 4,
         "discovered_at": "2026-06-12T16:12:07.343355+00:00",
-        "is_new_since_last_run": true,
+        "is_new_since_last_run": false,
         "age_hours": 0.0,
         "scored_at": "2026-06-12T16:12:08.295131+00:00"
       },
