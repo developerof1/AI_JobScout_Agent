@@ -1,9 +1,9 @@
 {
   "_metadata": {
-    "last_run": "2026-06-13T14:56:12.748956+00:00",
+    "last_run": "2026-06-13T19:21:14.008119+00:00",
     "run_number": 4,
-    "total_jobs": 17,
-    "scored_this_run": 0
+    "total_jobs": 18,
+    "scored_this_run": 1
   },
   "jobs": [
     {
@@ -95,6 +95,52 @@
       ],
       "red_flags": [
         "No direct advertising or e-commerce technology experience"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "Director of Product Management",
+      "company": "LawnStarter",
+      "location": "California, US",
+      "description": "About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We operate across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform, and we've been profitable for two years running. We're expanding beyond lawn care to become the one-stop shop for all home services. About Product at LawnStarter Home services is a massive, broken market. For homeowners, getting reliable, fairly priced s\u2026",
+      "url": "https://www.adzuna.com/details/5762238164?utm_medium=api&utm_source=0f9d6273",
+      "posted_date": "2026-06-13T03:30:00Z",
+      "source": "adzuna",
+      "tier": "tier2",
+      "metadata": {
+        "run_number": 4,
+        "discovered_at": "2026-06-13T19:21:13.127813+00:00",
+        "is_new_since_last_run": true,
+        "age_hours": 0.0,
+        "scored_at": "2026-06-13T19:21:14.008119+00:00"
+      },
+      "_hash": "36ba9450d0959868",
+      "sources": [
+        "adzuna"
+      ],
+      "score": 75,
+      "primary_resume": 4,
+      "primary_resume_name": "Executive Leadership - Healthcare",
+      "primary_resume_file": "satwik_bardhan_executive_leadership_healthcare.pdf",
+      "reasoning": "Resume 4 provides the best match with Director-level seniority and VP/Director target titles aligning perfectly with the Director of Product Management role. The executive leadership experience in healthcare technology and PE-backed environments demonstrates the strategic product leadership needed for LawnStarter's marketplace platform expansion.",
+      "backup_resume": 5,
+      "backup_resume_name": "Executive Leadership - Fintech",
+      "backup_resume_file": "satwik_bardhan_executive_leadership_fintech.pdf",
+      "backup_reasoning": "Resume 5 offers similar executive-level product leadership with strong marketplace/platform experience through the MarketCue fintech platform, plus venture capital perspective that could be valuable for strategic product decisions.",
+      "breakdown": {
+        "title_match": 35,
+        "seniority_match": 20,
+        "domain_match": 10,
+        "experience_match": 15,
+        "adjustments": -5
+      },
+      "highlights": [
+        "Perfect seniority match with Director/VP-level target titles for Director of Product Management role",
+        "Strong marketplace platform experience managing $3M+ revenue across 20+ clients at Chronicled",
+        "PE-backed company transformation experience with C-suite partnership relevant for profitable, scaling LawnStarter"
+      ],
+      "red_flags": [
+        "No direct home services or on-demand marketplace experience in lawn care/outdoor services domain"
       ],
       "confidence": "medium"
     },
