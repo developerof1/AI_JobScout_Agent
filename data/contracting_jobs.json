@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-15T18:24:55.223108+00:00",
+  "last_run": "2026-06-16T00:28:53.734980+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -68,7 +68,7 @@
           "firm": "Randstad",
           "_hash": "4ef7a9ee48b3",
           "discovered_at": "2026-06-15T18:24:55.221608+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "program manager",
