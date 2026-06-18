@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-18T00:15:18.947013+00:00",
+  "last_run": "2026-06-18T16:56:23.938053+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -28,26 +28,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Sr. Project Manager",
-          "url": "https://www.ptechpartners.com/job/chicago-il/sr-project-manager/105932",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "d062ff781bb6",
-          "discovered_at": "2026-06-17T00:13:55.834556+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Oracle ERP Project Manager/BA",
-          "url": "https://www.ptechpartners.com/job/ann-arbor-mi/oracle-erp-project-manager-ba/105920",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "2ef4f678e7dd",
-          "discovered_at": "2026-06-17T16:54:21.484094+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -99,22 +80,13 @@
           "is_new": false
         },
         {
-          "title": "hr project manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4947239/hr-project-manager_lakeland/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "d95f030ebb7e",
-          "discovered_at": "2026-06-05T18:02:01.986304+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager (ghx/lawson/workday)",
           "url": "https://www.randstadusa.com/jobs/4/1336940/project-manager-ghx-lawson-workday_sacramento/",
           "location": "",
           "firm": "Randstad",
           "_hash": "162df122a4a7",
           "discovered_at": "2026-06-18T00:15:18.946980+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager",
