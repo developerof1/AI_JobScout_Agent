@@ -1,19 +1,10 @@
 {
-  "last_run": "2026-06-17T16:55:49.287648+00:00",
+  "last_run": "2026-06-18T00:15:18.947013+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-06-10T00:09:14.029040+00:00",
-          "is_new": false
-        },
         {
           "title": "Project Management Consultant",
           "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
@@ -21,6 +12,15 @@
           "firm": "LaSalle Network",
           "_hash": "e75b105a5d6b",
           "discovered_at": "2026-06-04T13:32:34.829086+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-06-10T00:09:14.029040+00:00",
           "is_new": false
         }
       ]
@@ -45,7 +45,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "2ef4f678e7dd",
           "discovered_at": "2026-06-17T16:54:21.484094+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -53,6 +53,24 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "construction project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1109120/construction-project-manager_northbrook/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "ba4ffebf3831",
+          "discovered_at": "2026-06-09T00:03:31.495329+00:00",
+          "is_new": false
+        },
+        {
+          "title": "ehr (medicaid and medicare) it project manager 3337",
+          "url": "https://www.randstadusa.com/jobs/4/1336586/ehr-medicaid-and-medicare-it-project-manager-3337_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "4ef7a9ee48b3",
+          "discovered_at": "2026-06-15T18:24:55.221608+00:00",
+          "is_new": false
+        },
         {
           "title": "project manager iv",
           "url": "https://www.randstadusa.com/jobs/308/ab_4953314/project-manager-iv_bronx/",
@@ -69,24 +87,6 @@
           "firm": "Randstad",
           "_hash": "9cd121185e8d",
           "discovered_at": "2026-06-05T18:02:01.986297+00:00",
-          "is_new": false
-        },
-        {
-          "title": "ehr (medicaid and medicare) it project manager 3337",
-          "url": "https://www.randstadusa.com/jobs/4/1336586/ehr-medicaid-and-medicare-it-project-manager-3337_saint-louis/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "4ef7a9ee48b3",
-          "discovered_at": "2026-06-15T18:24:55.221608+00:00",
-          "is_new": false
-        },
-        {
-          "title": "construction project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1108925/construction-project-manager_houston/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ba4ffebf3831",
-          "discovered_at": "2026-06-09T00:03:31.495329+00:00",
           "is_new": false
         },
         {
@@ -108,13 +108,22 @@
           "is_new": false
         },
         {
+          "title": "project manager (ghx/lawson/workday)",
+          "url": "https://www.randstadusa.com/jobs/4/1336940/project-manager-ghx-lawson-workday_sacramento/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "162df122a4a7",
+          "discovered_at": "2026-06-18T00:15:18.946980+00:00",
+          "is_new": true
+        },
+        {
           "title": "project manager",
           "url": "https://www.randstadusa.com/jobs/141/1109098/project-manager_minneapolis/",
           "location": "",
           "firm": "Randstad",
           "_hash": "267a9c97415f",
           "discovered_at": "2026-06-17T16:55:49.287629+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "sr. product manager",
@@ -124,15 +133,6 @@
           "_hash": "a91d33895675",
           "discovered_at": "2026-06-05T18:02:01.986327+00:00",
           "is_new": false
-        },
-        {
-          "title": "Page 2 - 36 product manager jobs found in chicago, illinois",
-          "url": "",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "1609a12114d9",
-          "discovered_at": "2026-06-17T16:55:49.287634+00:00",
-          "is_new": true
         }
       ]
     }
