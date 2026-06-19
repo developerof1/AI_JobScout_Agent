@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T00:24:28.832834+00:00",
+  "last_run": "2026-06-19T16:32:59.343824+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "fa00c9a4245c",
           "discovered_at": "2026-06-19T00:23:15.484103+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Management Consultant",
@@ -53,15 +53,6 @@
           "is_new": false
         },
         {
-          "title": "ehr (medicaid and medicare) it project manager 3337",
-          "url": "https://www.randstadusa.com/jobs/4/1336586/ehr-medicaid-and-medicare-it-project-manager-3337_saint-louis/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "4ef7a9ee48b3",
-          "discovered_at": "2026-06-15T18:24:55.221608+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager iv",
           "url": "https://www.randstadusa.com/jobs/308/ab_4953314/project-manager-iv_bronx/",
           "location": "",
@@ -86,7 +77,7 @@
           "firm": "Randstad",
           "_hash": "2478f255303a",
           "discovered_at": "2026-06-19T00:24:28.832803+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it project manager ii",
@@ -116,13 +107,13 @@
           "is_new": false
         },
         {
-          "title": "sr. product manager",
-          "url": "https://www.randstadusa.com/jobs/4/1330404/sr-product-manager_royal-palm-beach/",
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4961576/program-manager_durham/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "a91d33895675",
-          "discovered_at": "2026-06-05T18:02:01.986327+00:00",
-          "is_new": false
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-06-19T16:32:59.343810+00:00",
+          "is_new": true
         }
       ]
     }
