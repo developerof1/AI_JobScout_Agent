@@ -1,18 +1,18 @@
 {
-  "last_run": "2026-06-23T00:03:14.658510+00:00",
+  "last_run": "2026-06-23T16:27:43.851543+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "Cyber Security Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "fa00c9a4245c",
-          "discovered_at": "2026-06-19T00:23:15.484103+00:00",
-          "is_new": false
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-06-23T16:26:38.607333+00:00",
+          "is_new": true
         },
         {
           "title": "Project Management Consultant",
@@ -21,6 +21,15 @@
           "firm": "LaSalle Network",
           "_hash": "e75b105a5d6b",
           "discovered_at": "2026-06-04T13:32:34.829086+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Cyber Security Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "fa00c9a4245c",
+          "discovered_at": "2026-06-19T00:23:15.484103+00:00",
           "is_new": false
         },
         {
@@ -37,26 +46,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "AI Project Manager",
-          "url": "https://www.ptechpartners.com/job/remote-usa/ai-project-manager/105883",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "75e845b490a1",
-          "discovered_at": "2026-06-22T18:11:43.989378+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Tank Project Manager",
-          "url": "https://www.ptechpartners.com/job/atlanta-ga/tank-project-manager/105943",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "2f1695679aa6",
-          "discovered_at": "2026-06-22T18:11:43.989359+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
