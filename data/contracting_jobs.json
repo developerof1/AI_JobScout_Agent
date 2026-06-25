@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-06-25T00:07:41.630614+00:00",
+  "last_run": "2026-06-25T16:22:52.552101+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Cyber Security Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "fa00c9a4245c",
+          "discovered_at": "2026-06-19T00:23:15.484103+00:00",
+          "is_new": false
+        },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
           "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
@@ -12,15 +21,6 @@
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-06-23T16:26:38.607333+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Management Consultant",
-          "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e75b105a5d6b",
-          "discovered_at": "2026-06-04T13:32:34.829086+00:00",
           "is_new": false
         },
         {
@@ -33,12 +33,12 @@
           "is_new": false
         },
         {
-          "title": "Cyber Security Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
+          "title": "Project Management Consultant",
+          "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "fa00c9a4245c",
-          "discovered_at": "2026-06-19T00:23:15.484103+00:00",
+          "_hash": "e75b105a5d6b",
+          "discovered_at": "2026-06-04T13:32:34.829086+00:00",
           "is_new": false
         }
       ]
