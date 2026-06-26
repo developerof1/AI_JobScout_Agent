@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-25T16:22:52.552101+00:00",
+  "last_run": "2026-06-26T00:07:49.011779+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,15 +30,6 @@
           "firm": "LaSalle Network",
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-06-24T16:16:29.970711+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Management Consultant",
-          "url": "https://www.thelasallenetwork.com/jobs/project-management-consultant-161661/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e75b105a5d6b",
-          "discovered_at": "2026-06-04T13:32:34.829086+00:00",
           "is_new": false
         }
       ]
@@ -105,6 +96,15 @@
           "_hash": "dc37701a2285",
           "discovered_at": "2026-06-09T16:31:44.344000+00:00",
           "is_new": false
+        },
+        {
+          "title": "project manager, marketing",
+          "url": "https://www.randstadusa.com/jobs/4/1336326/project-manager-marketing_pasadena/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "6fb8ba3b834f",
+          "discovered_at": "2026-06-26T00:07:49.011760+00:00",
+          "is_new": true
         },
         {
           "title": "program manager",
