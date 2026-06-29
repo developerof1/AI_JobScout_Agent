@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-29T00:05:34.068516+00:00",
+  "last_run": "2026-06-29T16:56:28.757965+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -59,15 +59,6 @@
           "firm": "Randstad",
           "_hash": "9cd121185e8d",
           "discovered_at": "2026-06-05T18:02:01.986297+00:00",
-          "is_new": false
-        },
-        {
-          "title": "technical program manager 4 - web operations & launches",
-          "url": "https://www.randstadusa.com/jobs/4/1337820/technical-program-manager-4-web-operations-launches_mountain-view/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "2111b9d1060b",
-          "discovered_at": "2026-06-26T16:15:13.615252+00:00",
           "is_new": false
         },
         {
