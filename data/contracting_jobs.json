@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-06-30T00:01:41.442283+00:00",
+  "last_run": "2026-06-30T16:23:41.959322+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-06-24T16:16:29.970711+00:00",
+          "is_new": false
+        },
         {
           "title": "Cyber Security Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
@@ -21,15 +30,6 @@
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-06-23T16:26:38.607333+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-06-24T16:16:29.970711+00:00",
           "is_new": false
         }
       ]
