@@ -327,6 +327,8 @@ body {
   border-bottom: 1px solid var(--border);
 }
 .firm-header h3 { font-size: 15px; font-weight: 700; color: var(--text); }
+.firm-link { color: var(--blue); text-decoration: none; transition: opacity 0.15s; }
+.firm-link:hover { opacity: 0.8; text-decoration: underline; }
 
 .firm-jobs {
   display: flex;
