@@ -438,7 +438,7 @@ function renderContractingSection() {
     return `
 <div class="firm-group">
   <div class="firm-header">
-    <h3>${escHtml(firm.name)}</h3>
+    <h3><a href="${escAttr(firm.url)}" target="_blank" class="firm-link">${escHtml(firm.name)}</a></h3>
     <span class="section-badge">${visibleCount}</span>
   </div>
   <div class="firm-jobs">${jobsHtml}</div>
