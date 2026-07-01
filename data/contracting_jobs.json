@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T00:04:29.446308+00:00",
+  "last_run": "2026-07-01T16:26:32.560288+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "5f435421be41",
           "discovered_at": "2026-07-01T00:03:22.737697+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager",
@@ -37,30 +37,22 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "High Voltage Transmission Project Manager",
+          "url": "https://www.ptechpartners.com/job/remote-usa/high-voltage-transmission-project-manager/105974",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "2892b492004a",
+          "discovered_at": "2026-07-01T16:24:54.298950+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "project manager iv",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4953314/project-manager-iv_bronx/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "f23b4cd8fdd6",
-          "discovered_at": "2026-06-05T18:02:01.986292+00:00",
-          "is_new": false
-        },
-        {
-          "title": "regulatory submissions project manager",
-          "url": "https://www.randstadusa.com/jobs/137/53740/regulatory-submissions-project-manager_south-san-francisco/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "9cd121185e8d",
-          "discovered_at": "2026-06-05T18:02:01.986297+00:00",
-          "is_new": false
-        },
         {
           "title": "hr project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_4963331/hr-project-manager_houston/",
@@ -95,7 +87,7 @@
           "firm": "Randstad",
           "_hash": "911ef6fcef35",
           "discovered_at": "2026-07-01T00:04:29.446292+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
