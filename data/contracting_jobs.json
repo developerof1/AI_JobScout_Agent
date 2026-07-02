@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-01T16:26:32.560288+00:00",
+  "last_run": "2026-07-02T00:05:19.359569+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -22,15 +22,6 @@
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-06-24T16:16:29.970711+00:00",
           "is_new": false
-        },
-        {
-          "title": "Cyber Security Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/cyber-security-project-manager-161679/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "fa00c9a4245c",
-          "discovered_at": "2026-06-19T00:23:15.484103+00:00",
-          "is_new": false
         }
       ]
     },
@@ -45,7 +36,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "2892b492004a",
           "discovered_at": "2026-07-01T16:24:54.298950+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -72,6 +63,15 @@
           "is_new": false
         },
         {
+          "title": "healthcare it program manager - mergers and acquisitions",
+          "url": "https://www.randstadusa.com/jobs/4/1338235/healthcare-it-program-manager-mergers-and-acquisitions_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "48c27da11f47",
+          "discovered_at": "2026-07-02T00:05:19.359548+00:00",
+          "is_new": true
+        },
+        {
           "title": "program manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_4961576/program-manager_durham/",
           "location": "",
@@ -81,13 +81,13 @@
           "is_new": false
         },
         {
-          "title": "ps_technical_project manager (senior) carmignani 1266",
-          "url": "https://www.randstadusa.com/jobs/4/1338111/ps-technical-project-manager-senior-carmignani-1266_ashburn/",
+          "title": "senior technical program manager ii",
+          "url": "https://www.randstadusa.com/jobs/4/1338389/senior-technical-program-manager-ii_new-york/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "911ef6fcef35",
-          "discovered_at": "2026-07-01T00:04:29.446292+00:00",
-          "is_new": false
+          "_hash": "28a2b46f4d80",
+          "discovered_at": "2026-07-02T00:05:19.359555+00:00",
+          "is_new": true
         }
       ]
     }
