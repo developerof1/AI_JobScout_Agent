@@ -56,19 +56,17 @@ def _fetch_html_requests(url: str) -> str | None:
 
 def _fetch_html_selenium(url: str) -> str | None:
     try:
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
+        import undetected_chromedriver as uc
 
-        opts = Options()
-        opts.add_argument("--headless")
+        opts = uc.ChromeOptions()
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument(f"user-agent={HEADERS['User-Agent']}")
 
-        driver = webdriver.Chrome(options=opts)
+        driver = uc.Chrome(options=opts, headless=True, version_main=None)
         driver.set_page_load_timeout(30)
         driver.get(url)
-        time.sleep(3)
+        time.sleep(5)
         html = driver.page_source
         driver.quit()
         return html
@@ -80,12 +78,10 @@ def _fetch_html_selenium(url: str) -> str | None:
 def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages: int, skip_keyword_filter: bool = False) -> list[dict]:
     """Load page once via Selenium, then click Next to paginate — preserves JS filter state."""
     try:
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
+        import undetected_chromedriver as uc
         from selenium.webdriver.common.by import By
 
-        opts = Options()
-        opts.add_argument("--headless")
+        opts = uc.ChromeOptions()
         opts.add_argument("--no-sandbox")
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument(f"user-agent={HEADERS['User-Agent']}")
@@ -94,10 +90,10 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
         all_jobs: list[dict] = []
         seen_titles: set[str] = set()
 
-        driver = webdriver.Chrome(options=opts)
+        driver = uc.Chrome(options=opts, headless=True, version_main=None)
         driver.set_page_load_timeout(30)
         driver.get(start_url)
-        time.sleep(3)
+        time.sleep(5)
 
         for page_num in range(1, max_pages + 1):
             page_jobs = _extract_jobs(driver.page_source, base_url, keywords, skip_keyword_filter)
