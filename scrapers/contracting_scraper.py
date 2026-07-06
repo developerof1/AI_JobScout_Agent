@@ -40,8 +40,13 @@ LOCATION_HINTS = [
 ]
 
 
-def _make_hash(firm_name: str, title: str) -> str:
-    key = f"{firm_name.lower()}|{title.lower()}"
+def _job_key(job: dict) -> str:
+    """Dedup key — URL is unique per posting; title alone collapses same-title jobs in different cities."""
+    return job.get("url") or job["title"].lower()
+
+
+def _make_hash(firm_name: str, title: str, url: str = "") -> str:
+    key = f"{firm_name.lower()}|{title.lower()}|{url}"
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
@@ -101,7 +106,7 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
 
         base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
         all_jobs: list[dict] = []
-        seen_titles: set[str] = set()
+        seen_keys: set[str] = set()
 
         driver = uc.Chrome(options=opts, headless=True, version_main=_get_chrome_major_version())
         driver.set_page_load_timeout(30)
@@ -110,9 +115,9 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
 
         for page_num in range(1, max_pages + 1):
             page_jobs = _extract_jobs(driver.page_source, base_url, keywords, skip_keyword_filter)
-            new_jobs = [j for j in page_jobs if j["title"].lower() not in seen_titles]
+            new_jobs = [j for j in page_jobs if _job_key(j) not in seen_keys]
             for j in new_jobs:
-                seen_titles.add(j["title"].lower())
+                seen_keys.add(_job_key(j))
             all_jobs.extend(new_jobs)
             print(f"    page {page_num}: {len(new_jobs)} new match(es)")
 
@@ -183,13 +188,13 @@ def _extract_location(heading_tag) -> str:
 def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_filter: bool = False) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     jobs = []
-    seen_titles: set[str] = set()
+    seen_keys: set[str] = set()
 
     # Strategy 1: heading tags inside or adjacent to <a> tags
     for tag_name in ("h3", "h2", "h4", "h1"):
         for heading in soup.find_all(tag_name):
             title = heading.get_text(strip=True)
-            if not title or title.lower() in seen_titles:
+            if not title:
                 continue
             if re.search(r'^\d+\s+.+\bjobs?\b', title.lower()):
                 continue
@@ -201,8 +206,12 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_fi
             if link and link.get("href"):
                 job_url = urljoin(base_url, link["href"])
 
+            key = job_url or title.lower()
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
+
             location = _extract_location(heading)
-            seen_titles.add(title.lower())
             jobs.append({"title": title, "url": job_url, "location": location})
 
         if jobs:
@@ -214,12 +223,16 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_fi
         if not any(p in cls.lower() for p in ("job", "position", "title", "role", "career")):
             continue
         title = a.get_text(strip=True)
-        if not title or title.lower() in seen_titles:
+        if not title:
             continue
         if not any(kw in title.lower() for kw in keywords):
             continue
-        seen_titles.add(title.lower())
-        jobs.append({"title": title, "url": urljoin(base_url, a["href"]), "location": ""})
+        job_url = urljoin(base_url, a["href"])
+        key = job_url or title.lower()
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        jobs.append({"title": title, "url": job_url, "location": ""})
 
     return jobs
 
@@ -232,7 +245,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
     url_list = firm.get("urls") or [firm["url"]]
 
     all_jobs: list[dict] = []
-    seen_titles: set[str] = set()
+    seen_keys: set[str] = set()
 
     for i, start_url in enumerate(url_list):
         base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
@@ -254,7 +267,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
                     break
                 soup = BeautifulSoup(html, "html.parser")
                 for job in _extract_jobs(html, base_url, keywords, skip_kw):
-                    if job["title"].lower() not in seen_titles:
+                    if _job_key(job) not in seen_keys:
                         url_jobs.append(job)
                 current_url = _find_next_page(soup, current_url)
                 page_num += 1
@@ -262,8 +275,9 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
                     time.sleep(random.uniform(0.5, 1.0))
 
         for job in url_jobs:
-            if job["title"].lower() not in seen_titles:
-                seen_titles.add(job["title"].lower())
+            key = _job_key(job)
+            if key not in seen_keys:
+                seen_keys.add(key)
                 all_jobs.append(job)
 
         if i < len(url_list) - 1:
@@ -271,7 +285,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
 
     for job in all_jobs:
         job["firm"] = name
-        job["_hash"] = _make_hash(name, job["title"])
+        job["_hash"] = _make_hash(name, job["title"], job.get("url", ""))
         job["discovered_at"] = datetime.now(timezone.utc).isoformat()
 
     print(f"  [contracting] {name}: {len(all_jobs)} matching jobs")
