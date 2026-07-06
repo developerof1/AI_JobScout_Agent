@@ -10,6 +10,7 @@ Output:  data/contracting_jobs.json
 import hashlib
 import json
 import re
+import subprocess
 import time
 import random
 from datetime import datetime, timezone
@@ -44,6 +45,18 @@ def _make_hash(firm_name: str, title: str) -> str:
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
+def _get_chrome_major_version() -> int | None:
+    for cmd in (["google-chrome", "--version"], ["google-chrome-stable", "--version"], ["chromium-browser", "--version"]):
+        try:
+            out = subprocess.check_output(cmd, stderr=subprocess.DEVNULL).decode()
+            match = re.search(r'(\d+)\.', out)
+            if match:
+                return int(match.group(1))
+        except Exception:
+            continue
+    return None
+
+
 def _fetch_html_requests(url: str) -> str | None:
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -63,7 +76,7 @@ def _fetch_html_selenium(url: str) -> str | None:
         opts.add_argument("--disable-dev-shm-usage")
         opts.add_argument(f"user-agent={HEADERS['User-Agent']}")
 
-        driver = uc.Chrome(options=opts, headless=True, version_main=None)
+        driver = uc.Chrome(options=opts, headless=True, version_main=_get_chrome_major_version())
         driver.set_page_load_timeout(30)
         driver.get(url)
         time.sleep(5)
@@ -90,7 +103,7 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
         all_jobs: list[dict] = []
         seen_titles: set[str] = set()
 
-        driver = uc.Chrome(options=opts, headless=True, version_main=None)
+        driver = uc.Chrome(options=opts, headless=True, version_main=_get_chrome_major_version())
         driver.set_page_load_timeout(30)
         driver.get(start_url)
         time.sleep(5)
