@@ -146,8 +146,18 @@ def _find_next_page(soup, current_url: str) -> str | None:
     return None
 
 
+LOCATION_PATTERN = re.compile(r',\s*[A-Z]{2}\b(?:,?\s*\d{5})?\s*$')
+
+
 def _extract_location(heading_tag) -> str:
-    for element in heading_tag.next_siblings:
+    candidates = list(heading_tag.next_siblings)
+    parent = heading_tag.parent
+    if parent and parent.name == "a":
+        # heading is the sole content of a wrapping <a> — location is likely
+        # a sibling of the <a> tag itself, not of the heading (e.g. Mondo)
+        candidates += list(parent.next_siblings)
+
+    for element in candidates:
         text = (
             element.get_text(strip=True)
             if hasattr(element, "get_text")
@@ -156,7 +166,7 @@ def _extract_location(heading_tag) -> str:
         if not text or len(text) > 120:
             continue
         text_lower = text.lower()
-        if any(hint in text_lower for hint in LOCATION_HINTS):
+        if any(hint in text_lower for hint in LOCATION_HINTS) or LOCATION_PATTERN.search(text):
             return text
     return ""
 

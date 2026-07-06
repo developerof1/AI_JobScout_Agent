@@ -29,6 +29,13 @@
       "active": true,
       "requires_js": true,
       "max_pages": 3
+    },
+    {
+      "name": "Mondo",
+      "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
+      "active": true,
+      "requires_js": true,
+      "max_pages": 4
     }
   ]
 }
