@@ -45,8 +45,8 @@ def _job_key(job: dict) -> str:
     return job.get("url") or job["title"].lower()
 
 
-def _make_hash(firm_name: str, title: str, url: str = "") -> str:
-    key = f"{firm_name.lower()}|{title.lower()}|{url}"
+def _make_hash(firm_name: str, title: str) -> str:
+    key = f"{firm_name.lower()}|{title.lower()}"
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
@@ -285,7 +285,7 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
 
     for job in all_jobs:
         job["firm"] = name
-        job["_hash"] = _make_hash(name, job["title"], job.get("url", ""))
+        job["_hash"] = _make_hash(name, job["title"])
         job["discovered_at"] = datetime.now(timezone.utc).isoformat()
 
     print(f"  [contracting] {name}: {len(all_jobs)} matching jobs")
