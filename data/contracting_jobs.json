@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-07T23:57:55.522818+00:00",
+  "last_run": "2026-07-08T14:36:13.534907+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -15,6 +15,15 @@
           "is_new": false
         },
         {
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-07-08T14:33:12.669795+00:00",
+          "is_new": true
+        },
+        {
           "title": "Program Manager",
           "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
           "location": "",
@@ -22,37 +31,36 @@
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-07-07T16:27:41.504091+00:00",
           "is_new": false
-        },
-        {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-07-07T16:27:41.504096+00:00",
-          "is_new": false
         }
       ]
     },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "High Voltage Transmission Project Manager",
-          "url": "https://www.ptechpartners.com/job/remote-usa/high-voltage-transmission-project-manager/105974",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "2892b492004a",
-          "discovered_at": "2026-07-07T16:27:45.218074+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "Page 2 - 67 project manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "66112a3dfd4b",
+          "discovered_at": "2026-07-08T14:36:02.674809+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Page 3 - 67 project manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "3084172c306a",
+          "discovered_at": "2026-07-08T14:36:02.674829+00:00",
+          "is_new": true
+        },
         {
           "title": "it project manager lead",
           "url": "https://www.randstadusa.com/jobs/4/1338519/it-project-manager-lead_cleveland/",
@@ -60,7 +68,7 @@
           "firm": "Randstad",
           "_hash": "aeaa417d33ff",
           "discovered_at": "2026-07-07T23:57:44.786773+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager lead",
@@ -78,7 +86,7 @@
           "firm": "Randstad",
           "_hash": "267a9c97415f",
           "discovered_at": "2026-07-07T23:57:44.786800+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "hr project manager",
@@ -106,6 +114,24 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-07-07T16:29:06.747036+00:00",
           "is_new": false
+        },
+        {
+          "title": "Page 2 - 55 program manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "4e0d6ca1a790",
+          "discovered_at": "2026-07-08T14:36:02.674856+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Page 2 - 51 product manager jobs found in chicago, illinois",
+          "url": "",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "250b7a73ff3e",
+          "discovered_at": "2026-07-08T14:36:02.674860+00:00",
+          "is_new": true
         }
       ]
     },
