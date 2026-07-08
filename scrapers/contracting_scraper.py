@@ -133,10 +133,17 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
                         next_btn = el
                         break
                 if not next_btn:
+                    print(f"    page {page_num}: no next/more button found, stopping")
                     break
-                next_btn.click()
-                time.sleep(2)
-            except Exception:
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", next_btn)
+                time.sleep(0.3)
+                try:
+                    next_btn.click()
+                except Exception:
+                    driver.execute_script("arguments[0].click();", next_btn)
+                time.sleep(3)
+            except Exception as e:
+                print(f"    page {page_num}: pagination click failed: {e}")
                 break
 
         driver.quit()
