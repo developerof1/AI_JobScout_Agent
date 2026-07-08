@@ -248,7 +248,7 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_fi
             title = heading.get_text(strip=True)
             if not title:
                 continue
-            if re.search(r'^\d+\s+.+\bjobs?\b', title.lower()):
+            if re.search(r'^(page\s+\d+\s*-\s*)?\d+\s+.+\bjobs?\b', title.lower()):
                 continue
             if not skip_keyword_filter and not any(kw in title.lower() for kw in keywords):
                 continue
