@@ -132,6 +132,9 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
                     if "more" in txt and ("view" in txt or "load" in txt):
                         next_btn = el
                         break
+                    if txt.isdigit() and int(txt) == page_num + 1:
+                        next_btn = el
+                        break
                 if not next_btn:
                     print(f"    page {page_num}: no next/more button found, stopping")
                     break
