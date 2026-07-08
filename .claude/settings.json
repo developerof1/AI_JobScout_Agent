@@ -8,7 +8,13 @@
       "Bash(python*)",
       "Bash(python *)",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git stash *)",
+      "Bash(gh workflow *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c ' *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ]
   }
 }
