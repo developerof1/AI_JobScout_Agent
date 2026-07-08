@@ -15,7 +15,7 @@ import time
 import random
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, parse_qsl, urlencode
 
 import requests
 from bs4 import BeautifulSoup
@@ -157,6 +157,48 @@ def _scrape_with_selenium_clicks(start_url: str, keywords: list[str], max_pages:
         return []
 
 
+def _scrape_with_selenium_urls(start_url: str, keywords: list[str], max_pages: int, skip_keyword_filter: bool = False) -> list[dict]:
+    """Navigate directly to each page via its `page` query param — more reliable than
+    hunting for a clickable next/more element when the site already exposes real page URLs."""
+    try:
+        import undetected_chromedriver as uc
+
+        opts = uc.ChromeOptions()
+        opts.add_argument("--no-sandbox")
+        opts.add_argument("--disable-dev-shm-usage")
+        opts.add_argument(f"user-agent={HEADERS['User-Agent']}")
+
+        base_url = f"{urlparse(start_url).scheme}://{urlparse(start_url).netloc}"
+        all_jobs: list[dict] = []
+        seen_keys: set[str] = set()
+
+        driver = uc.Chrome(options=opts, headless=True, version_main=_get_chrome_major_version())
+        driver.set_page_load_timeout(30)
+
+        parsed = urlparse(start_url)
+        query = dict(parse_qsl(parsed.query))
+
+        for page_num in range(1, max_pages + 1):
+            query["page"] = str(page_num)
+            page_url = parsed._replace(query=urlencode(query)).geturl()
+            driver.get(page_url)
+            time.sleep(5 if page_num == 1 else 3)
+
+            page_jobs = _extract_jobs(driver.page_source, base_url, keywords, skip_keyword_filter)
+            new_jobs = [j for j in page_jobs if _job_key(j) not in seen_keys]
+            for j in new_jobs:
+                seen_keys.add(_job_key(j))
+            all_jobs.extend(new_jobs)
+            print(f"    page {page_num}: {len(new_jobs)} new match(es)")
+
+        driver.quit()
+        return all_jobs
+
+    except Exception as e:
+        print(f"  [contracting] selenium URL-pagination failed: {e}")
+        return []
+
+
 def _find_next_page(soup, current_url: str) -> str | None:
     # rel="next" is most reliable
     tag = soup.find("a", rel="next") or soup.find("link", rel="next")
@@ -262,7 +304,11 @@ def scrape_firm(firm: dict, keywords: list[str]) -> list[dict]:
         print(f"  [contracting] Scraping {name} @ {start_url} (js={use_js}, max_pages={max_pages}) ...")
 
         if use_js:
-            url_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages, skip_kw)
+            has_page_param = "page" in dict(parse_qsl(urlparse(start_url).query))
+            if has_page_param:
+                url_jobs = _scrape_with_selenium_urls(start_url, keywords, max_pages, skip_kw)
+            else:
+                url_jobs = _scrape_with_selenium_clicks(start_url, keywords, max_pages, skip_kw)
             if not url_jobs:
                 print(f"  [contracting] Falling back to requests (page 1 only) ...")
                 html = _fetch_html_requests(start_url)
