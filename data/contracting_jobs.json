@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-08T15:56:34.633506+00:00",
+  "last_run": "2026-07-08T16:04:58.953317+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -22,15 +22,6 @@
           "_hash": "55ad978acab7",
           "discovered_at": "2026-07-08T14:33:12.669795+00:00",
           "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-07T16:27:41.504091+00:00",
-          "is_new": false
         }
       ]
     },
@@ -50,7 +41,7 @@
           "firm": "Randstad",
           "_hash": "6be6f360ecf1",
           "discovered_at": "2026-07-08T15:56:13.333563+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it project manager lead",
@@ -113,7 +104,7 @@
           "firm": "Randstad",
           "_hash": "f6232c387766",
           "discovered_at": "2026-07-08T15:56:13.333605+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -146,7 +137,7 @@
           "firm": "Mondo",
           "_hash": "eede97b9d1f9",
           "discovered_at": "2026-07-08T15:56:34.633481+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Agile Project Manager",
@@ -155,7 +146,7 @@
           "firm": "Mondo",
           "_hash": "1884668107b5",
           "discovered_at": "2026-07-08T15:56:34.633485+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Data Product Manager",
@@ -164,7 +155,7 @@
           "firm": "Mondo",
           "_hash": "0381eb62e2f6",
           "discovered_at": "2026-07-08T15:56:34.633488+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager",
@@ -173,7 +164,7 @@
           "firm": "Mondo",
           "_hash": "adcec9729a88",
           "discovered_at": "2026-07-08T15:56:34.633491+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
