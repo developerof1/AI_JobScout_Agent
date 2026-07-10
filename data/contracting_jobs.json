@@ -1,18 +1,18 @@
 {
-  "last_run": "2026-07-10T00:04:32.789723+00:00",
+  "last_run": "2026-07-10T16:26:14.783566+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-09T00:06:20.990158+00:00",
-          "is_new": false
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
+          "is_new": true
         },
         {
           "title": "Product Manager/Sr. Product Manager",
@@ -21,6 +21,15 @@
           "firm": "LaSalle Network",
           "_hash": "e0de40d90732",
           "discovered_at": "2026-07-07T16:27:41.504065+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-09T00:06:20.990158+00:00",
           "is_new": false
         }
       ]
@@ -34,6 +43,15 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "machine operator - pm",
+          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "6be6f360ecf1",
+          "discovered_at": "2026-07-08T15:56:13.333563+00:00",
+          "is_new": false
+        },
         {
           "title": "project manager",
           "url": "https://www.randstadusa.com/jobs/141/1109481/project-manager_katy/",
@@ -69,33 +87,6 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-07-07T16:29:06.747036+00:00",
           "is_new": false
-        },
-        {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-07-08T15:56:13.333563+00:00",
-          "is_new": false
-        },
-        {
-          "title": "it project manager lead",
-          "url": "https://www.randstadusa.com/jobs/4/1338519/it-project-manager-lead_cleveland/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "aeaa417d33ff",
-          "discovered_at": "2026-07-10T00:04:10.118680+00:00",
-          "is_new": true
-        },
-        {
-          "title": "project manager lead",
-          "url": "https://www.randstadusa.com/jobs/4/1338517/project-manager-lead_cleveland/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "5bc644db566b",
-          "discovered_at": "2026-07-10T00:04:10.118683+00:00",
-          "is_new": true
         }
       ]
     },
@@ -173,7 +164,7 @@
           "firm": "Mondo",
           "_hash": "84aea528aae7",
           "discovered_at": "2026-07-10T00:04:32.789709+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
