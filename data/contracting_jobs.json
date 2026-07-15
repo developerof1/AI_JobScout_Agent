@@ -1,10 +1,28 @@
 {
-  "last_run": "2026-07-15T15:28:39.472667+00:00",
+  "last_run": "2026-07-15T23:59:31.852631+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
+          "is_new": false
+        },
+        {
+          "title": "SAP S/4HANA Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "5f435421be41",
+          "discovered_at": "2026-07-15T15:25:23.070058+00:00",
+          "is_new": false
+        },
         {
           "title": "Implementations Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
@@ -15,48 +33,20 @@
           "is_new": false
         },
         {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-07-15T15:25:23.070058+00:00",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-15T23:56:12.407718+00:00",
           "is_new": true
-        },
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
-          "is_new": false
         }
       ]
     },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Infrastructure Project Manager",
-          "url": "https://www.ptechpartners.com/job/irving-tx/infrastructure-project-manager/105995",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "165e1b14a484",
-          "discovered_at": "2026-07-14T23:50:38.356567+00:00",
-          "is_new": false
-        },
-        {
-          "title": "ServiceNow Project Manager",
-          "url": "https://www.ptechpartners.com/job/irving-tx/servicenow-project-manager/105994",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "7090b91ce17e",
-          "discovered_at": "2026-07-14T23:50:38.356586+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -202,6 +192,66 @@
           "_hash": "ea1bcc840269",
           "discovered_at": "2026-07-14T23:54:01.639361+00:00",
           "is_new": false
+        }
+      ]
+    },
+    {
+      "name": "Epitec",
+      "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
+      "jobs": [
+        {
+          "title": "Construction Project Manager III",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/construction-project-manager-iii-105063/",
+          "location": "Merritt Island",
+          "firm": "Epitec",
+          "_hash": "19d83aea116b",
+          "discovered_at": "2026-07-15T23:59:31.852581+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Data Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/data-project-manager-104200/",
+          "location": "",
+          "firm": "Epitec",
+          "_hash": "78e26852194a",
+          "discovered_at": "2026-07-15T23:59:31.852604+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project/Program Manager IT 5",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-5-105134/",
+          "location": "",
+          "firm": "Epitec",
+          "_hash": "cbc8e045c232",
+          "discovered_at": "2026-07-15T23:59:31.852610+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project/Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-104946/",
+          "location": "",
+          "firm": "Epitec",
+          "_hash": "5645974dd62d",
+          "discovered_at": "2026-07-15T23:59:31.852614+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Program Manager III",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-iii-104724/",
+          "location": "Culver City",
+          "firm": "Epitec",
+          "_hash": "a1c5bd018b31",
+          "discovered_at": "2026-07-15T23:59:31.852617+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Management Analyst Lead PMA",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-management-analyst-lead-pma-104151/",
+          "location": "Allen Park",
+          "firm": "Epitec",
+          "_hash": "13a733a8cf8c",
+          "discovered_at": "2026-07-15T23:59:31.852620+00:00",
+          "is_new": true
         }
       ]
     }
