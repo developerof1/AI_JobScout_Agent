@@ -5,14 +5,15 @@
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "active": true,
+      "method": "html",
       "requires_js": true,
       "max_pages": 3
-    }
-  ,
+    },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
       "active": true,
+      "method": "html",
       "requires_js": false,
       "max_pages": 8
     },
@@ -27,6 +28,7 @@
         "https://www.randstadusa.com/jobs/q-product-manager/remote/"
       ],
       "active": true,
+      "method": "html",
       "requires_js": true,
       "max_pages": 3
     },
@@ -34,8 +36,15 @@
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
       "active": true,
+      "method": "html",
       "requires_js": true,
       "max_pages": 4
+    },
+    {
+      "name": "Epitec",
+      "api_url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
+      "active": true,
+      "method": "matador_api"
     }
   ]
 }
