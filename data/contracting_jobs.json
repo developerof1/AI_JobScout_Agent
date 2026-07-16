@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-15T23:59:31.852631+00:00",
+  "last_run": "2026-07-16T15:40:45.011659+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,15 +12,6 @@
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-07-10T16:23:07.434031+00:00",
-          "is_new": false
-        },
-        {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-07-15T15:25:23.070058+00:00",
           "is_new": false
         },
         {
@@ -39,14 +30,33 @@
           "firm": "LaSalle Network",
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-07-15T23:56:12.407718+00:00",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "SAP S/4HANA Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "5f435421be41",
+          "discovered_at": "2026-07-15T15:25:23.070058+00:00",
+          "is_new": false
         }
       ]
     },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "ServiceNow Project Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/servicenow-project-manager/105994",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "7090b91ce17e",
+          "discovered_at": "2026-07-16T15:37:23.358425+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -60,6 +70,15 @@
           "_hash": "6be6f360ecf1",
           "discovered_at": "2026-07-08T15:56:13.333563+00:00",
           "is_new": false
+        },
+        {
+          "title": "lead it project manager (cryptography, data protection)",
+          "url": "https://www.randstadusa.com/jobs/4/1339707/lead-it-project-manager-cryptography-data-protection_michigan-city/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "395acd356ca0",
+          "discovered_at": "2026-07-16T15:40:14.348572+00:00",
+          "is_new": true
         },
         {
           "title": "project manager",
@@ -192,6 +211,15 @@
           "_hash": "ea1bcc840269",
           "discovered_at": "2026-07-14T23:54:01.639361+00:00",
           "is_new": false
+        },
+        {
+          "title": "Director, AI Program Management",
+          "url": "https://mondo.com/jobs/job/director-ai-program-management-los-angeles-ca-90024-32707288/e47eaada-8127-11f1-b0c9-024201c20d84",
+          "location": "Los Angeles, CA, 90024",
+          "firm": "Mondo",
+          "_hash": "3582c55f42a3",
+          "discovered_at": "2026-07-16T15:40:35.725743+00:00",
+          "is_new": true
         }
       ]
     },
@@ -206,7 +234,7 @@
           "firm": "Epitec",
           "_hash": "19d83aea116b",
           "discovered_at": "2026-07-15T23:59:31.852581+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Data Project Manager",
@@ -215,6 +243,15 @@
           "firm": "Epitec",
           "_hash": "78e26852194a",
           "discovered_at": "2026-07-15T23:59:31.852604+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Project/Program Manager (Non-IT) 2",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-2-105135/",
+          "location": "Peoria",
+          "firm": "Epitec",
+          "_hash": "1769cba05770",
+          "discovered_at": "2026-07-16T15:40:45.011634+00:00",
           "is_new": true
         },
         {
@@ -224,7 +261,7 @@
           "firm": "Epitec",
           "_hash": "cbc8e045c232",
           "discovered_at": "2026-07-15T23:59:31.852610+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project/Program Manager",
@@ -233,7 +270,7 @@
           "firm": "Epitec",
           "_hash": "5645974dd62d",
           "discovered_at": "2026-07-15T23:59:31.852614+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager III",
@@ -242,7 +279,7 @@
           "firm": "Epitec",
           "_hash": "a1c5bd018b31",
           "discovered_at": "2026-07-15T23:59:31.852617+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Management Analyst Lead PMA",
@@ -251,7 +288,7 @@
           "firm": "Epitec",
           "_hash": "13a733a8cf8c",
           "discovered_at": "2026-07-15T23:59:31.852620+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
