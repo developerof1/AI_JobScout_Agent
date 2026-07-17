@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-07-16T23:58:58.030857+00:00",
+  "last_run": "2026-07-17T15:14:24.147252+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
+          "is_new": false
+        },
         {
           "title": "Implementations Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
@@ -22,32 +31,13 @@
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-07-15T23:56:12.407718+00:00",
           "is_new": false
-        },
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
-          "is_new": false
         }
       ]
     },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "ServiceNow Project Manager",
-          "url": "https://www.ptechpartners.com/job/irving-tx/servicenow-project-manager/105994",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "7090b91ce17e",
-          "discovered_at": "2026-07-16T15:37:23.358425+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -105,7 +95,7 @@
           "firm": "Randstad",
           "_hash": "dc37701a2285",
           "discovered_at": "2026-07-16T23:58:26.932005+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior technical project manager - card conversions & migrations",
@@ -124,6 +114,15 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-07-07T16:29:06.747036+00:00",
           "is_new": false
+        },
+        {
+          "title": "enterprise platforms product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1339861/enterprise-platforms-product-manager_anchor-point/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "5504f031a332",
+          "discovered_at": "2026-07-17T15:13:51.578580+00:00",
+          "is_new": true
         }
       ]
     },
@@ -219,13 +218,22 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "EPC Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/epc-project-manager-105200/",
+          "location": "Blackman",
+          "firm": "Epitec",
+          "_hash": "96cab94c14b7",
+          "discovered_at": "2026-07-17T15:14:24.147189+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-105182/",
           "location": "Providence",
           "firm": "Epitec",
           "_hash": "114669e9501f",
           "discovered_at": "2026-07-16T23:58:58.030800+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Construction Project Manager III",
@@ -271,6 +279,15 @@
           "_hash": "5645974dd62d",
           "discovered_at": "2026-07-15T23:59:31.852614+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager \u2013 Senior Information Technology",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-senior-information-technology-105207/",
+          "location": "Providence",
+          "firm": "Epitec",
+          "_hash": "718dc372ffee",
+          "discovered_at": "2026-07-17T15:14:24.147233+00:00",
+          "is_new": true
         },
         {
           "title": "Project Management Analyst Lead PMA",
