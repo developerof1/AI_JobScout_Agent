@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-17T23:51:56.672618+00:00",
+  "last_run": "2026-07-18T14:51:57.839182+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -39,7 +39,7 @@
           "firm": "LaSalle Network",
           "_hash": "5f435421be41",
           "discovered_at": "2026-07-17T23:48:42.167118+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -138,116 +138,7 @@
     {
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
-      "jobs": [
-        {
-          "title": "Technical Product Manager",
-          "url": "https://mondo.com/jobs/job/technical-product-manager-needham-ma-02494-32314511/5a65d87d-5091-11f1-b409-02420a6c7775",
-          "location": "Needham, MA, 02494",
-          "firm": "Mondo",
-          "_hash": "bb744cd0c38a",
-          "discovered_at": "2026-07-11T14:53:09.517256+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Design/Construction Project Manager, Epic Device Infrastructure Planning",
-          "url": "https://mondo.com/jobs/job/designconstruction-project-manager-epic-device-infrastructure-planning-silver-spring-md-20815-32342931/6e1fe0af-5530-11f1-a63d-02420a6c7775",
-          "location": "Silver spring, MD, 20815",
-          "firm": "Mondo",
-          "_hash": "91d2fdfce862",
-          "discovered_at": "2026-07-11T14:53:09.517272+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Data Product Manager",
-          "url": "https://mondo.com/jobs/job/data-product-manager-marlborough-ma-01752-32549328/5d09240f-7984-11f1-94b7-02420a6c7775",
-          "location": "Marlborough, MA, 01752",
-          "firm": "Mondo",
-          "_hash": "0381eb62e2f6",
-          "discovered_at": "2026-07-11T14:53:09.517284+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-project-manager-new-york-ny-10036-32553061/b9b3f7b4-7ba7-11f1-9454-02420a6c7775",
-          "location": "New York, NY, 10036",
-          "firm": "Mondo",
-          "_hash": "adcec9729a88",
-          "discovered_at": "2026-07-11T14:53:09.517287+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. IT Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-it-project-manager-boston-ma-02115-32566554/18d68ae2-7bb0-11f1-9454-02420a6c7775",
-          "location": "Boston, MA, 02115",
-          "firm": "Mondo",
-          "_hash": "ebb467132df4",
-          "discovered_at": "2026-07-11T14:53:09.517290+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Azure Project Manager",
-          "url": "https://mondo.com/jobs/job/azure-project-manager-wilmington-de-19805-32570833/b5cecf73-7bc1-11f1-9454-02420a6c7775",
-          "location": "wilmington, DE, 19805",
-          "firm": "Mondo",
-          "_hash": "84aea528aae7",
-          "discovered_at": "2026-07-11T14:53:09.517293+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Group Product Manager / Judicial",
-          "url": "https://mondo.com/jobs/job/group-product-manager-judicial-centreville-va-20120-32689010/2e387b31-7ee5-11f1-b0c9-024201c20d84",
-          "location": "Centreville, VA, 20120",
-          "firm": "Mondo",
-          "_hash": "82b7827fb6c6",
-          "discovered_at": "2026-07-13T23:54:38.474550+00:00",
-          "is_new": false
-        },
-        {
-          "title": "SuccessFactors Project Manager",
-          "url": "https://mondo.com/jobs/job/successfactors-project-manager-newtown-square-pa-19073-32697131/afced1d7-7fae-11f1-a7a9-02420a6c7775",
-          "location": "Newtown Square, PA, 19073",
-          "firm": "Mondo",
-          "_hash": "ea1bcc840269",
-          "discovered_at": "2026-07-14T23:54:01.639361+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Director, AI Program Management",
-          "url": "https://mondo.com/jobs/job/director-ai-program-management-los-angeles-ca-90024-32707288/e47eaada-8127-11f1-b0c9-024201c20d84",
-          "location": "Los Angeles, CA, 90024",
-          "firm": "Mondo",
-          "_hash": "3582c55f42a3",
-          "discovered_at": "2026-07-16T15:40:35.725743+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Global Project Manager",
-          "url": "https://mondo.com/jobs/job/global-project-manager-rosemont-il-60018-32715868/6f1c2081-81f9-11f1-b0c9-024201c20d84",
-          "location": "Rosemont, IL, 60018",
-          "firm": "Mondo",
-          "_hash": "fa03cfc26779",
-          "discovered_at": "2026-07-17T23:51:47.269339+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Epic Hello World PM",
-          "url": "https://mondo.com/jobs/job/epic-hello-world-pm-charleston-sc-29401-32717042/8e82ba02-8212-11f1-b0c9-024201c20d84",
-          "location": "Charleston, SC, 29401",
-          "firm": "Mondo",
-          "_hash": "daa57b21a980",
-          "discovered_at": "2026-07-17T23:51:47.269342+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Epic Cheers PM",
-          "url": "https://mondo.com/jobs/job/epic-cheers-pm-charlotte-nc-80138-32717045/8e73ece1-8212-11f1-a7a9-02420a6c7775",
-          "location": "Charlotte, NC, 80138",
-          "firm": "Mondo",
-          "_hash": "5a65c05d371e",
-          "discovered_at": "2026-07-17T23:51:47.269345+00:00",
-          "is_new": true
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Epitec",
@@ -260,7 +151,7 @@
           "firm": "Epitec",
           "_hash": "d91071bd96f9",
           "discovered_at": "2026-07-17T23:51:56.672555+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "EPC Project Manager",
