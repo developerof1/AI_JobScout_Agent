@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-18T23:52:59.700229+00:00",
+  "last_run": "2026-07-19T14:55:57.089962+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -116,15 +116,6 @@
           "is_new": false
         },
         {
-          "title": "program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4961576/program-manager_durham/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "9f2a0a837ae6",
-          "discovered_at": "2026-07-07T16:29:06.747036+00:00",
-          "is_new": false
-        },
-        {
           "title": "enterprise platforms product manager",
           "url": "https://www.randstadusa.com/jobs/4/1339861/enterprise-platforms-product-manager_anchor-point/",
           "location": "",
@@ -146,7 +137,7 @@
           "firm": "Mondo",
           "_hash": "bb744cd0c38a",
           "discovered_at": "2026-07-18T23:52:49.873028+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Design/Construction Project Manager, Epic Device Infrastructure Planning",
@@ -155,7 +146,7 @@
           "firm": "Mondo",
           "_hash": "91d2fdfce862",
           "discovered_at": "2026-07-18T23:52:49.873050+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Data Product Manager",
@@ -164,7 +155,7 @@
           "firm": "Mondo",
           "_hash": "0381eb62e2f6",
           "discovered_at": "2026-07-18T23:52:49.873054+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager",
@@ -173,7 +164,7 @@
           "firm": "Mondo",
           "_hash": "adcec9729a88",
           "discovered_at": "2026-07-18T23:52:49.873058+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr. IT Project Manager",
@@ -182,7 +173,7 @@
           "firm": "Mondo",
           "_hash": "ebb467132df4",
           "discovered_at": "2026-07-18T23:52:49.873062+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Azure Project Manager",
@@ -191,7 +182,7 @@
           "firm": "Mondo",
           "_hash": "84aea528aae7",
           "discovered_at": "2026-07-18T23:52:49.873065+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Group Product Manager / Judicial",
@@ -200,7 +191,7 @@
           "firm": "Mondo",
           "_hash": "82b7827fb6c6",
           "discovered_at": "2026-07-18T23:52:49.873069+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "SuccessFactors Project Manager",
@@ -209,7 +200,7 @@
           "firm": "Mondo",
           "_hash": "ea1bcc840269",
           "discovered_at": "2026-07-18T23:52:49.873072+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Director, AI Program Management",
@@ -218,7 +209,7 @@
           "firm": "Mondo",
           "_hash": "3582c55f42a3",
           "discovered_at": "2026-07-18T23:52:49.873075+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Global Project Manager",
@@ -227,7 +218,7 @@
           "firm": "Mondo",
           "_hash": "fa03cfc26779",
           "discovered_at": "2026-07-18T23:52:49.873078+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Epic Hello World PM",
@@ -236,7 +227,7 @@
           "firm": "Mondo",
           "_hash": "daa57b21a980",
           "discovered_at": "2026-07-18T23:52:49.873080+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Epic Cheers PM",
@@ -245,7 +236,7 @@
           "firm": "Mondo",
           "_hash": "5a65c05d371e",
           "discovered_at": "2026-07-18T23:52:49.873084+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
