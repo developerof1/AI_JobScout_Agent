@@ -1,19 +1,10 @@
 {
-  "last_run": "2026-07-20T15:52:05.882490+00:00",
+  "last_run": "2026-07-20T23:57:20.369306+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-07-10T16:23:07.434031+00:00",
-          "is_new": false
-        },
         {
           "title": "Program Manager",
           "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
@@ -44,53 +35,17 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
+          "title": "construction project manager 3941",
+          "url": "https://www.randstadusa.com/jobs/4/1340043/construction-project-manager-3941_saint-louis/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-07-08T15:56:13.333563+00:00",
-          "is_new": false
-        },
-        {
-          "title": "program manager",
-          "url": "https://www.randstadusa.com/jobs/141/1109707/program-manager_austin/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "9f2a0a837ae6",
-          "discovered_at": "2026-07-20T15:51:35.480461+00:00",
+          "_hash": "ced3c4339b02",
+          "discovered_at": "2026-07-20T23:56:49.535371+00:00",
           "is_new": true
-        },
-        {
-          "title": "lead it project manager (cryptography, data protection)",
-          "url": "https://www.randstadusa.com/jobs/4/1339707/lead-it-project-manager-cryptography-data-protection_michigan-city/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "395acd356ca0",
-          "discovered_at": "2026-07-16T15:40:14.348572+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior technical project manager - card conversions & migrations",
-          "url": "https://www.randstadusa.com/jobs/4/1339375/senior-technical-project-manager-card-conversions-migrations_alpharetta/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "fb8aae50ca04",
-          "discovered_at": "2026-07-13T23:54:16.945603+00:00",
-          "is_new": false
         },
         {
           "title": "project manager",
           "url": "https://www.randstadusa.com/jobs/141/1109481/project-manager_katy/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-07-07T23:57:44.786800+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1109578/project-manager_seattle/",
           "location": "",
           "firm": "Randstad",
           "_hash": "267a9c97415f",
@@ -107,6 +62,15 @@
           "is_new": false
         },
         {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1109578/project-manager_seattle/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-07-07T23:57:44.786800+00:00",
+          "is_new": false
+        },
+        {
           "title": "it project manager ii",
           "url": "https://www.randstadusa.com/jobs/4/1339779/it-project-manager-ii_florida-city/",
           "location": "",
@@ -114,6 +78,33 @@
           "_hash": "dc37701a2285",
           "discovered_at": "2026-07-16T23:58:26.932005+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior technical project manager - card conversions & migrations",
+          "url": "https://www.randstadusa.com/jobs/4/1339375/senior-technical-project-manager-card-conversions-migrations_alpharetta/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "fb8aae50ca04",
+          "discovered_at": "2026-07-13T23:54:16.945603+00:00",
+          "is_new": false
+        },
+        {
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/141/1109707/program-manager_austin/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-07-20T15:51:35.480461+00:00",
+          "is_new": false
+        },
+        {
+          "title": "enterprise platforms product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1339861/enterprise-platforms-product-manager_anchor-point/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "5504f031a332",
+          "discovered_at": "2026-07-20T23:56:49.535411+00:00",
+          "is_new": true
         }
       ]
     },
@@ -164,15 +155,6 @@
           "firm": "Mondo",
           "_hash": "ebb467132df4",
           "discovered_at": "2026-07-18T23:52:49.873062+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Azure Project Manager",
-          "url": "https://mondo.com/jobs/job/azure-project-manager-wilmington-de-19805-32570833/b5cecf73-7bc1-11f1-9454-02420a6c7775",
-          "location": "wilmington, DE, 19805",
-          "firm": "Mondo",
-          "_hash": "84aea528aae7",
-          "discovered_at": "2026-07-18T23:52:49.873065+00:00",
           "is_new": false
         },
         {
@@ -263,30 +245,12 @@
           "is_new": false
         },
         {
-          "title": "Construction Project Manager III",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/construction-project-manager-iii-105063/",
-          "location": "Merritt Island",
-          "firm": "Epitec",
-          "_hash": "19d83aea116b",
-          "discovered_at": "2026-07-15T23:59:31.852581+00:00",
-          "is_new": false
-        },
-        {
           "title": "Data Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/data-project-manager-104200/",
           "location": "",
           "firm": "Epitec",
           "_hash": "78e26852194a",
           "discovered_at": "2026-07-15T23:59:31.852604+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager IT 5",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-5-105134/",
-          "location": "",
-          "firm": "Epitec",
-          "_hash": "cbc8e045c232",
-          "discovered_at": "2026-07-15T23:59:31.852610+00:00",
           "is_new": false
         },
         {
@@ -315,6 +279,15 @@
           "_hash": "a1c5bd018b31",
           "discovered_at": "2026-07-15T23:59:31.852617+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager V",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-v-103935/",
+          "location": "Cupertino",
+          "firm": "Epitec",
+          "_hash": "ee4db6307115",
+          "discovered_at": "2026-07-20T23:57:20.369292+00:00",
+          "is_new": true
         }
       ]
     }
