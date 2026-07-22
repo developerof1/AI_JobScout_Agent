@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-21T23:57:39.438381+00:00",
+  "last_run": "2026-07-22T15:41:36.734788+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -15,21 +15,12 @@
           "is_new": false
         },
         {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "title": "Product Manager/Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-07-21T23:53:50.426023+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-21T23:53:50.426029+00:00",
+          "_hash": "e0de40d90732",
+          "discovered_at": "2026-07-22T15:38:07.415008+00:00",
           "is_new": true
         }
       ]
@@ -39,31 +30,22 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Product Manager - AI Enablement",
-          "url": "https://www.ptechpartners.com/job/remote-argentina/product-manager-ai-enablement/106020",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "76dd41c0a7d6",
-          "discovered_at": "2026-07-21T23:53:53.166677+00:00",
-          "is_new": true
-        },
-        {
           "title": "Senior Project Manager - MarTech",
           "url": "https://www.ptechpartners.com/job/irving-tx/senior-project-manager-martech/106018",
           "location": "",
           "firm": "Peterson Technology Partners",
           "_hash": "e68eadd1fe60",
           "discovered_at": "2026-07-21T23:53:53.166694+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "Technical Project Manager (Mid-level)",
-          "url": "https://www.ptechpartners.com/job/irving-tx/technical-project-manager-mid-level/106016",
+          "title": "Product Manager - AI Enablement",
+          "url": "https://www.ptechpartners.com/job/remote-argentina/product-manager-ai-enablement/106020",
           "location": "",
           "firm": "Peterson Technology Partners",
-          "_hash": "53196a4d8aa8",
-          "discovered_at": "2026-07-21T23:53:53.166698+00:00",
-          "is_new": true
+          "_hash": "76dd41c0a7d6",
+          "discovered_at": "2026-07-21T23:53:53.166677+00:00",
+          "is_new": false
         }
       ]
     },
@@ -90,22 +72,13 @@
           "is_new": false
         },
         {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1109481/project-manager_katy/",
+          "title": "technical project manager webex calling (remote, part time)",
+          "url": "https://www.randstadusa.com/jobs/4/1338111/technical-project-manager-webex-calling-remote-part-time_ashburn/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-07-07T23:57:44.786800+00:00",
-          "is_new": false
-        },
-        {
-          "title": "hr project manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4963331/hr-project-manager_houston/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "d95f030ebb7e",
-          "discovered_at": "2026-07-07T16:29:06.747024+00:00",
-          "is_new": false
+          "_hash": "7ec61a1080d4",
+          "discovered_at": "2026-07-22T15:41:06.210814+00:00",
+          "is_new": true
         },
         {
           "title": "senior technical project manager - card conversions & migrations",
@@ -237,7 +210,7 @@
           "firm": "Mondo",
           "_hash": "cd2e94ab9f77",
           "discovered_at": "2026-07-21T23:57:29.381427+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -252,7 +225,7 @@
           "firm": "Epitec",
           "_hash": "356e6eb6c8e2",
           "discovered_at": "2026-07-21T23:57:39.438320+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager III",
@@ -270,15 +243,6 @@
           "firm": "Epitec",
           "_hash": "96cab94c14b7",
           "discovered_at": "2026-07-17T15:14:24.147189+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-105182/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "114669e9501f",
-          "discovered_at": "2026-07-16T23:58:58.030800+00:00",
           "is_new": false
         },
         {
