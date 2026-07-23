@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-22T15:41:36.734788+00:00",
+  "last_run": "2026-07-23T00:02:46.793614+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -15,12 +15,12 @@
           "is_new": false
         },
         {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-07-22T15:38:07.415008+00:00",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
           "is_new": true
         }
       ]
@@ -29,6 +29,15 @@
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
+        {
+          "title": "Product Manager- Fuel Asset Optimization",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-fuel-asset-optimization/105884",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "c8c52ea03c39",
+          "discovered_at": "2026-07-22T23:59:30.486093+00:00",
+          "is_new": true
+        },
         {
           "title": "Senior Project Manager - MarTech",
           "url": "https://www.ptechpartners.com/job/irving-tx/senior-project-manager-martech/106018",
@@ -72,13 +81,22 @@
           "is_new": false
         },
         {
+          "title": "sr. it asana ppm project manager (remote)",
+          "url": "https://www.randstadusa.com/jobs/4/1340315/sr-it-asana-ppm-project-manager-remote_frisco/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "365382176117",
+          "discovered_at": "2026-07-23T00:02:16.763097+00:00",
+          "is_new": true
+        },
+        {
           "title": "technical project manager webex calling (remote, part time)",
           "url": "https://www.randstadusa.com/jobs/4/1338111/technical-project-manager-webex-calling-remote-part-time_ashburn/",
           "location": "",
           "firm": "Randstad",
           "_hash": "7ec61a1080d4",
           "discovered_at": "2026-07-22T15:41:06.210814+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior technical project manager - card conversions & migrations",
@@ -150,15 +168,6 @@
           "is_new": false
         },
         {
-          "title": "Group Product Manager / Judicial",
-          "url": "https://mondo.com/jobs/job/group-product-manager-judicial-centreville-va-20120-32689010/2e387b31-7ee5-11f1-b0c9-024201c20d84",
-          "location": "Centreville, VA, 20120",
-          "firm": "Mondo",
-          "_hash": "82b7827fb6c6",
-          "discovered_at": "2026-07-18T23:52:49.873069+00:00",
-          "is_new": false
-        },
-        {
           "title": "SuccessFactors Project Manager",
           "url": "https://mondo.com/jobs/job/successfactors-project-manager-newtown-square-pa-19073-32697131/afced1d7-7fae-11f1-a7a9-02420a6c7775",
           "location": "Newtown Square, PA, 19073",
@@ -211,6 +220,24 @@
           "_hash": "cd2e94ab9f77",
           "discovered_at": "2026-07-21T23:57:29.381427+00:00",
           "is_new": false
+        },
+        {
+          "title": "Creative PM",
+          "url": "https://mondo.com/jobs/job/creative-pm-houston-tx-77002-32738797/17669b50-85f8-11f1-8519-024201c20d84",
+          "location": "Houston, TX, 77002",
+          "firm": "Mondo",
+          "_hash": "b7c10e085388",
+          "discovered_at": "2026-07-23T00:02:38.590463+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://mondo.com/jobs/job/project-manager-philadelphia-pa-19103-32739047/175efa47-85f8-11f1-8519-024201c20d84",
+          "location": "Philadelphia, PA, 19103",
+          "firm": "Mondo",
+          "_hash": "e580ae707dc7",
+          "discovered_at": "2026-07-23T00:02:38.590466+00:00",
+          "is_new": true
         }
       ]
     },
@@ -300,13 +327,13 @@
           "is_new": false
         },
         {
-          "title": "Program Manager V",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-v-103935/",
-          "location": "Cupertino",
+          "title": "OA/ESO \u2013 PM4 SC3",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/oa-eso-pm4-sc3-105324/",
+          "location": "",
           "firm": "Epitec",
-          "_hash": "ee4db6307115",
-          "discovered_at": "2026-07-20T23:57:20.369292+00:00",
-          "is_new": false
+          "_hash": "6d996ae97b93",
+          "discovered_at": "2026-07-23T00:02:46.793601+00:00",
+          "is_new": true
         }
       ]
     }
