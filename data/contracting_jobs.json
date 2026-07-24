@@ -1,10 +1,28 @@
 {
-  "last_run": "2026-07-23T15:57:20.310088+00:00",
+  "last_run": "2026-07-24T00:00:59.555035+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Product Manager/Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "e0de40d90732",
+          "discovered_at": "2026-07-23T15:53:30.483477+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
+          "is_new": false
+        },
         {
           "title": "SAP S/4HANA Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
@@ -15,22 +33,13 @@
           "is_new": false
         },
         {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-07-23T15:53:30.483477+00:00",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-07-23T23:56:57.592143+00:00",
           "is_new": true
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
-          "is_new": false
         }
       ]
     },
@@ -38,6 +47,24 @@
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
+        {
+          "title": "Product Manager - AI Enablement",
+          "url": "https://www.ptechpartners.com/job/remote-argentina/product-manager-ai-enablement/106020",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "76dd41c0a7d6",
+          "discovered_at": "2026-07-21T23:53:53.166677+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior MarTech Product Manager (CMS & Digital Experience)",
+          "url": "https://www.ptechpartners.com/job/chicago-il/senior-martech-product-manager-cms-digital-experience/106026",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "9ac7f03f101e",
+          "discovered_at": "2026-07-23T23:57:00.807133+00:00",
+          "is_new": true
+        },
         {
           "title": "Product Manager- Fuel Asset Optimization",
           "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-fuel-asset-optimization/105884",
@@ -54,15 +81,6 @@
           "firm": "Peterson Technology Partners",
           "_hash": "e68eadd1fe60",
           "discovered_at": "2026-07-21T23:53:53.166694+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager - AI Enablement",
-          "url": "https://www.ptechpartners.com/job/remote-argentina/product-manager-ai-enablement/106020",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "76dd41c0a7d6",
-          "discovered_at": "2026-07-21T23:53:53.166677+00:00",
           "is_new": false
         }
       ]
@@ -105,7 +123,7 @@
           "firm": "Randstad",
           "_hash": "2144871e5534",
           "discovered_at": "2026-07-23T15:56:48.643709+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior technical project manager - card conversions & migrations",
@@ -204,15 +222,6 @@
           "is_new": false
         },
         {
-          "title": "Epic Cheers PM",
-          "url": "https://mondo.com/jobs/job/epic-cheers-pm-charlotte-nc-80138-32717045/8e73ece1-8212-11f1-a7a9-02420a6c7775",
-          "location": "Charlotte, NC, 80138",
-          "firm": "Mondo",
-          "_hash": "5a65c05d371e",
-          "discovered_at": "2026-07-18T23:52:49.873084+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager - Pricing & Packaging",
           "url": "https://mondo.com/jobs/job/project-manager-pricing-packaging-boston-ma-02125-32731764/2741c2a8-851e-11f1-8519-024201c20d84",
           "location": "Boston, MA, 02125",
@@ -300,13 +309,22 @@
           "is_new": false
         },
         {
+          "title": "Senior Engineering Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/senior-engineering-program-manager-105369/",
+          "location": "Dearborn",
+          "firm": "Epitec",
+          "_hash": "fe7a390b156f",
+          "discovered_at": "2026-07-24T00:00:59.555007+00:00",
+          "is_new": true
+        },
+        {
           "title": "OA/ESO \u2013 PM4 SC3 \u2013 Business Relationship Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/oa-eso-pm4-sc3-business-relationship-manager-105324/",
           "location": "",
           "firm": "Epitec",
           "_hash": "2bbac9269629",
           "discovered_at": "2026-07-23T15:57:20.310061+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager II (Airtable Integration Specialist)",
@@ -324,7 +342,7 @@
           "firm": "Epitec",
           "_hash": "da34b06f4315",
           "discovered_at": "2026-07-23T15:57:20.310071+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager III",
@@ -334,6 +352,15 @@
           "_hash": "a1c5bd018b31",
           "discovered_at": "2026-07-15T23:59:31.852617+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager \u2013 Senior",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-senior-105382/",
+          "location": "Framingham",
+          "firm": "Epitec",
+          "_hash": "934b108bb395",
+          "discovered_at": "2026-07-24T00:00:59.555025+00:00",
+          "is_new": true
         }
       ]
     }
