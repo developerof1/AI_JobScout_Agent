@@ -1,28 +1,10 @@
 {
-  "last_run": "2026-07-24T00:00:59.555035+00:00",
+  "last_run": "2026-07-24T15:27:15.393984+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-07-23T15:53:30.483477+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
-          "is_new": false
-        },
         {
           "title": "SAP S/4HANA Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
@@ -39,7 +21,16 @@
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-07-23T23:56:57.592143+00:00",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
+          "is_new": false
         }
       ]
     },
@@ -48,22 +39,13 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Product Manager - AI Enablement",
-          "url": "https://www.ptechpartners.com/job/remote-argentina/product-manager-ai-enablement/106020",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "76dd41c0a7d6",
-          "discovered_at": "2026-07-21T23:53:53.166677+00:00",
-          "is_new": false
-        },
-        {
           "title": "Senior MarTech Product Manager (CMS & Digital Experience)",
           "url": "https://www.ptechpartners.com/job/chicago-il/senior-martech-product-manager-cms-digital-experience/106026",
           "location": "",
           "firm": "Peterson Technology Partners",
           "_hash": "9ac7f03f101e",
           "discovered_at": "2026-07-23T23:57:00.807133+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager- Fuel Asset Optimization",
@@ -73,15 +55,6 @@
           "_hash": "c8c52ea03c39",
           "discovered_at": "2026-07-22T23:59:30.486093+00:00",
           "is_new": false
-        },
-        {
-          "title": "Senior Project Manager - MarTech",
-          "url": "https://www.ptechpartners.com/job/irving-tx/senior-project-manager-martech/106018",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "e68eadd1fe60",
-          "discovered_at": "2026-07-21T23:53:53.166694+00:00",
-          "is_new": false
         }
       ]
     },
@@ -89,15 +62,6 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-07-21T15:44:03.009994+00:00",
-          "is_new": false
-        },
         {
           "title": "construction project manager 3941",
           "url": "https://www.randstadusa.com/jobs/4/1340043/construction-project-manager-3941_saint-louis/",
@@ -148,107 +112,7 @@
     {
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
-      "jobs": [
-        {
-          "title": "Technical Product Manager",
-          "url": "https://mondo.com/jobs/job/technical-product-manager-needham-ma-02494-32314511/5a65d87d-5091-11f1-b409-02420a6c7775",
-          "location": "Needham, MA, 02494",
-          "firm": "Mondo",
-          "_hash": "bb744cd0c38a",
-          "discovered_at": "2026-07-18T23:52:49.873028+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Design/Construction Project Manager, Epic Device Infrastructure Planning",
-          "url": "https://mondo.com/jobs/job/designconstruction-project-manager-epic-device-infrastructure-planning-silver-spring-md-20815-32342931/6e1fe0af-5530-11f1-a63d-02420a6c7775",
-          "location": "Silver spring, MD, 20815",
-          "firm": "Mondo",
-          "_hash": "91d2fdfce862",
-          "discovered_at": "2026-07-18T23:52:49.873050+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Data Product Manager",
-          "url": "https://mondo.com/jobs/job/data-product-manager-marlborough-ma-01752-32549328/5d09240f-7984-11f1-94b7-02420a6c7775",
-          "location": "Marlborough, MA, 01752",
-          "firm": "Mondo",
-          "_hash": "0381eb62e2f6",
-          "discovered_at": "2026-07-18T23:52:49.873054+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-project-manager-new-york-ny-10036-32553061/b9b3f7b4-7ba7-11f1-9454-02420a6c7775",
-          "location": "New York, NY, 10036",
-          "firm": "Mondo",
-          "_hash": "adcec9729a88",
-          "discovered_at": "2026-07-18T23:52:49.873058+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. IT Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-it-project-manager-boston-ma-02115-32566554/18d68ae2-7bb0-11f1-9454-02420a6c7775",
-          "location": "Boston, MA, 02115",
-          "firm": "Mondo",
-          "_hash": "ebb467132df4",
-          "discovered_at": "2026-07-18T23:52:49.873062+00:00",
-          "is_new": false
-        },
-        {
-          "title": "SuccessFactors Project Manager",
-          "url": "https://mondo.com/jobs/job/successfactors-project-manager-newtown-square-pa-19073-32697131/afced1d7-7fae-11f1-a7a9-02420a6c7775",
-          "location": "Newtown Square, PA, 19073",
-          "firm": "Mondo",
-          "_hash": "ea1bcc840269",
-          "discovered_at": "2026-07-18T23:52:49.873072+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Director, AI Program Management",
-          "url": "https://mondo.com/jobs/job/director-ai-program-management-los-angeles-ca-90024-32707288/e47eaada-8127-11f1-b0c9-024201c20d84",
-          "location": "Los Angeles, CA, 90024",
-          "firm": "Mondo",
-          "_hash": "3582c55f42a3",
-          "discovered_at": "2026-07-18T23:52:49.873075+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Epic Hello World PM",
-          "url": "https://mondo.com/jobs/job/epic-hello-world-pm-charleston-sc-29401-32717042/8e82ba02-8212-11f1-b0c9-024201c20d84",
-          "location": "Charleston, SC, 29401",
-          "firm": "Mondo",
-          "_hash": "daa57b21a980",
-          "discovered_at": "2026-07-18T23:52:49.873080+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager - Pricing & Packaging",
-          "url": "https://mondo.com/jobs/job/project-manager-pricing-packaging-boston-ma-02125-32731764/2741c2a8-851e-11f1-8519-024201c20d84",
-          "location": "Boston, MA, 02125",
-          "firm": "Mondo",
-          "_hash": "cd2e94ab9f77",
-          "discovered_at": "2026-07-21T23:57:29.381427+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Creative PM",
-          "url": "https://mondo.com/jobs/job/creative-pm-houston-tx-77002-32738797/17669b50-85f8-11f1-8519-024201c20d84",
-          "location": "Houston, TX, 77002",
-          "firm": "Mondo",
-          "_hash": "b7c10e085388",
-          "discovered_at": "2026-07-23T00:02:38.590463+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-philadelphia-pa-19103-32739047/175efa47-85f8-11f1-8519-024201c20d84",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-07-23T00:02:38.590466+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Epitec",
@@ -261,15 +125,6 @@
           "firm": "Epitec",
           "_hash": "356e6eb6c8e2",
           "discovered_at": "2026-07-21T23:57:39.438320+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager III",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-iii-105215/",
-          "location": "Cranston",
-          "firm": "Epitec",
-          "_hash": "d91071bd96f9",
-          "discovered_at": "2026-07-17T23:51:56.672555+00:00",
           "is_new": false
         },
         {
@@ -315,7 +170,7 @@
           "firm": "Epitec",
           "_hash": "fe7a390b156f",
           "discovered_at": "2026-07-24T00:00:59.555007+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "OA/ESO \u2013 PM4 SC3 \u2013 Business Relationship Manager",
@@ -360,7 +215,7 @@
           "firm": "Epitec",
           "_hash": "934b108bb395",
           "discovered_at": "2026-07-24T00:00:59.555025+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
