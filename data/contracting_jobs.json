@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-25T00:03:41.798791+00:00",
+  "last_run": "2026-07-25T15:04:08.065556+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "62c85d766b3b",
           "discovered_at": "2026-07-24T23:59:54.850746+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
@@ -48,7 +48,7 @@
           "firm": "LaSalle Network",
           "_hash": "e0de40d90732",
           "discovered_at": "2026-07-24T23:59:54.850782+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -78,7 +78,7 @@
           "firm": "Randstad",
           "_hash": "6be6f360ecf1",
           "discovered_at": "2026-07-25T00:03:10.234503+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "construction project manager 3941",
@@ -129,7 +129,7 @@
           "firm": "Mondo",
           "_hash": "bb744cd0c38a",
           "discovered_at": "2026-07-25T00:03:32.556889+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Design/Construction Project Manager, Epic Device Infrastructure Planning",
@@ -138,7 +138,7 @@
           "firm": "Mondo",
           "_hash": "91d2fdfce862",
           "discovered_at": "2026-07-25T00:03:32.556909+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Data Product Manager",
@@ -147,7 +147,7 @@
           "firm": "Mondo",
           "_hash": "0381eb62e2f6",
           "discovered_at": "2026-07-25T00:03:32.556915+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager",
@@ -156,7 +156,7 @@
           "firm": "Mondo",
           "_hash": "adcec9729a88",
           "discovered_at": "2026-07-25T00:03:32.556920+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr. IT Project Manager",
@@ -165,7 +165,7 @@
           "firm": "Mondo",
           "_hash": "ebb467132df4",
           "discovered_at": "2026-07-25T00:03:32.556924+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "SuccessFactors Project Manager",
@@ -174,7 +174,7 @@
           "firm": "Mondo",
           "_hash": "ea1bcc840269",
           "discovered_at": "2026-07-25T00:03:32.556929+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Director, AI Program Management",
@@ -183,7 +183,7 @@
           "firm": "Mondo",
           "_hash": "3582c55f42a3",
           "discovered_at": "2026-07-25T00:03:32.556933+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Epic Hello World PM",
@@ -192,7 +192,7 @@
           "firm": "Mondo",
           "_hash": "daa57b21a980",
           "discovered_at": "2026-07-25T00:03:32.556937+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Pricing & Packaging",
@@ -201,7 +201,7 @@
           "firm": "Mondo",
           "_hash": "cd2e94ab9f77",
           "discovered_at": "2026-07-25T00:03:32.556942+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Creative PM",
@@ -210,7 +210,7 @@
           "firm": "Mondo",
           "_hash": "b7c10e085388",
           "discovered_at": "2026-07-25T00:03:32.556946+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -219,7 +219,7 @@
           "firm": "Mondo",
           "_hash": "e580ae707dc7",
           "discovered_at": "2026-07-25T00:03:32.556950+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
