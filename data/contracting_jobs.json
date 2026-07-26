@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-26T00:00:27.208779+00:00",
+  "last_run": "2026-07-26T15:05:25.535207+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -72,6 +72,15 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
+          "title": "machine operator - pm",
+          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "6be6f360ecf1",
+          "discovered_at": "2026-07-25T00:03:10.234503+00:00",
+          "is_new": false
+        },
+        {
           "title": "construction project manager 3941",
           "url": "https://www.randstadusa.com/jobs/4/1340043/construction-project-manager-3941_saint-louis/",
           "location": "",
@@ -105,15 +114,6 @@
           "firm": "Randstad",
           "_hash": "fb8aae50ca04",
           "discovered_at": "2026-07-13T23:54:16.945603+00:00",
-          "is_new": false
-        },
-        {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-07-25T00:03:10.234503+00:00",
           "is_new": false
         }
       ]
