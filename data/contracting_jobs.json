@@ -1,19 +1,10 @@
 {
-  "last_run": "2026-07-27T16:18:50.863286+00:00",
+  "last_run": "2026-07-28T00:02:40.972950+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
-          "is_new": false
-        },
         {
           "title": "SAP S/4HANA Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
@@ -33,21 +24,21 @@
           "is_new": false
         },
         {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
+          "is_new": false
+        },
+        {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
           "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-07-23T23:56:57.592143+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-07-24T23:59:54.850782+00:00",
           "is_new": false
         }
       ]
@@ -63,7 +54,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "c8c52ea03c39",
           "discovered_at": "2026-07-27T16:15:21.757290+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -96,7 +87,7 @@
           "firm": "Randstad",
           "_hash": "0ccfd21abf1e",
           "discovered_at": "2026-07-27T16:18:18.136370+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "learning solutions project manager",
@@ -105,7 +96,7 @@
           "firm": "Randstad",
           "_hash": "2577a357cace",
           "discovered_at": "2026-07-27T16:18:18.136375+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager/data consultant",
@@ -124,6 +115,33 @@
           "_hash": "fb8aae50ca04",
           "discovered_at": "2026-07-13T23:54:16.945603+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior digital experience product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1341224/senior-digital-experience-product-manager_anchor-point/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "8bf3772fa36a",
+          "discovered_at": "2026-07-28T00:02:10.648316+00:00",
+          "is_new": true
+        },
+        {
+          "title": "senior digital experience product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1341223/senior-digital-experience-product-manager_florida-city/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "8bf3772fa36a",
+          "discovered_at": "2026-07-28T00:02:10.648319+00:00",
+          "is_new": true
+        },
+        {
+          "title": "senior digital experience product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1341222/senior-digital-experience-product-manager_anchor-point/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "8bf3772fa36a",
+          "discovered_at": "2026-07-28T00:02:10.648323+00:00",
+          "is_new": true
         }
       ]
     },
@@ -228,7 +246,7 @@
           "firm": "Mondo",
           "_hash": "c72fd22f346f",
           "discovered_at": "2026-07-27T16:18:41.383275+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -264,6 +282,15 @@
           "is_new": false
         },
         {
+          "title": "Project/Program Manager IT 3",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-3-105419/",
+          "location": "",
+          "firm": "Epitec",
+          "_hash": "b7e91f982570",
+          "discovered_at": "2026-07-28T00:02:40.972914+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project/Program Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-104946/",
           "location": "",
@@ -271,6 +298,15 @@
           "_hash": "5645974dd62d",
           "discovered_at": "2026-07-15T23:59:31.852614+00:00",
           "is_new": false
+        },
+        {
+          "title": "Technical Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-105442/",
+          "location": "Quincy",
+          "firm": "Epitec",
+          "_hash": "bd0b7feb7e1d",
+          "discovered_at": "2026-07-28T00:02:40.972922+00:00",
+          "is_new": true
         },
         {
           "title": "OA/ESO \u2013 PM4 SC3 \u2013 Business Relationship Manager",
@@ -291,30 +327,12 @@
           "is_new": false
         },
         {
-          "title": "Program Manager III / Program Quality Engineer",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-iii-program-quality-engineer-105368/",
-          "location": "Culver City",
-          "firm": "Epitec",
-          "_hash": "da34b06f4315",
-          "discovered_at": "2026-07-23T15:57:20.310071+00:00",
-          "is_new": false
-        },
-        {
           "title": "Program Manager III",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-iii-104724/",
           "location": "Culver City",
           "firm": "Epitec",
           "_hash": "a1c5bd018b31",
           "discovered_at": "2026-07-15T23:59:31.852617+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager \u2013 Senior",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-senior-105382/",
-          "location": "Framingham",
-          "firm": "Epitec",
-          "_hash": "934b108bb395",
-          "discovered_at": "2026-07-24T00:00:59.555025+00:00",
           "is_new": false
         }
       ]
