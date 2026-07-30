@@ -1,19 +1,10 @@
 {
-  "last_run": "2026-07-29T15:52:16.434845+00:00",
+  "last_run": "2026-07-30T00:01:19.526496+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-22T23:59:28.323345+00:00",
-          "is_new": false
-        },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
           "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
@@ -33,12 +24,12 @@
           "is_new": false
         },
         {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
+          "title": "Implementations Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-07-29T15:48:44.543356+00:00",
+          "_hash": "397cf5518c19",
+          "discovered_at": "2026-07-29T23:57:55.885307+00:00",
           "is_new": true
         },
         {
@@ -49,13 +40,41 @@
           "_hash": "62c85d766b3b",
           "discovered_at": "2026-07-24T23:59:54.850746+00:00",
           "is_new": false
+        },
+        {
+          "title": "SAP S/4HANA Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "5f435421be41",
+          "discovered_at": "2026-07-29T15:48:44.543356+00:00",
+          "is_new": false
         }
       ]
     },
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "CRM Product Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/crm-product-manager/106036",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "b72325798e90",
+          "discovered_at": "2026-07-29T23:57:58.701538+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Retail Product Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/retail-product-manager/106037",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "d70c838b0aee",
+          "discovered_at": "2026-07-29T23:57:58.701557+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -125,13 +144,22 @@
           "is_new": false
         },
         {
-          "title": "senior digital experience product manager",
-          "url": "https://www.randstadusa.com/jobs/4/1341224/senior-digital-experience-product-manager_anchor-point/",
+          "title": "clinical imaging project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1341484/clinical-imaging-project-manager_saint-louis/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "8bf3772fa36a",
-          "discovered_at": "2026-07-28T00:02:10.648323+00:00",
-          "is_new": false
+          "_hash": "cbefb4f12920",
+          "discovered_at": "2026-07-30T00:00:46.766629+00:00",
+          "is_new": true
+        },
+        {
+          "title": "clinical imaging project manager- 3934",
+          "url": "https://www.randstadusa.com/jobs/4/1341480/clinical-imaging-project-manager-3934_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "45e5bccbccf2",
+          "discovered_at": "2026-07-30T00:00:46.766653+00:00",
+          "is_new": true
         },
         {
           "title": "senior digital experience product manager",
@@ -263,15 +291,6 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "IT Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/it-project-manager-105277/",
-          "location": "Portland",
-          "firm": "Epitec",
-          "_hash": "356e6eb6c8e2",
-          "discovered_at": "2026-07-21T23:57:39.438320+00:00",
-          "is_new": false
-        },
-        {
           "title": "EPC Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/epc-project-manager-105200/",
           "location": "Blackman",
@@ -291,20 +310,11 @@
         },
         {
           "title": "Project/Program Manager IT 4",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-4-105498/",
-          "location": "",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-4-105497/",
+          "location": "Peoria",
           "firm": "Epitec",
           "_hash": "19e64481f84c",
           "discovered_at": "2026-07-28T23:59:28.292022+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager IT 3",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-3-105419/",
-          "location": "Chicago",
-          "firm": "Epitec",
-          "_hash": "b7e91f982570",
-          "discovered_at": "2026-07-28T00:02:40.972914+00:00",
           "is_new": false
         },
         {
@@ -323,15 +333,6 @@
           "firm": "Epitec",
           "_hash": "41fe7247cd48",
           "discovered_at": "2026-07-28T23:59:28.292033+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-105442/",
-          "location": "Quincy",
-          "firm": "Epitec",
-          "_hash": "bd0b7feb7e1d",
-          "discovered_at": "2026-07-28T00:02:40.972922+00:00",
           "is_new": false
         },
         {
