@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-07-30T15:53:24.057543+00:00",
+  "last_run": "2026-07-31T00:02:24.133034+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Project Manager, IT/Finance",
+          "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "62c85d766b3b",
+          "discovered_at": "2026-07-24T23:59:54.850746+00:00",
+          "is_new": false
+        },
         {
           "title": "SAP S/4HANA Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
@@ -13,15 +22,6 @@
           "_hash": "5f435421be41",
           "discovered_at": "2026-07-29T15:48:44.543356+00:00",
           "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-07-30T15:50:02.008921+00:00",
-          "is_new": true
         },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
@@ -33,30 +33,12 @@
           "is_new": false
         },
         {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-07-28T16:04:32.272578+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Implementations Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "397cf5518c19",
-          "discovered_at": "2026-07-29T23:57:55.885307+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, IT/Finance",
-          "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "62c85d766b3b",
-          "discovered_at": "2026-07-24T23:59:54.850746+00:00",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-07-30T15:50:02.008921+00:00",
           "is_new": false
         }
       ]
@@ -65,6 +47,15 @@
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
+        {
+          "title": "Retail Product Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/retail-product-manager/106037",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "d70c838b0aee",
+          "discovered_at": "2026-07-30T23:58:58.068183+00:00",
+          "is_new": true
+        },
         {
           "title": "CRM Product Manager",
           "url": "https://www.ptechpartners.com/job/irving-tx/crm-product-manager/106036",
@@ -96,15 +87,6 @@
           "firm": "Randstad",
           "_hash": "c3f43c321b47",
           "discovered_at": "2026-07-30T15:52:52.694444+00:00",
-          "is_new": true
-        },
-        {
-          "title": "construction project manager 4037",
-          "url": "https://www.randstadusa.com/jobs/4/1341388/construction-project-manager-4037_saint-louis/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "a9284bca13ee",
-          "discovered_at": "2026-07-28T23:58:57.271643+00:00",
           "is_new": false
         },
         {
@@ -195,15 +177,6 @@
           "is_new": false
         },
         {
-          "title": "Sr. IT Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-it-project-manager-boston-ma-02115-32566554/18d68ae2-7bb0-11f1-9454-02420a6c7775",
-          "location": "Boston, MA, 02115",
-          "firm": "Mondo",
-          "_hash": "ebb467132df4",
-          "discovered_at": "2026-07-25T00:03:32.556924+00:00",
-          "is_new": false
-        },
-        {
           "title": "SuccessFactors Project Manager",
           "url": "https://mondo.com/jobs/job/successfactors-project-manager-newtown-square-pa-19073-32697131/afced1d7-7fae-11f1-a7a9-02420a6c7775",
           "location": "Newtown Square, PA, 19073",
@@ -219,15 +192,6 @@
           "firm": "Mondo",
           "_hash": "3582c55f42a3",
           "discovered_at": "2026-07-25T00:03:32.556933+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Epic Hello World PM",
-          "url": "https://mondo.com/jobs/job/epic-hello-world-pm-charleston-sc-29401-32717042/8e82ba02-8212-11f1-b0c9-024201c20d84",
-          "location": "Charleston, SC, 29401",
-          "firm": "Mondo",
-          "_hash": "daa57b21a980",
-          "discovered_at": "2026-07-25T00:03:32.556937+00:00",
           "is_new": false
         },
         {
@@ -273,7 +237,7 @@
           "firm": "Mondo",
           "_hash": "afafee27f696",
           "discovered_at": "2026-07-30T15:53:14.503389+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -288,7 +252,7 @@
           "firm": "Epitec",
           "_hash": "e1b7a3b65ac9",
           "discovered_at": "2026-07-30T15:53:24.057481+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "EPC Project Manager",
@@ -333,7 +297,7 @@
           "firm": "Epitec",
           "_hash": "baa16cecd40c",
           "discovered_at": "2026-07-30T15:53:24.057520+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Program & Project Management Specialist",
@@ -352,6 +316,15 @@
           "_hash": "2c3712f73de4",
           "discovered_at": "2026-07-21T15:44:36.395616+00:00",
           "is_new": false
+        },
+        {
+          "title": "Business Program and Project Management Associate",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/business-program-and-project-management-associate-105574/",
+          "location": "Dearborn",
+          "firm": "Epitec",
+          "_hash": "6debfbbf63a1",
+          "discovered_at": "2026-07-31T00:02:24.133019+00:00",
+          "is_new": true
         },
         {
           "title": "Program Manager III",
