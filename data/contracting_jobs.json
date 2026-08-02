@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-02T15:02:51.168365+00:00",
+  "last_run": "2026-08-02T23:57:53.282603+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -44,12 +44,12 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
+          "title": "learning program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-07-25T00:03:10.234503+00:00",
+          "_hash": "0ccfd21abf1e",
+          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
           "is_new": false
         },
         {
@@ -59,24 +59,6 @@
           "firm": "Randstad",
           "_hash": "c3f43c321b47",
           "discovered_at": "2026-07-30T15:52:52.694444+00:00",
-          "is_new": false
-        },
-        {
-          "title": "sr. it asana ppm project manager (remote)",
-          "url": "https://www.randstadusa.com/jobs/4/1340315/sr-it-asana-ppm-project-manager-remote_frisco/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "365382176117",
-          "discovered_at": "2026-07-23T00:02:16.763097+00:00",
-          "is_new": false
-        },
-        {
-          "title": "learning program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "0ccfd21abf1e",
-          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
           "is_new": false
         },
         {
@@ -95,6 +77,15 @@
           "firm": "Randstad",
           "_hash": "2144871e5534",
           "discovered_at": "2026-07-23T15:56:48.643709+00:00",
+          "is_new": false
+        },
+        {
+          "title": "sr. it asana ppm project manager (remote)",
+          "url": "https://www.randstadusa.com/jobs/4/1340315/sr-it-asana-ppm-project-manager-remote_frisco/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "365382176117",
+          "discovered_at": "2026-07-23T00:02:16.763097+00:00",
           "is_new": false
         },
         {
