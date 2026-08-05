@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-08-04T16:14:20.869523+00:00",
+  "last_run": "2026-08-05T00:03:30.838639+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-08-04T23:59:40.446900+00:00",
+          "is_new": true
+        },
         {
           "title": "Product Manager/Sr. Product Manager",
           "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
@@ -13,15 +22,6 @@
           "_hash": "e0de40d90732",
           "discovered_at": "2026-08-03T16:21:14.190057+00:00",
           "is_new": false
-        },
-        {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-08-04T16:10:36.313872+00:00",
-          "is_new": true
         },
         {
           "title": "Project Manager, IT/Finance",
@@ -45,16 +45,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "efd9f69d3833",
           "discovered_at": "2026-08-04T16:10:40.056656+00:00",
-          "is_new": true
-        },
-        {
-          "title": "SaaS Project Manager",
-          "url": "https://www.ptechpartners.com/job/remote-mexico/saas-project-manager/106043",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "94211ce099db",
-          "discovered_at": "2026-08-04T16:10:40.056673+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -108,13 +99,13 @@
           "is_new": false
         },
         {
-          "title": "clinical imaging project manager- 3934",
-          "url": "https://www.randstadusa.com/jobs/4/1341480/clinical-imaging-project-manager-3934_saint-louis/",
+          "title": "clinical imaging project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1341484/clinical-imaging-project-manager_saint-louis/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "45e5bccbccf2",
-          "discovered_at": "2026-07-30T00:00:46.766653+00:00",
-          "is_new": false
+          "_hash": "cbefb4f12920",
+          "discovered_at": "2026-08-05T00:02:53.939942+00:00",
+          "is_new": true
         },
         {
           "title": "senior sap s/4hana pmmo lead & solution architect",
@@ -261,7 +252,7 @@
           "firm": "Epitec",
           "_hash": "6f10deb95158",
           "discovered_at": "2026-08-04T16:14:20.869479+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager",
@@ -289,6 +280,15 @@
           "_hash": "5645974dd62d",
           "discovered_at": "2026-07-15T23:59:31.852614+00:00",
           "is_new": false
+        },
+        {
+          "title": "Business Program and Project Management Senior Associate",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/business-program-and-project-management-senior-associate-105679/",
+          "location": "Dearborn",
+          "firm": "Epitec",
+          "_hash": "b6bc6087de98",
+          "discovered_at": "2026-08-05T00:03:30.838609+00:00",
+          "is_new": true
         },
         {
           "title": "Recruitment Program Manager / Strategic Sourcer \u2013 Senior",
