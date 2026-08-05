@@ -4,13 +4,13 @@
     "company": "Coast",
     "location": "New York City, New York",
     "description": "Coast is re-imagining the trillion-dollar U.S. B2B card payments infrastructure, with a focus on the country's 500,000 commercial fleets, 40 million commercial vehicles, and many millions of commercial drivers. The incumbent technologies that cater to these customers are decades old, and businesses with fleets increasingly demand modern digital experiences and transparent financial services products. Coast's mission is to deliver this at a transformational scale, beginning with the Coast Fleet \u2026",
-    "url": "https://www.adzuna.com/land/ad/5826404468?se=4EjjVwOR8RGawatf7LFQeQ&utm_medium=api&utm_source=0f9d6273&v=8294DA795FD9D4B2EE865702A4F1B73558BA804C",
+    "url": "https://www.adzuna.com/land/ad/5826404468?se=jKtG-iCR8RGQ4Z-QtyXkyw&utm_medium=api&utm_source=0f9d6273&v=8294DA795FD9D4B2EE865702A4F1B73558BA804C",
     "posted_date": "2026-08-03T03:49:45Z",
     "source": "adzuna",
     "tier": "tier2",
     "metadata": {
-      "run_number": 4,
-      "discovered_at": "2026-08-05T19:25:00.864310+00:00",
+      "run_number": 3,
+      "discovered_at": "2026-08-05T22:57:08.022311+00:00",
       "is_new_since_last_run": true
     }
   },
@@ -24,8 +24,8 @@
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
-      "run_number": 4,
-      "discovered_at": "2026-08-05T19:25:00.864310+00:00",
+      "run_number": 3,
+      "discovered_at": "2026-08-05T22:57:08.022311+00:00",
       "is_new_since_last_run": true
     }
   },
@@ -39,8 +39,8 @@
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
-      "run_number": 4,
-      "discovered_at": "2026-08-05T19:25:00.864310+00:00",
+      "run_number": 3,
+      "discovered_at": "2026-08-05T22:57:08.022311+00:00",
       "is_new_since_last_run": true
     }
   },
@@ -54,8 +54,8 @@
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
-      "run_number": 4,
-      "discovered_at": "2026-08-05T19:25:00.864310+00:00",
+      "run_number": 3,
+      "discovered_at": "2026-08-05T22:57:08.022311+00:00",
       "is_new_since_last_run": true
     }
   },
@@ -69,8 +69,8 @@
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
-      "run_number": 4,
-      "discovered_at": "2026-08-05T19:25:00.864310+00:00",
+      "run_number": 3,
+      "discovered_at": "2026-08-05T22:57:08.022311+00:00",
       "is_new_since_last_run": true
     }
   }
