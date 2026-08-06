@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-08-05T16:03:56.245972+00:00",
+  "last_run": "2026-08-05T23:59:55.995111+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "title": "Implementations Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-08-05T16:00:18.820707+00:00",
+          "_hash": "397cf5518c19",
+          "discovered_at": "2026-08-05T23:56:17.834028+00:00",
           "is_new": true
         },
         {
@@ -21,7 +21,16 @@
           "firm": "LaSalle Network",
           "_hash": "5f435421be41",
           "discovered_at": "2026-08-05T16:00:18.820732+00:00",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-08-04T23:59:40.446900+00:00",
+          "is_new": false
         },
         {
           "title": "Product Manager/Sr. Product Manager",
@@ -42,12 +51,12 @@
           "is_new": false
         },
         {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-08-04T23:59:40.446900+00:00",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-08-05T16:00:18.820707+00:00",
           "is_new": false
         }
       ]
@@ -57,13 +66,13 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Project Manager - HR Data Migration",
-          "url": "https://www.ptechpartners.com/job/chicago-il/project-manager-hr-data-migration/106044",
+          "title": "Product Manager - Digital Financial Operations",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-digital-financial-operations/106052",
           "location": "",
           "firm": "Peterson Technology Partners",
-          "_hash": "efd9f69d3833",
-          "discovered_at": "2026-08-04T16:10:40.056656+00:00",
-          "is_new": false
+          "_hash": "f9bda708ae7c",
+          "discovered_at": "2026-08-05T23:56:20.688170+00:00",
+          "is_new": true
         }
       ]
     },
@@ -71,15 +80,6 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "contract business program manager",
-          "url": "https://www.randstadusa.com/jobs/137/54221/contract-business-program-manager_north-chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ade13c4cc0d0",
-          "discovered_at": "2026-08-04T00:08:39.975065+00:00",
-          "is_new": false
-        },
         {
           "title": "machine operator - pm",
           "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
@@ -105,7 +105,7 @@
           "firm": "Randstad",
           "_hash": "1006101f5782",
           "discovered_at": "2026-08-05T16:03:25.002096+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "learning program manager",
@@ -186,15 +186,6 @@
           "is_new": false
         },
         {
-          "title": "Director, AI Program Management",
-          "url": "https://mondo.com/jobs/job/director-ai-program-management-los-angeles-ca-90024-32707288/e47eaada-8127-11f1-b0c9-024201c20d84",
-          "location": "Los Angeles, CA, 90024",
-          "firm": "Mondo",
-          "_hash": "3582c55f42a3",
-          "discovered_at": "2026-08-04T00:09:05.935818+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager",
           "url": "https://mondo.com/jobs/job/project-manager-philadelphia-pa-19103-32739047/175efa47-85f8-11f1-8519-024201c20d84",
           "location": "Philadelphia, PA, 19103",
@@ -228,21 +219,21 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "Finance Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/finance-project-manager-105716/",
+          "location": "Toronto",
+          "firm": "Epitec",
+          "_hash": "43ac63271bfb",
+          "discovered_at": "2026-08-05T23:59:55.995046+00:00",
+          "is_new": true
+        },
+        {
           "title": "Facilities Engineering Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/facilities-engineering-project-manager-105643/",
           "location": "Waterloo",
           "firm": "Epitec",
           "_hash": "3aa16b93559d",
           "discovered_at": "2026-08-03T16:24:58.374917+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager \u2013 Senior",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-senior-105622/",
-          "location": "Framingham",
-          "firm": "Epitec",
-          "_hash": "07c7906f7578",
-          "discovered_at": "2026-08-01T00:01:44.524666+00:00",
           "is_new": false
         },
         {
