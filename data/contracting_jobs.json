@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-08-07T01:45:21.188124+00:00",
+  "last_run": "2026-08-07T14:54:22.689881+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "title": "Implementations Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-08-03T16:21:14.190057+00:00",
+          "_hash": "397cf5518c19",
+          "discovered_at": "2026-08-05T23:56:17.834028+00:00",
           "is_new": false
         },
         {
@@ -21,24 +21,6 @@
           "firm": "LaSalle Network",
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-08-04T23:59:40.446900+00:00",
-          "is_new": false
-        },
-        {
-          "title": "SAP S/4HANA Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "5f435421be41",
-          "discovered_at": "2026-08-05T16:00:18.820732+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Implementations Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "397cf5518c19",
-          "discovered_at": "2026-08-05T23:56:17.834028+00:00",
           "is_new": false
         },
         {
@@ -55,7 +37,17 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Marketing Project Manager (Adobe Workfront)",
+          "url": "https://www.ptechpartners.com/job/remote-usa/marketing-project-manager-adobe-workfront/106060",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "22bd9a71570d",
+          "discovered_at": "2026-08-07T14:50:52.314478+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -68,15 +60,6 @@
           "firm": "Randstad",
           "_hash": "985f81decd01",
           "discovered_at": "2026-08-07T01:44:49.311617+00:00",
-          "is_new": true
-        },
-        {
-          "title": "machine operator - pm",
-          "url": "https://www.randstadusa.com/jobs/309/ab_4970748/machine-operator-pm_elk-grove-village/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "6be6f360ecf1",
-          "discovered_at": "2026-08-03T16:24:30.692220+00:00",
           "is_new": false
         },
         {
@@ -95,7 +78,7 @@
           "firm": "Randstad",
           "_hash": "18170b778b5b",
           "discovered_at": "2026-08-07T01:44:49.311644+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager, global policy & compliance",
@@ -200,7 +183,7 @@
           "firm": "Mondo",
           "_hash": "63b3c01c4e30",
           "discovered_at": "2026-08-07T01:45:12.305736+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -215,7 +198,7 @@
           "firm": "Epitec",
           "_hash": "468435dc1670",
           "discovered_at": "2026-08-07T01:45:21.188049+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "M&A Finance Project Manager",
@@ -224,7 +207,7 @@
           "firm": "Epitec",
           "_hash": "7b6cfce8c4b2",
           "discovered_at": "2026-08-07T01:45:21.188068+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Facilities Engineering Project Manager",
@@ -233,33 +216,6 @@
           "firm": "Epitec",
           "_hash": "3aa16b93559d",
           "discovered_at": "2026-08-03T16:24:58.374917+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/senior-project-manager-105618/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "d362f4022916",
-          "discovered_at": "2026-08-03T16:24:58.374943+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-105617/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "114669e9501f",
-          "discovered_at": "2026-08-03T16:24:58.374947+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager \u2013 Senior",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-senior-105616/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "07c7906f7578",
-          "discovered_at": "2026-08-01T00:01:44.524666+00:00",
           "is_new": false
         },
         {
@@ -272,15 +228,6 @@
           "is_new": false
         },
         {
-          "title": "Technical Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-project-manager-104357/",
-          "location": "Berkeley Heights",
-          "firm": "Epitec",
-          "_hash": "d898022a3653",
-          "discovered_at": "2026-08-03T16:24:58.374962+00:00",
-          "is_new": false
-        },
-        {
           "title": "Data Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/data-project-manager-104200/",
           "location": "",
@@ -290,13 +237,22 @@
           "is_new": false
         },
         {
+          "title": "Project/Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-104946/",
+          "location": "",
+          "firm": "Epitec",
+          "_hash": "5645974dd62d",
+          "discovered_at": "2026-07-15T23:59:31.852614+00:00",
+          "is_new": false
+        },
+        {
           "title": "Program Manager I",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-105742/",
           "location": "Providence",
           "firm": "Epitec",
           "_hash": "9fa1e1200791",
           "discovered_at": "2026-08-07T01:45:21.188096+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Recruitment Program Manager / Strategic Sourcer \u2013 Senior",
@@ -323,15 +279,6 @@
           "firm": "Epitec",
           "_hash": "2c3712f73de4",
           "discovered_at": "2026-07-21T15:44:36.395616+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-104946/",
-          "location": "",
-          "firm": "Epitec",
-          "_hash": "5645974dd62d",
-          "discovered_at": "2026-07-15T23:59:31.852614+00:00",
           "is_new": false
         },
         {
