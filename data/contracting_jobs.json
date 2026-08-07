@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-07T14:54:22.689881+00:00",
+  "last_run": "2026-08-07T23:33:15.466068+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -15,22 +15,22 @@
           "is_new": false
         },
         {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "title": "SAP S/4HANA Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sap-s-4hana-project-manager-161955/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-08-04T23:59:40.446900+00:00",
-          "is_new": false
+          "_hash": "5f435421be41",
+          "discovered_at": "2026-08-07T23:29:32.800346+00:00",
+          "is_new": true
         },
         {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
+          "title": "Product Manager/Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-08-05T16:00:18.820707+00:00",
-          "is_new": false
+          "_hash": "e0de40d90732",
+          "discovered_at": "2026-08-07T23:29:32.800352+00:00",
+          "is_new": true
         }
       ]
     },
@@ -45,7 +45,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "22bd9a71570d",
           "discovered_at": "2026-08-07T14:50:52.314478+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -72,6 +72,24 @@
           "is_new": false
         },
         {
+          "title": "learning program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "0ccfd21abf1e",
+          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
+          "is_new": false
+        },
+        {
+          "title": "usa - program manager",
+          "url": "https://www.randstadusa.com/jobs/137/54256/usa-program-manager_cambridge/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "97990438ba40",
+          "discovered_at": "2026-08-07T23:32:43.210225+00:00",
+          "is_new": true
+        },
+        {
           "title": "project manager (fleet camera implementation)",
           "url": "https://www.randstadusa.com/jobs/308/ab_5003724/project-manager-fleet-camera-implementation_wayne/",
           "location": "",
@@ -87,15 +105,6 @@
           "firm": "Randstad",
           "_hash": "1006101f5782",
           "discovered_at": "2026-08-05T16:03:25.002096+00:00",
-          "is_new": false
-        },
-        {
-          "title": "learning program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "0ccfd21abf1e",
-          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
           "is_new": false
         },
         {
@@ -168,15 +177,6 @@
           "is_new": false
         },
         {
-          "title": "Product Manager",
-          "url": "https://mondo.com/jobs/job/product-manager-philadelphia-pa-19103-32789574/143a346c-8f6a-11f1-b748-02420a6c7775",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "_hash": "a41262c89f28",
-          "discovered_at": "2026-08-04T00:09:05.935830+00:00",
-          "is_new": false
-        },
-        {
           "title": "Sr. Infrastructure Project Manager",
           "url": "https://mondo.com/jobs/job/sr-infrastructure-project-manager-boston-ma-02115-32811247/7e94c35f-91c1-11f1-97a0-024201c20d84",
           "location": "Boston, MA, 02115",
@@ -191,6 +191,15 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Project Manager \u2013 Junior",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-junior-105770/",
+          "location": "Craston",
+          "firm": "Epitec",
+          "_hash": "49eab30c1639",
+          "discovered_at": "2026-08-07T23:33:15.466006+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Manager \u2013 Mid-Level",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-mid-level-105743/",
@@ -210,15 +219,6 @@
           "is_new": false
         },
         {
-          "title": "Facilities Engineering Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/facilities-engineering-project-manager-105643/",
-          "location": "Waterloo",
-          "firm": "Epitec",
-          "_hash": "3aa16b93559d",
-          "discovered_at": "2026-08-03T16:24:58.374917+00:00",
-          "is_new": false
-        },
-        {
           "title": "Technical CLM Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-clm-project-manager-105604/",
           "location": "Culver City",
@@ -228,30 +228,12 @@
           "is_new": false
         },
         {
-          "title": "Data Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/data-project-manager-104200/",
-          "location": "",
-          "firm": "Epitec",
-          "_hash": "78e26852194a",
-          "discovered_at": "2026-07-15T23:59:31.852604+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project/Program Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-104946/",
           "location": "",
           "firm": "Epitec",
           "_hash": "5645974dd62d",
           "discovered_at": "2026-07-15T23:59:31.852614+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager I",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-105742/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "9fa1e1200791",
-          "discovered_at": "2026-08-07T01:45:21.188096+00:00",
           "is_new": false
         },
         {
@@ -270,6 +252,15 @@
           "firm": "Epitec",
           "_hash": "baa16cecd40c",
           "discovered_at": "2026-07-30T15:53:24.057520+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager I",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-105742/",
+          "location": "Providence",
+          "firm": "Epitec",
+          "_hash": "9fa1e1200791",
+          "discovered_at": "2026-08-07T01:45:21.188096+00:00",
           "is_new": false
         },
         {
