@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-07T23:33:15.466068+00:00",
+  "last_run": "2026-08-08T14:32:22.863562+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -21,7 +21,7 @@
           "firm": "LaSalle Network",
           "_hash": "5f435421be41",
           "discovered_at": "2026-08-07T23:29:32.800346+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager/Sr. Product Manager",
@@ -30,7 +30,7 @@
           "firm": "LaSalle Network",
           "_hash": "e0de40d90732",
           "discovered_at": "2026-08-07T23:29:32.800352+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -72,24 +72,6 @@
           "is_new": false
         },
         {
-          "title": "learning program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "0ccfd21abf1e",
-          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
-          "is_new": false
-        },
-        {
-          "title": "usa - program manager",
-          "url": "https://www.randstadusa.com/jobs/137/54256/usa-program-manager_cambridge/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "97990438ba40",
-          "discovered_at": "2026-08-07T23:32:43.210225+00:00",
-          "is_new": true
-        },
-        {
           "title": "project manager (fleet camera implementation)",
           "url": "https://www.randstadusa.com/jobs/308/ab_5003724/project-manager-fleet-camera-implementation_wayne/",
           "location": "",
@@ -108,12 +90,30 @@
           "is_new": false
         },
         {
+          "title": "learning program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "0ccfd21abf1e",
+          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
+          "is_new": false
+        },
+        {
           "title": "learning solutions project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_4990661/learning-solutions-project-manager_tampa/",
           "location": "",
           "firm": "Randstad",
           "_hash": "2577a357cace",
           "discovered_at": "2026-07-27T16:18:18.136375+00:00",
+          "is_new": false
+        },
+        {
+          "title": "usa - program manager",
+          "url": "https://www.randstadusa.com/jobs/137/54256/usa-program-manager_cambridge/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "97990438ba40",
+          "discovered_at": "2026-08-07T23:32:43.210225+00:00",
           "is_new": false
         },
         {
@@ -198,7 +198,7 @@
           "firm": "Epitec",
           "_hash": "49eab30c1639",
           "discovered_at": "2026-08-07T23:33:15.466006+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager \u2013 Mid-Level",
