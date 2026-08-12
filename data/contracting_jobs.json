@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-11T23:38:43.517171+00:00",
+  "last_run": "2026-08-12T14:57:13.018303+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "5f435421be41",
           "discovered_at": "2026-08-11T23:35:30.381911+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager",
@@ -21,24 +21,6 @@
           "firm": "LaSalle Network",
           "_hash": "9a91875ba1fa",
           "discovered_at": "2026-08-11T23:35:30.381936+00:00",
-          "is_new": true
-        },
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-08-11T14:54:38.544734+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-08-07T23:29:32.800352+00:00",
           "is_new": false
         }
       ]
@@ -191,6 +173,15 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "Scrum Master / Agile Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/scrum-master-agile-project-manager-105880/",
+          "location": "Marshall",
+          "firm": "Epitec",
+          "_hash": "2380edee2a96",
+          "discovered_at": "2026-08-12T14:57:13.018214+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager \u2013 Junior",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-junior-105770/",
           "location": "Craston",
@@ -224,7 +215,7 @@
           "firm": "Epitec",
           "_hash": "2ea61174d29a",
           "discovered_at": "2026-08-11T23:38:43.517132+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project/Program Manager (Non-IT) 5 *",
@@ -242,7 +233,7 @@
           "firm": "Epitec",
           "_hash": "af1840b5a77b",
           "discovered_at": "2026-08-11T23:38:43.517140+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager I",
