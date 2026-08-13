@@ -1,17 +1,26 @@
 {
-  "last_run": "2026-08-12T23:39:38.497955+00:00",
+  "last_run": "2026-08-13T14:57:19.592001+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "title": "RevOps & Sales Technology Product Manager (AVP)",
+          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-08-11T23:35:30.381936+00:00",
+          "_hash": "55ad978acab7",
+          "discovered_at": "2026-08-12T23:36:14.797561+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Implementations Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "397cf5518c19",
+          "discovered_at": "2026-08-12T23:36:14.797557+00:00",
           "is_new": false
         },
         {
@@ -24,21 +33,12 @@
           "is_new": false
         },
         {
-          "title": "Implementations Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
+          "title": "Product Manager/Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "397cf5518c19",
-          "discovered_at": "2026-08-12T23:36:14.797557+00:00",
-          "is_new": true
-        },
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-08-12T23:36:14.797561+00:00",
+          "_hash": "e0de40d90732",
+          "discovered_at": "2026-08-13T14:53:49.098640+00:00",
           "is_new": true
         }
       ]
@@ -116,6 +116,15 @@
           "is_new": false
         },
         {
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/141/1110183/program-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-08-13T14:56:48.478573+00:00",
+          "is_new": true
+        },
+        {
           "title": "senior sap s/4hana pmmo lead & solution architect",
           "url": "https://www.randstadusa.com/jobs/4/1342044/senior-sap-s-4hana-pmmo-lead-solution-architect_saint-louis/",
           "location": "",
@@ -123,6 +132,15 @@
           "_hash": "105a6dbe7a7e",
           "discovered_at": "2026-08-01T00:01:12.493015+00:00",
           "is_new": false
+        },
+        {
+          "title": "product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1343421/product-manager_bellevue/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "592d65fbf243",
+          "discovered_at": "2026-08-13T14:56:48.478580+00:00",
+          "is_new": true
         }
       ]
     },
@@ -197,7 +215,7 @@
           "firm": "Epitec",
           "_hash": "cae0dcd5c501",
           "discovered_at": "2026-08-12T23:39:38.497885+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Scrum Master / Agile Project Manager",
