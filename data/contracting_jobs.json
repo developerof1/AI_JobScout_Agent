@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-14T23:21:03.549467+00:00",
+  "last_run": "2026-08-15T14:22:05.245041+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "e0de40d90732",
           "discovered_at": "2026-08-14T23:17:39.354349+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager",
@@ -215,7 +215,7 @@
           "firm": "Epitec",
           "_hash": "07c7906f7578",
           "discovered_at": "2026-08-14T23:21:03.549413+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cybersecurity Project Manager",
