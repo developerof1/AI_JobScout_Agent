@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-16T14:23:12.072064+00:00",
+  "last_run": "2026-08-16T23:19:05.898925+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -50,7 +50,7 @@
           "firm": "Randstad",
           "_hash": "701ea151e06f",
           "discovered_at": "2026-08-16T14:22:34.497197+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "contract business program manager",
@@ -59,7 +59,7 @@
           "firm": "Randstad",
           "_hash": "ade13c4cc0d0",
           "discovered_at": "2026-08-16T14:22:34.497220+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior program manager - medical device & combination products",
@@ -68,7 +68,7 @@
           "firm": "Randstad",
           "_hash": "acc61d511544",
           "discovered_at": "2026-08-16T14:22:34.497225+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ai program manager",
