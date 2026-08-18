@@ -1,18 +1,27 @@
 {
-  "last_run": "2026-08-17T23:22:35.533420+00:00",
+  "last_run": "2026-08-18T14:33:08.515822+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
         {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "title": "Project Manager, IT/Finance",
+          "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
           "location": "",
           "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-08-13T23:36:54.701981+00:00",
+          "_hash": "62c85d766b3b",
+          "discovered_at": "2026-08-17T14:23:45.047379+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager/Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "e0de40d90732",
+          "discovered_at": "2026-08-18T14:29:39.072490+00:00",
+          "is_new": true
         },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
@@ -21,15 +30,6 @@
           "firm": "LaSalle Network",
           "_hash": "55ad978acab7",
           "discovered_at": "2026-08-17T14:23:45.047387+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, IT/Finance",
-          "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "62c85d766b3b",
-          "discovered_at": "2026-08-17T14:23:45.047379+00:00",
           "is_new": false
         }
       ]
@@ -45,7 +45,7 @@
           "firm": "Peterson Technology Partners",
           "_hash": "ba229539846c",
           "discovered_at": "2026-08-17T23:19:04.291916+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -88,6 +88,15 @@
           "_hash": "1994ffd12908",
           "discovered_at": "2026-08-04T00:08:39.975089+00:00",
           "is_new": false
+        },
+        {
+          "title": "project manager - ai assisted development - onsite nyc",
+          "url": "https://www.randstadusa.com/jobs/4/1343850/project-manager-ai-assisted-development-onsite-nyc_new-york/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "250b13e8a267",
+          "discovered_at": "2026-08-18T14:32:36.954572+00:00",
+          "is_new": true
         },
         {
           "title": "senior pmo program manager - remote",
@@ -150,7 +159,7 @@
           "firm": "Randstad",
           "_hash": "ad071adbaa66",
           "discovered_at": "2026-08-17T23:22:02.100818+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -210,7 +219,7 @@
           "firm": "Mondo",
           "_hash": "21e6d72c0167",
           "discovered_at": "2026-08-17T23:22:25.917972+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -234,15 +243,6 @@
           "firm": "Epitec",
           "_hash": "07fa555ddfed",
           "discovered_at": "2026-08-14T14:51:09.455530+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager Sr",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-sr-105905/",
-          "location": "Detroit",
-          "firm": "Epitec",
-          "_hash": "cae0dcd5c501",
-          "discovered_at": "2026-08-12T23:39:38.497885+00:00",
           "is_new": false
         },
         {
