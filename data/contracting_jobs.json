@@ -1,10 +1,28 @@
 {
-  "last_run": "2026-08-18T14:33:08.515822+00:00",
+  "last_run": "2026-08-18T23:21:27.014464+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "9a91875ba1fa",
+          "discovered_at": "2026-08-18T23:17:44.357058+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Implementations Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "397cf5518c19",
+          "discovered_at": "2026-08-18T23:17:44.357084+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Manager, IT/Finance",
           "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
@@ -13,15 +31,6 @@
           "_hash": "62c85d766b3b",
           "discovered_at": "2026-08-17T14:23:45.047379+00:00",
           "is_new": false
-        },
-        {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-08-18T14:29:39.072490+00:00",
-          "is_new": true
         },
         {
           "title": "RevOps & Sales Technology Product Manager (AVP)",
@@ -39,13 +48,22 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Digital Product Manager",
-          "url": "https://www.ptechpartners.com/job/remote-usa/digital-product-manager/106082",
+          "title": "Program Manager - Commercial Services",
+          "url": "https://www.ptechpartners.com/job/remote-usa/program-manager-commercial-services/106089",
           "location": "",
           "firm": "Peterson Technology Partners",
-          "_hash": "ba229539846c",
-          "discovered_at": "2026-08-17T23:19:04.291916+00:00",
-          "is_new": false
+          "_hash": "ae7e5af584cb",
+          "discovered_at": "2026-08-18T23:17:47.220547+00:00",
+          "is_new": true
+        },
+        {
+          "title": "SAP Project Manager (ERP Transformation Program)",
+          "url": "https://www.ptechpartners.com/job/charlotte-nc/sap-project-manager-erp-transformation-program/106086",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "b5cbfd448513",
+          "discovered_at": "2026-08-18T23:17:47.220564+00:00",
+          "is_new": true
         }
       ]
     },
@@ -81,24 +99,6 @@
           "is_new": false
         },
         {
-          "title": "project manager, technical operations integration",
-          "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "1994ffd12908",
-          "discovered_at": "2026-08-04T00:08:39.975089+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager - ai assisted development - onsite nyc",
-          "url": "https://www.randstadusa.com/jobs/4/1343850/project-manager-ai-assisted-development-onsite-nyc_new-york/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "250b13e8a267",
-          "discovered_at": "2026-08-18T14:32:36.954572+00:00",
-          "is_new": true
-        },
-        {
           "title": "senior pmo program manager - remote",
           "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
           "location": "",
@@ -108,30 +108,12 @@
           "is_new": false
         },
         {
-          "title": "project manager, global policy & compliance",
-          "url": "https://www.randstadusa.com/jobs/137/54231/project-manager-global-policy-compliance_cambridge/",
+          "title": "project manager, technical operations integration",
+          "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "1006101f5782",
-          "discovered_at": "2026-08-05T16:03:25.002096+00:00",
-          "is_new": false
-        },
-        {
-          "title": "learning program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "0ccfd21abf1e",
-          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
-          "is_new": false
-        },
-        {
-          "title": "learning solutions project manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990661/learning-solutions-project-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "2577a357cace",
-          "discovered_at": "2026-07-27T16:18:18.136375+00:00",
+          "_hash": "1994ffd12908",
+          "discovered_at": "2026-08-04T00:08:39.975089+00:00",
           "is_new": false
         },
         {
@@ -144,12 +126,39 @@
           "is_new": false
         },
         {
-          "title": "program manager",
-          "url": "https://www.randstadusa.com/jobs/141/1110183/program-manager_houston/",
+          "title": "learning program manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "9f2a0a837ae6",
-          "discovered_at": "2026-08-13T14:56:48.478573+00:00",
+          "_hash": "0ccfd21abf1e",
+          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
+          "is_new": false
+        },
+        {
+          "title": "project manager - ai assisted development - onsite nyc",
+          "url": "https://www.randstadusa.com/jobs/4/1343850/project-manager-ai-assisted-development-onsite-nyc_new-york/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "250b13e8a267",
+          "discovered_at": "2026-08-18T14:32:36.954572+00:00",
+          "is_new": false
+        },
+        {
+          "title": "project manager, global policy & compliance",
+          "url": "https://www.randstadusa.com/jobs/137/54231/project-manager-global-policy-compliance_cambridge/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "1006101f5782",
+          "discovered_at": "2026-08-05T16:03:25.002096+00:00",
+          "is_new": false
+        },
+        {
+          "title": "learning solutions project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_4990661/learning-solutions-project-manager_tampa/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "2577a357cace",
+          "discovered_at": "2026-07-27T16:18:18.136375+00:00",
           "is_new": false
         },
         {
@@ -167,33 +176,6 @@
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
       "jobs": [
-        {
-          "title": "Technical Product Manager",
-          "url": "https://mondo.com/jobs/job/technical-product-manager-needham-ma-02494-32314511/5a65d87d-5091-11f1-b409-02420a6c7775",
-          "location": "Needham, MA, 02494",
-          "firm": "Mondo",
-          "_hash": "bb744cd0c38a",
-          "discovered_at": "2026-08-04T00:09:05.935785+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Design/Construction Project Manager, Epic Device Infrastructure Planning",
-          "url": "https://mondo.com/jobs/job/designconstruction-project-manager-epic-device-infrastructure-planning-silver-spring-md-20815-32342931/6e1fe0af-5530-11f1-a63d-02420a6c7775",
-          "location": "Silver spring, MD, 20815",
-          "firm": "Mondo",
-          "_hash": "91d2fdfce862",
-          "discovered_at": "2026-08-04T00:09:05.935803+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-project-manager-new-york-ny-10036-32553061/b9b3f7b4-7ba7-11f1-9454-02420a6c7775",
-          "location": "New York, NY, 10036",
-          "firm": "Mondo",
-          "_hash": "adcec9729a88",
-          "discovered_at": "2026-08-04T00:09:05.935809+00:00",
-          "is_new": false
-        },
         {
           "title": "Sr. Infrastructure Project Manager",
           "url": "https://mondo.com/jobs/job/sr-infrastructure-project-manager-boston-ma-02115-32811247/7e94c35f-91c1-11f1-97a0-024201c20d84",
@@ -220,6 +202,33 @@
           "_hash": "21e6d72c0167",
           "discovered_at": "2026-08-17T23:22:25.917972+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager Digital Marketing",
+          "url": "https://mondo.com/jobs/job/product-manager-digital-marketing-atlanta-ga-30326-32867058/4b1a785c-9a90-11f1-a3dc-024201c20d84",
+          "location": "Atlanta, GA, 30326",
+          "firm": "Mondo",
+          "_hash": "2adcb5095f13",
+          "discovered_at": "2026-08-18T23:21:18.660618+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager III",
+          "url": "https://mondo.com/jobs/job/project-manager-iii-racine-wi-53403-32874627/ab922c90-9b48-11f1-9509-02420a6c7775",
+          "location": "Racine, WI, 53403",
+          "firm": "Mondo",
+          "_hash": "eceaba985fc8",
+          "discovered_at": "2026-08-18T23:21:18.660621+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://mondo.com/jobs/job/project-manager-denver-co-80218-32874628/ab87f2c8-9b48-11f1-a3dc-024201c20d84",
+          "location": "Denver, CO, 80218",
+          "firm": "Mondo",
+          "_hash": "e580ae707dc7",
+          "discovered_at": "2026-08-18T23:21:18.660625+00:00",
+          "is_new": true
         }
       ]
     },
@@ -228,13 +237,13 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "Project Manager \u2013 Senior",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-senior-105981/",
-          "location": "Providence",
+          "title": "SAP Program/Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sap-program-project-manager-106068/",
+          "location": "Dearborn",
           "firm": "Epitec",
-          "_hash": "07c7906f7578",
-          "discovered_at": "2026-08-14T23:21:03.549413+00:00",
-          "is_new": false
+          "_hash": "8c1ec70a649a",
+          "discovered_at": "2026-08-18T23:21:27.014412+00:00",
+          "is_new": true
         },
         {
           "title": "Cybersecurity Project Manager",
@@ -252,15 +261,6 @@
           "firm": "Epitec",
           "_hash": "d7242a36b73e",
           "discovered_at": "2026-08-14T14:51:09.455539+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager (Non-IT) 2",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-2-105896/",
-          "location": "Lafayette",
-          "firm": "Epitec",
-          "_hash": "1769cba05770",
-          "discovered_at": "2026-08-13T23:40:22.297850+00:00",
           "is_new": false
         },
         {
