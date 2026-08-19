@@ -1,56 +1,10 @@
 {
-  "last_run": "2026-08-19T14:33:24.435727+00:00",
+  "last_run": "2026-08-19T23:22:41.950727+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
-      "jobs": [
-        {
-          "title": "RevOps & Sales Technology Product Manager (AVP)",
-          "url": "https://www.thelasallenetwork.com/jobs/revops-sales-technology-product-manager-avp-161877/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "55ad978acab7",
-          "discovered_at": "2026-08-17T14:23:45.047387+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, IT/Finance",
-          "url": "https://www.thelasallenetwork.com/jobs/project-manager-it-finance-162155/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "62c85d766b3b",
-          "discovered_at": "2026-08-17T14:23:45.047379+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager/Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/product-manager-sr-product-manager-161998/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "e0de40d90732",
-          "discovered_at": "2026-08-19T14:29:19.429806+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/program-manager-161700/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "9a91875ba1fa",
-          "discovered_at": "2026-08-18T23:17:44.357058+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Implementations Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/implementations-project-manager-162050/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "_hash": "397cf5518c19",
-          "discovered_at": "2026-08-18T23:17:44.357084+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Peterson Technology Partners",
@@ -63,15 +17,6 @@
           "firm": "Peterson Technology Partners",
           "_hash": "ae7e5af584cb",
           "discovered_at": "2026-08-18T23:17:47.220547+00:00",
-          "is_new": false
-        },
-        {
-          "title": "SAP Project Manager (ERP Transformation Program)",
-          "url": "https://www.ptechpartners.com/job/charlotte-nc/sap-project-manager-erp-transformation-program/106086",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "b5cbfd448513",
-          "discovered_at": "2026-08-18T23:17:47.220564+00:00",
           "is_new": false
         }
       ]
@@ -99,6 +44,15 @@
           "is_new": false
         },
         {
+          "title": "senior program manager - medical device & combination products",
+          "url": "https://www.randstadusa.com/jobs/137/54304/senior-program-manager-medical-device-combination-products_north-chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "acc61d511544",
+          "discovered_at": "2026-08-19T23:22:10.477375+00:00",
+          "is_new": true
+        },
+        {
           "title": "ai program manager",
           "url": "https://www.randstadusa.com/jobs/4/1342681/ai-program-manager_chicago/",
           "location": "",
@@ -123,7 +77,7 @@
           "firm": "Randstad",
           "_hash": "059367c1cd54",
           "discovered_at": "2026-08-19T14:32:26.473928+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager - ai assisted development - onsite nyc",
@@ -141,7 +95,7 @@
           "firm": "Randstad",
           "_hash": "b19c38baa541",
           "discovered_at": "2026-08-19T14:32:26.473935+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior pmo program manager - remote",
@@ -150,15 +104,6 @@
           "firm": "Randstad",
           "_hash": "055df7c53ce5",
           "discovered_at": "2026-08-10T14:57:07.297590+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager, global policy & compliance",
-          "url": "https://www.randstadusa.com/jobs/137/54231/project-manager-global-policy-compliance_cambridge/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "1006101f5782",
-          "discovered_at": "2026-08-05T16:03:25.002096+00:00",
           "is_new": false
         },
         {
@@ -187,6 +132,15 @@
           "_hash": "fee03d414db3",
           "discovered_at": "2026-08-13T23:39:42.198279+00:00",
           "is_new": false
+        },
+        {
+          "title": "product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1343803/product-manager_auburn/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "592d65fbf243",
+          "discovered_at": "2026-08-19T23:22:10.477417+00:00",
+          "is_new": true
         },
         {
           "title": "agile product management advisor",
@@ -264,13 +218,13 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "SAP Program/Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sap-program-project-manager-106068/",
-          "location": "Dearborn",
+          "title": "Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-106096/",
+          "location": "Grand Rapids",
           "firm": "Epitec",
-          "_hash": "8c1ec70a649a",
-          "discovered_at": "2026-08-18T23:21:27.014412+00:00",
-          "is_new": false
+          "_hash": "114669e9501f",
+          "discovered_at": "2026-08-19T23:22:41.950675+00:00",
+          "is_new": true
         },
         {
           "title": "Cybersecurity Project Manager",
@@ -279,15 +233,6 @@
           "firm": "Epitec",
           "_hash": "07fa555ddfed",
           "discovered_at": "2026-08-14T14:51:09.455530+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sr-project-manager-105466/",
-          "location": "Troy",
-          "firm": "Epitec",
-          "_hash": "d7242a36b73e",
-          "discovered_at": "2026-08-14T14:51:09.455539+00:00",
           "is_new": false
         },
         {
@@ -300,21 +245,21 @@
           "is_new": false
         },
         {
+          "title": "Technical Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-106120/",
+          "location": "Omaha",
+          "firm": "Epitec",
+          "_hash": "bd0b7feb7e1d",
+          "discovered_at": "2026-08-19T23:22:41.950703+00:00",
+          "is_new": true
+        },
+        {
           "title": "Knowledge Management Program Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/knowledge-management-program-manager-106104/",
           "location": "Warren",
           "firm": "Epitec",
           "_hash": "beba01bbeee7",
           "discovered_at": "2026-08-19T14:33:24.435699+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Project Management Analyst Lead PMA",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-management-analyst-lead-pma-104151/",
-          "location": "Allen Park",
-          "firm": "Epitec",
-          "_hash": "13a733a8cf8c",
-          "discovered_at": "2026-08-14T14:51:09.455555+00:00",
           "is_new": false
         },
         {
