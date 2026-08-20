@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-20T14:35:40.836404+00:00",
+  "last_run": "2026-08-20T23:24:29.768178+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -61,30 +61,12 @@
           "is_new": false
         },
         {
-          "title": "program / project management lead",
-          "url": "https://www.randstadusa.com/jobs/4/1343966/program-project-management-lead_seattle/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "059367c1cd54",
-          "discovered_at": "2026-08-19T14:32:26.473928+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager - ai assisted development - onsite nyc",
           "url": "https://www.randstadusa.com/jobs/4/1343850/project-manager-ai-assisted-development-onsite-nyc_new-york/",
           "location": "",
           "firm": "Randstad",
           "_hash": "250b13e8a267",
           "discovered_at": "2026-08-18T14:32:36.954572+00:00",
-          "is_new": false
-        },
-        {
-          "title": "executive decision support project manager-1249",
-          "url": "https://www.randstadusa.com/jobs/4/1343970/executive-decision-support-project-manager-1249_grand-rapids/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "b19c38baa541",
-          "discovered_at": "2026-08-19T14:32:26.473935+00:00",
           "is_new": false
         },
         {
@@ -115,21 +97,12 @@
           "is_new": false
         },
         {
-          "title": "program manager (mergers/acquisitions/divestitures)",
-          "url": "https://www.randstadusa.com/jobs/4/1343398/program-manager-mergers-acquisitions-divestitures_saint-louis/",
+          "title": "digital product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1343800/digital-product-manager_redmond/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "fee03d414db3",
-          "discovered_at": "2026-08-13T23:39:42.198279+00:00",
-          "is_new": false
-        },
-        {
-          "title": "product manager",
-          "url": "https://www.randstadusa.com/jobs/4/1343803/product-manager_auburn/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "592d65fbf243",
-          "discovered_at": "2026-08-19T23:22:10.477417+00:00",
+          "_hash": "23158e228a70",
+          "discovered_at": "2026-08-20T14:35:07.180979+00:00",
           "is_new": false
         },
         {
@@ -140,15 +113,6 @@
           "_hash": "ad071adbaa66",
           "discovered_at": "2026-08-17T23:22:02.100818+00:00",
           "is_new": false
-        },
-        {
-          "title": "digital product manager",
-          "url": "https://www.randstadusa.com/jobs/4/1343800/digital-product-manager_redmond/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "23158e228a70",
-          "discovered_at": "2026-08-20T14:35:07.180979+00:00",
-          "is_new": true
         }
       ]
     },
@@ -200,15 +164,6 @@
           "_hash": "eceaba985fc8",
           "discovered_at": "2026-08-18T23:21:18.660621+00:00",
           "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-denver-co-80218-32874628/ab87f2c8-9b48-11f1-a3dc-024201c20d84",
-          "location": "Denver, CO, 80218",
-          "firm": "Mondo",
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-08-18T23:21:18.660625+00:00",
-          "is_new": false
         }
       ]
     },
@@ -216,6 +171,15 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Project Manager \u2013 Non IT I",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-non-it-i-106171/",
+          "location": "Columbus",
+          "firm": "Epitec",
+          "_hash": "158aea997810",
+          "discovered_at": "2026-08-20T23:24:29.768127+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-106096/",
@@ -232,7 +196,7 @@
           "firm": "Epitec",
           "_hash": "8c1ec70a649a",
           "discovered_at": "2026-08-20T14:35:40.836363+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cybersecurity Project Manager",
@@ -241,15 +205,6 @@
           "firm": "Epitec",
           "_hash": "07fa555ddfed",
           "discovered_at": "2026-08-14T14:51:09.455530+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager (Non-IT) 3",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-3-105870/",
-          "location": "Alpharetta",
-          "firm": "Epitec",
-          "_hash": "d64604e53116",
-          "discovered_at": "2026-08-13T23:40:22.297857+00:00",
           "is_new": false
         },
         {
