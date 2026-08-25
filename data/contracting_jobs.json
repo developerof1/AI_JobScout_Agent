@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-24T23:23:12.135586+00:00",
+  "last_run": "2026-08-25T14:45:01.491499+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "691d81f896fb",
           "discovered_at": "2026-08-24T23:19:19.004756+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -77,7 +77,7 @@
           "firm": "Randstad",
           "_hash": "6eb73668fc62",
           "discovered_at": "2026-08-24T23:22:37.306677+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager - ai assisted development - onsite nyc",
@@ -173,7 +173,7 @@
           "firm": "Mondo",
           "_hash": "a9eb9324892d",
           "discovered_at": "2026-08-24T23:23:03.027327+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cyber Security Sr. Project Manager",
@@ -191,6 +191,15 @@
           "firm": "Mondo",
           "_hash": "d2d6d2ae0c56",
           "discovered_at": "2026-08-24T23:23:03.027335+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Group Product Manager, Platforms",
+          "url": "https://mondo.com/jobs/job/group-product-manager-platforms-centerville-va-20120-32906970/b08903f8-a085-11f1-ad55-024201c20d84",
+          "location": "Centerville, VA, 20120",
+          "firm": "Mondo",
+          "_hash": "8346b4237193",
+          "discovered_at": "2026-08-25T14:44:51.520551+00:00",
           "is_new": true
         }
       ]
@@ -206,15 +215,6 @@
           "firm": "Epitec",
           "_hash": "158aea997810",
           "discovered_at": "2026-08-20T23:24:29.768127+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager I",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-106201/",
-          "location": "Cupertino",
-          "firm": "Epitec",
-          "_hash": "9fa1e1200791",
-          "discovered_at": "2026-08-21T23:22:56.270904+00:00",
           "is_new": false
         },
         {
