@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-25T23:24:29.371006+00:00",
+  "last_run": "2026-08-26T14:44:36.258774+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -59,7 +59,7 @@
           "firm": "Randstad",
           "_hash": "37c02616b1ce",
           "discovered_at": "2026-08-25T23:24:02.065904+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ai program manager",
@@ -104,7 +104,7 @@
           "firm": "Randstad",
           "_hash": "267a9c97415f",
           "discovered_at": "2026-08-25T23:24:02.065918+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior pmo program manager - remote",
@@ -116,22 +116,13 @@
           "is_new": false
         },
         {
-          "title": "learning program manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_4990702/learning-program-manager_tampa/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "0ccfd21abf1e",
-          "discovered_at": "2026-07-27T16:18:18.136370+00:00",
-          "is_new": false
-        },
-        {
           "title": "it project management senior advisor",
           "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
           "location": "",
           "firm": "Randstad",
           "_hash": "ffb009cbb4a9",
           "discovered_at": "2026-08-25T23:24:02.065925+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "digital product manager",
@@ -163,13 +154,13 @@
           "is_new": false
         },
         {
-          "title": "Technical Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-106120/",
-          "location": "Omaha",
+          "title": "Financial Program Manager\u00a0",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/financial-program-manager-106316/",
+          "location": "Santa Clara County",
           "firm": "Epitec",
-          "_hash": "bd0b7feb7e1d",
-          "discovered_at": "2026-08-19T23:22:41.950703+00:00",
-          "is_new": false
+          "_hash": "4aa90513c3de",
+          "discovered_at": "2026-08-26T14:44:36.258752+00:00",
+          "is_new": true
         },
         {
           "title": "Program Manager",
