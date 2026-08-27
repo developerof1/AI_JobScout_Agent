@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-27T04:15:45.327650+00:00",
+  "last_run": "2026-08-27T23:36:41.085616+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -25,24 +25,6 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "global operations project manager - heor & vendor management",
-          "url": "https://www.randstadusa.com/jobs/137/54272/global-operations-project-manager-heor-vendor-management_lake-forest/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "701ea151e06f",
-          "discovered_at": "2026-08-16T14:22:34.497197+00:00",
-          "is_new": false
-        },
-        {
-          "title": "contract business program manager",
-          "url": "https://www.randstadusa.com/jobs/137/54221/contract-business-program-manager_north-chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ade13c4cc0d0",
-          "discovered_at": "2026-08-16T14:22:34.497220+00:00",
-          "is_new": false
-        },
         {
           "title": "senior program manager - medical device & combination products",
           "url": "https://www.randstadusa.com/jobs/137/54304/senior-program-manager-medical-device-combination-products_north-chicago/",
@@ -86,15 +68,6 @@
           "firm": "Randstad",
           "_hash": "6eb73668fc62",
           "discovered_at": "2026-08-24T23:22:37.306677+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager - ai assisted development - onsite nyc",
-          "url": "https://www.randstadusa.com/jobs/4/1343850/project-manager-ai-assisted-development-onsite-nyc_new-york/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "250b13e8a267",
-          "discovered_at": "2026-08-18T14:32:36.954572+00:00",
           "is_new": false
         },
         {
@@ -146,7 +119,7 @@
           "firm": "Mondo",
           "_hash": "63b3c01c4e30",
           "discovered_at": "2026-08-27T04:15:36.104444+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr. IT Project Manager",
@@ -155,7 +128,7 @@
           "firm": "Mondo",
           "_hash": "ebb467132df4",
           "discovered_at": "2026-08-27T04:15:36.104463+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager III",
@@ -164,7 +137,7 @@
           "firm": "Mondo",
           "_hash": "eceaba985fc8",
           "discovered_at": "2026-08-27T04:15:36.104470+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cyber Security Sr. Project Manager",
@@ -173,7 +146,7 @@
           "firm": "Mondo",
           "_hash": "41e51953ce66",
           "discovered_at": "2026-08-27T04:15:36.104476+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "IT Project Manager",
@@ -182,7 +155,7 @@
           "firm": "Mondo",
           "_hash": "d2d6d2ae0c56",
           "discovered_at": "2026-08-27T04:15:36.104480+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Group Product Manager, Platforms",
@@ -191,7 +164,7 @@
           "firm": "Mondo",
           "_hash": "8346b4237193",
           "discovered_at": "2026-08-27T04:15:36.104485+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager - Subscription/Companion Growth",
@@ -200,6 +173,15 @@
           "firm": "Mondo",
           "_hash": "386b9ed607f9",
           "discovered_at": "2026-08-27T04:15:36.104489+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Client Implementation Project Manager",
+          "url": "https://mondo.com/jobs/job/client-implementation-project-manager-chicago-il-60602-32922553/aee53064-a238-11f1-9a51-02420a6c7775",
+          "location": "Chicago, IL, 60602",
+          "firm": "Mondo",
+          "_hash": "b123c54f49f8",
+          "discovered_at": "2026-08-27T23:36:30.714975+00:00",
           "is_new": true
         }
       ]
@@ -209,13 +191,13 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "Project Manager \u2013 Non IT I",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-non-it-i-106171/",
-          "location": "Columbus",
+          "title": "Project/Program Manager IT 5",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-5-104983/",
+          "location": "Chicago",
           "firm": "Epitec",
-          "_hash": "158aea997810",
-          "discovered_at": "2026-08-20T23:24:29.768127+00:00",
-          "is_new": false
+          "_hash": "cbc8e045c232",
+          "discovered_at": "2026-08-27T23:36:41.085574+00:00",
+          "is_new": true
         },
         {
           "title": "Financial Program Manager\u00a0",
