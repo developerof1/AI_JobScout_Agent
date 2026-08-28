@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-27T23:36:41.085616+00:00",
+  "last_run": "2026-08-28T06:32:29.550281+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -19,7 +19,17 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Marketing Project Manager (Adobe Workfront)",
+          "url": "https://www.ptechpartners.com/job/remote-argentina/marketing-project-manager-adobe-workfront/106060",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "22bd9a71570d",
+          "discovered_at": "2026-08-28T06:29:00.383089+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -182,7 +192,7 @@
           "firm": "Mondo",
           "_hash": "b123c54f49f8",
           "discovered_at": "2026-08-27T23:36:30.714975+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -197,7 +207,7 @@
           "firm": "Epitec",
           "_hash": "cbc8e045c232",
           "discovered_at": "2026-08-27T23:36:41.085574+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Financial Program Manager\u00a0",
