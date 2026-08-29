@@ -4,13 +4,13 @@
     "company": "Alertus Technologies",
     "location": "Maryland, Anne Arundel County",
     "description": "Company Description At Alertus, protecting people from harm is our mission and our passion. As the leader in mass notification, we are committed to providing customizable, scalable, and cost-effective solutions, as we know even a few seconds of warning can help save lives during an emergency. Our employees are integral to the company\u2019s success and impact countless people's lives, safety, and well-being. We aim for a positive, collaborative environment that allows employees to work across depart\u2026",
-    "url": "https://www.adzuna.com/land/ad/5857721939?se=9BKjIIWj8RG3Z8l1COYoHQ&utm_medium=api&utm_source=0f9d6273&v=FDBF009C480CFD79AC4D9592354F6DA0240FB5C7",
+    "url": "https://www.adzuna.com/land/ad/5857721939?se=WsFQacqj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=0f9d6273&v=FDBF009C480CFD79AC4D9592354F6DA0240FB5C7",
     "posted_date": "2026-08-26T22:00:41Z",
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
       "run_number": 4,
-      "discovered_at": "2026-08-29T08:39:29.538705+00:00",
+      "discovered_at": "2026-08-29T16:55:28.975104+00:00",
       "is_new_since_last_run": true
     },
     "_hash": "bd26334a3cef6d02",
@@ -23,13 +23,13 @@
     "company": "Artian AI",
     "location": "New York City, New York",
     "description": "About Artian Artian AI is building agentic AI automation for financial services. Our platform enables reliable, autonomous AI agents to execute business-critical workflows across regulated enterprise environments. We are an in-person team in New York, building at the intersection of AI, enterprise software, workflow automation, and financial services. We move with urgency, take ownership, communicate transparently, and care deeply about doing excellent work. We are looking for people who are gr\u2026",
-    "url": "https://www.adzuna.com/land/ad/5857722825?se=9BKjIIWj8RG3Z8l1COYoHQ&utm_medium=api&utm_source=0f9d6273&v=6EAFC1F5B49D7282345FE7C8CBA3D78450FCDE0E",
+    "url": "https://www.adzuna.com/land/ad/5857722825?se=WsFQacqj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=0f9d6273&v=6EAFC1F5B49D7282345FE7C8CBA3D78450FCDE0E",
     "posted_date": "2026-08-26T22:00:48Z",
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
       "run_number": 4,
-      "discovered_at": "2026-08-29T08:39:29.538705+00:00",
+      "discovered_at": "2026-08-29T16:55:28.975104+00:00",
       "is_new_since_last_run": true
     },
     "_hash": "649feeae5600157a",
@@ -42,13 +42,13 @@
     "company": "SageSure",
     "location": "Chicago, Cook County",
     "description": "Overview: If you're looking for the stability of a profitable, growing company with the entrepreneurial spirit of a startup, we\u2019re hiring. SageSure, a leader in catastrophe-exposed property insurance, is seeking a Senior Software Product Manager to help drive the strategy, development, and delivery of critical software products and platforms, including inspection and onboarding experiences, that support our business, customers, and partners. This role will work closely with design, engineering,\u2026",
-    "url": "https://www.adzuna.com/land/ad/5857723152?se=9BKjIIWj8RG3Z8l1COYoHQ&utm_medium=api&utm_source=0f9d6273&v=8222CDD036074ECD21146B3E4B530BB232A55656",
+    "url": "https://www.adzuna.com/land/ad/5857723152?se=WsFQacqj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=0f9d6273&v=8222CDD036074ECD21146B3E4B530BB232A55656",
     "posted_date": "2026-08-26T22:00:51Z",
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
       "run_number": 4,
-      "discovered_at": "2026-08-29T08:39:29.538705+00:00",
+      "discovered_at": "2026-08-29T16:55:28.975104+00:00",
       "is_new_since_last_run": true
     },
     "_hash": "d2dbd2835e6ace20",
@@ -61,16 +61,35 @@
     "company": "Parker Group, LLC.",
     "location": "New York City, New York",
     "description": "About The Role: Parker\u2019s mission is simple but ambitious: to increase the number of financially independent people . We believe the best way to achieve this is by giving independent business owners the financial tools they need to scale profitably. Our core product combines a virtual corporate card with dynamic spending limits and profitability-focused software tooling \u2014empowering eCommerce merchants to grow faster while staying in control of their margins. We\u2019ve raised over $180M in equity and\u2026",
-    "url": "https://www.adzuna.com/land/ad/5860712200?se=9BKjIIWj8RG3Z8l1COYoHQ&utm_medium=api&utm_source=0f9d6273&v=C7AF4EE992B69A7F7388E46DBC4537AAC9EF2534",
+    "url": "https://www.adzuna.com/land/ad/5860712200?se=WsFQacqj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=0f9d6273&v=C7AF4EE992B69A7F7388E46DBC4537AAC9EF2534",
     "posted_date": "2026-08-29T00:01:34Z",
     "source": "adzuna",
     "tier": "tier3",
     "metadata": {
       "run_number": 4,
-      "discovered_at": "2026-08-29T08:39:29.538705+00:00",
+      "discovered_at": "2026-08-29T16:55:28.975104+00:00",
       "is_new_since_last_run": true
     },
     "_hash": "9041c0f95da6b064",
+    "sources": [
+      "adzuna"
+    ]
+  },
+  {
+    "title": "Product Manager, HealthTech",
+    "company": "Adoreal",
+    "location": "Colorado, US",
+    "description": "Description Who We Are We are a fast-growing vertical SaaS company that leverages innovation and disruptive technologies to improve consumer experiences, outcomes, and predictability in elective medicine. Our team thrives on challenges, embraces change, and is dedicated to transforming our industry. Adoreal is scaling rapidly, and the way we build is changing just as fast. We are moving from a world where product hands off specs and Figma files to engineering, to one where product and design bu\u2026",
+    "url": "https://www.adzuna.com/land/ad/5857722525?se=WsFQacqj8RGEeLI7Dotn4Q&utm_medium=api&utm_source=0f9d6273&v=4AB3083EDC1B2FA5DAC7CAD9FA67D51452C387DB",
+    "posted_date": "2026-08-26T22:00:46Z",
+    "source": "adzuna",
+    "tier": "tier3",
+    "metadata": {
+      "run_number": 4,
+      "discovered_at": "2026-08-29T16:55:28.975104+00:00",
+      "is_new_since_last_run": true
+    },
+    "_hash": "ff4fc004c242fbfa",
     "sources": [
       "adzuna"
     ]
