@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-29T17:33:21.712660+00:00",
+  "last_run": "2026-08-30T01:02:41.950959+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -44,6 +44,15 @@
           "is_new": false
         },
         {
+          "title": "senior pmo program manager - remote",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "055df7c53ce5",
+          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
+          "is_new": false
+        },
+        {
           "title": "project manager, technical operations integration",
           "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
           "location": "",
@@ -71,12 +80,12 @@
           "is_new": false
         },
         {
-          "title": "senior pmo program manager - remote",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
+          "title": "digital product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1343800/digital-product-manager_redmond/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "055df7c53ce5",
-          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
+          "_hash": "23158e228a70",
+          "discovered_at": "2026-08-20T14:35:07.180979+00:00",
           "is_new": false
         },
         {
@@ -86,15 +95,6 @@
           "firm": "Randstad",
           "_hash": "ffb009cbb4a9",
           "discovered_at": "2026-08-25T23:24:02.065925+00:00",
-          "is_new": false
-        },
-        {
-          "title": "digital product manager",
-          "url": "https://www.randstadusa.com/jobs/4/1343800/digital-product-manager_redmond/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "23158e228a70",
-          "discovered_at": "2026-08-20T14:35:07.180979+00:00",
           "is_new": false
         }
       ]
