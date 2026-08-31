@@ -1,10 +1,19 @@
 {
-  "last_run": "2026-08-31T01:06:50.745162+00:00",
+  "last_run": "2026-08-31T19:53:23.654349+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/project-manager-162640/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "_hash": "5f4691a7d547",
+          "discovered_at": "2026-08-31T19:49:29.615490+00:00",
+          "is_new": true
+        },
         {
           "title": "Product Manager, Retool Platform",
           "url": "https://www.thelasallenetwork.com/jobs/product-manager-retool-platform-162540/",
@@ -69,6 +78,15 @@
           "_hash": "055df7c53ce5",
           "discovered_at": "2026-08-10T14:57:07.297590+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5036808/senior-project-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "e5c1a84be0bd",
+          "discovered_at": "2026-08-31T19:52:29.941290+00:00",
+          "is_new": true
         },
         {
           "title": "it project management senior advisor",
@@ -165,6 +183,15 @@
           "_hash": "b123c54f49f8",
           "discovered_at": "2026-08-27T23:36:30.714975+00:00",
           "is_new": false
+        },
+        {
+          "title": "Sr. AI Product Manager",
+          "url": "https://mondo.com/jobs/job/sr-ai-product-manager-new-york-ny-10019-32938115/9f882db0-a54e-11f1-aac6-024201c20d84",
+          "location": "New York, NY, 10019",
+          "firm": "Mondo",
+          "_hash": "1a5cc135d57d",
+          "discovered_at": "2026-08-31T19:53:13.743068+00:00",
+          "is_new": true
         }
       ]
     },
@@ -173,30 +200,12 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "Project Manager \u2013 Intermediate",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-intermediate-106431/",
-          "location": "Cranston",
-          "firm": "Epitec",
-          "_hash": "e1b7a3b65ac9",
-          "discovered_at": "2026-08-28T23:26:52.993484+00:00",
-          "is_new": false
-        },
-        {
           "title": "EPC Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/epc-project-manager-106401/",
           "location": "Blackman",
           "firm": "Epitec",
           "_hash": "96cab94c14b7",
           "discovered_at": "2026-08-28T23:26:52.993513+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager IT 5",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-5-104983/",
-          "location": "Chicago",
-          "firm": "Epitec",
-          "_hash": "cbc8e045c232",
-          "discovered_at": "2026-08-27T23:36:41.085574+00:00",
           "is_new": false
         },
         {
