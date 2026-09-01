@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-31T19:53:23.654349+00:00",
+  "last_run": "2026-09-01T01:37:41.057755+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -12,7 +12,7 @@
           "firm": "LaSalle Network",
           "_hash": "5f4691a7d547",
           "discovered_at": "2026-08-31T19:49:29.615490+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager, Retool Platform",
@@ -28,7 +28,17 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Sr. Product Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/sr-product-manager/106120",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "abf2c4735398",
+          "discovered_at": "2026-09-01T01:34:21.654485+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -86,7 +96,7 @@
           "firm": "Randstad",
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-08-31T19:52:29.941290+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it project management senior advisor",
@@ -191,7 +201,7 @@
           "firm": "Mondo",
           "_hash": "1a5cc135d57d",
           "discovered_at": "2026-08-31T19:53:13.743068+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -206,15 +216,6 @@
           "firm": "Epitec",
           "_hash": "96cab94c14b7",
           "discovered_at": "2026-08-28T23:26:52.993513+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Program & Project Management Specialist",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-project-management-specialist-106425/",
-          "location": "Dearborn",
-          "firm": "Epitec",
-          "_hash": "41fe7247cd48",
-          "discovered_at": "2026-08-28T23:26:52.993522+00:00",
           "is_new": false
         },
         {
