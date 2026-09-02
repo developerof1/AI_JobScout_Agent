@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-02T00:50:39.443393+00:00",
+  "last_run": "2026-09-02T17:38:54.133668+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -28,26 +28,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Technical Project Manager / Scrum Master",
-          "url": "https://www.ptechpartners.com/job/remote-usa/technical-project-manager-scrum-master/106128",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "df1d3993f3e4",
-          "discovered_at": "2026-09-02T00:47:14.237725+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Mid Product Manager - Marketplace",
-          "url": "https://www.ptechpartners.com/job/irving-tx/mid-product-manager-marketplace/106124",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "_hash": "4c048b02e961",
-          "discovered_at": "2026-09-02T00:47:14.237740+00:00",
-          "is_new": true
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -60,6 +41,15 @@
           "firm": "Randstad",
           "_hash": "985f81decd01",
           "discovered_at": "2026-08-07T01:44:49.311617+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior pmo program manager - remote",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "055df7c53ce5",
+          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
           "is_new": false
         },
         {
@@ -81,30 +71,12 @@
           "is_new": false
         },
         {
-          "title": "senior pmo program manager - remote",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "055df7c53ce5",
-          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
-          "is_new": false
-        },
-        {
           "title": "senior project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_5036808/senior-project-manager_houston/",
           "location": "",
           "firm": "Randstad",
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-08-31T19:52:29.941290+00:00",
-          "is_new": false
-        },
-        {
-          "title": "it project management senior advisor",
-          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ffb009cbb4a9",
-          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
           "is_new": false
         },
         {
@@ -115,6 +87,15 @@
           "_hash": "23158e228a70",
           "discovered_at": "2026-08-20T14:35:07.180979+00:00",
           "is_new": false
+        },
+        {
+          "title": "it project management senior advisor",
+          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "ffb009cbb4a9",
+          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
+          "is_new": false
         }
       ]
     },
@@ -124,7 +105,7 @@
       "jobs": [
         {
           "title": "Sr. Infrastructure Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-infrastructure-project-manager-boston-ma-02115-32811247/7e94c35f-91c1-11f1-97a0-024201c20d84",
+          "url": "https://mondo.com/jobs/job/sr-infrastructure-project-manager-boston-ma-02115-32811247/56f86ff1-a6cb-11f1-b939-02420a6c7775",
           "location": "Boston, MA, 02115",
           "firm": "Mondo",
           "_hash": "63b3c01c4e30",
@@ -133,7 +114,7 @@
         },
         {
           "title": "Sr. IT Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-it-project-manager-boston-ma-02115-32826062/a161c341-94eb-11f1-9509-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/sr-it-project-manager-boston-ma-02115-32826062/56b6fa1e-a6cb-11f1-b939-02420a6c7775",
           "location": "Boston, MA, 02115",
           "firm": "Mondo",
           "_hash": "ebb467132df4",
@@ -142,7 +123,7 @@
         },
         {
           "title": "Project Manager III",
-          "url": "https://mondo.com/jobs/job/project-manager-iii-racine-wi-53403-32874627/ab922c90-9b48-11f1-9509-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/project-manager-iii-racine-wi-53403-32874627/55e9717a-a6cb-11f1-8336-024201c20d84",
           "location": "Racine, WI, 53403",
           "firm": "Mondo",
           "_hash": "eceaba985fc8",
@@ -151,7 +132,7 @@
         },
         {
           "title": "Cyber Security Sr. Project Manager",
-          "url": "https://mondo.com/jobs/job/cyber-security-sr-project-manager-northbrook-il-60062-32891479/e6071a25-9d77-11f1-9509-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/cyber-security-sr-project-manager-northbrook-il-60062-32891479/555fce99-a6cb-11f1-8336-024201c20d84",
           "location": "Northbrook, IL, 60062",
           "firm": "Mondo",
           "_hash": "41e51953ce66",
@@ -159,17 +140,8 @@
           "is_new": false
         },
         {
-          "title": "IT Project Manager",
-          "url": "https://mondo.com/jobs/job/it-project-manager-broomfield-co-80021-32905614/a6ec07c1-9ffb-11f1-9a51-02420a6c7775",
-          "location": "Broomfield, CO, 80021",
-          "firm": "Mondo",
-          "_hash": "d2d6d2ae0c56",
-          "discovered_at": "2026-08-27T04:15:36.104480+00:00",
-          "is_new": false
-        },
-        {
           "title": "Group Product Manager, Platforms",
-          "url": "https://mondo.com/jobs/job/group-product-manager-platforms-centerville-va-20120-32906970/b08903f8-a085-11f1-ad55-024201c20d84",
+          "url": "https://mondo.com/jobs/job/group-product-manager-platforms-centerville-va-20120-32906970/5525d352-a6cb-11f1-b939-02420a6c7775",
           "location": "Centerville, VA, 20120",
           "firm": "Mondo",
           "_hash": "8346b4237193",
@@ -178,7 +150,7 @@
         },
         {
           "title": "Product Manager - Subscription/Companion Growth",
-          "url": "https://mondo.com/jobs/job/product-manager-subscriptioncompanion-growth-santa-monica-ca-90404-32917559/8878419b-a189-11f1-9a51-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/product-manager-subscriptioncompanion-growth-santa-monica-ca-90404-32917559/546eded0-a6cb-11f1-8336-024201c20d84",
           "location": "Santa Monica, CA, 90404",
           "firm": "Mondo",
           "_hash": "386b9ed607f9",
@@ -187,7 +159,7 @@
         },
         {
           "title": "Client Implementation Project Manager",
-          "url": "https://mondo.com/jobs/job/client-implementation-project-manager-chicago-il-60602-32922553/aee53064-a238-11f1-9a51-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/client-implementation-project-manager-chicago-il-60602-32922553/5429986b-a6cb-11f1-b939-02420a6c7775",
           "location": "Chicago, IL, 60602",
           "firm": "Mondo",
           "_hash": "b123c54f49f8",
@@ -196,7 +168,7 @@
         },
         {
           "title": "GIS/GTD Project Manager",
-          "url": "https://mondo.com/jobs/job/gisgtd-project-manager-racine-wi-53403-32944067/1e34c31a-a61e-11f1-9141-02420a6c7775",
+          "url": "https://mondo.com/jobs/job/gisgtd-project-manager-racine-wi-53403-32944067/5147ae19-a6cb-11f1-b939-02420a6c7775",
           "location": "Racine, WI, 53403",
           "firm": "Mondo",
           "_hash": "f3756e508f4b",
@@ -219,6 +191,24 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "Project Manager \u2013 Intermediate",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-intermediate-106529/",
+          "location": "Providence",
+          "firm": "Epitec",
+          "_hash": "e1b7a3b65ac9",
+          "discovered_at": "2026-09-02T17:38:54.133613+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/senior-project-manager-106509/",
+          "location": "Los Angeles",
+          "firm": "Epitec",
+          "_hash": "d362f4022916",
+          "discovered_at": "2026-09-02T17:38:54.133639+00:00",
+          "is_new": true
+        },
+        {
           "title": "Sr. Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sr-project-manager-106481/",
           "location": "Los Angeles",
@@ -234,24 +224,6 @@
           "firm": "Epitec",
           "_hash": "96cab94c14b7",
           "discovered_at": "2026-08-28T23:26:52.993513+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager I",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-106403/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "_hash": "9fa1e1200791",
-          "discovered_at": "2026-08-28T23:26:52.993525+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Financial Program Manager\u00a0",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/financial-program-manager-106316/",
-          "location": "Santa Clara County",
-          "firm": "Epitec",
-          "_hash": "4aa90513c3de",
-          "discovered_at": "2026-08-26T14:44:36.258752+00:00",
           "is_new": false
         },
         {
