@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-01T17:38:03.708107+00:00",
+  "last_run": "2026-09-02T00:50:39.443393+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,13 +30,22 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Sr. Product Manager",
-          "url": "https://www.ptechpartners.com/job/irving-tx/sr-product-manager/106120",
+          "title": "Technical Project Manager / Scrum Master",
+          "url": "https://www.ptechpartners.com/job/remote-usa/technical-project-manager-scrum-master/106128",
           "location": "",
           "firm": "Peterson Technology Partners",
-          "_hash": "abf2c4735398",
-          "discovered_at": "2026-09-01T01:34:21.654485+00:00",
-          "is_new": false
+          "_hash": "df1d3993f3e4",
+          "discovered_at": "2026-09-02T00:47:14.237725+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Mid Product Manager - Marketplace",
+          "url": "https://www.ptechpartners.com/job/irving-tx/mid-product-manager-marketplace/106124",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "_hash": "4c048b02e961",
+          "discovered_at": "2026-09-02T00:47:14.237740+00:00",
+          "is_new": true
         }
       ]
     },
@@ -60,15 +69,6 @@
           "firm": "Randstad",
           "_hash": "1994ffd12908",
           "discovered_at": "2026-08-04T00:08:39.975089+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager, clinical partner management",
-          "url": "https://www.randstadusa.com/jobs/137/54405/project-manager-clinical-partner-management_cambridge/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "6eb73668fc62",
-          "discovered_at": "2026-08-24T23:22:37.306677+00:00",
           "is_new": false
         },
         {
@@ -105,15 +105,6 @@
           "firm": "Randstad",
           "_hash": "ffb009cbb4a9",
           "discovered_at": "2026-08-25T23:24:02.065925+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1345354/project-manager_milpitas/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-08-25T23:24:02.065918+00:00",
           "is_new": false
         },
         {
@@ -204,22 +195,13 @@
           "is_new": false
         },
         {
-          "title": "Sr. AI Product Manager",
-          "url": "https://mondo.com/jobs/job/sr-ai-product-manager-new-york-ny-10019-32938115/9f882db0-a54e-11f1-aac6-024201c20d84",
-          "location": "New York, NY, 10019",
-          "firm": "Mondo",
-          "_hash": "1a5cc135d57d",
-          "discovered_at": "2026-08-31T19:53:13.743068+00:00",
-          "is_new": false
-        },
-        {
           "title": "GIS/GTD Project Manager",
           "url": "https://mondo.com/jobs/job/gisgtd-project-manager-racine-wi-53403-32944067/1e34c31a-a61e-11f1-9141-02420a6c7775",
           "location": "Racine, WI, 53403",
           "firm": "Mondo",
           "_hash": "f3756e508f4b",
           "discovered_at": "2026-09-01T17:37:15.355008+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager (Asana)",
@@ -228,7 +210,7 @@
           "firm": "Mondo",
           "_hash": "7f61445b8c5b",
           "discovered_at": "2026-09-01T17:37:15.355011+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -243,7 +225,7 @@
           "firm": "Epitec",
           "_hash": "d7242a36b73e",
           "discovered_at": "2026-09-01T17:38:03.708055+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "EPC Project Manager",
