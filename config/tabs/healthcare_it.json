@@ -24,16 +24,6 @@
         "department": "program_management",
         "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
       }
-    },
-    {
-      "name": "Digital Health Jobs",
-      "method": "html",
-      "config": {
-        "url": "https://digital-health-jobs.com/",
-        "requires_js": true,
-        "max_pages": 10,
-        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
-      }
     }
   ],
 

@@ -198,6 +198,8 @@ def _extract_jobs(html: str, base_url: str, keywords: list[str], skip_keyword_fi
                 continue
             if re.search(r'^(page\s+\d+\s*-\s*)?\d+\s+.+\bjobs?\b', title.lower()):
                 continue
+            if re.search(r'^top companies\b.*\bhiring\b', title.lower()):
+                continue
             if not skip_keyword_filter and not title_matches_keywords(title, keywords):
                 continue
 

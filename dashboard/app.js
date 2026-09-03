@@ -456,7 +456,9 @@ function renderGroupedSection(tabKey) {
   const showAll = !!showHidden[tabKey];
 
   firmsList.innerHTML = data.firms.map(firm => {
-    const allJobs = firm.jobs || [];
+    const allJobs = [...(firm.jobs || [])].sort((a, b) =>
+      new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0)
+    );
     const visibleJobs = showAll ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
 
     const jobsHtml = visibleJobs.length ? visibleJobs.map(j => {
