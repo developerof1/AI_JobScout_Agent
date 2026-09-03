@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-03T16:33:17.906279+00:00",
+  "last_run": "2026-09-03T17:33:31.224632+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -188,7 +188,7 @@
           "firm": "Epitec",
           "_hash": "9227e34bed6d",
           "discovered_at": "2026-09-03T16:33:17.906279+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Localization Project Manager II",
