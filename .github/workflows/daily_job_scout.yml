@@ -43,6 +43,8 @@ jobs:
 
   scout:
     needs: determine_run_number
+    permissions:
+      contents: write
     uses: ./.github/workflows/_tab_scout_template.yml
     with:
       tab: scouting

@@ -10,6 +10,8 @@ on:
 
 jobs:
   scout:
+    permissions:
+      contents: write
     uses: ./.github/workflows/_tab_scout_template.yml
     with:
       tab: contracting
