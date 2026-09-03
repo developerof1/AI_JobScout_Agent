@@ -57,12 +57,25 @@
         "api_url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
         "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
       }
+    },
+    {
+      "name": "Aquent",
+      "method": "elastic_search",
+      "config": {
+        "elastic_host": "https://5d0493d4cacf44dbb8a0b25eefe15970.us-east-2.aws.elastic-cloud.com:443",
+        "index": "jobs-global",
+        "api_key": "ZEVBUnpwZ0JGNUdLanEzWkdOMWM6c1ZsSDRvTC1URHlaOGk3NUFfLVp4QQ==",
+        "region": "namerica",
+        "cities_any_onsite": ["Chicago", "Miami"],
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
     }
   ],
 
   "dimension_support": {
     "html": {"title": "fixed", "location": "unsupported", "date": "unsupported"},
-    "matador_api": {"title": "fixed", "location": "unsupported", "date": "unsupported"}
+    "matador_api": {"title": "fixed", "location": "unsupported", "date": "unsupported"},
+    "elastic_search": {"title": "fixed", "location": "unsupported", "date": "unsupported"}
   },
 
   "dedup_strategy": "url",

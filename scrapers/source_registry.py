@@ -14,7 +14,7 @@ Adding a new source: write one wrapper function and add it to SOURCE_REGISTRY.
 No driver changes needed.
 """
 
-from scrapers.methods import adzuna, html_pages, matador_api, remotive
+from scrapers.methods import adzuna, elastic_search, html_pages, matador_api, remotive
 
 
 def _fetch_html(source_config: dict) -> list[dict]:
@@ -23,6 +23,10 @@ def _fetch_html(source_config: dict) -> list[dict]:
 
 def _fetch_matador_api(source_config: dict) -> list[dict]:
     return matador_api.scrape(source_config, source_config.get("keywords", []))
+
+
+def _fetch_elastic_search(source_config: dict) -> list[dict]:
+    return elastic_search.scrape(source_config, source_config.get("keywords", []))
 
 
 def _fetch_remotive(source_config: dict) -> list[dict]:
@@ -36,6 +40,7 @@ def _fetch_adzuna(source_config: dict) -> list[dict]:
 SOURCE_REGISTRY = {
     "html": _fetch_html,
     "matador_api": _fetch_matador_api,
+    "elastic_search": _fetch_elastic_search,
     "remotive": _fetch_remotive,
     "adzuna": _fetch_adzuna,
 }
