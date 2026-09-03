@@ -41,6 +41,7 @@ def scrape(firm: dict, keywords: list[str]) -> list[dict]:
     host = firm["elastic_host"].rstrip("/")
     index = firm["index"]
     api_key = firm["api_key"]
+    listing_url = firm["listing_url"].rstrip("/")
     skip_kw = firm.get("skip_keyword_filter", False)
 
     headers = {
@@ -80,7 +81,9 @@ def scrape(firm: dict, keywords: list[str]) -> list[dict]:
             city = src.get("city", "")
             state = src.get("state", "")
             location = f"{city}, {state}" if city and state else (city or src.get("location", ""))
-            job = {"title": title, "url": src.get("application_url", ""), "location": location}
+            job_id = src.get("job_id", "")
+            url = f"{listing_url}/{job_id}" if job_id else ""
+            job = {"title": title, "url": url, "location": location}
             key = job_key(job)
             if key in seen_keys:
                 continue
