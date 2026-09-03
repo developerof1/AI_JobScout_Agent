@@ -16,7 +16,21 @@ const TAB_CONFIGS = {
     dataUrl: "./data/contracting_jobs.json",
     display: { shape: "grouped_by_firm", tracking: { type: "hide", storageKey: "hiddenContractingJobs" } },
   },
+  healthcare_it: {
+    dataUrl: "./data/healthcare_it_jobs.json",
+    display: {
+      shape: "grouped_by_firm",
+      tracking: { type: "hide", storageKey: "hiddenHealthcareItJobs" },
+      // Field that marks a job unclassified when absent — a source whose seed
+      // URL isn't scoped to one department (e.g. digital-health-jobs.com)
+      // stamps null here instead of guessing.
+      classifyDimension: "department",
+    },
+  },
 };
+
+// Tabs whose data is grouped by source firm, rendered by renderGroupedSection().
+const GROUPED_TABS = Object.keys(TAB_CONFIGS).filter(t => TAB_CONFIGS[t].display.shape === "grouped_by_firm");
 
 const HIGH_PRIORITY_THRESHOLD = 85;
 const REVIEW_THRESHOLD = 70;
@@ -25,8 +39,8 @@ const FRESH_HOURS = 12;
 
 let allJobs = [];
 let activeFilter = "all";
-let contractingData = null;
-let showHidden = false;
+let groupedData = {};   // keyed by tab: contracting, healthcare_it
+let showHidden = {};    // keyed by tab
 
 function formatTimestamp(date) {
   const today = new Date();
@@ -88,12 +102,15 @@ async function init() {
 
   renderTab("scouting", allJobs);
 
-  // Load contracting jobs then render (it's the default tab)
-  try {
-    const cr = await fetch(TAB_CONFIGS.contracting.dataUrl + "?t=" + Date.now());
-    if (cr.ok) contractingData = await cr.json();
-  } catch (_) {}
-  renderTab("contracting", contractingData);
+  // Load each grouped-by-firm tab's data then render (contracting is the default tab)
+  for (const tab of GROUPED_TABS) {
+    let data = null;
+    try {
+      const res = await fetch(TAB_CONFIGS[tab].dataUrl + "?t=" + Date.now());
+      if (res.ok) data = await res.json();
+    } catch (_) {}
+    renderTab(tab, data);
+  }
 
   // Request browser notification permission for future use
   if ("Notification" in window && Notification.permission === "default") {
@@ -148,8 +165,8 @@ function renderTab(tabKey, data) {
     renderStats();
     renderJobs(allJobs);
   } else if (shape === "grouped_by_firm") {
-    if (data !== undefined) contractingData = data;
-    renderContractingSection();
+    if (data !== undefined) groupedData[tabKey] = data;
+    renderGroupedSection(tabKey);
   }
 }
 
@@ -308,9 +325,11 @@ function switchTab(tab) {
   document.querySelectorAll(".tab-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.tab === tab);
   });
-  document.getElementById("tab-scouting").style.display    = tab === "scouting"    ? "" : "none";
-  document.getElementById("tab-contracting").style.display = tab === "contracting" ? "" : "none";
-  if (tab === "contracting") renderTab("contracting");
+  Object.keys(TAB_CONFIGS).forEach(t => {
+    const panel = document.getElementById(`tab-${t}`);
+    if (panel) panel.style.display = t === tab ? "" : "none";
+  });
+  if (GROUPED_TABS.includes(tab)) renderTab(tab);
 }
 
 function setFilter(filter) {
@@ -387,74 +406,80 @@ function showToast(msg, type = "info") {
   setTimeout(() => toast.remove(), 3500);
 }
 
-// ─── Contracting ─────────────────────────────────────────────────────────────
+// ─── Grouped-by-firm tabs (Contracting, Healthcare IT) ────────────────────────
 
-function hideContractingJob(hash) {
-  const hidden = getTrackedIds("contracting", "hide");
+function hideGroupedJob(tab, hash) {
+  const hidden = getTrackedIds(tab, "hide");
   hidden.add(hash);
-  saveTrackedIds("contracting", "hide", hidden);
-  renderContractingSection();
+  saveTrackedIds(tab, "hide", hidden);
+  renderGroupedSection(tab);
   showToast("Job hidden", "info");
 }
 
-function unhideContractingJob(hash) {
-  const hidden = getTrackedIds("contracting", "hide");
+function unhideGroupedJob(tab, hash) {
+  const hidden = getTrackedIds(tab, "hide");
   hidden.delete(hash);
-  saveTrackedIds("contracting", "hide", hidden);
-  renderContractingSection();
+  saveTrackedIds(tab, "hide", hidden);
+  renderGroupedSection(tab);
 }
 
-function toggleShowHidden() {
-  showHidden = document.getElementById("show-hidden-toggle").checked;
-  renderContractingSection();
+function toggleShowHidden(tab) {
+  showHidden[tab] = document.getElementById(`${tab}-show-hidden-toggle`).checked;
+  renderGroupedSection(tab);
 }
 
-function renderContractingSection() {
-  const firmsList = document.getElementById("firms-list");
+function renderGroupedSection(tabKey) {
+  const firmsList = document.getElementById(`${tabKey}-firms-list`);
   if (!firmsList) return;
 
-  const contractingLastRun = document.getElementById("contracting-last-run");
-  if (contractingLastRun) {
-    if (contractingData?.last_run) {
-      const d = new Date(contractingData.last_run);
+  const data = groupedData[tabKey];
+  const classifyDimension = TAB_CONFIGS[tabKey]?.display?.classifyDimension;
+
+  const lastRunEl = document.getElementById(`${tabKey}-last-run`);
+  if (lastRunEl) {
+    if (data?.last_run) {
+      const d = new Date(data.last_run);
       const isRecent = (Date.now() - d.getTime()) < 26 * 60 * 60 * 1000;
       const dot = isRecent ? "🟢" : "🔴";
-      contractingLastRun.textContent = `${dot} Last scouted: ${formatTimestamp(d)}`;
+      lastRunEl.textContent = `${dot} Last scouted: ${formatTimestamp(d)}`;
     } else {
-      contractingLastRun.textContent = "Last scouted: Never";
+      lastRunEl.textContent = "Last scouted: Never";
     }
   }
 
-  if (!contractingData || !contractingData.firms || !contractingData.firms.length) {
-    firmsList.innerHTML = `<div class="empty-state"><h3>No contracting jobs yet</h3><p>Run the contracting scraper to populate this section.</p></div>`;
+  if (!data || !data.firms || !data.firms.length) {
+    firmsList.innerHTML = `<div class="empty-state"><h3>No jobs yet</h3><p>Run the scraper to populate this section.</p></div>`;
     return;
   }
 
-  const hidden = getTrackedIds("contracting", "hide");
+  const hidden = getTrackedIds(tabKey, "hide");
+  const showAll = !!showHidden[tabKey];
 
-  firmsList.innerHTML = contractingData.firms.map(firm => {
+  firmsList.innerHTML = data.firms.map(firm => {
     const allJobs = firm.jobs || [];
-    const visibleJobs = showHidden ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
+    const visibleJobs = showAll ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
 
     const jobsHtml = visibleJobs.length ? visibleJobs.map(j => {
       const isHidden = hidden.has(j._hash);
+      const isUnclassified = classifyDimension && !j[classifyDimension];
       const newBadge = j.is_new ? `<span class="badge badge-new">NEW</span>` : "";
+      const unclassifiedBadge = isUnclassified ? `<span class="badge badge-source">Unclassified</span>` : "";
       const hiddenIndicator = isHidden ? `<span class="contracting-hidden-label">Hidden</span>` : "";
       const hideBtn = !isHidden
-        ? `<button class="btn btn-hide" onclick="hideContractingJob('${escAttr(j._hash)}')">Hide</button>`
-        : `<button class="btn btn-hide" onclick="unhideContractingJob('${escAttr(j._hash)}')">Unhide</button>`;
+        ? `<button class="btn btn-hide" onclick="hideGroupedJob('${escAttr(tabKey)}', '${escAttr(j._hash)}')">Hide</button>`
+        : `<button class="btn btn-hide" onclick="unhideGroupedJob('${escAttr(tabKey)}', '${escAttr(j._hash)}')">Unhide</button>`;
       const viewBtn = j.url
         ? `<button class="btn btn-ghost" onclick="window.open('${escAttr(j.url)}', '_blank')">View</button>`
         : "";
 
       return `
-<div class="contracting-job${isHidden ? " is-hidden" : ""}">
+<div class="contracting-job${isHidden ? " is-hidden" : ""}${isUnclassified ? " is-unclassified" : ""}">
   <div class="contracting-job-left">
     <div class="contracting-job-title">${escHtml(j.title)}</div>
     ${j.location ? `<div class="contracting-job-meta">${escHtml(j.location)}</div>` : ""}
   </div>
   <div class="contracting-job-actions">
-    ${newBadge}${hiddenIndicator}${viewBtn}${hideBtn}
+    ${newBadge}${unclassifiedBadge}${hiddenIndicator}${viewBtn}${hideBtn}
   </div>
 </div>`;
     }).join("") : `<div class="firm-empty">No matching jobs found</div>`;

@@ -358,6 +358,7 @@ body {
 .contracting-job:last-child { border-bottom: none; }
 .contracting-job:hover { background: var(--surface-hover, #1e2736); }
 .contracting-job.is-hidden { opacity: 0.35; }
+.contracting-job.is-unclassified { opacity: 0.6; }
 
 .contracting-job-left { flex: 1; min-width: 0; }
 .contracting-job-title {

@@ -1,0 +1,67 @@
+{
+  "tab": "healthcare_it",
+  "active": true,
+
+  "sources": [
+    {
+      "name": "Built In Chicago — Product",
+      "method": "html",
+      "config": {
+        "url": "https://builtinchicago.org/jobs/product/healthtech?page=1",
+        "requires_js": true,
+        "max_pages": 10,
+        "department": "product_management",
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Built In Chicago — Project/Program Management",
+      "method": "html",
+      "config": {
+        "url": "https://builtinchicago.org/jobs/project-management/healthtech?page=1",
+        "requires_js": true,
+        "max_pages": 10,
+        "department": "program_management",
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Digital Health Jobs",
+      "method": "html",
+      "config": {
+        "url": "https://digital-health-jobs.com/",
+        "requires_js": true,
+        "max_pages": 10,
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    }
+  ],
+
+  "dimension_support": {
+    "html": {"title": "fixed", "location": "unsupported", "date": "unsupported"}
+  },
+
+  "dedup_strategy": "url",
+
+  "profiles": [
+    {
+      "name": "default",
+      "label": "Healthcare IT",
+      "dimensions": {
+        "title": {
+          "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+        }
+      }
+    }
+  ],
+
+  "scoring": {"enabled": false},
+
+  "display": {
+    "shape": "grouped_by_firm",
+    "group_key": "firm",
+    "tracking": {"type": "hide", "storage_key": "hiddenHealthcareItJobs"}
+  },
+
+  "output": "data/healthcare_it_jobs.json"
+}

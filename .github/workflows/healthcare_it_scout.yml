@@ -1,0 +1,22 @@
+name: Healthcare IT Job Scout
+
+on:
+  schedule:
+    # 8 AM CST (14:00 UTC) daily
+    - cron: "0 14 * * *"
+    # 5 PM CST (23:00 UTC) daily
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  scout:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/_tab_scout_template.yml
+    with:
+      tab: healthcare_it
+      scoring-enabled: false
+      output-paths: data/healthcare_it_jobs.json
+      commit-message: "chore: update healthcare_it_jobs.json [skip ci]"
+      deploy-commit-message: "deploy: dashboard update (healthcare_it)"
+    secrets: inherit

@@ -99,7 +99,7 @@ def _make_hash(firm_name: str, title: str) -> str:
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
 
-def build_contracting_output(
+def build_grouped_output(
     tab_config: dict, fetched: list[tuple[dict, list[dict]]], existing_output_path: Path
 ) -> dict:
     existing_hashes: dict[str, str] = {}
@@ -122,6 +122,7 @@ def build_contracting_output(
         for raw_job in jobs:
             job = dict(raw_job)
             job["firm"] = name
+            job["department"] = source.get("config", {}).get("department")
             job["_hash"] = _make_hash(name, job["title"])
             if job["_hash"] in existing_hashes:
                 job["discovered_at"] = existing_hashes[job["_hash"]]
@@ -164,7 +165,7 @@ def build_scouting_output(
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tab", required=True, choices=["contracting", "scouting"])
+    parser.add_argument("--tab", required=True, choices=["contracting", "scouting", "healthcare_it"])
     parser.add_argument("--run-number", type=int, default=1)
     parser.add_argument("--output", help="Override output path (for verification runs)")
     args = parser.parse_args()
@@ -177,8 +178,8 @@ def main():
     fetched = fetch_all(tab_config, scraping_config)
     output_path = Path(args.output) if args.output else ROOT / tab_config["output"]
 
-    if args.tab == "contracting":
-        output = build_contracting_output(tab_config, fetched, ROOT / tab_config["output"])
+    if tab_config.get("display", {}).get("shape") == "grouped_by_firm":
+        output = build_grouped_output(tab_config, fetched, ROOT / tab_config["output"])
         total = sum(len(r["jobs"]) for r in output["firms"])
         summary = f"{total} jobs across {len(output['firms'])} firm(s)"
     else:
