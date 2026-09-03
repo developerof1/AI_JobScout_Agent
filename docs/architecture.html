@@ -1,0 +1,533 @@
+<title>JobScout Pipeline Architecture</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --bg:#F5F6F7; --surface:#FFFFFF; --surface-alt:#EDEFF2; --ink:#1A2027; --muted:#5A6472;
+    --line:#D7DBE0; --code-bg:#E9EBEE;
+    --scout:#1F6E8C; --scout-soft:#DCEEF3; --scout-line:#9FCBDB;
+    --contract:#A9662A; --contract-soft:#F5E9D6; --contract-line:#E0BE8C;
+    --target:#5B4E9E; --target-soft:#E7E2F6; --target-line:#C3B7E6;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12161B; --surface:#1B2027; --surface-alt:#20262E; --ink:#E7EAEE; --muted:#98A1AC;
+      --line:#323A44; --code-bg:#232A32;
+      --scout:#6BC0DE; --scout-soft:#1C333C; --scout-line:#2E5866;
+      --contract:#E3A85F; --contract-soft:#372A18; --contract-line:#6B4C26;
+      --target:#B3A2E8; --target-soft:#292140; --target-line:#4C3F73;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12161B; --surface:#1B2027; --surface-alt:#20262E; --ink:#E7EAEE; --muted:#98A1AC;
+    --line:#323A44; --code-bg:#232A32;
+    --scout:#6BC0DE; --scout-soft:#1C333C; --scout-line:#2E5866;
+    --contract:#E3A85F; --contract-soft:#372A18; --contract-line:#6B4C26;
+    --target:#B3A2E8; --target-soft:#292140; --target-line:#4C3F73;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"IBM Plex Sans", system-ui, sans-serif;
+    font-size:15.5px; line-height:1.65;
+    padding:56px 24px 90px;
+  }
+  code, .mono{ font-family:"IBM Plex Mono", ui-monospace, monospace; }
+
+  .wrap{ max-width:920px; margin:0 auto; }
+  .wide{ max-width:1160px; }
+
+  .eyebrow{
+    font-family:"IBM Plex Mono", monospace; font-size:12px; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--muted); margin:0 0 10px;
+  }
+  h1{
+    font-size:2.15rem; font-weight:700; margin:0 0 16px; letter-spacing:-.01em;
+    text-wrap:balance;
+  }
+  .dek{ color:var(--muted); font-size:1.05rem; max-width:70ch; margin:0 0 6px; }
+  .dek b{ color:var(--ink); font-weight:600; }
+
+  h2{
+    font-size:1.25rem; font-weight:700; margin:0 0 6px; letter-spacing:-.005em;
+  }
+  .h2-note{ color:var(--muted); font-size:.92rem; margin:0 0 22px; }
+
+  section{ margin-top:64px; }
+
+  .legend{
+    display:flex; gap:22px; flex-wrap:wrap; margin:18px 0 26px;
+    font-family:"IBM Plex Mono", monospace; font-size:12px; color:var(--muted);
+  }
+  .legend span{ display:inline-flex; align-items:center; gap:7px; }
+  .swatch{ width:14px; height:3px; border-radius:2px; display:inline-block; }
+  .swatch-dash{ width:14px; height:0; border-top:2px dashed var(--muted); display:inline-block; }
+  .swatch-box{ width:15px; height:11px; border-radius:2px; display:inline-block; }
+  .swatch-box.solid{ border:1.4px solid var(--target-line); background:var(--target-soft); }
+  .swatch-box.dashed{ border:1.4px dashed var(--target-line); background:var(--target-soft); }
+
+  figure{ margin:0; }
+  figure svg{ width:100%; height:auto; display:block; }
+  figcaption{
+    margin-top:14px; color:var(--muted); font-size:.9rem; max-width:74ch;
+  }
+
+  .svg-frame{
+    background:var(--surface); border:1px solid var(--line); border-radius:10px;
+    padding:22px 22px 14px; overflow-x:auto;
+  }
+
+  /* ---- SVG node styling (tokens applied via class, theme-aware) ---- */
+  .lbl-eyebrow{ font-family:"IBM Plex Mono", monospace; font-size:12.5px; font-weight:500; letter-spacing:.06em; }
+  .lbl-eyebrow.scout{ fill:var(--scout); }
+  .lbl-eyebrow.contract{ fill:var(--contract); }
+  .lbl-note{ font-family:"IBM Plex Mono", monospace; font-size:10.5px; fill:var(--muted); font-style:italic; }
+
+  .node{ stroke-width:1.4; }
+  .node.scout{ fill:var(--scout-soft); stroke:var(--scout-line); }
+  .node.contract{ fill:var(--contract-soft); stroke:var(--contract-line); }
+  .node.shared{ fill:var(--surface-alt); stroke:var(--line); }
+  .node.target{ fill:var(--target-soft); stroke:var(--target-line); }
+  .node.target.optional{ stroke-dasharray:6,4; }
+  .node.unclassified{ opacity:.45; }
+
+  .node-title{ font-family:"IBM Plex Sans", sans-serif; font-size:13px; font-weight:600; fill:var(--ink); }
+  .node-mono{ font-family:"IBM Plex Mono", monospace; font-size:10.6px; fill:var(--muted); }
+
+  .flow{ fill:none; stroke-width:1.6; }
+  .flow.scout{ stroke:var(--scout); }
+  .flow.contract{ stroke:var(--contract); }
+  .flow.shared{ stroke:var(--muted); }
+  .flow.target{ stroke:var(--target); }
+  .flow.config{ stroke:var(--muted); stroke-dasharray:4,3; }
+
+  .arrow-head.scout{ fill:var(--scout); }
+  .arrow-head.contract{ fill:var(--contract); }
+  .arrow-head.shared{ fill:var(--muted); }
+  .arrow-head.target{ fill:var(--target); }
+
+  .flow-label{ font-family:"IBM Plex Mono", monospace; font-size:10px; }
+  .flow-label.scout{ fill:var(--scout); }
+  .flow-label.contract{ fill:var(--contract); }
+  .flow-label.shared{ fill:var(--muted); }
+  .flow-label.target{ fill:var(--target); }
+  .lbl-eyebrow.target{ fill:var(--target); }
+
+  /* ---- comparison grid (figure 2) ---- */
+  .grid2{
+    display:grid; grid-template-columns: 190px 1fr 1fr;
+    border:1px solid var(--line); border-radius:10px; overflow:hidden; background:var(--surface);
+  }
+  .grid2 > div{ padding:16px 18px; border-bottom:1px solid var(--line); border-right:1px solid var(--line); }
+  .grid2 > div:nth-child(3n){ border-right:none; }
+  .grid2 .head{ background:var(--surface-alt); font-family:"IBM Plex Mono", monospace; font-size:11.5px;
+    text-transform:uppercase; letter-spacing:.06em; color:var(--muted); font-weight:500; }
+  .grid2 .pipe{ font-weight:600; display:flex; align-items:center; gap:9px; }
+  .grid2 .dot{ width:9px; height:9px; border-radius:50%; flex:none; }
+  .dot.scout{ background:var(--scout); } .dot.contract{ background:var(--contract); }
+  .grid2 .cell p{ margin:0 0 6px; color:var(--ink); font-size:.94rem; }
+  .grid2 .cell p:last-child{ margin-bottom:0; }
+  .grid2 .cell .mono{ font-size:.83rem; color:var(--muted); }
+  .grid2 > div:last-child, .grid2 > div:nth-last-child(2), .grid2 > div:nth-last-child(3){ border-bottom:none; }
+
+  .gap-callout{
+    margin-top:22px; padding:16px 20px; border-radius:10px;
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--ink);
+    font-size:.96rem;
+  }
+  .gap-callout b{ font-weight:600; }
+
+  /* ---- reuse / new columns ---- */
+  .split{ display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:20px; }
+  .split h3{
+    font-size:.82rem; text-transform:uppercase; letter-spacing:.07em; font-weight:600;
+    margin:0 0 14px; padding-bottom:10px; border-bottom:1px solid var(--line);
+  }
+  .split .reuse h3{ color:var(--scout); }
+  .split .new h3{ color:var(--contract); }
+  .split ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:13px; }
+  .split li{ font-size:.93rem; padding-left:17px; position:relative; }
+  .split li::before{
+    content:""; position:absolute; left:0; top:.55em; width:7px; height:7px; border-radius:50%;
+  }
+  .split .reuse li::before{ background:var(--scout); }
+  .split .new li::before{ background:var(--contract); }
+  .split li .mono{ font-size:.82rem; color:var(--muted); display:block; margin-top:2px; }
+
+  @media (max-width:720px){
+    .grid2{ grid-template-columns:1fr; }
+    .grid2 > div{ border-right:none; }
+    .split{ grid-template-columns:1fr; }
+  }
+
+  /* ---- migration plan ---- */
+  .steps{ list-style:none; margin:20px 0 0; padding:0; display:flex; flex-direction:column; gap:20px; counter-reset:step; }
+  .steps li{ display:grid; grid-template-columns:34px 1fr; column-gap:16px; row-gap:2px; align-items:start; }
+  .steps li::before{
+    counter-increment:step; content:counter(step);
+    font-family:"IBM Plex Mono",monospace; font-weight:600; font-size:14px; color:var(--target);
+    background:var(--target-soft); border:1px solid var(--target-line); border-radius:50%;
+    width:32px; height:32px; display:flex; align-items:center; justify-content:center; flex:none;
+    grid-column:1; grid-row:1;
+  }
+  .steps .step-title{ grid-column:2; font-weight:600; margin:0 0 4px; font-size:.98rem; }
+  .steps .step-body{ grid-column:2; font-size:.93rem; color:var(--ink); margin:0 0 5px; }
+  .steps .step-files{ grid-column:2; font-size:.81rem; color:var(--muted); }
+  .order-note{
+    margin-top:24px; padding:14px 18px; border-radius:10px; background:var(--surface-alt);
+    border:1px solid var(--line); font-size:.9rem; color:var(--muted);
+  }
+  .order-note b{ color:var(--ink); font-weight:600; }
+  .risk-callout{
+    margin-top:14px; padding:14px 20px; border-radius:10px; background:var(--surface);
+    border:1px solid var(--line); border-left:3px solid var(--contract); font-size:.93rem;
+  }
+  .risk-callout b{ font-weight:600; }
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Internal architecture reference · 2026-09-02</p>
+  <h1>How JobScout's two pipelines actually work</h1>
+  <p class="dek">Scouting &amp; Scoring and Contracting look like one dashboard, but they're <b>two independent pipelines</b> that happen to share the same deploy mechanism. Mapped below before we design where a third — Healthcare&nbsp;IT — actually plugs in.</p>
+</div>
+
+<section class="wrap wide">
+  <h2>Figure 1 — Source to dashboard</h2>
+  <p class="h2-note">Every box names the real file or function that does the work; every arrow names the file that crosses it.</p>
+
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--scout)"></i>Scouting &amp; Scoring flow</span>
+    <span><i class="swatch" style="background:var(--contract)"></i>Contracting flow</span>
+    <span><i class="swatch" style="background:var(--muted)"></i>Shared infrastructure</span>
+  </div>
+
+  <figure>
+    <div class="svg-frame">
+      <svg viewBox="0 0 1200 760" role="img" aria-label="Diagram showing the Scouting and Scoring pipeline (Remotive and Adzuna sources through scraper_orchestrator.py, JobFilter, deduplicator.py, and multi_resume_scorer.py to jobs_scored.json) and the Contracting pipeline (contracting_firms.json through contracting_scraper.py's method registry to contracting_jobs.json) converging on a shared GitHub Actions deploy step, then splitting into the dashboard's two tabs.">
+        <defs>
+          <marker id="ah-scout" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+            <polygon points="0,0 10,5 0,10" class="arrow-head scout"/>
+          </marker>
+          <marker id="ah-contract" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+            <polygon points="0,0 10,5 0,10" class="arrow-head contract"/>
+          </marker>
+          <marker id="ah-shared" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+            <polygon points="0,0 10,5 0,10" class="arrow-head shared"/>
+          </marker>
+        </defs>
+
+        <!-- LANE A : SCOUTING & SCORING -->
+        <text x="40" y="22" class="lbl-eyebrow scout">SCOUTING &amp; SCORING · cron ×4/day</text>
+
+        <rect x="40" y="40" width="200" height="100" rx="6" class="node scout"/>
+        <text x="56" y="66" class="node-title">Remotive · Adzuna</text>
+        <text x="56" y="88" class="node-mono">remotive_scraper.py</text>
+        <text x="56" y="103" class="node-mono">adzuna_scraper.py</text>
+        <text x="56" y="127" class="lbl-note">JSearch stub · LinkedIn deferred</text>
+
+        <line x1="240" y1="90" x2="320" y2="90" class="flow scout" marker-end="url(#ah-scout)"/>
+
+        <rect x="330" y="40" width="230" height="100" rx="6" class="node scout"/>
+        <text x="346" y="66" class="node-title">scraper_orchestrator.py</text>
+        <text x="346" y="88" class="node-mono">① run() every active source</text>
+        <text x="346" y="103" class="node-mono">② JobFilter: loc → title → date</text>
+        <text x="346" y="118" class="node-mono">   per tier, cross-tier dedup</text>
+
+        <line x1="560" y1="90" x2="640" y2="90" class="flow scout" marker-end="url(#ah-scout)"/>
+        <text x="600" y="82" text-anchor="middle" class="flow-label scout">jobs_raw.json</text>
+
+        <rect x="650" y="40" width="190" height="100" rx="6" class="node scout"/>
+        <text x="666" y="66" class="node-title">deduplicator.py</text>
+        <text x="666" y="88" class="node-mono">hash = company +</text>
+        <text x="666" y="103" class="node-mono">title + desc[:100]</text>
+
+        <line x1="840" y1="90" x2="920" y2="90" class="flow scout" marker-end="url(#ah-scout)"/>
+        <text x="880" y="82" text-anchor="middle" class="flow-label scout">jobs_unique.json</text>
+
+        <rect x="930" y="40" width="210" height="100" rx="6" class="node scout"/>
+        <text x="946" y="66" class="node-title">multi_resume_scorer.py</text>
+        <text x="946" y="88" class="node-mono">Claude · 6 resume</text>
+        <text x="946" y="103" class="node-mono">profiles → score 0–100</text>
+
+        <!-- LANE B : CONTRACTING -->
+        <text x="40" y="196" class="lbl-eyebrow contract">CONTRACTING · cron ×2/day</text>
+
+        <rect x="40" y="212" width="200" height="112" rx="6" class="node contract"/>
+        <text x="56" y="238" class="node-title">5 staffing firms</text>
+        <text x="56" y="260" class="node-mono">contracting_firms.json</text>
+        <text x="56" y="275" class="node-mono">LaSalle · Peterson ·</text>
+        <text x="56" y="290" class="node-mono">Randstad · Mondo · Epitec</text>
+
+        <line x1="240" y1="268" x2="320" y2="268" class="flow contract" marker-end="url(#ah-contract)"/>
+        <text x="280" y="260" text-anchor="middle" class="flow-label contract">scrape_firm()</text>
+
+        <rect x="330" y="212" width="560" height="112" rx="6" class="node contract"/>
+        <text x="346" y="238" class="node-title">contracting_scraper.py → METHOD_REGISTRY</text>
+        <text x="346" y="260" class="node-mono">html_pages.py — Selenium / requests, page=N pagination</text>
+        <text x="346" y="277" class="node-mono">matador_api.py — WP REST endpoint, s=keyword query</text>
+        <text x="346" y="294" class="node-mono">title_matches_keywords() → dedup by job URL</text>
+
+        <!-- convergence -->
+        <text x="655" y="356" text-anchor="middle" class="flow-label scout">jobs_scored.json</text>
+        <path d="M1035,140 L1035,340 L520,340 L520,380" class="flow scout" marker-end="url(#ah-scout)"/>
+
+        <text x="825" y="356" text-anchor="middle" class="flow-label contract">contracting_jobs.json</text>
+        <path d="M610,324 L610,355 L750,355 L750,380" class="flow contract" marker-end="url(#ah-contract)"/>
+
+        <rect x="350" y="380" width="560" height="92" rx="6" class="node shared"/>
+        <text x="366" y="406" class="node-title">GitHub Actions runner</text>
+        <text x="366" y="428" class="node-mono">git commit data/*.json  →  cp data/ dashboard/</text>
+        <text x="366" y="444" class="node-mono">→ deploy gh-pages (peaceiris/actions-gh-pages)</text>
+        <text x="366" y="461" class="lbl-note">daily_job_scout.yml + contracting_scout.yml, each independently scheduled</text>
+
+        <path d="M630,472 L630,522" class="flow shared" marker-end="url(#ah-shared)"/>
+
+        <rect x="410" y="522" width="440" height="80" rx="6" class="node shared"/>
+        <text x="426" y="548" class="node-title">dashboard/app.js</text>
+        <text x="426" y="570" class="node-mono">fetch jobs_scored.json + contracting_jobs.json</text>
+        <text x="426" y="585" class="node-mono">once on load · switchTab() toggles visibility</text>
+
+        <path d="M630,602 L630,618 L350,618 L350,634" class="flow scout" marker-end="url(#ah-scout)"/>
+        <path d="M630,602 L630,618 L910,618 L910,634" class="flow contract" marker-end="url(#ah-contract)"/>
+
+        <rect x="140" y="634" width="420" height="92" rx="6" class="node scout"/>
+        <text x="156" y="660" class="node-title">Scouting tab</text>
+        <text x="156" y="682" class="node-mono">High ≥85 · Review ≥70 · Maybe &lt;70</text>
+        <text x="156" y="697" class="node-mono">localStorage: appliedJobs</text>
+
+        <rect x="700" y="634" width="420" height="92" rx="6" class="node contract"/>
+        <text x="716" y="660" class="node-title">Contracting tab</text>
+        <text x="716" y="682" class="node-mono">grouped by firm · Hide / Unhide</text>
+        <text x="716" y="697" class="node-mono">localStorage: hiddenContractingJobs</text>
+      </svg>
+    </div>
+    <figcaption>Both pipelines run as a scheduled GitHub Actions job that writes JSON into <code>data/</code>, commits it, and redeploys the same static dashboard — but Scouting adds two stages Contracting doesn't have: cross-source deduplication and AI scoring against resume profiles. Contracting's filtering happens once, inline, inside the scrape method itself.</figcaption>
+  </figure>
+</section>
+
+<section class="wrap wide">
+  <h2>Figure 2 — Target: one component-driven pipeline, parameterized per tab</h2>
+  <p class="h2-note">Same job types, same end state — but Figure 1's two hand-duplicated lanes collapse into one pipeline that a tab config drives. Component names below are files, not concepts — each one is what gets built or generalized from what already exists.</p>
+
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--target)"></i>New / generalized component</span>
+    <span><i class="swatch" style="background:var(--muted)"></i>Shared infra / file artifact</span>
+    <span><i class="swatch-box dashed"></i>Optional stage</span>
+    <span><i class="swatch-dash"></i>Configures (not data flow)</span>
+  </div>
+
+  <figure>
+    <div class="svg-frame">
+      <svg viewBox="0 0 1240 780" role="img" aria-label="Diagram of the target JobScout architecture: a Tab Config file configures a run_tab.py driver, which invokes three engines in sequence — Source Registry, Filter Engine, and an optional Scoring Engine — writing a standard per-tab JSON envelope that flows through a parameterized GitHub Actions workflow to a generic dashboard renderer, which distinguishes confirmed from unclassified job cards by opacity.">
+        <defs>
+          <marker id="ah-target" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+            <polygon points="0,0 10,5 0,10" class="arrow-head target"/>
+          </marker>
+        </defs>
+
+        <!-- Tab Config -->
+        <rect x="420" y="24" width="380" height="104" rx="6" class="node target"/>
+        <text x="436" y="50" class="node-title">Tab Config</text>
+        <text x="436" y="70" class="node-mono">config/tabs/{tab}.json</text>
+        <text x="436" y="86" class="node-mono">sources · dimensions &amp; per-source support</text>
+        <text x="436" y="102" class="node-mono">state · scoring on/off · display shape</text>
+
+        <path d="M610,128 L610,158" class="flow config" marker-end="url(#ah-shared)"/>
+        <text x="628" y="147" class="flow-label shared">configures</text>
+
+        <!-- Driver -->
+        <rect x="330" y="170" width="560" height="70" rx="6" class="node target"/>
+        <text x="346" y="194" class="node-title">run_tab.py --tab &lt;name&gt;</text>
+        <text x="346" y="216" class="node-mono">reads Tab Config → invokes engines ①②③ below → writes output</text>
+
+        <path d="M610,240 L610,268" class="flow target" marker-end="url(#ah-target)"/>
+
+        <!-- Engine row -->
+        <rect x="40" y="278" width="340" height="130" rx="6" class="node target"/>
+        <text x="56" y="302" class="node-title">① Source Registry</text>
+        <text x="56" y="322" class="node-mono">scrapers/source_registry.py</text>
+        <text x="56" y="338" class="node-mono">html · matador_api · remotive_api ·</text>
+        <text x="56" y="354" class="node-mono">adzuna_api → scrape() → raw jobs</text>
+
+        <line x1="380" y1="343" x2="440" y2="343" class="flow target" marker-end="url(#ah-target)"/>
+        <text x="410" y="333" text-anchor="middle" class="flow-label target">raw jobs</text>
+
+        <rect x="440" y="278" width="340" height="130" rx="6" class="node target"/>
+        <text x="456" y="302" class="node-title">② Filter Engine</text>
+        <text x="456" y="322" class="node-mono">utils/filter_engine.py</text>
+        <text x="456" y="338" class="node-mono">dedup + named dimensions, per source</text>
+        <text x="456" y="354" class="node-mono">support: composable · fixed · unsupported</text>
+
+        <line x1="780" y1="343" x2="840" y2="343" class="flow target" marker-end="url(#ah-target)"/>
+        <text x="810" y="333" text-anchor="middle" class="flow-label target">confirmed +</text>
+        <text x="810" y="368" text-anchor="middle" class="flow-label target">unclassified</text>
+
+        <rect x="840" y="278" width="340" height="130" rx="6" class="node target optional"/>
+        <text x="856" y="302" class="node-title">③ Scoring Engine — optional</text>
+        <text x="856" y="322" class="node-mono">scoring/multi_resume_scorer.py</text>
+        <text x="856" y="338" class="node-mono">Claude · resume profiles — runs only</text>
+        <text x="856" y="354" class="node-mono">if tab config: scoring.enabled = true</text>
+
+        <!-- merge to output -->
+        <path d="M1010,408 L1010,436 L610,436 L610,464" class="flow target" marker-end="url(#ah-target)"/>
+
+        <rect x="430" y="464" width="360" height="66" rx="6" class="node shared"/>
+        <text x="446" y="490" class="node-title">data/{tab}_jobs.json</text>
+        <text x="446" y="512" class="node-mono">{ last_run, jobs: [...] } — one envelope shape</text>
+
+        <path d="M610,530 L610,558" class="flow shared" marker-end="url(#ah-shared)"/>
+
+        <rect x="390" y="558" width="440" height="78" rx="6" class="node shared"/>
+        <text x="406" y="582" class="node-title">GitHub Actions — tab_scout.yml</text>
+        <text x="406" y="602" class="node-mono">run_tab.py --tab &lt;name&gt; → commit → cp → deploy</text>
+        <text x="406" y="618" class="node-mono">cron set per tab · Scouting currently paused</text>
+
+        <path d="M610,636 L610,664" class="flow shared" marker-end="url(#ah-shared)"/>
+
+        <rect x="350" y="664" width="480" height="92" rx="6" class="node shared"/>
+        <text x="366" y="688" class="node-title">dashboard/app.js</text>
+        <text x="366" y="708" class="node-mono">renderTab(tabConfig, data) — one function, all tabs</text>
+        <text x="366" y="724" class="node-mono">getTrackedIds()/saveTrackedIds(tab,action) — localStorage</text>
+
+        <text x="870" y="680" class="lbl-note">job card treatment</text>
+        <rect x="870" y="690" width="112" height="28" rx="4" class="node target"/>
+        <text x="926" y="708" text-anchor="middle" class="node-mono">Confirmed</text>
+        <rect x="870" y="726" width="112" height="28" rx="4" class="node target unclassified"/>
+        <text x="926" y="744" text-anchor="middle" class="node-mono">Unclassified</text>
+      </svg>
+    </div>
+    <figcaption>Figure 1's two orchestrator scripts, two filter implementations, and two dashboard renderers become one of each — parameterized by <code>config/tabs/{tab}.json</code> instead of duplicated per pipeline. A job the Filter Engine can't classify on a given dimension (Built In Chicago's department, per our last exchange) still ships to the dashboard, rendered at reduced opacity rather than dropped, until production data says whether to keep or discard that rule.</figcaption>
+  </figure>
+</section>
+
+<section class="wrap wide">
+  <h2>Figure 3 — Where filtering actually happens</h2>
+  <p class="h2-note">This is the layer the Healthcare IT tab needs and neither pipeline has today.</p>
+
+  <div class="grid2">
+    <div class="head">Pipeline</div>
+    <div class="head">Outbound — building the query</div>
+    <div class="head">Inbound — validating what comes back</div>
+
+    <div class="pipe"><i class="dot scout"></i>Scouting &amp; Scoring</div>
+    <div class="cell">
+      <p>Hardcoded per source, no shared shape.</p>
+      <p class="mono">Remotive: fixed categories (product, project-management)<br>Adzuna: fixed 4-query keyword list</p>
+    </div>
+    <div class="cell">
+      <p><code>utils/job_filter.py</code> — <b>JobFilter</b>, runs per active tier.</p>
+      <p class="mono">location: token list (remote / US-state substring)<br>title: keyword + required_pairs<br>date: posted_within_days</p>
+    </div>
+
+    <div class="pipe"><i class="dot contract"></i>Contracting</div>
+    <div class="cell">
+      <p>Hardcoded per firm — the full URL (or one URL per keyword × city combo) lives directly in config.</p>
+      <p class="mono">matador_api: one s=keyword query per keyword, no filter params</p>
+    </div>
+    <div class="cell">
+      <p><code>contracting_methods/common.py</code> — <b>title_matches_keywords()</b>.</p>
+      <p class="mono">title only, one global keyword list<br>no location, department, or date filter at all</p>
+    </div>
+  </div>
+
+  <div class="gap-callout">
+    Neither pipeline has a <b>canonical-criteria layer</b> — a named location or department id that gets translated outward into each source's own query shape, and validated inward against each source's own returned text. Healthcare IT's 2 locations × 5 departments, read differently by Built In Chicago and digital-health-jobs.com, need exactly that layer built new.
+  </div>
+</section>
+
+<section class="wrap wide">
+  <h2>What this means for the Healthcare IT tab</h2>
+  <p class="h2-note">Against Figure 1 and Figure 2 — what already exists to stand on, and what doesn't.</p>
+
+  <div class="split">
+    <div class="reuse">
+      <h3>Reuse as-is</h3>
+      <ul>
+        <li>Server-rendered HTML + <code class="mono" style="display:inline">page=N</code> pagination engine
+          <span class="mono">contracting_methods/html_pages.py — both candidate sites fit this shape</span>
+        </li>
+        <li>Method-registry dispatch, zero orchestrator changes to add a source
+          <span class="mono">METHOD_REGISTRY pattern from contracting_scraper.py</span>
+        </li>
+        <li>Tab + per-tab localStorage state pattern
+          <span class="mono">Contracting's hide/unhide, not Scouting's apply-tracking</span>
+        </li>
+        <li>Cron → commit → copy → deploy shape
+          <span class="mono">new workflow .yml, same 5 steps as the existing two</span>
+        </li>
+        <li>Token-list substring matching as the validation technique
+          <span class="mono">the idea behind JobFilter's location tokens, not the class itself</span>
+        </li>
+      </ul>
+    </div>
+    <div class="new">
+      <h3>New — doesn't exist yet</h3>
+      <ul>
+        <li>Canonical criteria config
+          <span class="mono">2 locations × 5 departments, shared across sources</span>
+        </li>
+        <li>Per-source outbound map
+          <span class="mono">canonical id → query param / URL template — no source does this today, all hardcode their query</span>
+        </li>
+        <li>Department as an inbound filter dimension
+          <span class="mono">JobFilter only knows location, title, date — department is new</span>
+        </li>
+        <li>New config file, orchestrator script, output JSON, dashboard section
+          <span class="mono">config/healthcare_it_sources.json, scrapers/healthcare_it_scraper.py, data/healthcare_it_jobs.json</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap wide">
+  <h2>Migration plan — Figure 1 to Figure 2</h2>
+  <p class="h2-note">Refactor only — Contracting and (paused) Scouting move onto the shared architecture. Healthcare IT is not part of this pass.</p>
+
+  <ol class="steps">
+    <li>
+      <div class="step-title">Filter Engine</div>
+      <p class="step-body">Generalize <code>JobFilter</code> from hardcoded location/title/date methods to named, pluggable dimensions, each with a per-source support state (composable / fixed / unsupported — plumbing only, nothing exercises "unsupported" yet). Fold in <code>title_matches_keywords()</code> as the <code>title</code> dimension matcher, and <code>deduplicator.py</code>'s hash-dedup as a selectable strategy alongside URL-dedup.</p>
+      <p class="step-files">utils/filter_engine.py (new) ← utils/job_filter.py, utils/deduplicator.py, contracting_methods/common.py</p>
+    </li>
+    <li>
+      <div class="step-title">Source Registry</div>
+      <p class="step-body">Add a registry that includes the existing <code>html</code>/<code>matador_api</code> methods unchanged, plus two thin wrappers exposing Remotive and Adzuna the same way. No folder rename required — lowest-risk version just adds a new module that imports the old one.</p>
+      <p class="step-files">scrapers/source_registry.py (new) ← contracting_methods/, remotive_scraper.py, adzuna_scraper.py</p>
+    </li>
+    <li>
+      <div class="step-title">Tab Config</div>
+      <p class="step-body">Translate <code>search_config.json</code> and <code>contracting_firms.json</code> into the unified shape: sources, dimensions + support state, <code>scoring.enabled</code>, display shape. Keep the old config files in place until step 4 is verified.</p>
+      <p class="step-files">config/tabs/contracting.json, config/tabs/scouting.json (new)</p>
+    </li>
+    <li>
+      <div class="step-title">Driver</div>
+      <p class="step-body">One entrypoint, <code>--tab</code>-parameterized, calling Source Registry → Filter Engine → Scoring Engine (if enabled) and writing the output envelope. Highest-risk step — run side-by-side and diff output against current <code>jobs_scored.json</code> / <code>contracting_jobs.json</code> before cutover.</p>
+      <p class="step-files">run_tab.py (new) ← scraper_orchestrator.py, contracting_scraper.py</p>
+    </li>
+    <li>
+      <div class="step-title">Output rename</div>
+      <p class="step-body"><code>contracting_jobs.json</code> already fits the <code>{tab}_jobs.json</code> pattern. Rename Scouting's <code>jobs_scored.json</code> → <code>scouting_jobs.json</code> so the dashboard can fetch by one formula. <code>jobs_raw.json</code>/<code>jobs_unique.json</code> were only ever debug intermediates — safe to stop persisting them.</p>
+      <p class="step-files">data/scouting_jobs.json ← data/jobs_scored.json</p>
+    </li>
+    <li>
+      <div class="step-title">GitHub Actions</div>
+      <p class="step-body">One reusable <code>workflow_call</code> template runs the shared steps; each tab's workflow becomes a thin caller passing its cron schedule and tab name. Scouting's cron block is commented out here — <code>workflow_dispatch</code> stays, so it's paused, not deleted.</p>
+      <p class="step-files">.github/workflows/_tab_scout_template.yml (new), daily_job_scout.yml, contracting_scout.yml (thinned)</p>
+    </li>
+    <li>
+      <div class="step-title">Dashboard renderer + tracking</div>
+      <p class="step-body">One <code>renderTab(tabKey, data)</code> driven by each tab's display shape, and one <code>getTrackedIds(tab, action)</code>/<code>saveTrackedIds(...)</code> pair. Confirmed vs. unclassified job cards render at full vs. reduced opacity here.</p>
+      <p class="step-files">dashboard/app.js ← renderJobs/buildCard, renderContractingSection, getAppliedIds, getHiddenContractingJobs</p>
+    </li>
+    <li>
+      <div class="step-title">Cleanup</div>
+      <p class="step-body">Only once step 4's output is verified equivalent: delete the superseded scripts and configs.</p>
+      <p class="step-files">scraper_orchestrator.py, contracting_scraper.py, job_filter.py, deduplicator.py, search_config.json, contracting_firms.json</p>
+    </li>
+  </ol>
+
+  <div class="order-note"><b>Order:</b> 1 → 2 → 3 → 4 (verified side-by-side) → 5 → 6 (pause happens here) → 7 → 8. Each step independently revertable; nothing touches the live scheduled workflows before step 6.</div>
+
+  <div class="risk-callout"><b>Must preserve exactly:</b> the localStorage key strings <code>"appliedJobs"</code> and <code>"hiddenContractingJobs"</code>, even inside the generalized tracking helper — a derived/renamed key silently unhides every job a user already hid, the same regression class the contracting hash design already had to guard against once.</div>
+</section>

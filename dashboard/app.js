@@ -1,9 +1,23 @@
 // Job Scout Dashboard — app.js
-// Loads jobs_scored.json once on page load. No auto-refresh.
+// Loads each tab's data file once on page load. No auto-refresh.
 // Fresh data arrives after each GitHub Actions run redeploys GitHub Pages.
 
-const JOBS_URL = "./data/jobs_scored.json";
-const CONTRACTING_URL = "./data/contracting_jobs.json";
+// Mirrors the display-relevant fields of config/tabs/{tab}.json — the dashboard
+// is a static site with no build step, so it can't fetch the Python-side tab
+// config directly; this is the client-side equivalent for shape + tracking.
+// Must preserve the storageKey strings exactly — a derived/renamed key would
+// silently unhide/unapply everything a user already marked.
+const TAB_CONFIGS = {
+  scouting: {
+    dataUrl: "./data/scouting_jobs.json",
+    display: { shape: "flat_list", tracking: { type: "apply", storageKey: "appliedJobs" } },
+  },
+  contracting: {
+    dataUrl: "./data/contracting_jobs.json",
+    display: { shape: "grouped_by_firm", tracking: { type: "hide", storageKey: "hiddenContractingJobs" } },
+  },
+};
+
 const HIGH_PRIORITY_THRESHOLD = 85;
 const REVIEW_THRESHOLD = 70;
 const URGENT_HOURS = 4;
@@ -41,7 +55,7 @@ function formatTimestamp(date) {
 async function init() {
   let metadata = null;
   try {
-    const res = await fetch(JOBS_URL + "?t=" + Date.now());
+    const res = await fetch(TAB_CONFIGS.scouting.dataUrl + "?t=" + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -53,7 +67,7 @@ async function init() {
     }
   } catch (err) {
     document.getElementById("loading").innerHTML =
-      `<div class="empty-state"><h3>No jobs data yet</h3><p>Run the scraper + scorer to generate jobs_scored.json</p></div>`;
+      `<div class="empty-state"><h3>No jobs data yet</h3><p>Run the scraper + scorer to generate scouting_jobs.json</p></div>`;
     return;
   }
 
@@ -72,15 +86,14 @@ async function init() {
     }
   }
 
-  renderStats();
-  renderJobs(allJobs);
+  renderTab("scouting", allJobs);
 
   // Load contracting jobs then render (it's the default tab)
   try {
-    const cr = await fetch(CONTRACTING_URL + "?t=" + Date.now());
+    const cr = await fetch(TAB_CONFIGS.contracting.dataUrl + "?t=" + Date.now());
     if (cr.ok) contractingData = await cr.json();
   } catch (_) {}
-  renderContractingSection();
+  renderTab("contracting", contractingData);
 
   // Request browser notification permission for future use
   if ("Notification" in window && Notification.permission === "default") {
@@ -91,7 +104,7 @@ async function init() {
 // ─── Stats Bar ──────────────────────────────────────────────────────────────
 
 function renderStats() {
-  const applied = getAppliedIds();
+  const applied = getTrackedIds("scouting", "apply");
   const jobs = Array.isArray(allJobs) ? allJobs : [];
   const highPriority = jobs.filter(j => j.score >= HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
   const reviewNeeded = jobs.filter(j => j.score >= REVIEW_THRESHOLD && j.score < HIGH_PRIORITY_THRESHOLD && !applied.has(j._hash));
@@ -126,8 +139,22 @@ function set(id, val) {
 
 // ─── Rendering ──────────────────────────────────────────────────────────────
 
+// Single entry point for both tabs — dispatches on the tab's declared display
+// shape rather than the caller knowing which concrete renderer to call.
+function renderTab(tabKey, data) {
+  const shape = TAB_CONFIGS[tabKey]?.display?.shape;
+  if (shape === "flat_list") {
+    if (data !== undefined) allJobs = data;
+    renderStats();
+    renderJobs(allJobs);
+  } else if (shape === "grouped_by_firm") {
+    if (data !== undefined) contractingData = data;
+    renderContractingSection();
+  }
+}
+
 function renderJobs(jobs) {
-  const applied = getAppliedIds();
+  const applied = getTrackedIds("scouting", "apply");
   const filtered = filterJobs(jobs, activeFilter, applied);
   const highPriority = filtered.filter(j => j.score >= HIGH_PRIORITY_THRESHOLD);
   const reviewNeeded = filtered.filter(j => j.score >= REVIEW_THRESHOLD && j.score < HIGH_PRIORITY_THRESHOLD);
@@ -259,9 +286,9 @@ function applyWithResume(hash, resumeFile, jobUrl) {
 }
 
 function markAsApplied(hash) {
-  const applied = getAppliedIds();
+  const applied = getTrackedIds("scouting", "apply");
   applied.add(hash);
-  saveAppliedIds(applied);
+  saveTrackedIds("scouting", "apply", applied);
 
   const card = document.getElementById(`job-${hash}`);
   if (card) {
@@ -283,7 +310,7 @@ function switchTab(tab) {
   });
   document.getElementById("tab-scouting").style.display    = tab === "scouting"    ? "" : "none";
   document.getElementById("tab-contracting").style.display = tab === "contracting" ? "" : "none";
-  if (tab === "contracting") renderContractingSection();
+  if (tab === "contracting") renderTab("contracting");
 }
 
 function setFilter(filter) {
@@ -307,19 +334,26 @@ function filterJobs(jobs, filter, applied) {
   }
 }
 
-// ─── Applied tracking (localStorage) ────────────────────────────────────────
+// ─── Tracking (localStorage) ─────────────────────────────────────────────────
 
-function getAppliedIds() {
-  try { return new Set(JSON.parse(localStorage.getItem("appliedJobs") || "[]")); }
+// One pair for both tabs' tracking (scouting "apply", contracting "hide") —
+// the storage key comes from TAB_CONFIGS so it stays exactly "appliedJobs" /
+// "hiddenContractingJobs" no matter how this is called.
+function getTrackedIds(tab, action) {
+  const key = TAB_CONFIGS[tab]?.display?.tracking?.storageKey;
+  if (!key) return new Set();
+  try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
   catch { return new Set(); }
 }
 
-function saveAppliedIds(set) {
-  localStorage.setItem("appliedJobs", JSON.stringify([...set]));
+function saveTrackedIds(tab, action, set) {
+  const key = TAB_CONFIGS[tab]?.display?.tracking?.storageKey;
+  if (!key) return;
+  localStorage.setItem(key, JSON.stringify([...set]));
 }
 
 function getAppliedToday() {
-  const applied = getAppliedIds();
+  const applied = getTrackedIds("scouting", "apply");
   // We only store hashes, not timestamps — just return total for simplicity
   return applied.size;
 }
@@ -355,27 +389,18 @@ function showToast(msg, type = "info") {
 
 // ─── Contracting ─────────────────────────────────────────────────────────────
 
-function getHiddenContractingJobs() {
-  try { return new Set(JSON.parse(localStorage.getItem("hiddenContractingJobs") || "[]")); }
-  catch { return new Set(); }
-}
-
-function saveHiddenContractingJobs(set) {
-  localStorage.setItem("hiddenContractingJobs", JSON.stringify([...set]));
-}
-
 function hideContractingJob(hash) {
-  const hidden = getHiddenContractingJobs();
+  const hidden = getTrackedIds("contracting", "hide");
   hidden.add(hash);
-  saveHiddenContractingJobs(hidden);
+  saveTrackedIds("contracting", "hide", hidden);
   renderContractingSection();
   showToast("Job hidden", "info");
 }
 
 function unhideContractingJob(hash) {
-  const hidden = getHiddenContractingJobs();
+  const hidden = getTrackedIds("contracting", "hide");
   hidden.delete(hash);
-  saveHiddenContractingJobs(hidden);
+  saveTrackedIds("contracting", "hide", hidden);
   renderContractingSection();
 }
 
@@ -405,7 +430,7 @@ function renderContractingSection() {
     return;
   }
 
-  const hidden = getHiddenContractingJobs();
+  const hidden = getTrackedIds("contracting", "hide");
 
   firmsList.innerHTML = contractingData.firms.map(firm => {
     const allJobs = firm.jobs || [];

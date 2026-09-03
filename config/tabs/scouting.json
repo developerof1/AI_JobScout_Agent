@@ -1,0 +1,115 @@
+{
+  "tab": "scouting",
+  "active": false,
+
+  "sources": [
+    {
+      "name": "remotive",
+      "method": "remotive",
+      "config": {
+        "categories": ["product", "project-management"]
+      }
+    },
+    {
+      "name": "adzuna",
+      "method": "adzuna",
+      "config": {
+        "queries": ["product manager", "program manager", "chief of staff", "product operations"],
+        "results_per_page": 50,
+        "max_pages": 1
+      }
+    }
+  ],
+
+  "dimension_support": {
+    "remotive": {"title": "composable", "location": "composable", "date": "composable"},
+    "adzuna": {"title": "composable", "location": "composable", "date": "composable"}
+  },
+
+  "dedup_strategy": "hash",
+
+  "profiles": [
+    {
+      "name": "tier2",
+      "label": "Mid-Senior",
+      "dimensions": {
+        "title": {
+          "keywords": [
+            "Director Technical Program",
+            "Director TPM",
+            "Senior Technical Program Manager",
+            "Director Program Management",
+            "Head of Delivery",
+            "Director Product Operations",
+            "Product Operations Director",
+            "Head of Product Operations",
+            "Director of Product",
+            "Senior Director Product",
+            "Head of Product",
+            "Group Product Manager",
+            "Principal Product Manager",
+            "Chief of Staff"
+          ],
+          "required_pairs": [
+            ["Chief of Staff", ["technology", "software", "product", "platform", "saas", "digital", "engineering", "technical", "cloud", "data", "api", "agile"], false]
+          ]
+        },
+        "location": {
+          "allowed": ["Remote", "Chicago"],
+          "include_worldwide": false
+        },
+        "date": {
+          "posted_within_days": 6
+        }
+      }
+    },
+    {
+      "name": "tier3",
+      "label": "IC / Mid-Level",
+      "dimensions": {
+        "title": {
+          "keywords": [
+            "Senior Product Manager",
+            "Sr Product Manager",
+            "Senior Program Manager",
+            "Sr Program Manager",
+            "Senior Technical Program Manager",
+            "Senior TPM",
+            "Principal Product Manager",
+            "Principal Program Manager",
+            "Lead Product Manager",
+            "Lead Program Manager",
+            "Product Manager",
+            "Program Manager",
+            "Senior Manager Product",
+            "Senior Manager Program",
+            "Group Product Manager"
+          ],
+          "required_pairs": [
+            ["Product Manager", ["software", "technical", "tech", "saas", "platform", "agile", "digital", "cloud", "data", "api", "mobile", "analytics"], true],
+            ["Program Manager", ["software", "technical", "tech", "saas", "platform", "agile", "digital", "cloud", "data", "api", "mobile", "analytics"], true],
+            ["Senior Program Manager", ["software", "technical", "tech", "saas", "platform", "agile", "digital", "cloud", "data", "api", "mobile", "analytics"], true],
+            ["Sr Program Manager", ["software", "technical", "tech", "saas", "platform", "agile", "digital", "cloud", "data", "api", "mobile", "analytics"], true],
+            ["Senior Manager Program", ["software", "technical", "tech", "saas", "platform", "agile", "digital", "cloud", "data", "api", "mobile", "analytics"], true]
+          ]
+        },
+        "location": {
+          "allowed": ["Remote", "Chicago"],
+          "include_worldwide": false
+        },
+        "date": {
+          "posted_within_days": 6
+        }
+      }
+    }
+  ],
+
+  "scoring": {"enabled": true},
+
+  "display": {
+    "shape": "flat_list",
+    "tracking": {"type": "apply", "storage_key": "appliedJobs"}
+  },
+
+  "output": "data/scouting_jobs.json"
+}

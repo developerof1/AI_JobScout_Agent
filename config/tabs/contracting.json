@@ -1,0 +1,91 @@
+{
+  "tab": "contracting",
+  "active": true,
+
+  "sources": [
+    {
+      "name": "LaSalle Network",
+      "method": "html",
+      "config": {
+        "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
+        "requires_js": true,
+        "max_pages": 3,
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Peterson Technology Partners",
+      "method": "html",
+      "config": {
+        "url": "https://www.ptechpartners.com/jobs/",
+        "requires_js": false,
+        "max_pages": 8,
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Randstad",
+      "method": "html",
+      "config": {
+        "urls": [
+          "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
+          "https://www.randstadusa.com/jobs/q-project-manager/remote/",
+          "https://www.randstadusa.com/jobs/q-program-manager/illinois/chicago/mi-25/",
+          "https://www.randstadusa.com/jobs/q-program-manager/remote/",
+          "https://www.randstadusa.com/jobs/q-product-manager/illinois/chicago/mi-25/",
+          "https://www.randstadusa.com/jobs/q-product-manager/remote/"
+        ],
+        "requires_js": true,
+        "max_pages": 3,
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Mondo",
+      "method": "html",
+      "config": {
+        "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
+        "requires_js": true,
+        "max_pages": 4,
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Epitec",
+      "method": "matador_api",
+      "config": {
+        "api_url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    }
+  ],
+
+  "dimension_support": {
+    "html": {"title": "fixed", "location": "unsupported", "date": "unsupported"},
+    "matador_api": {"title": "fixed", "location": "unsupported", "date": "unsupported"}
+  },
+
+  "dedup_strategy": "url",
+
+  "profiles": [
+    {
+      "name": "default",
+      "label": "Contracting",
+      "dimensions": {
+        "title": {
+          "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+        }
+      }
+    }
+  ],
+
+  "scoring": {"enabled": false},
+
+  "display": {
+    "shape": "grouped_by_firm",
+    "group_key": "firm",
+    "tracking": {"type": "hide", "storage_key": "hiddenContractingJobs"}
+  },
+
+  "output": "data/contracting_jobs.json"
+}

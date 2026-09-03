@@ -1,23 +1,18 @@
 """
 Remotive API client — fetches remote jobs from remotive.com/api.
-Returns all jobs in the two relevant categories; tier filtering is
-handled by the orchestrator via JobFilter.
+Returns all jobs in the configured categories; filtering is handled downstream
+by utils/filter_engine.py.
 """
 
 import re
 import time
-import json
 import random
 from datetime import datetime, timezone
-from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-
-ROOT = Path(__file__).parent.parent
-SEARCH_CONFIG_PATH = ROOT / "config" / "search_config.json"
 
 BASE_URL = "https://remotive.com/api/remote-jobs"
 
@@ -64,15 +59,7 @@ def _to_standard_schema(job: dict) -> dict:
 
 
 def scrape(config: dict) -> list[dict]:
-    # Load categories from search_config.json
-    categories = ["product", "project-management"]
-    if SEARCH_CONFIG_PATH.exists():
-        with open(SEARCH_CONFIG_PATH) as f:
-            search_cfg = json.load(f)
-        categories = search_cfg.get("sources", {}).get("remotive", {}).get(
-            "categories", categories
-        )
-
+    categories = config.get("categories") or ["product", "project-management"]
     delay = config.get("rate_limit_delay_seconds", 1)
     all_raw = []
     seen_ids = set()

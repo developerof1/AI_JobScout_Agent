@@ -16,4 +16,4 @@ def job_key(job: dict) -> str:
 
 
 def title_matches_keywords(title: str, keywords: list[str]) -> bool:
-    return any(kw in title.lower() for kw in keywords)
+    return any(kw.lower() in title.lower() for kw in keywords)

@@ -5,7 +5,7 @@ Claude picks the best-fit primary resume, a backup, and scores 0-100.
 Pipeline:
   data/jobs_unique.json  (or jobs_filtered.json if applied tracking is active)
   + config/resume_profiles.json
-  -> data/jobs_scored.json  (sorted by score descending)
+  -> data/scouting_jobs.json  (sorted by score descending)
 """
 
 import json
@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 PROFILES_PATH = ROOT / "config" / "resume_profiles.json"
 RULES_PATH = ROOT / "config" / "scoring_rules.json"
-SCORED_OUTPUT = ROOT / "data" / "jobs_scored.json"
+SCORED_OUTPUT = ROOT / "data" / "scouting_jobs.json"
 
 SCORING_PROMPT = """\
 You are evaluating a job posting for Satwik Bardhan. He has {num_resumes} specialized resumes.
@@ -185,7 +185,7 @@ def load_jobs() -> list[dict]:
         with open(unique_path) as f:
             return json.load(f)
     else:
-        print("No jobs file found. Run scraper_orchestrator.py and deduplicator.py first.")
+        print("No jobs file found. Run: python pipeline/run_tab.py --tab scouting")
         sys.exit(1)
 
 

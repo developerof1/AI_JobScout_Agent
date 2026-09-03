@@ -22,9 +22,10 @@
   <div id="content" style="display:none">
 
     <!-- Tab Navigation -->
+    <!-- Scouting & Scoring tab hidden while its workflow is paused (see .github/workflows/daily_job_scout.yml) -->
     <div class="tab-nav">
       <button class="tab-btn active" data-tab="contracting" onclick="switchTab('contracting')">Contracting</button>
-      <button class="tab-btn"        data-tab="scouting"    onclick="switchTab('scouting')">Scouting &amp; Scoring</button>
+      <button class="tab-btn" data-tab="scouting" onclick="switchTab('scouting')" style="display:none">Scouting &amp; Scoring</button>
     </div>
 
     <!-- Tab 1: Scouting & Scoring -->

@@ -1,0 +1,88 @@
+name: Tab Scout Template
+
+on:
+  workflow_call:
+    inputs:
+      tab:
+        description: "Tab name — matches config/tabs/{tab}.json"
+        required: true
+        type: string
+      run-number:
+        description: "Run number, forwarded to run_tab.py / the scorer"
+        required: false
+        type: string
+        default: "1"
+      scoring-enabled:
+        description: "Run scoring/multi_resume_scorer.py after the driver"
+        required: false
+        type: boolean
+        default: false
+      output-paths:
+        description: "Space-separated data file(s) to git add before committing"
+        required: true
+        type: string
+      commit-message:
+        description: "Commit message for the data update"
+        required: true
+        type: string
+      deploy-commit-message:
+        description: "Commit message for the GitHub Pages deploy"
+        required: true
+        type: string
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tab driver
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python pipeline/run_tab.py --tab ${{ inputs.tab }} --run-number ${{ inputs.run-number }}
+
+      - name: Score jobs with AI
+        if: inputs.scoring-enabled
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scoring/multi_resume_scorer.py --run-number ${{ inputs.run-number }}
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ${{ inputs.output-paths }}
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "${{ inputs.commit-message }}"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Copy data to dashboard
+        run: cp -r data dashboard/
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dashboard
+          publish_branch: gh-pages
+          commit_message: "${{ inputs.deploy-commit-message }}"

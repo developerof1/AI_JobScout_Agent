@@ -1,30 +1,26 @@
 """
 Adzuna Jobs API client — fetches US jobs by functional area keyword.
-Returns all jobs across configured queries; tier filtering handled by orchestrator.
+Returns all jobs across configured queries; filtering is handled downstream
+by utils/filter_engine.py.
 
 Requires env vars: ADZUNA_APP_ID, ADZUNA_APP_KEY
 Register free at developer.adzuna.com
 
 Adding new query areas:
-  Edit config/search_config.json -> sources.adzuna.queries
+  Edit config/tabs/scouting.json -> sources[adzuna].config.queries
   No changes to this file needed.
 """
 
 import os
 import re
 import time
-import json
 import random
 from datetime import datetime, timezone
-from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
 
 load_dotenv()
-
-ROOT = Path(__file__).parent.parent
-SEARCH_CONFIG_PATH = ROOT / "config" / "search_config.json"
 
 BASE_URL = "https://api.adzuna.com/v1/api/jobs/us/search"
 
@@ -83,17 +79,11 @@ def scrape(config: dict) -> list[dict]:
         print("  [adzuna] ADZUNA_APP_ID or ADZUNA_APP_KEY not set — skipping")
         return []
 
-    # Load source config
-    queries = ["product manager", "program manager", "chief of staff", "product operations"]
-    results_per_page = 50
-    max_pages = 1
-    if SEARCH_CONFIG_PATH.exists():
-        with open(SEARCH_CONFIG_PATH) as f:
-            search_cfg = json.load(f)
-        adzuna_cfg = search_cfg.get("sources", {}).get("adzuna", {})
-        queries = adzuna_cfg.get("queries", queries)
-        results_per_page = adzuna_cfg.get("results_per_page", results_per_page)
-        max_pages = adzuna_cfg.get("max_pages", max_pages)
+    queries = config.get("queries") or [
+        "product manager", "program manager", "chief of staff", "product operations"
+    ]
+    results_per_page = config.get("results_per_page") or 50
+    max_pages = config.get("max_pages") or 1
 
     delay = config.get("rate_limit_delay_seconds", 1)
     all_raw = []
