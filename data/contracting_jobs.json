@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-03T18:20:33.739998+00:00",
+  "last_run": "2026-09-03T18:36:39.055356+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -35,6 +35,24 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
+          "title": "ai program manager",
+          "url": "https://www.randstadusa.com/jobs/4/1342681/ai-program-manager_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "985f81decd01",
+          "discovered_at": "2026-08-07T01:44:49.311617+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior pmo program manager - remote",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
+          "location": "",
+          "firm": "Randstad",
+          "_hash": "055df7c53ce5",
+          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
+          "is_new": false
+        },
+        {
           "title": "project manager, technical operations integration",
           "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
           "location": "",
@@ -53,30 +71,12 @@
           "is_new": false
         },
         {
-          "title": "senior pmo program manager - remote",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5008339/senior-pmo-program-manager-remote_wayne/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "055df7c53ce5",
-          "discovered_at": "2026-08-10T14:57:07.297590+00:00",
-          "is_new": false
-        },
-        {
           "title": "senior project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_5036808/senior-project-manager_houston/",
           "location": "",
           "firm": "Randstad",
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-08-31T19:52:29.941290+00:00",
-          "is_new": false
-        },
-        {
-          "title": "it project management senior advisor",
-          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
-          "location": "",
-          "firm": "Randstad",
-          "_hash": "ffb009cbb4a9",
-          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
           "is_new": false
         },
         {
@@ -89,12 +89,12 @@
           "is_new": false
         },
         {
-          "title": "ai program manager",
-          "url": "https://www.randstadusa.com/jobs/4/1342681/ai-program-manager_chicago/",
+          "title": "it project management senior advisor",
+          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
           "location": "",
           "firm": "Randstad",
-          "_hash": "985f81decd01",
-          "discovered_at": "2026-08-07T01:44:49.311617+00:00",
+          "_hash": "ffb009cbb4a9",
+          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
           "is_new": false
         }
       ]
@@ -182,7 +182,7 @@
           "firm": "Mondo",
           "_hash": "7d5ce6a7f796",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -236,6 +236,15 @@
           "is_new": false
         },
         {
+          "title": "Project/Program Manager (Non-IT) 3 (Katie\u2019s Req)",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-3-katies-req-106573/",
+          "location": "East Peoria",
+          "firm": "Epitec",
+          "_hash": "0be91f91374f",
+          "discovered_at": "2026-09-03T18:36:39.055356+00:00",
+          "is_new": true
+        },
+        {
           "title": "Program Manager I",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-i-106553/",
           "location": "Columbus",
@@ -279,93 +288,93 @@
       "jobs": [
         {
           "title": "Sr. Program Manager: Global Business Marketing, Developer Marketing",
-          "url": "https://talent.aquent.com/quick-apply/212598/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212598",
           "location": "Remote",
           "firm": "Aquent",
           "_hash": "dbc506043a7c",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager, Developer Marketing",
-          "url": "https://talent.aquent.com/quick-apply/212596/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212596",
           "location": "Remote",
           "firm": "Aquent",
           "_hash": "d3ee45b7d02a",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Technical Product Manager",
-          "url": "https://talent.aquent.com/quick-apply/212575/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212575",
           "location": "Seattle, WA",
           "firm": "Aquent",
           "_hash": "8356212f7774",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Creative Project Manager",
-          "url": "https://talent.aquent.com/quick-apply/212552/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212552",
           "location": "Oberlin, OH",
           "firm": "Aquent",
           "_hash": "3e510bedc284",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
-          "url": "https://talent.aquent.com/quick-apply/212385/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212385",
           "location": "Denver, CO",
           "firm": "Aquent",
           "_hash": "c6e0fc3709c3",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Pharma - Project Manager",
-          "url": "https://talent.aquent.com/quick-apply/212358/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212358",
           "location": "Philadelphia, PA",
           "firm": "Aquent",
           "_hash": "ca75512096c7",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager Tech",
-          "url": "https://talent.aquent.com/quick-apply/212284/start?locale=en_US",
+          "url": "https://aquent.com/find-work/212284",
           "location": "REDMOND, WA",
           "firm": "Aquent",
           "_hash": "6b722c250e47",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Construction Project Manager",
-          "url": "https://talent.aquent.com/quick-apply/211854/start?locale=en_US",
+          "url": "https://aquent.com/find-work/211854",
           "location": "The Woodlands, TX",
           "firm": "Aquent",
           "_hash": "b736887e5834",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Lead Product Manager",
-          "url": "https://talent.aquent.com/quick-apply/211613/start?locale=en_US",
+          "url": "https://aquent.com/find-work/211613",
           "location": "Boston, MA",
           "firm": "Aquent",
           "_hash": "d230c210b969",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program/ Project Manager",
-          "url": "https://talent.aquent.com/quick-apply/211272/start?locale=en_US",
+          "url": "https://aquent.com/find-work/211272",
           "location": "Chicago, IL",
           "firm": "Aquent",
           "_hash": "db0dfde9af56",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     }
