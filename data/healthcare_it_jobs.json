@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-04T00:43:52.599138+00:00",
+  "last_run": "2026-09-04T17:25:51.842705+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -166,6 +166,36 @@
           "is_new": false
         },
         {
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/10164132",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Staff Product Manager",
+          "url": "https://builtinchicago.org/job/staff-product-manager/11017865",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "8975fc45d372",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product Manager - Clinical Pathways & Analytics",
+          "url": "https://builtinchicago.org/job/product-manager-clinical-pathways-analytics/9931171",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "110d46ced411",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Junior Product Manager",
           "url": "https://builtinchicago.org/job/junior-product-manager/10993547",
           "location": "",
@@ -212,16 +242,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "02880a4c0983",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/10164132",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -312,16 +332,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "8540732367f2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager - Clinical Pathways & Analytics",
-          "url": "https://builtinchicago.org/job/product-manager-clinical-pathways-analytics/9931171",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "110d46ced411",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -626,16 +636,6 @@
           "is_new": false
         },
         {
-          "title": "Senior Product Manager, Data Platform",
-          "url": "https://builtinchicago.org/job/senior-product-manager-data-platform/10163282",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "25e785dc1819",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Senior Product Manager, Common Services",
           "url": "https://builtinchicago.org/job/senior-product-manager-common-services/10581501",
           "location": "",
@@ -852,22 +852,32 @@
           "is_new": false
         },
         {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Project Manager, Revenue Cycle",
+          "url": "https://builtinchicago.org/job/senior-project-manager-revenue-cycle/11022403",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "87ca4b270578",
+          "discovered_at": "2026-09-04T17:25:51.842705+00:00",
+          "is_new": true
+        },
+        {
           "title": "IT Enterprise Project Manager",
           "url": "https://builtinchicago.org/job/it-enterprise-project-manager/11002326",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "192c64fb1173",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager - Pharmacy Software Implementation",
-          "url": "https://builtinchicago.org/job/senior-project-manager-pharmacy-software-implementation/11000927",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "070ce41eeebf",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -908,16 +918,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "a27e5ad80bd4",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
