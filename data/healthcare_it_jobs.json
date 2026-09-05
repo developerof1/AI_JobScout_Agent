@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-05T00:37:37.378616+00:00",
+  "last_run": "2026-09-05T16:35:34.154881+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -849,7 +849,7 @@
           "department": "program_management",
           "_hash": "d49f6f8fc00f",
           "discovered_at": "2026-09-05T00:37:37.378616+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
