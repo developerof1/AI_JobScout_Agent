@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-05T00:39:05.005586+00:00",
+  "last_run": "2026-09-05T16:35:25.434414+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -27,16 +27,6 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "ai program manager",
-          "url": "https://www.randstadusa.com/jobs/4/1342681/ai-program-manager_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "985f81decd01",
-          "discovered_at": "2026-08-07T01:44:49.311617+00:00",
-          "is_new": false
-        },
-        {
           "title": "program management director",
           "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
           "location": "",
@@ -44,7 +34,7 @@
           "department": null,
           "_hash": "14c86e115e20",
           "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior product manager - ai",
@@ -54,7 +44,7 @@
           "department": null,
           "_hash": "966a120165c8",
           "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior product manager - ai",
@@ -64,7 +54,7 @@
           "department": null,
           "_hash": "966a120165c8",
           "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager, technical operations integration",
