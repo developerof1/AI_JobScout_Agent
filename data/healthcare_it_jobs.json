@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-04T17:25:51.842705+00:00",
+  "last_run": "2026-09-05T00:37:37.378616+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -486,16 +486,6 @@
           "is_new": false
         },
         {
-          "title": "Sr. Product Manager - Data Insights",
-          "url": "https://builtinchicago.org/job/sr-product-manager-data-insights/10322264",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "54388615b36f",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Staff Product Manager",
           "url": "https://builtinchicago.org/job/senior-product-manager/8997953",
           "location": "",
@@ -852,6 +842,16 @@
           "is_new": false
         },
         {
+          "title": "Program Manager, Strategy & Operations (Remote)",
+          "url": "https://builtinchicago.org/job/program-manager-strategy-operations-remote/10882410",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "d49f6f8fc00f",
+          "discovered_at": "2026-09-05T00:37:37.378616+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/10164249",
           "location": "",
@@ -869,7 +869,7 @@
           "department": "program_management",
           "_hash": "87ca4b270578",
           "discovered_at": "2026-09-04T17:25:51.842705+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "IT Enterprise Project Manager",
