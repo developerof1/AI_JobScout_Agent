@@ -1,10 +1,20 @@
 {
-  "last_run": "2026-09-07T18:37:58.213970+00:00",
+  "last_run": "2026-09-08T00:56:17.370475+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Product Manager, Retool Platform",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-retool-platform-162540/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "691d81f896fb",
+          "discovered_at": "2026-09-08T00:56:17.370475+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/project-manager-162640/",
@@ -373,6 +383,16 @@
           "_hash": "6b722c250e47",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
           "is_new": false
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://aquent.com/find-work/212032",
+          "location": "Baltimore, MD",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "c6e0fc3709c3",
+          "discovered_at": "2026-09-08T00:56:17.370475+00:00",
+          "is_new": true
         },
         {
           "title": "Construction Project Manager",
