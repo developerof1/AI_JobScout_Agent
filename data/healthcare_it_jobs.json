@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-08T00:54:52.985122+00:00",
+  "last_run": "2026-09-08T17:48:21.328219+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -106,16 +106,6 @@
           "is_new": false
         },
         {
-          "title": "Senior Technical Product Manager \u2013 AI / ML",
-          "url": "https://builtinchicago.org/job/senior-technical-product-manager-ai-ml/10972685",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "f2ff2c5b825e",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Principal Product Manager, Heathcare Technology",
           "url": "https://builtinchicago.org/job/principal-product-manager-heathcare-technology/10443424",
           "location": "",
@@ -156,12 +146,22 @@
           "is_new": false
         },
         {
-          "title": "Associate Digital Product Manager",
-          "url": "https://builtinchicago.org/job/associate-digital-product-manager/9694521",
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/11045278",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "507fa09e1ed3",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product manager",
+          "url": "https://builtinchicago.org/job/product-manager/11045241",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -202,16 +202,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "13009f56251c",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Lead Digital Product Manager",
-          "url": "https://builtinchicago.org/job/lead-digital-product-manager/9964645",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "6219eaaa71aa",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -752,16 +742,6 @@
           "is_new": false
         },
         {
-          "title": "Data Migration Project Manager",
-          "url": "https://builtinchicago.org/job/data-migration-project-manager/10839534",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "b455bf40bd0a",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Sr Project Manager \u2013 Strategic Implementations QNXT",
           "url": "https://builtinchicago.org/job/sr-project-manager-strategic-implementations-qnxt/11002108",
           "location": "",
@@ -778,16 +758,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "2da408c60be2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager - Federal and State Mandates",
-          "url": "https://builtinchicago.org/job/senior-project-manager-federal-and-state-mandates/10870708",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "70d08f74a21f",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -838,6 +808,26 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "e2e7081f9436",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager III",
+          "url": "https://builtinchicago.org/job/program-manager-iii/11054824",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b055ca55f65d",
+          "discovered_at": "2026-09-08T17:48:21.328219+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11050814",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
