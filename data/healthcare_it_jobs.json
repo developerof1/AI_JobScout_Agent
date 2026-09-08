@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-07T18:39:13.437763+00:00",
+  "last_run": "2026-09-08T00:54:52.985122+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -898,16 +898,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "978d5c5914c0",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, Information Services",
-          "url": "https://builtinchicago.org/job/project-manager-information-services/10951650",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "a27e5ad80bd4",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
