@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-08T17:48:21.328219+00:00",
+  "last_run": "2026-09-09T01:02:49.401418+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -136,12 +136,32 @@
           "is_new": false
         },
         {
-          "title": "Strategic Product Manager",
-          "url": "https://builtinchicago.org/job/strategic-product-manager/10468840",
+          "title": "Product Manager, Wet Goods (CONTRACT)",
+          "url": "https://builtinchicago.org/job/product-manager-wet-goods-contract/11065877",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "e9d83af0bb01",
+          "_hash": "bf137199bc72",
+          "discovered_at": "2026-09-09T01:02:49.401418+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Technical Product Manager III",
+          "url": "https://builtinchicago.org/job/technical-product-manager-iii/11062814",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "a224b81b4691",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/11061290",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -362,16 +382,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "1b9955112b00",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Product Manager III",
-          "url": "https://builtinchicago.org/job/technical-product-manager-iii/9063098",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "a224b81b4691",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -812,16 +822,6 @@
           "is_new": false
         },
         {
-          "title": "Program Manager III",
-          "url": "https://builtinchicago.org/job/program-manager-iii/11054824",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "b055ca55f65d",
-          "discovered_at": "2026-09-08T17:48:21.328219+00:00",
-          "is_new": true
-        },
-        {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/11050814",
           "location": "",
@@ -1018,16 +1018,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "e4b5d9d74b27",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager National Networks",
-          "url": "https://builtinchicago.org/job/program-manager-national-networks/10610138",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "e1e2333139bb",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
