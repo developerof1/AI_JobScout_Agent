@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-10T17:32:32.613067+00:00",
+  "last_run": "2026-09-11T00:50:30.198682+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -24,6 +24,16 @@
           "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
+        },
+        {
+          "title": "Senior Product Manager, Mobile",
+          "url": "https://builtinchicago.org/job/senior-product-manager-mobile/11121257",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "2825ae4d123f",
+          "discovered_at": "2026-09-11T00:50:30.198682+00:00",
+          "is_new": true
         },
         {
           "title": "Senior Product Manager, Money",
@@ -76,22 +86,22 @@
           "is_new": false
         },
         {
-          "title": "Staff Product Manager, Billing Infrastructure",
-          "url": "https://builtinchicago.org/job/staff-product-manager-billing-infrastructure/10605989",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "a9d6721a6a24",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Top  Companies in Chicago, IL Hiring Product Management Roles",
           "url": "",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "94a1b67371bd",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Staff Product Manager, Billing Infrastructure",
+          "url": "https://builtinchicago.org/job/staff-product-manager-billing-infrastructure/10605989",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "a9d6721a6a24",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -132,6 +142,26 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Product Manager DIG - Remote",
+          "url": "https://builtinchicago.org/job/senior-product-manager-dig-remote/10904037",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "e9e8054c62a1",
+          "discovered_at": "2026-09-11T00:50:30.198682+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Product Manager",
+          "url": "https://builtinchicago.org/job/senior-product-manager/11116028",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -416,16 +446,6 @@
           "is_new": false
         },
         {
-          "title": "Senior Product Manager - Remote",
-          "url": "https://builtinchicago.org/job/senior-product-manager-remote/10751127",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "67e72ad99173",
-          "discovered_at": "2026-09-10T00:50:54.239032+00:00",
-          "is_new": false
-        },
-        {
           "title": "Founding Product Manager, Employer Solutions",
           "url": "https://builtinchicago.org/job/founding-product-manager-employer-solutions/10370422",
           "location": "",
@@ -436,14 +456,14 @@
           "is_new": false
         },
         {
-          "title": "Product Manager, Engagement",
+          "title": "Product Manager, AI Experience",
           "url": "https://builtinchicago.org/job/product-manager-engagement/9274310",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "2ae34868d636",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
+          "_hash": "30665e938f23",
+          "discovered_at": "2026-09-11T00:50:30.198682+00:00",
+          "is_new": true
         },
         {
           "title": "Product Manager, Risk Adjustment Coding Data Integration",
@@ -602,16 +622,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "5da7852acee0",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Growth Product Manager",
-          "url": "https://builtinchicago.org/job/growth-product-manager/10570918",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "955915b77fe9",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -782,6 +792,16 @@
           "is_new": false
         },
         {
+          "title": "Project Manager, Cyber Security - Remote",
+          "url": "https://builtinchicago.org/job/project-manager-cyber-security-remote/11121173",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "8f6a8c3b222d",
+          "discovered_at": "2026-09-11T00:50:30.198682+00:00",
+          "is_new": true
+        },
+        {
           "title": "Program Manager, AI Workforce Enablement",
           "url": "https://builtinchicago.org/job/program-manager-ai-workforce-enablement/11108978",
           "location": "",
@@ -789,7 +809,7 @@
           "department": "program_management",
           "_hash": "c79a733807a4",
           "discovered_at": "2026-09-10T17:32:32.613067+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "WI Program Manager- Remote",
@@ -799,7 +819,7 @@
           "department": "program_management",
           "_hash": "1f7da3e25107",
           "discovered_at": "2026-09-10T17:32:32.613067+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager, Implementation HP Strat. Cli",
@@ -809,7 +829,7 @@
           "department": "program_management",
           "_hash": "d6231afba4c4",
           "discovered_at": "2026-09-10T17:32:32.613067+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -899,16 +919,6 @@
           "department": "program_management",
           "_hash": "d49f6f8fc00f",
           "discovered_at": "2026-09-05T00:37:37.378616+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager, Revenue Cycle - Remote",
-          "url": "https://builtinchicago.org/job/senior-project-manager-revenue-cycle/11022403",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "90f2cd0f359a",
-          "discovered_at": "2026-09-10T00:50:54.239032+00:00",
           "is_new": false
         },
         {
