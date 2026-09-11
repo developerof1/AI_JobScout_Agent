@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-11T00:52:38.612560+00:00",
+  "last_run": "2026-09-11T17:33:20.589765+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -14,6 +14,16 @@
           "_hash": "bec33d472ba4",
           "discovered_at": "2026-09-10T17:32:32.349362+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager, Retool Platform",
+          "url": "https://www.thelasallenetwork.com/jobs/product-manager-retool-platform-162540/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "691d81f896fb",
+          "discovered_at": "2026-09-11T17:33:20.589765+00:00",
+          "is_new": true
         }
       ]
     },
@@ -22,6 +32,16 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
+          "title": "Salesforce Project Manager",
+          "url": "https://www.ptechpartners.com/job/chicago-il/salesforce-project-manager/106167",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "57c18613ca5e",
+          "discovered_at": "2026-09-11T17:33:20.589765+00:00",
+          "is_new": true
+        },
+        {
           "title": "Product Manager - Fuel",
           "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-fuel/106163",
           "location": "",
@@ -29,16 +49,6 @@
           "department": null,
           "_hash": "01d206dd49ea",
           "discovered_at": "2026-09-11T00:52:38.612560+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Technical Product Manager",
-          "url": "https://www.ptechpartners.com/job/remote-usa/technical-product-manager/106160",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "edba02eb3d0c",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
           "is_new": false
         }
       ]
@@ -47,6 +57,36 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "program management director",
+          "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "14c86e115e20",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1345826/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
         {
           "title": "project manager, technical operations integration",
           "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
@@ -65,7 +105,7 @@
           "department": null,
           "_hash": "250b13e8a267",
           "discovered_at": "2026-09-11T00:52:38.612560+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager",
@@ -105,36 +145,6 @@
           "department": null,
           "_hash": "23158e228a70",
           "discovered_at": "2026-08-20T14:35:07.180979+00:00",
-          "is_new": false
-        },
-        {
-          "title": "program management director",
-          "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "14c86e115e20",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345826/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
         }
       ]
@@ -241,7 +251,7 @@
           "department": null,
           "_hash": "0be3ebad2d90",
           "discovered_at": "2026-09-11T00:52:38.612560+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -249,6 +259,16 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Marketing PMO \u2013 Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/marketing-pmo-project-manager-106776/",
+          "location": "",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "306d054ee509",
+          "discovered_at": "2026-09-11T17:33:20.589765+00:00",
+          "is_new": true
+        },
         {
           "title": "Project Manager \u2013 Intermediate",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-intermediate-106625/",
@@ -270,6 +290,16 @@
           "is_new": false
         },
         {
+          "title": "Project/Program Manager (Non-IT) 2",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-2-106794/",
+          "location": "Chillicothe",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "1769cba05770",
+          "discovered_at": "2026-09-11T17:33:20.589765+00:00",
+          "is_new": true
+        },
+        {
           "title": "Technical Program Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-106120/",
           "location": "Omaha",
@@ -277,16 +307,6 @@
           "department": null,
           "_hash": "bd0b7feb7e1d",
           "discovered_at": "2026-09-04T00:43:54.607148+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager II (Airtable Integration Specialist)",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-ii-airtable-integration-specialist-105254/",
-          "location": "Culver City",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "2c3712f73de4",
-          "discovered_at": "2026-07-21T15:44:36.395616+00:00",
           "is_new": false
         },
         {
@@ -308,6 +328,16 @@
           "_hash": "a1c5bd018b31",
           "discovered_at": "2026-09-09T17:34:13.741333+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager II (Airtable Integration Specialist)",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-ii-airtable-integration-specialist-105254/",
+          "location": "Culver City",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "2c3712f73de4",
+          "discovered_at": "2026-07-21T15:44:36.395616+00:00",
+          "is_new": false
         }
       ]
     },
@@ -323,7 +353,7 @@
           "department": null,
           "_hash": "4c064541ab7c",
           "discovered_at": "2026-09-11T00:52:38.612560+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Pharma",
