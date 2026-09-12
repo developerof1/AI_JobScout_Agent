@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-12T00:53:40.658728+00:00",
+  "last_run": "2026-09-12T16:48:46.507938+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -153,26 +153,6 @@
           "department": "product_management",
           "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/11127395",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Product Manager DIG - Remote",
-          "url": "https://builtinchicago.org/job/senior-product-manager-dig-remote/10904037",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "e9e8054c62a1",
-          "discovered_at": "2026-09-11T00:50:30.198682+00:00",
           "is_new": false
         },
         {
@@ -466,6 +446,16 @@
           "is_new": false
         },
         {
+          "title": "Senior Product Manager - Remote",
+          "url": "https://builtinchicago.org/job/senior-product-manager-remote/10751127",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "67e72ad99173",
+          "discovered_at": "2026-09-12T16:48:46.507938+00:00",
+          "is_new": true
+        },
+        {
           "title": "Founding Product Manager, Employer Solutions",
           "url": "https://builtinchicago.org/job/founding-product-manager-employer-solutions/10370422",
           "location": "",
@@ -729,7 +719,7 @@
           "department": "program_management",
           "_hash": "68e1c4477fb8",
           "discovered_at": "2026-09-12T00:53:40.658728+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Network Cabling Project Manager",
@@ -748,16 +738,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "06a760c4daa5",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr Project Manager \u2013 Strategic Implementations QNXT",
-          "url": "https://builtinchicago.org/job/sr-project-manager-strategic-implementations-qnxt/11002108",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "7e7b07ab48f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -823,6 +803,16 @@
         },
         {
           "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/10621466",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
@@ -859,16 +849,6 @@
           "department": "program_management",
           "_hash": "c76ce8981080",
           "discovered_at": "2026-09-11T17:35:47.963963+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
