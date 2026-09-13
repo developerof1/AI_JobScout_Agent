@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-12T16:46:50.523162+00:00",
+  "last_run": "2026-09-13T00:38:06.092911+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -58,36 +58,6 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "program management director",
-          "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "14c86e115e20",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345826/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager, technical operations integration",
           "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
           "location": "",
@@ -135,6 +105,36 @@
           "department": null,
           "_hash": "ffb009cbb4a9",
           "discovered_at": "2026-08-25T23:24:02.065925+00:00",
+          "is_new": false
+        },
+        {
+          "title": "program management director",
+          "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "14c86e115e20",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1345826/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
         },
         {
