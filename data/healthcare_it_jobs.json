@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-12T16:48:46.507938+00:00",
+  "last_run": "2026-09-13T00:37:02.903244+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Product",
@@ -453,7 +453,7 @@
           "department": "product_management",
           "_hash": "67e72ad99173",
           "discovered_at": "2026-09-12T16:48:46.507938+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Founding Product Manager, Employer Solutions",
@@ -824,16 +824,6 @@
         {
           "title": "Program Manager",
           "url": "https://builtinchicago.org/job/program-manager/11138181",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "7e8c48812fd6",
-          "discovered_at": "2026-09-09T17:38:36.641960+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://builtinchicago.org/job/program-manager/11138161",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
