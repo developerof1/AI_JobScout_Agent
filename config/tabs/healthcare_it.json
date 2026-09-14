@@ -4,17 +4,6 @@
 
   "sources": [
     {
-      "name": "Built In Chicago — Product",
-      "method": "html",
-      "config": {
-        "url": "https://builtinchicago.org/jobs/product/healthtech?page=1",
-        "requires_js": true,
-        "max_pages": 10,
-        "department": "product_management",
-        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
-      }
-    },
-    {
       "name": "Built In Chicago — Project/Program Management",
       "method": "html",
       "config": {
@@ -22,6 +11,17 @@
         "requires_js": true,
         "max_pages": 10,
         "department": "program_management",
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+      }
+    },
+    {
+      "name": "Built In Chicago — Product",
+      "method": "html",
+      "config": {
+        "url": "https://builtinchicago.org/jobs/product/healthtech?page=1",
+        "requires_js": true,
+        "max_pages": 10,
+        "department": "product_management",
         "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
       }
     }
