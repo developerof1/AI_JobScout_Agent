@@ -41,6 +41,7 @@ let allJobs = [];
 let activeFilter = "all";
 let groupedData = {};   // keyed by tab: contracting, healthcare_it
 let showHidden = {};    // keyed by tab
+let ageFilterDays = {}; // keyed by tab; 0 = no age filter
 
 function formatTimestamp(date) {
   const today = new Date();
@@ -428,6 +429,11 @@ function toggleShowHidden(tab) {
   renderGroupedSection(tab);
 }
 
+function setAgeFilter(tab, days) {
+  ageFilterDays[tab] = parseInt(days, 10) || 0;
+  renderGroupedSection(tab);
+}
+
 function renderGroupedSection(tabKey) {
   const firmsList = document.getElementById(`${tabKey}-firms-list`);
   if (!firmsList) return;
@@ -455,10 +461,16 @@ function renderGroupedSection(tabKey) {
   const hidden = getTrackedIds(tabKey, "hide");
   const showAll = !!showHidden[tabKey];
 
+  const maxAgeDays = ageFilterDays[tabKey] || 0;
+  const ageCutoff = maxAgeDays ? Date.now() - maxAgeDays * 24 * 60 * 60 * 1000 : null;
+
   firmsList.innerHTML = data.firms.map(firm => {
-    const allJobs = [...(firm.jobs || [])].sort((a, b) =>
+    let allJobs = [...(firm.jobs || [])].sort((a, b) =>
       new Date(b.discovered_at || 0) - new Date(a.discovered_at || 0)
     );
+    if (ageCutoff) {
+      allJobs = allJobs.filter(j => !j.discovered_at || new Date(j.discovered_at).getTime() >= ageCutoff);
+    }
     const visibleJobs = showAll ? allJobs : allJobs.filter(j => !hidden.has(j._hash));
 
     const jobsHtml = visibleJobs.length ? visibleJobs.map(j => {

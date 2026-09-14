@@ -108,6 +108,15 @@
       <div class="contracting-toolbar">
         <div id="contracting-last-run" class="tab-last-run"></div>
         <label class="toggle-label">
+          Show jobs from:
+          <select id="contracting-age-filter" onchange="setAgeFilter('contracting', this.value)">
+            <option value="0">All time</option>
+            <option value="7">Last 7 days</option>
+            <option value="14">Last 14 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
+        </label>
+        <label class="toggle-label">
           <input type="checkbox" id="contracting-show-hidden-toggle" onchange="toggleShowHidden('contracting')">
           Show hidden jobs
         </label>
@@ -119,6 +128,15 @@
     <div id="tab-healthcare_it" class="tab-panel" style="display:none">
       <div class="contracting-toolbar">
         <div id="healthcare_it-last-run" class="tab-last-run"></div>
+        <label class="toggle-label">
+          Show jobs from:
+          <select id="healthcare_it-age-filter" onchange="setAgeFilter('healthcare_it', this.value)">
+            <option value="0">All time</option>
+            <option value="7">Last 7 days</option>
+            <option value="14">Last 14 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
+        </label>
         <label class="toggle-label">
           <input type="checkbox" id="healthcare_it-show-hidden-toggle" onchange="toggleShowHidden('healthcare_it')">
           Show hidden jobs
