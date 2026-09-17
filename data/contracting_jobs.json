@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-17T01:06:56.943854+00:00",
+  "last_run": "2026-09-17T17:58:45.485204+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -88,6 +88,16 @@
           "is_new": false
         },
         {
+          "title": "senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5059589/senior-project-manager_boston/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "e5c1a84be0bd",
+          "discovered_at": "2026-08-31T19:52:29.941290+00:00",
+          "is_new": false
+        },
+        {
           "title": "project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_5028617/project-manager_washington/",
           "location": "",
@@ -115,7 +125,7 @@
           "department": null,
           "_hash": "e320953d9019",
           "discovered_at": "2026-09-17T01:06:56.943854+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it healthcare analyst / project manager",
@@ -125,7 +135,7 @@
           "department": null,
           "_hash": "55161798aac1",
           "discovered_at": "2026-09-17T01:06:56.943854+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "it project management senior advisor",
@@ -220,6 +230,16 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "Sr. Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sr-project-manager-106954/",
+          "location": "Los Angeles",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "d7242a36b73e",
+          "discovered_at": "2026-09-17T17:58:45.485204+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager Sr",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-sr-106921/",
           "location": "Detroit",
@@ -247,7 +267,7 @@
           "department": null,
           "_hash": "b66bb4415a77",
           "discovered_at": "2026-09-17T01:06:56.943854+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager",
@@ -258,6 +278,16 @@
           "_hash": "d898022a3653",
           "discovered_at": "2026-09-09T17:34:13.741333+00:00",
           "is_new": false
+        },
+        {
+          "title": "Project/Program Manager IT 4",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-4-106906/",
+          "location": "",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "19e64481f84c",
+          "discovered_at": "2026-09-17T17:58:45.485204+00:00",
+          "is_new": true
         },
         {
           "title": "Project/Program Manager IT 3",
@@ -278,6 +308,16 @@
           "_hash": "2ea61174d29a",
           "discovered_at": "2026-09-15T01:11:58.421796+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager & Team Coordinator",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-team-coordinator-106943/",
+          "location": "San Francisco",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "c16d10ca6517",
+          "discovered_at": "2026-09-17T17:58:45.485204+00:00",
+          "is_new": true
         },
         {
           "title": "Digital Product Manager III",
@@ -436,16 +476,6 @@
           "is_new": false
         },
         {
-          "title": "Pharma - Project Manager",
-          "url": "https://aquent.com/find-work/212358",
-          "location": "Philadelphia, PA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "ca75512096c7",
-          "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager",
           "url": "https://aquent.com/find-work/212032",
           "location": "Baltimore, MD",
@@ -462,16 +492,6 @@
           "firm": "Aquent",
           "department": null,
           "_hash": "db0dfde9af56",
-          "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Pharma - Project Manager",
-          "url": "https://aquent.com/find-work/211154",
-          "location": "Philadelphia, PA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "ca75512096c7",
           "discovered_at": "2026-09-03T18:20:33.739998+00:00",
           "is_new": false
         }
