@@ -1,0 +1,38 @@
+{
+  "tab": "startups",
+  "active": true,
+
+  "sources": [
+    {
+      "name": "Y Combinator — Work at a Startup",
+      "method": "yc",
+      "config": {
+        "url": "https://www.ycombinator.com/jobs",
+        "roles": ["product-manager", "operations", "support"],
+        "locations": ["chicago", "miami"],
+        "keywords": [
+          "project manager", "project management", "program manager", "program management",
+          "product manager", "product management", "pmo", "tpm", " pm",
+          "customer success", "customer success manager", "client success",
+          "customer experience", "customer onboarding", "customer operations"
+        ]
+      }
+    }
+  ],
+
+  "dimension_support": {
+    "yc": {"title": "fixed", "location": "fixed", "date": "unsupported"}
+  },
+
+  "dedup_strategy": "url",
+
+  "scoring": {"enabled": false},
+
+  "display": {
+    "shape": "grouped_by_firm",
+    "group_key": "firm",
+    "tracking": {"type": "hide", "storage_key": "hiddenStartupsJobs"}
+  },
+
+  "output": "data/startups_jobs.json"
+}

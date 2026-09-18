@@ -165,7 +165,7 @@ def build_scouting_output(
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tab", required=True, choices=["contracting", "scouting", "healthcare_it"])
+    parser.add_argument("--tab", required=True, choices=["contracting", "scouting", "healthcare_it", "startups"])
     parser.add_argument("--run-number", type=int, default=1)
     parser.add_argument("--output", help="Override output path (for verification runs)")
     args = parser.parse_args()

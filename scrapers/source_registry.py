@@ -14,7 +14,11 @@ Adding a new source: write one wrapper function and add it to SOURCE_REGISTRY.
 No driver changes needed.
 """
 
-from scrapers.methods import adzuna, elastic_search, html_pages, matador_api, remotive
+from scrapers.methods import adzuna, elastic_search, html_pages, matador_api, remotive, yc
+
+
+def _fetch_yc(source_config: dict) -> list[dict]:
+    return yc.scrape(source_config, source_config.get("keywords", []))
 
 
 def _fetch_html(source_config: dict) -> list[dict]:
@@ -43,4 +47,5 @@ SOURCE_REGISTRY = {
     "elastic_search": _fetch_elastic_search,
     "remotive": _fetch_remotive,
     "adzuna": _fetch_adzuna,
+    "yc": _fetch_yc,
 }

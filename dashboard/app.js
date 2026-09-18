@@ -27,6 +27,10 @@ const TAB_CONFIGS = {
       classifyDimension: "department",
     },
   },
+  startups: {
+    dataUrl: "./data/startups_jobs.json",
+    display: { shape: "grouped_by_firm", tracking: { type: "hide", storageKey: "hiddenStartupsJobs" } },
+  },
 };
 
 // Tabs whose data is grouped by source firm, rendered by renderGroupedSection().
