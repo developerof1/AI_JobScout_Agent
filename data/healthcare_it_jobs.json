@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-18T17:33:17.019117+00:00",
+  "last_run": "2026-09-19T00:57:25.803838+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -33,7 +33,7 @@
           "department": "program_management",
           "_hash": "3d665fee5cf7",
           "discovered_at": "2026-09-18T17:33:17.019117+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -106,6 +106,16 @@
           "is_new": false
         },
         {
+          "title": "MEDITECH Expanse Project Manager",
+          "url": "https://builtinchicago.org/job/meditech-expanse-project-manager/11260822",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "5ea581b32027",
+          "discovered_at": "2026-09-19T00:57:25.803838+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/11243903",
           "location": "",
@@ -166,16 +176,6 @@
           "is_new": false
         },
         {
-          "title": "HCA - Project Manager II",
-          "url": "https://builtinchicago.org/job/hca-project-manager-ii/11159749",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "65027a9e40d0",
-          "discovered_at": "2026-09-14T19:05:07.015031+00:00",
-          "is_new": false
-        },
-        {
           "title": "Federal Project Manager",
           "url": "https://builtinchicago.org/job/federal-project-manager/11131313",
           "location": "",
@@ -192,16 +192,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "c79a733807a4",
-          "discovered_at": "2026-09-10T17:32:32.613067+00:00",
-          "is_new": false
-        },
-        {
-          "title": "WI Program Manager- Remote",
-          "url": "https://builtinchicago.org/job/wi-program-manager-remote/11108797",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "1f7da3e25107",
           "discovered_at": "2026-09-10T17:32:32.613067+00:00",
           "is_new": false
         },
@@ -396,26 +386,6 @@
           "is_new": false
         },
         {
-          "title": "Implementation Project Manager",
-          "url": "https://builtinchicago.org/job/implementation-project-manager/9326719",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "45667e36e6f4",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, Customer Engineering",
-          "url": "https://builtinchicago.org/job/project-manager-customer-engineering/9464539",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "f579f34ef186",
-          "discovered_at": "2026-09-09T17:38:36.641960+00:00",
-          "is_new": false
-        },
-        {
           "title": "Technical Project Manager (AWS Implementation) (Contract)",
           "url": "https://builtinchicago.org/job/technical-project-manager-aws-implementation-contract/10539824",
           "location": "",
@@ -442,16 +412,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "9edf43cdc298",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Director of Program Management, Payor Partnerships",
-          "url": "https://builtinchicago.org/job/director-program-management-payor-partnerships/10489841",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "a0387ff7f347",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         }
@@ -489,7 +449,7 @@
           "department": "product_management",
           "_hash": "bc1fc7f34977",
           "discovered_at": "2026-09-18T17:33:17.019117+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager, Mobile",
@@ -632,6 +592,26 @@
           "is_new": false
         },
         {
+          "title": "Senior AI Product Manager",
+          "url": "https://builtinchicago.org/job/senior-ai-product-manager/11261522",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "eb1ca7550f96",
+          "discovered_at": "2026-09-19T00:57:25.803838+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager Level I",
+          "url": "https://builtinchicago.org/job/product-manager-level-i/11258748",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "141aba659c9d",
+          "discovered_at": "2026-09-19T00:57:25.803838+00:00",
+          "is_new": true
+        },
+        {
           "title": "Senior Product Manager, RCM Strategy",
           "url": "https://builtinchicago.org/job/senior-product-manager-rcm-strategy/11244365",
           "location": "",
@@ -639,7 +619,7 @@
           "department": "product_management",
           "_hash": "4f73fbd299f3",
           "discovered_at": "2026-09-18T17:33:17.019117+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager",
