@@ -1,10 +1,30 @@
 {
-  "last_run": "2026-09-19T00:45:06.038494+00:00",
+  "last_run": "2026-09-19T17:05:23.538203+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
       "url": "https://www.ycombinator.com/jobs",
       "jobs": [
+        {
+          "title": "Careforce \u2014 Technical Product Manager",
+          "location": "Oakland, CA, US / San Francisco, CA, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/careforce/jobs/3IP8uMc-technical-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "9b4d1cbca408",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Clipboard \u2014 Product Manager",
+          "location": "Hybrid (San Francisco, CA) / New York City (Hybrid) / Remote (San Francisco, CA, US; New York, NY, US)",
+          "url": "https://www.ycombinator.com/companies/clipboard/jobs/8Un82G4-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "2feb19e0ecd7",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
         {
           "title": "Vouch \u2014 Senior Product Manager, AI Pod",
           "location": "Chicago, IL, US",
@@ -26,22 +46,22 @@
           "is_new": false
         },
         {
-          "title": "Clipboard \u2014 Product Manager",
-          "location": "Hybrid (San Francisco, CA) / New York City (Hybrid) / Remote (San Francisco, CA, US; New York, NY, US)",
-          "url": "https://www.ycombinator.com/companies/clipboard/jobs/8Un82G4-product-manager",
+          "title": "Inlet \u2014 Founding Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/inlet-2/jobs/37msxHL-founding-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "2feb19e0ecd7",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "_hash": "b6c98e631211",
+          "discovered_at": "2026-09-19T00:45:06.038494+00:00",
           "is_new": false
         },
         {
-          "title": "Careforce \u2014 Technical Product Manager",
-          "location": "Oakland, CA, US / San Francisco, CA, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/careforce/jobs/3IP8uMc-technical-product-manager",
+          "title": "Oneleet \u2014 Security Program Manager",
+          "location": "Remote (US)",
+          "url": "https://www.ycombinator.com/companies/oneleet/jobs/umdbAFP-security-program-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "9b4d1cbca408",
+          "_hash": "2fd2de05b67a",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -56,22 +76,12 @@
           "is_new": false
         },
         {
-          "title": "Inlet \u2014 Founding Customer Success Manager",
+          "title": "Intryc \u2014 Customer Success Manager",
           "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/inlet-2/jobs/37msxHL-founding-customer-success-manager",
+          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "b6c98e631211",
-          "discovered_at": "2026-09-19T00:45:06.038494+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Oneleet \u2014 Security Program Manager",
-          "location": "Remote (US)",
-          "url": "https://www.ycombinator.com/companies/oneleet/jobs/umdbAFP-security-program-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "2fd2de05b67a",
+          "_hash": "16ac6855840d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -86,32 +96,22 @@
           "is_new": false
         },
         {
-          "title": "Storylane \u2014 Enterprise Customer Success Manager (US Remote)",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/storylane/jobs/olwI5Ax-enterprise-customer-success-manager-us-remote",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "ffa16410a9cb",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Intryc \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "16ac6855840d",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
           "title": "Draft The Record \u2014 Customer Success Specialist",
           "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "4821c760559e",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Storylane \u2014 Enterprise Customer Success Manager (US Remote)",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/storylane/jobs/olwI5Ax-enterprise-customer-success-manager-us-remote",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "ffa16410a9cb",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
