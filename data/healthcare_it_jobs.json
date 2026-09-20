@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-20T00:38:44.369306+00:00",
+  "last_run": "2026-09-20T17:21:09.384811+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -582,6 +582,26 @@
           "is_new": false
         },
         {
+          "title": "Jr. Product Manager",
+          "url": "https://builtinchicago.org/job/jr-product-manager/11270114",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "381a1b0c1846",
+          "discovered_at": "2026-09-20T17:21:09.384811+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product manager",
+          "url": "https://builtinchicago.org/job/product-manager/11045241",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Product Manager",
           "url": "https://builtinchicago.org/job/product-manager/10164132",
           "location": "",
@@ -628,16 +648,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "c7d27a680e58",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product manager",
-          "url": "https://builtinchicago.org/job/product-manager/11045241",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
