@@ -1,20 +1,10 @@
 {
-  "last_run": "2026-09-21T00:37:04.954455+00:00",
+  "last_run": "2026-09-21T19:10:00.010983+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
       "url": "https://www.ycombinator.com/jobs",
       "jobs": [
-        {
-          "title": "Careforce \u2014 Technical Product Manager",
-          "location": "Oakland, CA, US / San Francisco, CA, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/careforce/jobs/3IP8uMc-technical-product-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "9b4d1cbca408",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
         {
           "title": "Vouch \u2014 Senior Product Manager, AI Pod",
           "location": "Chicago, IL, US",
@@ -22,16 +12,6 @@
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "c873a7479bd9",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "GoGoGrandparent \u2014 Growth Product Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/zlnv1T9-growth-product-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "9b767f0e371d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -46,6 +26,26 @@
           "is_new": false
         },
         {
+          "title": "GoGoGrandparent \u2014 Growth Product Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/zlnv1T9-growth-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "9b767f0e371d",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Careforce \u2014 Technical Product Manager",
+          "location": "Oakland, CA, US / San Francisco, CA, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/careforce/jobs/3IP8uMc-technical-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "9b4d1cbca408",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
           "title": "Inlet \u2014 Founding Customer Success Manager",
           "location": "US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/inlet-2/jobs/37msxHL-founding-customer-success-manager",
@@ -53,6 +53,16 @@
           "department": null,
           "_hash": "b6c98e631211",
           "discovered_at": "2026-09-19T00:45:06.038494+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Sendblue \u2014 Customer Success Manager",
+          "location": "New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/sendblue/jobs/TQhA58F-customer-success-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "ceea3376f229",
+          "discovered_at": "2026-09-21T00:37:04.954455+00:00",
           "is_new": false
         },
         {
@@ -76,22 +86,12 @@
           "is_new": false
         },
         {
-          "title": "Sendblue \u2014 Customer Success Manager",
-          "location": "New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/sendblue/jobs/TQhA58F-customer-success-manager",
+          "title": "Draft The Record \u2014 Customer Success Specialist",
+          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "ceea3376f229",
-          "discovered_at": "2026-09-21T00:37:04.954455+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Intryc \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "16ac6855840d",
+          "_hash": "4821c760559e",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -106,12 +106,12 @@
           "is_new": false
         },
         {
-          "title": "Draft The Record \u2014 Customer Success Specialist",
-          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
+          "title": "Intryc \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "4821c760559e",
+          "_hash": "16ac6855840d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
