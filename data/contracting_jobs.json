@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-21T19:05:54.835953+00:00",
+  "last_run": "2026-09-22T01:27:34.907669+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -39,7 +39,7 @@
           "department": null,
           "_hash": "f9a4e00b2851",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager \u2013 AI & Personalization Platform",
@@ -75,7 +75,7 @@
           "department": null,
           "_hash": "87d1f1e06b49",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior product manager - ai",
@@ -98,16 +98,6 @@
           "is_new": false
         },
         {
-          "title": "project manager, technical operations integration",
-          "url": "https://www.randstadusa.com/jobs/137/54220/project-manager-technical-operations-integration_cambridge/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "1994ffd12908",
-          "discovered_at": "2026-08-04T00:08:39.975089+00:00",
-          "is_new": false
-        },
-        {
           "title": "senior project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_5059589/senior-project-manager_boston/",
           "location": "",
@@ -115,6 +105,26 @@
           "department": null,
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-08-31T19:52:29.941290+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5070805/senior-project-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "e5c1a84be0bd",
+          "discovered_at": "2026-08-31T19:52:29.941290+00:00",
+          "is_new": false
+        },
+        {
+          "title": "workday program manager",
+          "url": "https://www.randstadusa.com/jobs/4/1347145/workday-program-manager_durham/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "b583f8af76d0",
+          "discovered_at": "2026-09-21T19:05:54.835953+00:00",
           "is_new": false
         },
         {
@@ -148,24 +158,14 @@
           "is_new": false
         },
         {
-          "title": "sr. project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1346742/sr-project-manager_madison/",
+          "title": "project manager, hr job and skill architecture",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5070771/project-manager-hr-job-and-skill-architecture_washington/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "e320953d9019",
-          "discovered_at": "2026-09-17T01:06:56.943854+00:00",
-          "is_new": false
-        },
-        {
-          "title": "it project management senior advisor",
-          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "ffb009cbb4a9",
-          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
-          "is_new": false
+          "_hash": "888669f45abe",
+          "discovered_at": "2026-09-22T01:27:34.907669+00:00",
+          "is_new": true
         },
         {
           "title": "project manager",
@@ -178,14 +178,14 @@
           "is_new": false
         },
         {
-          "title": "workday program manager",
-          "url": "https://www.randstadusa.com/jobs/4/1347145/workday-program-manager_durham/",
+          "title": "it project management senior advisor",
+          "url": "https://www.randstadusa.com/jobs/4/1344497/it-project-management-senior-advisor_philadelphia/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "b583f8af76d0",
-          "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "_hash": "ffb009cbb4a9",
+          "discovered_at": "2026-08-25T23:24:02.065925+00:00",
+          "is_new": false
         }
       ]
     },
@@ -261,7 +261,7 @@
           "department": null,
           "_hash": "ef92ed6831ae",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -277,7 +277,7 @@
           "department": null,
           "_hash": "7cb56ba0b9b4",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager Sr",
@@ -347,7 +347,7 @@
           "department": null,
           "_hash": "9fa1e1200791",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager & Team Coordinator",
