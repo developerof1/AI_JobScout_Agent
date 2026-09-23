@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-23T01:15:35.674240+00:00",
+  "last_run": "2026-09-23T18:16:51.875450+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -14,16 +14,6 @@
           "_hash": "691d81f896fb",
           "discovered_at": "2026-09-11T17:33:20.589765+00:00",
           "is_new": false
-        },
-        {
-          "title": "Technical Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/technical-program-manager-162832/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "bec33d472ba4",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
-          "is_new": false
         }
       ]
     },
@@ -32,24 +22,24 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Technical Product Manager (Retool Platform Experience)",
-          "url": "https://www.ptechpartners.com/job/chicago-il/technical-product-manager-retool-platform-experience/106160",
+          "title": "Project Manager (Oil and Gas Infrastructure)",
+          "url": "https://www.ptechpartners.com/job/allentown-pa/project-manager-oil-and-gas-infrastructure/106170",
           "location": "",
           "firm": "Peterson Technology Partners",
           "department": null,
-          "_hash": "f9a4e00b2851",
-          "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": false
+          "_hash": "146aa86f9fe5",
+          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": true
         },
         {
-          "title": "Technical Project Manager / Scrum Master",
-          "url": "https://www.ptechpartners.com/job/remote-usa/technical-project-manager-scrum-master/106128",
+          "title": "Product Manager - Digital Financial Operations",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-digital-financial-operations/106052",
           "location": "",
           "firm": "Peterson Technology Partners",
           "department": null,
-          "_hash": "df1d3993f3e4",
-          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
-          "is_new": false
+          "_hash": "f9bda708ae7c",
+          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": true
         }
       ]
     },
@@ -125,7 +115,7 @@
           "department": null,
           "_hash": "d95f030ebb7e",
           "discovered_at": "2026-09-23T01:15:35.674240+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager",
@@ -252,6 +242,26 @@
           "_hash": "ef92ed6831ae",
           "discovered_at": "2026-09-21T19:05:54.835953+00:00",
           "is_new": false
+        },
+        {
+          "title": "IT Project Manager",
+          "url": "https://mondo.com/jobs/job/it-project-manager-new-york-ny-10016-33138074/c7459c0c-b75f-11f1-9b5f-02420a6c7775",
+          "location": "New York, NY, 10016",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "d2d6d2ae0c56",
+          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://mondo.com/jobs/job/project-manager-denver-co-80218-33139658/6a04cf48-b776-11f1-9b5f-02420a6c7775",
+          "location": "Denver, CO, 80218",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "e580ae707dc7",
+          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
+          "is_new": false
         }
       ]
     },
@@ -337,17 +347,17 @@
           "department": null,
           "_hash": "b7e91f982570",
           "discovered_at": "2026-09-23T01:15:35.674240+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "Technical Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-manager-107082/",
+          "title": "Technical Program & Project Management Specialist",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-program-project-management-specialist-107080/",
           "location": "Dearborn",
           "firm": "Epitec",
           "department": null,
-          "_hash": "bd0b7feb7e1d",
-          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
-          "is_new": false
+          "_hash": "41fe7247cd48",
+          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": true
         },
         {
           "title": "Program Manager I",
@@ -360,16 +370,6 @@
           "is_new": false
         },
         {
-          "title": "Program Manager & Team Coordinator",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-team-coordinator-106943/",
-          "location": "San Francisco",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "c16d10ca6517",
-          "discovered_at": "2026-09-17T17:58:45.485204+00:00",
-          "is_new": false
-        },
-        {
           "title": "Program Manager II (Airtable Integration Specialist)",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-ii-airtable-integration-specialist-105254/",
           "location": "Culver City",
@@ -378,6 +378,16 @@
           "_hash": "2c3712f73de4",
           "discovered_at": "2026-07-21T15:44:36.395616+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager / BA",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-ba-107139/",
+          "location": "Toronto",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "43d931326754",
+          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": true
         }
       ]
     },
@@ -433,26 +443,6 @@
           "department": null,
           "_hash": "dea6b7151045",
           "discovered_at": "2026-09-04T00:43:54.607148+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. Program Manager: Global Business Marketing, Developer Marketing",
-          "url": "https://aquent.com/find-work/212598",
-          "location": "Remote",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "dbc506043a7c",
-          "discovered_at": "2026-09-03T18:20:33.739998+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, Developer Marketing",
-          "url": "https://aquent.com/find-work/212596",
-          "location": "Pacific or Mountain Time Zone",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "d3ee45b7d02a",
-          "discovered_at": "2026-09-03T18:20:33.739998+00:00",
           "is_new": false
         },
         {
