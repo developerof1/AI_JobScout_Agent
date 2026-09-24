@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-23T18:18:28.461236+00:00",
+  "last_run": "2026-09-24T01:02:46.063422+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -26,6 +26,26 @@
           "is_new": false
         },
         {
+          "title": "Senior Manager, Project Management - Imaging",
+          "url": "https://builtinchicago.org/job/senior-manager-project-management-imaging/11344390",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "fb7b9214306c",
+          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10621466",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Senior Analyst, Project Management",
           "url": "https://builtinchicago.org/job/senior-analyst-project-management/11281906",
           "location": "",
@@ -36,22 +56,22 @@
           "is_new": false
         },
         {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/11168454",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Top  Companies in Chicago, IL Hiring Program & Project Management Roles",
           "url": "",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "2da408c60be2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11168454",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -96,38 +116,18 @@
           "is_new": false
         },
         {
-          "title": "Lead Digital Project Manager",
-          "url": "https://builtinchicago.org/job/lead-digital-project-manager/11316952",
+          "title": "Implementation Project Manager",
+          "url": "https://builtinchicago.org/job/implementation-project-manager/11343665",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
-          "_hash": "76c28f33749a",
-          "discovered_at": "2026-09-23T01:14:34.859537+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Lead Digital Project Manager",
-          "url": "https://builtinchicago.org/job/lead-digital-project-manager/11316950",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "76c28f33749a",
-          "discovered_at": "2026-09-23T01:14:34.859537+00:00",
-          "is_new": false
+          "_hash": "45667e36e6f4",
+          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
+          "is_new": true
         },
         {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/10164249",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/11308952",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
@@ -183,16 +183,6 @@
           "department": "program_management",
           "_hash": "e65b04cf3e15",
           "discovered_at": "2026-09-15T17:58:42.566492+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Federal Project Manager",
-          "url": "https://builtinchicago.org/job/federal-project-manager/11131313",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "c76ce8981080",
-          "discovered_at": "2026-09-11T17:35:47.963963+00:00",
           "is_new": false
         },
         {
@@ -452,6 +442,16 @@
           "is_new": false
         },
         {
+          "title": "Senior Technical Product Manager-Documents Domain-Epic",
+          "url": "https://builtinchicago.org/job/senior-technical-product-manager-documents-domain-epic/11336888",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "47b5c1b97be2",
+          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
+          "is_new": true
+        },
+        {
           "title": "Senior Technical Product Manager \u2013 AI / ML",
           "url": "https://builtinchicago.org/job/senior-technical-product-manager-ai-ml/10972685",
           "location": "",
@@ -530,6 +530,16 @@
           "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager IV",
+          "url": "https://builtinchicago.org/job/product-manager-iv/10139105",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "027d2df1fb35",
+          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
+          "is_new": true
         },
         {
           "title": "Technical Product Manager III",
@@ -689,16 +699,6 @@
           "department": "product_management",
           "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "EDI Technical Product Manager",
-          "url": "https://builtinchicago.org/job/edi-technical-product-manager/10859634",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "77045a4bb920",
-          "discovered_at": "2026-09-14T19:05:07.015031+00:00",
           "is_new": false
         },
         {
