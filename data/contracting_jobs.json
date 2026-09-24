@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-23T18:16:51.875450+00:00",
+  "last_run": "2026-09-24T01:04:53.485501+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -29,17 +29,7 @@
           "department": null,
           "_hash": "146aa86f9fe5",
           "discovered_at": "2026-09-23T18:16:51.875450+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Product Manager - Digital Financial Operations",
-          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-digital-financial-operations/106052",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "f9bda708ae7c",
-          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -192,83 +182,22 @@
     {
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
-      "jobs": [
-        {
-          "title": "Group Product Manager, Platforms",
-          "url": "https://mondo.com/jobs/job/group-product-manager-platforms-centerville-va-20120-32906970/5525d352-a6cb-11f1-b939-02420a6c7775",
-          "location": "Centerville, VA, 20120",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "8346b4237193",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Client Implementation Project Manager",
-          "url": "https://mondo.com/jobs/job/client-implementation-project-manager-chicago-il-60602-32922553/5429986b-a6cb-11f1-b939-02420a6c7775",
-          "location": "Chicago, IL, 60602",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "b123c54f49f8",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-owings-mills-md-21117-32962969/b0b60051-a87a-11f1-8336-024201c20d84",
-          "location": "Owings Mills, MD, 21117",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Compliance PM",
-          "url": "https://mondo.com/jobs/job/compliance-pm-philadelphia-pa-19103-33079935/7f2b76ac-ad5b-11f1-8ed2-02420a6c7775",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "0be3ebad2d90",
-          "discovered_at": "2026-09-11T00:52:38.612560+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Operations Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-operations-project-manager-lake-forest-il-60045-33125331/5556045b-b5e3-11f1-9b5f-02420a6c7775",
-          "location": "Lake Forest, IL, 60045",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "ef92ed6831ae",
-          "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": false
-        },
-        {
-          "title": "IT Project Manager",
-          "url": "https://mondo.com/jobs/job/it-project-manager-new-york-ny-10016-33138074/c7459c0c-b75f-11f1-9b5f-02420a6c7775",
-          "location": "New York, NY, 10016",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "d2d6d2ae0c56",
-          "discovered_at": "2026-09-23T18:16:51.875450+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-denver-co-80218-33139658/6a04cf48-b776-11f1-9b5f-02420a6c7775",
-          "location": "Denver, CO, 80218",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-09-10T17:32:32.349362+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Project Manager \u2013 Intermediate",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-intermediate-107162/",
+          "location": "Providence",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "e1b7a3b65ac9",
+          "discovered_at": "2026-09-24T01:04:53.485501+00:00",
+          "is_new": true
+        },
         {
           "title": "Finance Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/finance-project-manager-107068/",
@@ -357,6 +286,16 @@
           "department": null,
           "_hash": "41fe7247cd48",
           "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Avionics Supply Chain Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/avionics-supply-chain-program-manager-107131/",
+          "location": "Kent",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "b0153311a980",
+          "discovered_at": "2026-09-24T01:04:53.485501+00:00",
           "is_new": true
         },
         {
@@ -387,6 +326,16 @@
           "department": null,
           "_hash": "43d931326754",
           "discovered_at": "2026-09-23T18:16:51.875450+00:00",
+          "is_new": false
+        },
+        {
+          "title": "SFDC BA / Product Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sfdc-ba-product-manager-107135/",
+          "location": "Palo Alto",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "a21287d84d5d",
+          "discovered_at": "2026-09-24T01:04:53.485501+00:00",
           "is_new": true
         }
       ]
