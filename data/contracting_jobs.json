@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-25T01:10:27.619091+00:00",
+  "last_run": "2026-09-25T18:16:19.454345+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -20,18 +20,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "SAP Project Manager (ERP Transformation Program)",
-          "url": "https://www.ptechpartners.com/job/charlotte-nc/sap-project-manager-erp-transformation-program/106086",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "b5cbfd448513",
-          "discovered_at": "2026-09-24T18:11:35.047793+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -108,16 +97,6 @@
           "is_new": false
         },
         {
-          "title": "healthcare it analyst / project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1347291/healthcare-it-analyst-project-manager_lebanon/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "7da4982a8a70",
-          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager, hr job and skill architecture",
           "url": "https://www.randstadusa.com/jobs/308/ab_5070771/project-manager-hr-job-and-skill-architecture_washington/",
           "location": "",
@@ -138,13 +117,13 @@
           "is_new": false
         },
         {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1110894/project-manager_ashburn/",
+          "title": "healthcare it analyst / project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1347291/healthcare-it-analyst-project-manager_lebanon/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-08-25T23:24:02.065918+00:00",
+          "_hash": "7da4982a8a70",
+          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
           "is_new": false
         },
         {
@@ -165,7 +144,7 @@
           "department": null,
           "_hash": "b43fb1b861a6",
           "discovered_at": "2026-09-25T01:10:27.619091+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -224,16 +203,6 @@
           "is_new": false
         },
         {
-          "title": "IT Project Manager",
-          "url": "https://mondo.com/jobs/job/it-project-manager-new-york-ny-10016-33138074/c7459c0c-b75f-11f1-9b5f-02420a6c7775",
-          "location": "New York, NY, 10016",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "d2d6d2ae0c56",
-          "discovered_at": "2026-09-24T18:11:35.047793+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager",
           "url": "https://mondo.com/jobs/job/project-manager-denver-co-80218-33139658/6a04cf48-b776-11f1-9b5f-02420a6c7775",
           "location": "Denver, CO, 80218",
@@ -251,6 +220,16 @@
           "department": null,
           "_hash": "ea01addb3a20",
           "discovered_at": "2026-09-25T01:10:27.619091+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Technical Program Manager",
+          "url": "https://mondo.com/jobs/job/technical-program-manager-baltimore-md-21211-33151985/a3b8ce76-b8f2-11f1-b265-024201c20d84",
+          "location": "Baltimore, MD, 21211",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "52aaacf16879",
+          "discovered_at": "2026-09-25T18:16:19.454345+00:00",
           "is_new": true
         }
       ]
@@ -307,16 +286,6 @@
           "department": null,
           "_hash": "d898022a3653",
           "discovered_at": "2026-09-09T17:34:13.741333+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager (Non-IT) 5",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-5-106969/",
-          "location": "Chillicothe",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "3af4175f0126",
-          "discovered_at": "2026-09-19T00:58:22.629274+00:00",
           "is_new": false
         },
         {
