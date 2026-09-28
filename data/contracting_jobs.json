@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-09-28T01:25:04.854666+00:00",
+  "last_run": "2026-09-28T20:25:22.153033+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -20,51 +20,52 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Sr. Project Manager",
+          "url": "https://www.ptechpartners.com/job/farmington-hills-mi/sr-project-manager/106201",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "d062ff781bb6",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Engineering Project Manager \u2013 Power Generation",
+          "url": "https://www.ptechpartners.com/job/birmingham-al/engineering-project-manager-power-generation/106196",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "26c2aa2b2e59",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
-          "title": "program management director",
-          "url": "https://www.randstadusa.com/jobs/4/1345828/program-management-director_chicago/",
+          "title": "it assoc project manager ld",
+          "url": "https://www.randstadusa.com/jobs/4/1360557/it-assoc-project-manager-ld_cleveland/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "14c86e115e20",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
+          "_hash": "c68bf4b57eb2",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
         },
         {
-          "title": "product manager - pos",
-          "url": "https://www.randstadusa.com/jobs/4/1347024/product-manager-pos_northbrook/",
+          "title": "it assoc project manager ld",
+          "url": "https://www.randstadusa.com/jobs/4/1360548/it-assoc-project-manager-ld_cleveland/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "87d1f1e06b49",
-          "discovered_at": "2026-09-21T19:05:54.835953+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345826/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
+          "_hash": "c68bf4b57eb2",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
         },
         {
           "title": "senior project manager",
@@ -117,16 +118,6 @@
           "is_new": false
         },
         {
-          "title": "healthcare it analyst / project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1347291/healthcare-it-analyst-project-manager_lebanon/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "7da4982a8a70",
-          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
-          "is_new": false
-        },
-        {
           "title": "workday program manager",
           "url": "https://www.randstadusa.com/jobs/4/1347145/workday-program-manager_durham/",
           "location": "",
@@ -144,6 +135,16 @@
           "department": null,
           "_hash": "b43fb1b861a6",
           "discovered_at": "2026-09-25T01:10:27.619091+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
         }
       ]
@@ -179,16 +180,6 @@
           "firm": "Mondo",
           "department": null,
           "_hash": "e580ae707dc7",
-          "discovered_at": "2026-09-24T18:11:35.047793+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Compliance PM",
-          "url": "https://mondo.com/jobs/job/compliance-pm-philadelphia-pa-19103-33079935/7f2b76ac-ad5b-11f1-8ed2-02420a6c7775",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "0be3ebad2d90",
           "discovered_at": "2026-09-24T18:11:35.047793+00:00",
           "is_new": false
         },
@@ -238,6 +229,16 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Project Manager III",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-iii-107240/",
+          "location": "Culver City",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "d91071bd96f9",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
+        },
         {
           "title": "Healthcare Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/healthcare-project-manager-107162/",
@@ -289,14 +290,14 @@
           "is_new": false
         },
         {
-          "title": "SFDC BA / Product Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/sfdc-ba-product-manager-107135/",
-          "location": "Palo Alto",
+          "title": "Project/Program Manager IT 3",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-it-3-107078/",
+          "location": "Chicago",
           "firm": "Epitec",
           "department": null,
-          "_hash": "a21287d84d5d",
-          "discovered_at": "2026-09-24T01:04:53.485501+00:00",
-          "is_new": false
+          "_hash": "b7e91f982570",
+          "discovered_at": "2026-09-28T20:25:22.153033+00:00",
+          "is_new": true
         },
         {
           "title": "Avionics Supply Chain Program Manager",
