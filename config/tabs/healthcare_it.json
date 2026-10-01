@@ -11,7 +11,7 @@
         "requires_js": true,
         "max_pages": 10,
         "department": "program_management",
-        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm", "customer", "client"]
       }
     },
     {
@@ -22,7 +22,7 @@
         "requires_js": true,
         "max_pages": 10,
         "department": "product_management",
-        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm"]
+        "keywords": ["project manager", "project management", "program manager", "program management", "product manager", "product management", "pmo", "tpm", " pm", "customer", "client"]
       }
     },
     {
@@ -33,14 +33,7 @@
         "requires_js": true,
         "max_pages": 10,
         "department": "customer_success",
-        "keywords": [
-          "customer success manager", "senior customer success manager", "customer success lead",
-          "lead customer success manager", "principal customer success manager",
-          "strategic customer success manager", "enterprise customer success manager",
-          "director of customer success", "head of customer success", "vp customer success",
-          "customer success director", "client success manager", "senior client success manager",
-          "customer success operations manager"
-        ]
+        "keywords": ["customer", "client"]
       }
     }
   ],
@@ -59,13 +52,7 @@
         "title": {
           "keywords": [
             "project manager", "project management", "program manager", "program management",
-            "product manager", "product management", "pmo", "tpm", " pm",
-            "customer success manager", "senior customer success manager", "customer success lead",
-            "lead customer success manager", "principal customer success manager",
-            "strategic customer success manager", "enterprise customer success manager",
-            "director of customer success", "head of customer success", "vp customer success",
-            "customer success director", "client success manager", "senior client success manager",
-            "customer success operations manager"
+            "product manager", "product management", "pmo", "tpm", " pm", "customer", "client"
           ]
         }
       }
