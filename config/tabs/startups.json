@@ -8,13 +8,17 @@
       "method": "yc",
       "config": {
         "url": "https://www.ycombinator.com/jobs",
-        "roles": ["product-manager", "operations", "support"],
+        "roles": ["product-manager", "operations", "support", "customer-success"],
         "locations": ["chicago", "miami"],
         "keywords": [
           "project manager", "project management", "program manager", "program management",
           "product manager", "product management", "pmo", "tpm", " pm",
-          "customer success", "customer success manager", "client success",
-          "customer experience", "customer onboarding", "customer operations"
+          "customer success manager", "senior customer success manager", "customer success lead",
+          "lead customer success manager", "principal customer success manager",
+          "strategic customer success manager", "enterprise customer success manager",
+          "director of customer success", "head of customer success", "vp customer success",
+          "customer success director", "client success manager", "senior client success manager",
+          "customer success operations manager"
         ]
       }
     }
