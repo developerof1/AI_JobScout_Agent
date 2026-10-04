@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-04T02:24:01.518124+00:00",
+  "last_run": "2026-10-04T18:01:50.975336+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -37,6 +37,16 @@
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
         {
+          "title": "agile project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1361437/agile-project-manager_lincolnshire/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "32cb2285ec1a",
+          "discovered_at": "2026-10-04T18:01:50.975336+00:00",
+          "is_new": true
+        },
+        {
           "title": "senior product manager - ai",
           "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
           "location": "",
@@ -49,16 +59,6 @@
         {
           "title": "senior product manager - ai",
           "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1345827/senior-product-manager-ai_chicago/",
           "location": "",
           "firm": "Randstad",
           "department": null,
@@ -392,16 +392,6 @@
           "department": null,
           "_hash": "63d910d0cb23",
           "discovered_at": "2026-09-20T17:19:43.086780+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Operations Program Manager",
-          "url": "https://aquent.com/find-work/212771",
-          "location": "REDMOND, WA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "dea6b7151045",
-          "discovered_at": "2026-09-04T00:43:54.607148+00:00",
           "is_new": false
         },
         {
