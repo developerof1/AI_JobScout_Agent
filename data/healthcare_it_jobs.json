@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-04T02:23:10.364771+00:00",
+  "last_run": "2026-10-04T18:02:06.188112+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -166,6 +166,16 @@
           "is_new": false
         },
         {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Project Manager (Incubator Brands)",
           "url": "https://builtinchicago.org/job/project-manager-incubator-brands/11175843",
           "location": "",
@@ -237,7 +247,7 @@
         },
         {
           "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "url": "https://builtinchicago.org/job/project-manager/11382241",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
@@ -542,6 +552,16 @@
           "is_new": false
         },
         {
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/10164132",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Product manager",
           "url": "https://builtinchicago.org/job/product-manager/11045241",
           "location": "",
@@ -579,16 +599,6 @@
           "department": "product_management",
           "_hash": "276964221915",
           "discovered_at": "2026-10-02T02:00:07.707345+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/10164132",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
