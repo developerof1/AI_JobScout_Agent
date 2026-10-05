@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-04T18:02:06.188112+00:00",
+  "last_run": "2026-10-05T01:35:28.755179+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -480,6 +480,16 @@
           "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
+        },
+        {
+          "title": "Associate Digital Product Manager",
+          "url": "https://builtinchicago.org/job/associate-digital-product-manager/9694521",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "507fa09e1ed3",
+          "discovered_at": "2026-10-05T01:35:28.755179+00:00",
+          "is_new": true
         },
         {
           "title": "Top  Companies in Chicago, IL Hiring Product Management Roles",
