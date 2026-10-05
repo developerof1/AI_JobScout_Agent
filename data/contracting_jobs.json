@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-04T18:01:50.975336+00:00",
+  "last_run": "2026-10-05T21:25:25.208347+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,7 +30,38 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Product Manager - Store Systems",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-store-systems/106228",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "2e1c1a851bea",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Product Manager \u2013 Enterprise Integration & Data Platforms",
+          "url": "https://www.ptechpartners.com/job/irving-tx/senior-product-manager-enterprise-integration-data-platforms/106227",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "60135f1ed8c9",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager - Mobile Devices (Retail)",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-mobile-devices-retail/106226",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "cb609fc105a7",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -44,7 +75,7 @@
           "department": null,
           "_hash": "32cb2285ec1a",
           "discovered_at": "2026-10-04T18:01:50.975336+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior product manager - ai",
@@ -65,6 +96,16 @@
           "_hash": "966a120165c8",
           "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
+        },
+        {
+          "title": "associate project manager",
+          "url": "https://www.randstadusa.com/jobs/4/1363711/associate-project-manager_cleveland/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "d3af629adae0",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
         },
         {
           "title": "senior project manager",
@@ -107,18 +148,8 @@
           "is_new": false
         },
         {
-          "title": "ai project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1361502/ai-project-manager_new-york/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "d179e41d5fdc",
-          "discovered_at": "2026-09-30T01:51:36.169574+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1349712/project-manager_ashburn/",
+          "url": "https://www.randstadusa.com/jobs/141/1349712/project-manager_houston/",
           "location": "",
           "firm": "Randstad",
           "department": null,
@@ -223,14 +254,14 @@
           "is_new": false
         },
         {
-          "title": "Senior Technical Project Manager, Credit",
-          "url": "https://mondo.com/jobs/job/senior-technical-project-manager-credit-new-york-nc-10022-33175202/81fb9a56-bd02-11f1-b265-024201c20d84",
+          "title": "Technical Project Manager, Credit",
+          "url": "https://mondo.com/jobs/job/technical-project-manager-credit-new-york-nc-10022-33175202/81fb9a56-bd02-11f1-b265-024201c20d84",
           "location": "New York, NC, 10022",
           "firm": "Mondo",
           "department": null,
-          "_hash": "b2ec7327fa22",
-          "discovered_at": "2026-10-02T02:00:19.890970+00:00",
-          "is_new": false
+          "_hash": "b7ef155481ee",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
         },
         {
           "title": "Creative PM",
@@ -251,6 +282,16 @@
           "_hash": "21c22100780f",
           "discovered_at": "2026-10-03T01:44:58.550436+00:00",
           "is_new": false
+        },
+        {
+          "title": "Associate Project Manager / Business Administrator",
+          "url": "https://mondo.com/jobs/job/associate-project-manager-business-administrator-baltimore-md-21201-33194954/b0c499de-c0f9-11f1-ab76-02420a6c7775",
+          "location": "Baltimore, MD, 21201",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "2a78fd28e13e",
+          "discovered_at": "2026-10-05T21:25:25.208347+00:00",
+          "is_new": true
         }
       ]
     },
