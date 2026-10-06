@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-05T21:25:23.709696+00:00",
+  "last_run": "2026-10-06T02:34:47.817354+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
@@ -12,16 +12,6 @@
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "c873a7479bd9",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "GoGoGrandparent \u2014 Growth Product Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/zlnv1T9-growth-product-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "9b767f0e371d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -46,12 +36,32 @@
           "is_new": false
         },
         {
+          "title": "GoGoGrandparent \u2014 Growth Product Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/zlnv1T9-growth-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "9b767f0e371d",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
           "title": "Artos \u2014 Product Manager",
           "location": "San Francisco / Remote (US)",
           "url": "https://www.ycombinator.com/companies/artos/jobs/npMEoUf-product-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "85036cefcc0a",
+          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Protex AI \u2014 Enterprise Client Strategist ",
+          "location": "Dublin / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "58cd1503268d",
           "discovered_at": "2026-10-01T19:21:00.776572+00:00",
           "is_new": false
         },
@@ -66,13 +76,23 @@
           "is_new": false
         },
         {
-          "title": "Protex AI \u2014 Enterprise Client Strategist ",
-          "location": "Dublin / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
+          "title": "Draft The Record \u2014 Customer Success Specialist",
+          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "58cd1503268d",
-          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
+          "_hash": "4821c760559e",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "AutoAce \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "07b6b1bf1b33",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
         {
@@ -96,16 +116,6 @@
           "is_new": false
         },
         {
-          "title": "AutoAce \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "07b6b1bf1b33",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
           "title": "BlueCargo \u2014 Customer Success Manager",
           "location": "Atlanta, GA, US / Remote (Atlanta, GA, US)",
           "url": "https://www.ycombinator.com/companies/bluecargo/jobs/wccs2LT-customer-success-manager",
@@ -113,16 +123,6 @@
           "department": null,
           "_hash": "26adf8184abd",
           "discovered_at": "2026-09-22T18:00:29.850477+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Draft The Record \u2014 Customer Success Specialist",
-          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "4821c760559e",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
       ]
