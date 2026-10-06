@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-05T21:25:25.208347+00:00",
+  "last_run": "2026-10-06T02:42:59.911071+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -39,7 +39,7 @@
           "department": null,
           "_hash": "2e1c1a851bea",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager \u2013 Enterprise Integration & Data Platforms",
@@ -49,7 +49,7 @@
           "department": null,
           "_hash": "60135f1ed8c9",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager - Mobile Devices (Retail)",
@@ -59,7 +59,7 @@
           "department": null,
           "_hash": "cb609fc105a7",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -67,16 +67,6 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "agile project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1361437/agile-project-manager_lincolnshire/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "32cb2285ec1a",
-          "discovered_at": "2026-10-04T18:01:50.975336+00:00",
-          "is_new": false
-        },
         {
           "title": "senior product manager - ai",
           "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
@@ -105,7 +95,7 @@
           "department": null,
           "_hash": "d3af629adae0",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior project manager",
@@ -261,7 +251,7 @@
           "department": null,
           "_hash": "b7ef155481ee",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Creative PM",
@@ -291,7 +281,7 @@
           "department": null,
           "_hash": "2a78fd28e13e",
           "discovered_at": "2026-10-05T21:25:25.208347+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
