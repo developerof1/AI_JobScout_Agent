@@ -1,20 +1,10 @@
 {
-  "last_run": "2026-10-07T02:04:23.351018+00:00",
+  "last_run": "2026-10-07T19:46:40.201272+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Technical Program Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/technical-program-manager-162832/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "bec33d472ba4",
-          "discovered_at": "2026-09-24T18:11:35.047793+00:00",
-          "is_new": false
-        },
         {
           "title": "AV Project Manager",
           "url": "https://www.thelasallenetwork.com/jobs/av-project-manager-163103/",
@@ -23,6 +13,16 @@
           "department": null,
           "_hash": "13a4fe8148d9",
           "discovered_at": "2026-10-01T19:18:10.020941+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Technical Program Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/technical-program-manager-162832/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "bec33d472ba4",
+          "discovered_at": "2026-09-24T18:11:35.047793+00:00",
           "is_new": false
         }
       ]
@@ -55,6 +55,16 @@
           "_hash": "966a120165c8",
           "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior it project manager (it operations & service desk)",
+          "url": "https://www.randstadusa.com/jobs/4/1364020/senior-it-project-manager-it-operations-service-desk_framingham/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "e212dd98f18c",
+          "discovered_at": "2026-10-07T19:46:40.201272+00:00",
+          "is_new": true
         },
         {
           "title": "associate project manager",
@@ -251,6 +261,16 @@
           "_hash": "b7c10e085388",
           "discovered_at": "2026-10-02T02:00:19.890970+00:00",
           "is_new": false
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://mondo.com/jobs/job/project-manager-baltimore-md-21211-33206332/44291dd9-c255-11f1-a385-024201c20d84",
+          "location": "Baltimore, MD, 21211",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "e580ae707dc7",
+          "discovered_at": "2026-10-02T02:00:19.890970+00:00",
+          "is_new": false
         }
       ]
     },
@@ -258,6 +278,16 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
+        {
+          "title": "Senior Project Manager \u2013 IT Operations",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/senior-project-manager-it-operations-107519/",
+          "location": "marlborough",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "8cd6c4996f5d",
+          "discovered_at": "2026-10-07T19:46:40.201272+00:00",
+          "is_new": true
+        },
         {
           "title": "DDAP Senior Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/ddap-senior-project-manager-107481/",
@@ -347,6 +377,16 @@
           "_hash": "c8ec66dfdd65",
           "discovered_at": "2026-10-01T19:18:10.020941+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager II",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-ii-107479/",
+          "location": "Austin",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "1f1a1ce7568a",
+          "discovered_at": "2026-10-07T19:46:40.201272+00:00",
+          "is_new": true
         }
       ]
     },
@@ -355,14 +395,14 @@
       "url": "",
       "jobs": [
         {
-          "title": "Creative Project Manager",
-          "url": "https://aquent.com/find-work/213048",
-          "location": "Seattle, WA",
+          "title": "Creative Ops: Project Manager",
+          "url": "https://aquent.com/find-work/213563",
+          "location": "New York, NY",
           "firm": "Aquent",
           "department": null,
-          "_hash": "3e510bedc284",
-          "discovered_at": "2026-09-16T01:03:58.986505+00:00",
-          "is_new": false
+          "_hash": "e3019d20067c",
+          "discovered_at": "2026-10-07T19:46:40.201272+00:00",
+          "is_new": true
         },
         {
           "title": "Staff Product Manager",
