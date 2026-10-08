@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-08T02:28:51.289149+00:00",
+  "last_run": "2026-10-08T19:42:38.865294+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,32 +30,23 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Senior Project Manager \u2013 Oil & Gas Transportation Infrastructure",
+          "url": "https://www.ptechpartners.com/job/houston-tx/senior-project-manager-oil-gas-transportation-infrastructure/106247",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "d2532759b52e",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
         {
           "title": "senior it project manager (it operations & service desk)",
           "url": "https://www.randstadusa.com/jobs/4/1364020/senior-it-project-manager-it-operations-service-desk_framingham/",
@@ -155,6 +146,36 @@
           "_hash": "b43fb1b861a6",
           "discovered_at": "2026-09-25T01:10:27.619091+00:00",
           "is_new": false
+        },
+        {
+          "title": "technical product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1364209/technical-product-manager_brookfield/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "458c50d16ec8",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
         }
       ]
     },
@@ -201,6 +222,16 @@
           "_hash": "d2d6d2ae0c56",
           "discovered_at": "2026-10-02T02:00:19.890970+00:00",
           "is_new": false
+        },
+        {
+          "title": "AI Project Manager",
+          "url": "https://mondo.com/jobs/job/ai-project-manager-wilmington-de-19803-33148854/4a8479f7-c34d-11f1-ab76-02420a6c7775",
+          "location": "Wilmington, DE, 19803",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "ea01addb3a20",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
         },
         {
           "title": "Technical Program Manager",
@@ -253,16 +284,6 @@
           "is_new": false
         },
         {
-          "title": "Creative PM",
-          "url": "https://mondo.com/jobs/job/creative-pm-new-york-ny-10016-33205160/893975d5-c1bd-11f1-ab76-02420a6c7775",
-          "location": "New York, NY, 10016",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "b7c10e085388",
-          "discovered_at": "2026-10-02T02:00:19.890970+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager",
           "url": "https://mondo.com/jobs/job/project-manager-baltimore-md-21211-33206332/44291dd9-c255-11f1-a385-024201c20d84",
           "location": "Baltimore, MD, 21211",
@@ -278,16 +299,6 @@
       "name": "Epitec",
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
-        {
-          "title": "Senior Project Manager \u2013 IT Operations",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/senior-project-manager-it-operations-107519/",
-          "location": "marlborough",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "8cd6c4996f5d",
-          "discovered_at": "2026-10-07T19:46:40.201272+00:00",
-          "is_new": false
-        },
         {
           "title": "DDAP Senior Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/ddap-senior-project-manager-107481/",
@@ -369,14 +380,24 @@
           "is_new": false
         },
         {
-          "title": "Community Engagement Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/community-engagement-program-manager-107354/",
-          "location": "Toronto",
+          "title": "Project/Program Manager (Non-IT) 2",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-2-107545/",
+          "location": "Chillicothe",
           "firm": "Epitec",
           "department": null,
-          "_hash": "c8ec66dfdd65",
-          "discovered_at": "2026-10-01T19:18:10.020941+00:00",
-          "is_new": false
+          "_hash": "1769cba05770",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-107548/",
+          "location": "Providence",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "baa16cecd40c",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
         },
         {
           "title": "Program Manager II",
@@ -387,6 +408,16 @@
           "_hash": "1f1a1ce7568a",
           "discovered_at": "2026-10-07T19:46:40.201272+00:00",
           "is_new": false
+        },
+        {
+          "title": "Community Engagement Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/community-engagement-program-manager-107354/",
+          "location": "Toronto",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "c8ec66dfdd65",
+          "discovered_at": "2026-10-01T19:18:10.020941+00:00",
+          "is_new": false
         }
       ]
     },
@@ -395,6 +426,16 @@
       "url": "",
       "jobs": [
         {
+          "title": "Content Project Manager",
+          "url": "https://aquent.com/find-work/213608",
+          "location": "Seattle, WA",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "88b5ec7afa8e",
+          "discovered_at": "2026-10-08T19:42:38.865294+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager, Delivery",
           "url": "https://aquent.com/find-work/213584",
           "location": "Plano, TX",
@@ -402,7 +443,7 @@
           "department": null,
           "_hash": "2e80ba97d204",
           "discovered_at": "2026-10-08T02:28:51.289149+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Creative Project Manager",
@@ -412,7 +453,7 @@
           "department": null,
           "_hash": "3e510bedc284",
           "discovered_at": "2026-10-08T02:28:51.289149+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Creative Ops: Project Manager",
@@ -422,16 +463,6 @@
           "department": null,
           "_hash": "e3019d20067c",
           "discovered_at": "2026-10-07T19:46:40.201272+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Staff Product Manager",
-          "url": "https://aquent.com/find-work/212941",
-          "location": "Seattle, WA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "4c064541ab7c",
-          "discovered_at": "2026-09-11T00:52:38.612560+00:00",
           "is_new": false
         },
         {
