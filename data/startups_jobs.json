@@ -1,10 +1,20 @@
 {
-  "last_run": "2026-10-08T02:21:20.121595+00:00",
+  "last_run": "2026-10-08T19:44:23.941240+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
       "url": "https://www.ycombinator.com/jobs",
       "jobs": [
+        {
+          "title": "Artos \u2014 Product Manager",
+          "location": "San Francisco / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/artos/jobs/npMEoUf-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "85036cefcc0a",
+          "discovered_at": "2026-10-08T19:44:23.941240+00:00",
+          "is_new": true
+        },
         {
           "title": "Vouch \u2014 Senior Product Manager, AI Pod",
           "location": "Chicago, IL, US",
@@ -12,6 +22,16 @@
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "c873a7479bd9",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Clipboard \u2014 Product Manager",
+          "location": "Hybrid (San Francisco, CA) / New York City (Hybrid) / Remote (San Francisco, CA, US; New York, NY, US)",
+          "url": "https://www.ycombinator.com/companies/clipboard/jobs/8Un82G4-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "2feb19e0ecd7",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -26,12 +46,12 @@
           "is_new": false
         },
         {
-          "title": "Clipboard \u2014 Product Manager",
-          "location": "Hybrid (San Francisco, CA) / New York City (Hybrid) / Remote (San Francisco, CA, US; New York, NY, US)",
-          "url": "https://www.ycombinator.com/companies/clipboard/jobs/8Un82G4-product-manager",
+          "title": "Oneleet \u2014 Security Program Manager",
+          "location": "Remote (US)",
+          "url": "https://www.ycombinator.com/companies/oneleet/jobs/umdbAFP-security-program-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "2feb19e0ecd7",
+          "_hash": "2fd2de05b67a",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -46,22 +66,22 @@
           "is_new": false
         },
         {
-          "title": "Oneleet \u2014 Security Program Manager",
-          "location": "Remote (US)",
-          "url": "https://www.ycombinator.com/companies/oneleet/jobs/umdbAFP-security-program-manager",
+          "title": "Draft The Record \u2014 Customer Success Specialist",
+          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "2fd2de05b67a",
+          "_hash": "4821c760559e",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
         {
-          "title": "AutoAce \u2014 Customer Success Manager",
+          "title": "Intryc \u2014 Customer Success Manager",
           "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
+          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "07b6b1bf1b33",
+          "_hash": "16ac6855840d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -76,12 +96,12 @@
           "is_new": false
         },
         {
-          "title": "Draft The Record \u2014 Customer Success Specialist",
-          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
+          "title": "AutoAce \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "4821c760559e",
+          "_hash": "07b6b1bf1b33",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -92,16 +112,6 @@
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "ffa16410a9cb",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Intryc \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "16ac6855840d",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
