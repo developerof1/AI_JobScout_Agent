@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-07T19:48:07.260612+00:00",
+  "last_run": "2026-10-08T02:28:57.953813+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -53,7 +53,7 @@
           "department": "program_management",
           "_hash": "6a533febde4f",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Enterprise Growth",
@@ -63,7 +63,7 @@
           "department": "program_management",
           "_hash": "6a1cf0053bb0",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager - Government Programs",
@@ -154,6 +154,16 @@
           "_hash": "06fac624ab72",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
+        },
+        {
+          "title": "Senior Program Manager I - RCCA Program Manager",
+          "url": "https://builtinchicago.org/job/senior-program-manager-i-rcca-program-manager/11563966",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "2310f6392bb1",
+          "discovered_at": "2026-10-08T02:28:57.953813+00:00",
+          "is_new": true
         },
         {
           "title": "Project Manager",
@@ -353,7 +363,7 @@
           "department": "program_management",
           "_hash": "5508a35809ab",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager III",
@@ -439,16 +449,6 @@
           "department": "product_management",
           "_hash": "acfaca4e8eb2",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Product Manager - Intelligent Reporting & BI Modernization",
-          "url": "https://builtinchicago.org/job/product-manager-intelligent-reporting-bi-modernization/11536503",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "a659bdc538f2",
-          "discovered_at": "2026-10-07T02:04:40.506416+00:00",
           "is_new": false
         },
         {
@@ -542,6 +542,36 @@
           "is_new": false
         },
         {
+          "title": "Senior Product Manager, Enterprise (Remote)",
+          "url": "https://builtinchicago.org/job/senior-product-manager-enterprise-remote/11564159",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "befc596e03fa",
+          "discovered_at": "2026-10-08T02:28:57.953813+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Product Manager - Remote US",
+          "url": "https://builtinchicago.org/job/senior-product-manager-remote-us/11560681",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "15bd688fe45c",
+          "discovered_at": "2026-10-08T02:28:57.953813+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager II",
+          "url": "https://builtinchicago.org/job/product-manager-ii/11559824",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "892de7a9ccd3",
+          "discovered_at": "2026-09-24T18:16:26.164366+00:00",
+          "is_new": false
+        },
+        {
           "title": "Product Manager I",
           "url": "https://builtinchicago.org/job/product-manager-i/11549143",
           "location": "",
@@ -549,7 +579,7 @@
           "department": "product_management",
           "_hash": "8f678576ea7a",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager",
@@ -568,16 +598,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "28862d93a196",
-          "discovered_at": "2026-10-07T02:04:40.506416+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Digital Product Manager II",
-          "url": "https://builtinchicago.org/job/digital-product-manager-ii/11533883",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "998f15e1cd05",
           "discovered_at": "2026-10-07T02:04:40.506416+00:00",
           "is_new": false
         },
@@ -659,16 +679,6 @@
           "department": "product_management",
           "_hash": "892de7a9ccd3",
           "discovered_at": "2026-09-24T18:16:26.164366+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager IV",
-          "url": "https://builtinchicago.org/job/product-manager-iv/10139105",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "027d2df1fb35",
-          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
           "is_new": false
         },
         {
@@ -882,12 +892,12 @@
           "is_new": false
         },
         {
-          "title": "Product Manager",
+          "title": "Senior Product Manager",
           "url": "https://builtinchicago.org/job/product-manager/10808536",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "0e656f4fa9f2",
+          "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -1338,6 +1348,16 @@
           "is_new": false
         },
         {
+          "title": "Founding Enterprise Customer Success Lead",
+          "url": "https://builtinchicago.org/job/founding-enterprise-customer-success-lead/9750683",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "832403f73b9b",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
           "title": "Client Onboarding & Implementation",
           "url": "https://builtinchicago.org/job/client-onboarding-implementation/11556090",
           "location": "",
@@ -1345,7 +1365,7 @@
           "department": "customer_success",
           "_hash": "f1df5e376bec",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Head of Customer Success, Payer & Employer",
@@ -1355,7 +1375,7 @@
           "department": "customer_success",
           "_hash": "f6f563e67065",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Client Solution Manager",
@@ -1365,7 +1385,7 @@
           "department": "customer_success",
           "_hash": "3463e3c7578e",
           "discovered_at": "2026-10-07T19:48:07.260612+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Strategic Client Manager",
@@ -1445,16 +1465,6 @@
           "department": "customer_success",
           "_hash": "78a4efb7e6e6",
           "discovered_at": "2026-10-05T21:30:41.748567+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Founding Enterprise Customer Success Lead",
-          "url": "https://builtinchicago.org/job/founding-enterprise-customer-success-lead/9750683",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "832403f73b9b",
-          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
           "is_new": false
         },
         {
