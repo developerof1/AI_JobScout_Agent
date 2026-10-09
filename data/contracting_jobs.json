@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-09T02:47:19.461687+00:00",
+  "last_run": "2026-10-09T19:18:17.975326+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -14,6 +14,16 @@
           "_hash": "bec33d472ba4",
           "discovered_at": "2026-09-24T18:11:35.047793+00:00",
           "is_new": false
+        },
+        {
+          "title": "AV Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/av-project-manager-163103/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "13a4fe8148d9",
+          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
+          "is_new": true
         }
       ]
     },
@@ -37,6 +47,26 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
         {
           "title": "senior it project manager (it operations & service desk)",
           "url": "https://www.randstadusa.com/jobs/4/1364020/senior-it-project-manager-it-operations-service-desk_framingham/",
@@ -145,26 +175,6 @@
           "department": null,
           "_hash": "458c50d16ec8",
           "discovered_at": "2026-10-08T19:42:38.865294+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362026/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
         }
       ]
@@ -290,6 +300,16 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
+          "title": "ID- DHW \u2013 Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/id-dhw-project-manager-107603/",
+          "location": "Boise",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "57f7c02841c5",
+          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
+          "is_new": true
+        },
+        {
           "title": "DDAP Senior Project Manager",
           "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/ddap-senior-project-manager-107481/",
           "location": "",
@@ -297,26 +317,6 @@
           "department": null,
           "_hash": "017a881ce2ea",
           "discovered_at": "2026-10-06T19:22:06.346312+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager \u2013 Senior Information Technology",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-senior-information-technology-107454/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "9227e34bed6d",
-          "discovered_at": "2026-10-06T19:22:06.346312+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager \u2013 Mid-Level",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-mid-level-107399/",
-          "location": "Framingham",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "468435dc1670",
-          "discovered_at": "2026-10-02T19:00:50.066665+00:00",
           "is_new": false
         },
         {
@@ -330,14 +330,14 @@
           "is_new": false
         },
         {
-          "title": "Finance Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/finance-project-manager-107068/",
+          "title": "Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-107068/",
           "location": "",
           "firm": "Epitec",
           "department": null,
-          "_hash": "43ac63271bfb",
-          "discovered_at": "2026-09-22T17:57:53.343065+00:00",
-          "is_new": false
+          "_hash": "114669e9501f",
+          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
+          "is_new": true
         },
         {
           "title": "Banking IT Project Manager",
@@ -410,14 +410,24 @@
           "is_new": false
         },
         {
-          "title": "Community Engagement Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/community-engagement-program-manager-107354/",
-          "location": "Toronto",
+          "title": "Planning \u2013 PMO Business Analyst 2",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/planning-pmo-business-analyst-2-107546/",
+          "location": "",
           "firm": "Epitec",
           "department": null,
-          "_hash": "c8ec66dfdd65",
-          "discovered_at": "2026-10-01T19:18:10.020941+00:00",
-          "is_new": false
+          "_hash": "d48f6af0778c",
+          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager Sr",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-sr-107460/",
+          "location": "Seattle",
+          "firm": "Epitec",
+          "department": null,
+          "_hash": "79a1a329f3a0",
+          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
+          "is_new": true
         }
       ]
     },
