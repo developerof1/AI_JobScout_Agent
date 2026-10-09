@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-08T19:43:36.927562+00:00",
+  "last_run": "2026-10-09T02:46:21.269665+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -53,7 +53,7 @@
           "department": "program_management",
           "_hash": "4b8544c04f94",
           "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Enterprise Growth",
@@ -166,6 +166,26 @@
           "is_new": false
         },
         {
+          "title": "Project Manager Sr",
+          "url": "https://builtinchicago.org/job/project-manager-sr/11586121",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b1a6dfbe7b70",
+          "discovered_at": "2026-10-09T02:46:21.269665+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Senior Project Manager",
           "url": "https://builtinchicago.org/job/senior-project-manager/11581050",
           "location": "",
@@ -183,7 +203,7 @@
           "department": "program_management",
           "_hash": "75efff0ce1a7",
           "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Cloud Project Manager (Remote based)",
@@ -193,16 +213,6 @@
           "department": "program_management",
           "_hash": "cb4bad9cb3f1",
           "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
@@ -469,7 +479,7 @@
           "department": "product_management",
           "_hash": "ba2b7d3d4984",
           "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager - Customer Data Exchange",
@@ -552,16 +562,6 @@
           "is_new": false
         },
         {
-          "title": "Technical Product Manager (Marketing Technology), Remote",
-          "url": "https://builtinchicago.org/job/technical-product-manager-marketing-technology-remote/11576623",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "e41ea585052c",
-          "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
-        },
-        {
           "title": "Product Manager",
           "url": "https://builtinchicago.org/job/product-manager/10164132",
           "location": "",
@@ -569,6 +569,16 @@
           "department": "product_management",
           "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Technical Product Manager (Marketing Technology), Remote",
+          "url": "https://builtinchicago.org/job/technical-product-manager-marketing-technology-remote/11576623",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "e41ea585052c",
+          "discovered_at": "2026-10-08T19:43:36.927562+00:00",
           "is_new": false
         },
         {
@@ -1308,6 +1318,16 @@
           "is_new": false
         },
         {
+          "title": "Customer Success Manager - Quality",
+          "url": "https://builtinchicago.org/job/customer-success-manager-quality/11583603",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "025fb6537cd7",
+          "discovered_at": "2026-10-09T02:46:21.269665+00:00",
+          "is_new": true
+        },
+        {
           "title": "Manager, Customer Success",
           "url": "https://builtinchicago.org/job/manager-customer-success/11468241",
           "location": "",
@@ -1348,6 +1368,26 @@
           "is_new": false
         },
         {
+          "title": "Customer Support Specialist",
+          "url": "https://builtinchicago.org/job/customer-support-specialist/11584257",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "fb3150abf8b7",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Customer Success Manager",
+          "url": "https://builtinchicago.org/job/senior-customer-success-manager/11582532",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "f3f73c4f4558",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
           "title": "Client Solution Manager",
           "url": "https://builtinchicago.org/job/client-solution-manager/11548420",
           "location": "",
@@ -1375,7 +1415,7 @@
           "department": "customer_success",
           "_hash": "fd6b92a3304d",
           "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Founding Enterprise Customer Success Lead",
@@ -1804,26 +1844,6 @@
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
           "_hash": "1914c7c46c8e",
-          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Director, Client Services",
-          "url": "https://builtinchicago.org/job/director-client-services/11092403",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "d62fc62ce817",
-          "discovered_at": "2026-10-08T19:43:36.927562+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Customer Success Manager",
-          "url": "https://builtinchicago.org/job/customer-success-manager/11084233",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "f93957d7c2da",
           "discovered_at": "2026-10-01T19:19:53.978569+00:00",
           "is_new": false
         }
