@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-10T02:06:39.166005+00:00",
+  "last_run": "2026-10-10T18:16:48.216426+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -39,7 +39,7 @@
           "department": null,
           "_hash": "03277055959c",
           "discovered_at": "2026-10-10T02:06:39.166005+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager \u2013 Oil & Gas Transportation Infrastructure",
@@ -301,7 +301,7 @@
           "department": null,
           "_hash": "5895c619a44e",
           "discovered_at": "2026-10-10T02:06:39.166005+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -445,6 +445,16 @@
       "name": "Aquent",
       "url": "",
       "jobs": [
+        {
+          "title": "Creative Project Manager",
+          "url": "https://aquent.com/find-work/213647",
+          "location": "Cleveland, OH",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "3e510bedc284",
+          "discovered_at": "2026-10-08T02:28:51.289149+00:00",
+          "is_new": false
+        },
         {
           "title": "Content Project Manager",
           "url": "https://aquent.com/find-work/213608",
