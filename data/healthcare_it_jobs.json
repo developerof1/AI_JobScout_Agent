@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-10T18:16:20.249711+00:00",
+  "last_run": "2026-10-11T01:34:14.706150+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -168,26 +168,6 @@
         {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/11603419",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, Junior",
-          "url": "https://builtinchicago.org/job/project-manager-junior/11603417",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "385829e46734",
-          "discovered_at": "2026-10-10T02:05:03.003273+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
@@ -429,7 +409,7 @@
           "department": "product_management",
           "_hash": "297ea17a233d",
           "discovered_at": "2026-10-10T18:16:20.249711+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager",
@@ -578,16 +558,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "c7d27a680e58",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/10164132",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
@@ -1328,16 +1298,6 @@
           "is_new": false
         },
         {
-          "title": "Vice President, Client Success",
-          "url": "https://builtinchicago.org/job/vice-president-client-success/11602980",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "fde676d5cb95",
-          "discovered_at": "2026-10-10T02:05:03.003273+00:00",
-          "is_new": false
-        },
-        {
           "title": "Customer Success Manager - Commercial Content",
           "url": "https://builtinchicago.org/job/customer-success-manager-commercial-content/11595220",
           "location": "",
@@ -1378,6 +1338,16 @@
           "is_new": false
         },
         {
+          "title": "Client Solution Manager",
+          "url": "https://builtinchicago.org/job/client-solution-manager/11548420",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "3463e3c7578e",
+          "discovered_at": "2026-10-10T02:05:03.003273+00:00",
+          "is_new": false
+        },
+        {
           "title": "Sr. Customer Success Manager",
           "url": "https://builtinchicago.org/job/sr-customer-success-manager/11597452",
           "location": "",
@@ -1395,16 +1365,6 @@
           "department": "customer_success",
           "_hash": "f3f73c4f4558",
           "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Client Solution Manager",
-          "url": "https://builtinchicago.org/job/client-solution-manager/11548420",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "3463e3c7578e",
-          "discovered_at": "2026-10-10T02:05:03.003273+00:00",
           "is_new": false
         },
         {
