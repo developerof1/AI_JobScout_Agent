@@ -1,18 +1,18 @@
 {
-  "last_run": "2026-10-13T20:08:30.670540+00:00",
+  "last_run": "2026-10-14T01:28:20.271988+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
       "url": "https://www.ycombinator.com/jobs",
       "jobs": [
         {
-          "title": "Centaur \u2014 Technical Product Manager, Labeling Tools",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/centaur/jobs/8ElCTgv-technical-product-manager-labeling-tools",
+          "title": "Vouch \u2014 Senior Product Manager, AI Pod",
+          "location": "Chicago, IL, US",
+          "url": "https://www.ycombinator.com/companies/vouch/jobs/dkBidyx-senior-product-manager-ai-pod",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "71be0e30e21b",
-          "discovered_at": "2026-10-07T01:53:29.683427+00:00",
+          "_hash": "c873a7479bd9",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
         {
@@ -26,13 +26,13 @@
           "is_new": false
         },
         {
-          "title": "Vouch \u2014 Senior Product Manager, AI Pod",
-          "location": "Chicago, IL, US",
-          "url": "https://www.ycombinator.com/companies/vouch/jobs/dkBidyx-senior-product-manager-ai-pod",
+          "title": "Centaur \u2014 Technical Product Manager, Labeling Tools",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/centaur/jobs/8ElCTgv-technical-product-manager-labeling-tools",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "c873a7479bd9",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "_hash": "71be0e30e21b",
+          "discovered_at": "2026-10-07T01:53:29.683427+00:00",
           "is_new": false
         },
         {
@@ -46,6 +46,16 @@
           "is_new": false
         },
         {
+          "title": "Protex AI \u2014 Enterprise Client Strategist ",
+          "location": "Dublin / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "58cd1503268d",
+          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
+          "is_new": false
+        },
+        {
           "title": "SafeBeat \u2014 Director of Customer Success and Strategic Partnerships",
           "location": "US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/safebeat/jobs/6XUT5uY-director-of-customer-success-and-strategic-partnerships",
@@ -56,13 +66,33 @@
           "is_new": false
         },
         {
-          "title": "Protex AI \u2014 Enterprise Client Strategist ",
-          "location": "Dublin / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
+          "title": "Intryc \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "58cd1503268d",
-          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
+          "_hash": "16ac6855840d",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Draft The Record \u2014 Customer Success Specialist",
+          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "4821c760559e",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "AutoAce \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "07b6b1bf1b33",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
         {
@@ -82,36 +112,6 @@
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "ffa16410a9cb",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Draft The Record \u2014 Customer Success Specialist",
-          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "4821c760559e",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Intryc \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/intryc/jobs/Dp2lPsH-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "16ac6855840d",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "AutoAce \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "07b6b1bf1b33",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
