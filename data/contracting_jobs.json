@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-15T01:14:32.959961+00:00",
+  "last_run": "2026-10-15T18:02:19.970392+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -128,26 +128,6 @@
           "is_new": false
         },
         {
-          "title": "technical program manager healthcare insurance",
-          "url": "https://www.randstadusa.com/jobs/4/1364831/technical-program-manager-healthcare-insurance_durham/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "8eba307c0a98",
-          "discovered_at": "2026-10-15T01:14:32.959961+00:00",
-          "is_new": true
-        },
-        {
-          "title": "technical program manager, healthcare insurance",
-          "url": "https://www.randstadusa.com/jobs/4/1364830/technical-program-manager-healthcare-insurance_durham/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "dd3c4bb5b579",
-          "discovered_at": "2026-10-15T01:14:32.959961+00:00",
-          "is_new": true
-        },
-        {
           "title": "vp, product management - healthcare",
           "url": "https://www.randstadusa.com/jobs/4/1347628/vp-product-management-healthcare_houston/",
           "location": "",
@@ -251,17 +231,7 @@
           "department": null,
           "_hash": "ed9eb8964265",
           "discovered_at": "2026-10-15T01:14:32.959961+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Senior Project Manager - Manufacturing",
-          "url": "https://mondo.com/jobs/job/senior-project-manager-manufacturing-north-arlington-va-22209-33246729/d9801f45-c805-11f1-b23b-024201c20d84",
-          "location": "North Arlington, VA, 22209",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "ed9eb8964265",
-          "discovered_at": "2026-10-15T01:14:32.959961+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -360,12 +330,12 @@
           "is_new": false
         },
         {
-          "title": "Program Manager III",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-iii-107600/",
-          "location": "Cranston",
+          "title": "Program Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-107548/",
+          "location": "Providence",
           "firm": "Epitec",
           "department": null,
-          "_hash": "a1c5bd018b31",
+          "_hash": "baa16cecd40c",
           "discovered_at": "2026-10-14T01:37:21.773153+00:00",
           "is_new": false
         },
@@ -376,16 +346,6 @@
           "firm": "Epitec",
           "department": null,
           "_hash": "ed6b5f7c56ac",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/program-manager-107548/",
-          "location": "Providence",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "baa16cecd40c",
           "discovered_at": "2026-10-14T01:37:21.773153+00:00",
           "is_new": false
         }
