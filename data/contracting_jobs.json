@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-15T18:02:19.970392+00:00",
+  "last_run": "2026-10-16T01:01:30.933970+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -20,18 +20,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Digital Project Manager",
-          "url": "https://www.ptechpartners.com/job/chicago-il/digital-project-manager/106250",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "8777b9d60b5c",
-          "discovered_at": "2026-10-13T20:06:22.981695+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -200,16 +189,6 @@
           "firm": "Mondo",
           "department": null,
           "_hash": "2a78fd28e13e",
-          "discovered_at": "2026-10-13T20:06:22.981695+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-baltimore-md-21211-33206332/44291dd9-c255-11f1-a385-024201c20d84",
-          "location": "Baltimore, MD, 21211",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e580ae707dc7",
           "discovered_at": "2026-10-13T20:06:22.981695+00:00",
           "is_new": false
         },
@@ -416,14 +395,14 @@
           "is_new": false
         },
         {
-          "title": "Design Producer / Project Manager (UX & Product)",
+          "title": "UX Producer / Digital Product Project Manager (Web Tools)",
           "url": "https://aquent.com/find-work/212885",
           "location": "Cupertino, CA",
           "firm": "Aquent",
           "department": null,
-          "_hash": "37eaff3804ea",
-          "discovered_at": "2026-10-12T22:01:30.537967+00:00",
-          "is_new": false
+          "_hash": "eb80941d5440",
+          "discovered_at": "2026-10-16T01:01:30.933970+00:00",
+          "is_new": true
         },
         {
           "title": "Program/ Project Manager",
