@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-18T00:38:31.598107+00:00",
+  "last_run": "2026-10-18T17:07:46.518619+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -56,6 +56,16 @@
           "is_new": false
         },
         {
+          "title": "DAR Project Manager",
+          "url": "https://builtinchicago.org/job/dar-project-manager/11739306",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "d011842a3fec",
+          "discovered_at": "2026-10-18T17:07:46.518619+00:00",
+          "is_new": true
+        },
+        {
           "title": "Sr. Project Manager",
           "url": "https://builtinchicago.org/job/sr-project-manager/11474697",
           "location": "",
@@ -66,16 +76,6 @@
           "is_new": false
         },
         {
-          "title": "Enterprise Project Manager",
-          "url": "https://builtinchicago.org/job/enterprise-project-manager/11650309",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "3ab2d27df0ba",
-          "discovered_at": "2026-10-15T18:04:38.520540+00:00",
-          "is_new": false
-        },
-        {
           "title": "Top  Companies in Chicago, IL Hiring Program & Project Management Roles",
           "url": "",
           "location": "",
@@ -83,6 +83,16 @@
           "department": "program_management",
           "_hash": "2da408c60be2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Enterprise Project Manager",
+          "url": "https://builtinchicago.org/job/enterprise-project-manager/11650309",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "3ab2d27df0ba",
+          "discovered_at": "2026-10-15T18:04:38.520540+00:00",
           "is_new": false
         },
         {
@@ -193,16 +203,6 @@
           "department": "program_management",
           "_hash": "978d5c5914c0",
           "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Revenue Cycle Sr. Project Manager",
-          "url": "https://builtinchicago.org/job/revenue-cycle-sr-project-manager/9448721",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "06fac624ab72",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
@@ -589,7 +589,7 @@
           "department": "product_management",
           "_hash": "53b4eb5ec74f",
           "discovered_at": "2026-10-18T00:38:31.598107+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Product Manager- Informatics (IC)",
@@ -1445,7 +1445,7 @@
           "department": "customer_success",
           "_hash": "f161b3e03639",
           "discovered_at": "2026-10-18T00:38:31.598107+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Client Success Director",
