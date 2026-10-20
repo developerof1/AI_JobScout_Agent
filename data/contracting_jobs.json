@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-20T01:33:07.143092+00:00",
+  "last_run": "2026-10-20T18:21:30.417996+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -76,6 +76,16 @@
           "_hash": "37bb9d7bb0be",
           "discovered_at": "2026-10-16T17:51:04.691115+00:00",
           "is_new": false
+        },
+        {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1365378/project-manager_north-chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-10-20T18:21:30.417996+00:00",
+          "is_new": true
         },
         {
           "title": "hr senior project manager",
@@ -221,7 +231,7 @@
           "department": null,
           "_hash": "80ecff6405a3",
           "discovered_at": "2026-10-20T01:33:07.143092+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr Project Manager",
@@ -231,6 +241,26 @@
           "department": null,
           "_hash": "537ce6709086",
           "discovered_at": "2026-10-20T01:33:07.143092+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Technical Project Manager",
+          "url": "https://mondo.com/jobs/job/technical-project-manager-needham-ma-02494-33271026/716d2186-cc85-11f1-96f9-024201c20d84",
+          "location": "Needham, MA, 02494",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "d025e96baa60",
+          "discovered_at": "2026-10-20T18:21:30.417996+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior IT Project Manager",
+          "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02115-33272208/b485cd2a-cc9f-11f1-96f9-024201c20d84",
+          "location": "Boston, MA, 02115",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "5895c619a44e",
+          "discovered_at": "2026-10-20T18:21:30.417996+00:00",
           "is_new": true
         }
       ]
