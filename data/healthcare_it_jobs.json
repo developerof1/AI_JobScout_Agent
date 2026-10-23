@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-23T01:12:30.027210+00:00",
+  "last_run": "2026-10-23T18:09:02.048042+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -76,6 +76,16 @@
           "is_new": false
         },
         {
+          "title": "Senior Manager, Project & Program Management \u2013 COE Strategic Programs",
+          "url": "https://builtinchicago.org/job/senior-manager-project-program-management-coe-strategic-programs/11749767",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "e8b58db53c37",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager",
           "url": "https://builtinchicago.org/job/project-manager/11825028",
           "location": "",
@@ -86,13 +96,13 @@
           "is_new": false
         },
         {
-          "title": "Task Order Program Manager",
+          "title": "Task Order Program Manager (Planned Position)",
           "url": "https://builtinchicago.org/job/task-order-program-manager/11823519",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
-          "_hash": "7514f9a364fd",
-          "discovered_at": "2026-10-23T01:12:30.027210+00:00",
+          "_hash": "87729a592122",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
           "is_new": true
         },
         {
@@ -236,6 +246,16 @@
           "is_new": false
         },
         {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
           "title": "Project Management Specialist",
           "url": "https://builtinchicago.org/job/project-management-specialist/11812800",
           "location": "",
@@ -293,16 +313,6 @@
           "department": "program_management",
           "_hash": "150480a779dd",
           "discovered_at": "2026-10-22T01:12:44.137214+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://builtinchicago.org/job/project-manager/10164249",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "03da8fe71904",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
@@ -710,6 +720,36 @@
           "_hash": "2499430a3721",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/11844090",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product Manager II - Retrospective Prior Authorization",
+          "url": "https://builtinchicago.org/job/product-manager-ii-retrospective-prior-authorization/11841976",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "8989447a2b8e",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Founding Product Manager",
+          "url": "https://builtinchicago.org/job/founding-product-manager/11839999",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "71e97d72c72c",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
+          "is_new": true
         },
         {
           "title": "Product Manager",
@@ -1478,6 +1518,26 @@
           "is_new": false
         },
         {
+          "title": "Senior Client Success Manager",
+          "url": "https://builtinchicago.org/job/senior-client-success-manager/11844773",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "905c19616a9f",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Customer Success Advisor - US Remote",
+          "url": "https://builtinchicago.org/job/customer-success-advisor-us-remote/11842504",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "c95aad209377",
+          "discovered_at": "2026-10-23T18:09:02.048042+00:00",
+          "is_new": true
+        },
+        {
           "title": "Senior Customer Success Manager",
           "url": "https://builtinchicago.org/job/senior-customer-success-manager/11814960",
           "location": "",
@@ -1934,16 +1994,6 @@
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
           "_hash": "561a99fe6249",
-          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Head of Client Support and Operations",
-          "url": "https://builtinchicago.org/job/head-client-support-and-operations/11212118",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "0d42aaf0ad25",
           "discovered_at": "2026-10-01T19:19:53.978569+00:00",
           "is_new": false
         }
