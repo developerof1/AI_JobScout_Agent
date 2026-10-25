@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-25T00:49:16.733192+00:00",
+  "last_run": "2026-10-25T17:26:00.466220+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -37,6 +37,16 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
+          "is_new": false
+        },
         {
           "title": "usa - project manager - business professional",
           "url": "https://www.randstadusa.com/jobs/308/ab_5105375/usa-project-manager-business-professional_cambridge/",
@@ -115,16 +125,6 @@
           "department": null,
           "_hash": "267a9c97415f",
           "discovered_at": "2026-10-20T18:21:30.417996+00:00",
-          "is_new": false
-        },
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-09-05T00:39:05.005586+00:00",
           "is_new": false
         }
       ]
