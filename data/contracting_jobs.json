@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-25T17:26:00.466220+00:00",
+  "last_run": "2026-10-26T01:00:27.918267+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -270,42 +270,32 @@
       "url": "https://epitec.com/wp-json/matador/v1/jobs/job-listings",
       "jobs": [
         {
-          "title": "Marketing Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/marketing-project-manager-107779/",
-          "location": "Boston",
+          "title": "Product Manager 2",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-2-107781/",
+          "location": "Seattle",
           "firm": "Epitec",
           "department": null,
-          "_hash": "3e11f020b367",
-          "discovered_at": "2026-10-14T18:20:29.065586+00:00",
+          "_hash": "cd31b1839265",
+          "discovered_at": "2026-10-17T01:02:47.750972+00:00",
           "is_new": false
         },
         {
-          "title": "Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-107777/",
-          "location": "Los Angeles",
+          "title": "Non-IT Project/Program Manager III",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/non-it-project-program-manager-iii-107768/",
+          "location": "Portland",
           "firm": "Epitec",
           "department": null,
-          "_hash": "114669e9501f",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
+          "_hash": "bd6280b6c3f7",
+          "discovered_at": "2026-10-16T17:51:04.691115+00:00",
           "is_new": false
         },
         {
-          "title": "IT Project Manager \u2013 Salesforce",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/it-project-manager-salesforce-107686/",
-          "location": "Providence",
+          "title": "USA \u2013 Sr. Program Manager Business Professional",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/usa-sr-program-manager-business-professional-107648/",
+          "location": "Batesville",
           "firm": "Epitec",
           "department": null,
-          "_hash": "bf7e6579ba2c",
-          "discovered_at": "2026-10-14T18:20:29.065586+00:00",
-          "is_new": false
-        },
-        {
-          "title": "ID- DHW \u2013 Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/id-dhw-project-manager-107603/",
-          "location": "Boise",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "57f7c02841c5",
+          "_hash": "ed6b5f7c56ac",
           "discovered_at": "2026-10-14T01:37:21.773153+00:00",
           "is_new": false
         },
@@ -320,103 +310,13 @@
           "is_new": false
         },
         {
-          "title": "Project Manager III",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-iii-107240/",
-          "location": "Culver City",
+          "title": "Marketing Project Manager",
+          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/marketing-project-manager-107779/",
+          "location": "Boston",
           "firm": "Epitec",
           "department": null,
-          "_hash": "d91071bd96f9",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-manager-107068/",
-          "location": "",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "114669e9501f",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Governance Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/governance-project-manager-106881/",
-          "location": "atlanta",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "663e3d370e12",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "IT Infrastructure Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/it-infrastructure-project-manager-106514/",
-          "location": "",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "275944e09108",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Project Manager",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/technical-project-manager-104356/",
-          "location": "Berkeley Heights",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "d898022a3653",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Non-IT Project/Program Manager III",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/non-it-project-program-manager-iii-107768/",
-          "location": "Portland",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "bd6280b6c3f7",
-          "discovered_at": "2026-10-16T17:51:04.691115+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager (Non-IT) 3 (Core Component Strategy Lead)",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-3-core-component-strategy-lead-107749/",
-          "location": "",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "e417d2e0a242",
-          "discovered_at": "2026-10-16T17:51:04.691115+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project/Program Manager (Non-IT) 3",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/project-program-manager-non-it-3-107747/",
-          "location": "Lafayette",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "d64604e53116",
-          "discovered_at": "2026-10-17T01:02:47.750972+00:00",
-          "is_new": false
-        },
-        {
-          "title": "USA \u2013 Sr. Program Manager Business Professional",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/usa-sr-program-manager-business-professional-107648/",
-          "location": "Batesville",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "ed6b5f7c56ac",
-          "discovered_at": "2026-10-14T01:37:21.773153+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager 2",
-          "url": "https://epitec.com/jobs-at-epitec-careerportaldomainroot/product-manager-2-107781/",
-          "location": "Seattle",
-          "firm": "Epitec",
-          "department": null,
-          "_hash": "cd31b1839265",
-          "discovered_at": "2026-10-17T01:02:47.750972+00:00",
+          "_hash": "3e11f020b367",
+          "discovered_at": "2026-10-14T18:20:29.065586+00:00",
           "is_new": false
         }
       ]
