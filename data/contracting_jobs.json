@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-26T19:46:30.868532+00:00",
+  "last_run": "2026-10-27T01:50:50.432206+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -13,7 +13,7 @@
           "department": null,
           "_hash": "f53f4f83352d",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AV Project Manager",
@@ -90,16 +90,6 @@
         {
           "title": "project manager",
           "url": "https://www.randstadusa.com/jobs/308/ab_5113816/project-manager_washington/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-10-20T18:21:30.417996+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/4/1365959/project-manager_warsaw/",
           "location": "",
           "firm": "Randstad",
           "department": null,
@@ -287,7 +277,7 @@
           "department": null,
           "_hash": "114669e9501f",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "IT Project Manager \u2013 Salesforce",
@@ -297,7 +287,7 @@
           "department": null,
           "_hash": "bf7e6579ba2c",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ID- DHW \u2013 Project Manager",
@@ -307,7 +297,7 @@
           "department": null,
           "_hash": "57f7c02841c5",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Agile Project Manager III",
@@ -327,7 +317,7 @@
           "department": null,
           "_hash": "d91071bd96f9",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -337,7 +327,7 @@
           "department": null,
           "_hash": "114669e9501f",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Governance Project Manager",
@@ -347,7 +337,7 @@
           "department": null,
           "_hash": "663e3d370e12",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "IT Infrastructure Project Manager",
@@ -357,7 +347,7 @@
           "department": null,
           "_hash": "275944e09108",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager",
@@ -367,7 +357,7 @@
           "department": null,
           "_hash": "d898022a3653",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Non-IT Project/Program Manager III",
@@ -387,7 +377,7 @@
           "department": null,
           "_hash": "e417d2e0a242",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project/Program Manager (Non-IT) 3",
@@ -397,7 +387,7 @@
           "department": null,
           "_hash": "d64604e53116",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "USA \u2013 Sr. Program Manager Business Professional",
@@ -433,7 +423,7 @@
           "department": null,
           "_hash": "1454dacfa1f0",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager II",
@@ -443,7 +433,7 @@
           "department": null,
           "_hash": "c6dc4b51d890",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Pharma",
