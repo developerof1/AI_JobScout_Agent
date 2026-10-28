@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-27T19:17:42.938218+00:00",
+  "last_run": "2026-10-28T01:53:26.306069+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
@@ -23,7 +23,7 @@
           "department": null,
           "_hash": "f12c1f732c27",
           "discovered_at": "2026-10-27T19:17:42.938218+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Vouch \u2014 Senior Product Manager, AI Pod",
@@ -33,16 +33,6 @@
           "department": null,
           "_hash": "c873a7479bd9",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Protex AI \u2014 Enterprise Client Strategist ",
-          "location": "Dublin / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "58cd1503268d",
-          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
           "is_new": false
         },
         {
@@ -56,12 +46,22 @@
           "is_new": false
         },
         {
-          "title": "Draft The Record \u2014 Customer Success Specialist",
-          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
+          "title": "Protex AI \u2014 Enterprise Client Strategist ",
+          "location": "Dublin / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/protex-ai/jobs/cfjmRfM-enterprise-client-strategist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "4821c760559e",
+          "_hash": "58cd1503268d",
+          "discovered_at": "2026-10-01T19:21:00.776572+00:00",
+          "is_new": false
+        },
+        {
+          "title": "AutoAce \u2014 Customer Success Manager",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "07b6b1bf1b33",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         },
@@ -76,32 +76,22 @@
           "is_new": false
         },
         {
-          "title": "AutoAce \u2014 Customer Success Manager",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/autoace/jobs/VO4Uhjn-customer-success-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "07b6b1bf1b33",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Strac \u2014 Solutions & Customer Success Engineer",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/strac/jobs/hh3yBCu-solutions-customer-success-engineer",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "6f3377517868",
-          "discovered_at": "2026-10-27T19:17:42.938218+00:00",
-          "is_new": true
-        },
-        {
           "title": "Storylane \u2014 Enterprise Customer Success Manager (US Remote)",
           "location": "US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/storylane/jobs/olwI5Ax-enterprise-customer-success-manager-us-remote",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "ffa16410a9cb",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Draft The Record \u2014 Customer Success Specialist",
+          "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "4821c760559e",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
