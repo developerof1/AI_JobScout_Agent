@@ -1,19 +1,19 @@
 {
-  "last_run": "2026-10-28T01:53:26.306069+00:00",
+  "last_run": "2026-10-28T19:24:20.669400+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
       "url": "https://www.ycombinator.com/jobs",
       "jobs": [
         {
-          "title": "Just Appraised \u2014 Customer Engineer",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/just-appraised/jobs/AodywGp-customer-engineer",
+          "title": "Closure \u2014 Forward-Deployed Product Manager",
+          "location": "New York, NY, US / Remote (San Francisco, CA, US; New York, NY, US)",
+          "url": "https://www.ycombinator.com/companies/closure/jobs/zkuorbG-forward-deployed-product-manager",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
-          "_hash": "65cf71207b47",
-          "discovered_at": "2026-10-16T17:53:20.865127+00:00",
-          "is_new": false
+          "_hash": "d6244c243ad7",
+          "discovered_at": "2026-10-28T19:24:20.669400+00:00",
+          "is_new": true
         },
         {
           "title": "Centaur \u2014 Technical Product Manager / Senior TPM, Labeling Tools",
@@ -33,6 +33,16 @@
           "department": null,
           "_hash": "c873a7479bd9",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Just Appraised \u2014 Customer Engineer",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/just-appraised/jobs/AodywGp-customer-engineer",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "65cf71207b47",
+          "discovered_at": "2026-10-16T17:53:20.865127+00:00",
           "is_new": false
         },
         {
@@ -76,22 +86,22 @@
           "is_new": false
         },
         {
-          "title": "Storylane \u2014 Enterprise Customer Success Manager (US Remote)",
-          "location": "US / Remote (US)",
-          "url": "https://www.ycombinator.com/companies/storylane/jobs/olwI5Ax-enterprise-customer-success-manager-us-remote",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "ffa16410a9cb",
-          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
-          "is_new": false
-        },
-        {
           "title": "Draft The Record \u2014 Customer Success Specialist",
           "location": "San Francisco, CA, US / New York, NY, US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/draft-the-record/jobs/WN9VSsM-customer-success-specialist",
           "firm": "Y Combinator \u2014 Work at a Startup",
           "department": null,
           "_hash": "4821c760559e",
+          "discovered_at": "2026-09-18T18:36:09.103909+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Storylane \u2014 Enterprise Customer Success Manager (US Remote)",
+          "location": "US / Remote (US)",
+          "url": "https://www.ycombinator.com/companies/storylane/jobs/olwI5Ax-enterprise-customer-success-manager-us-remote",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "ffa16410a9cb",
           "discovered_at": "2026-09-18T18:36:09.103909+00:00",
           "is_new": false
         }
