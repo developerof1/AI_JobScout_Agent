@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-28T19:23:13.384657+00:00",
+  "last_run": "2026-10-29T02:08:05.775344+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -35,7 +35,118 @@
     {
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "senior product manager - ai",
+          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "966a120165c8",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "usa - project manager - business professional",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5105375/usa-project-manager-business-professional_cambridge/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "37bb9d7bb0be",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1365378/project-manager_seattle/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "hr senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5104582/hr-senior-project-manager_englewood/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "5ddffdd5224a",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1366249/project-manager_smyrna/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5113816/project-manager_washington/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "senior project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5123662/senior-project-manager_irving/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "e5c1a84be0bd",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "it facets/tapestry project manager- 1347",
+          "url": "https://www.randstadusa.com/jobs/4/1366297/it-facets-tapestry-project-manager-1347_grand-rapids/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "7303b48d3b4c",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager- curtain wall",
+          "url": "https://www.randstadusa.com/jobs/141/1365793/project-manager-curtain-wall_reddick/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "fd1142bddfdc",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "program manager iii",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5084193/program-manager-iii_fort-lauderdale/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "abfb7e79c802",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "project manager",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5113870/project-manager_los-angeles/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "267a9c97415f",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Mondo",
@@ -160,6 +271,26 @@
           "_hash": "d025e96baa60",
           "discovered_at": "2026-10-24T01:23:55.241894+00:00",
           "is_new": false
+        },
+        {
+          "title": "Deputy Program Manager",
+          "url": "https://mondo.com/jobs/job/deputy-program-manager-andover-ma-01810-33294515/717fe602-d142-11f1-bde9-0242db9b5dbc",
+          "location": "Andover, MA, 01810",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "7b473fe64dd7",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Manager, Program Management",
+          "url": "https://mondo.com/jobs/job/senior-manager-program-management-dallas-tx-75201-33295195/3dfdd028-d157-11f1-a21a-0242663b9cdc",
+          "location": "Dallas, TX, 75201",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "06bf5a2078a7",
+          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": true
         }
       ]
     },
@@ -401,16 +532,6 @@
           "department": null,
           "_hash": "e3019d20067c",
           "discovered_at": "2026-10-07T19:46:40.201272+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Creative Project Manager",
-          "url": "https://aquent.com/find-work/213048",
-          "location": "Seattle, WA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "3e510bedc284",
-          "discovered_at": "2026-10-08T02:28:51.289149+00:00",
           "is_new": false
         },
         {
