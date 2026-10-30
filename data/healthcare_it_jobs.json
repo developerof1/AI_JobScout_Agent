@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-29T19:28:59.670185+00:00",
+  "last_run": "2026-10-30T02:25:38.135978+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -66,6 +66,36 @@
           "is_new": false
         },
         {
+          "title": "Project Manager, Industrial Controls",
+          "url": "https://builtinchicago.org/job/project-manager-industrial-controls/11978414",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "da4b7ffec7c7",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Top  Companies in Chicago, IL Hiring Program & Project Management Roles",
+          "url": "",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "2da408c60be2",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Manager, Project Management (IC)",
+          "url": "https://builtinchicago.org/job/manager-project-management-ic/11977672",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "77a2fa68ae5a",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
           "title": "Program Manager-Transplant Program Development",
           "url": "https://builtinchicago.org/job/program-manager-transplant-program-development/11953641",
           "location": "",
@@ -73,6 +103,446 @@
           "department": "program_management",
           "_hash": "43cf2ad8dbeb",
           "discovered_at": "2026-10-29T19:28:59.670185+00:00",
+          "is_new": false
+        },
+        {
+          "title": "HTM Project Manager",
+          "url": "https://builtinchicago.org/job/htm-project-manager/11943772",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "4f2ba4467f30",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Task Order Program Manager (Planned Position)",
+          "url": "https://builtinchicago.org/job/task-order-program-manager/11823519",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "87729a592122",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Manager, Project Management - Imaging",
+          "url": "https://builtinchicago.org/job/senior-manager-project-management-imaging/11344390",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "fb7b9214306c",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Customer Implementation Manager",
+          "url": "https://builtinchicago.org/job/customer-implementation-manager/11680641",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b1be191ebe02",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager, R&D",
+          "url": "https://builtinchicago.org/job/project-manager-r-d/11647801",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "e72cc3bee620",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Early Careers - Project Management Intern",
+          "url": "https://builtinchicago.org/job/early-careers-project-management-intern/11578088",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "4b8544c04f94",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager - Enterprise Growth",
+          "url": "https://builtinchicago.org/job/project-manager-enterprise-growth/11549483",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "6a1cf0053bb0",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Client Project Manager",
+          "url": "https://builtinchicago.org/job/client-project-manager/10407554",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "8eb3f0a14124",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager, Supply Chain Operations",
+          "url": "https://builtinchicago.org/job/project-manager-supply-chain-operations/11431955",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b9377aeb0e6d",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11168454",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager, Operations",
+          "url": "https://builtinchicago.org/job/project-manager-operations/9851656",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "5b9e98ffd9d1",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Project Manager",
+          "url": "https://builtinchicago.org/job/senior-project-manager/10666949",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "978d5c5914c0",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Revenue Cycle Sr. Project Manager",
+          "url": "https://builtinchicago.org/job/revenue-cycle-sr-project-manager/9448721",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "06fac624ab72",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Creative Operations Project Manager",
+          "url": "https://builtinchicago.org/job/creative-operations-project-manager/11967556",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "38ee07c17382",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11944137",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Program Manager (Rev-Access)",
+          "url": "https://builtinchicago.org/job/program-manager-rev-access/11927622",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "631f9062cc5c",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Client Solutions Director",
+          "url": "https://builtinchicago.org/job/client-solutions-director/11921761",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "6d5e10703d0f",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Project Manager",
+          "url": "https://builtinchicago.org/job/senior-project-manager/11899031",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "978d5c5914c0",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Manager, Customer Engagement (Remote)",
+          "url": "https://builtinchicago.org/job/manager-customer-engagement-remote/11895271",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "5e661b75d26e",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/10164249",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager III",
+          "url": "https://builtinchicago.org/job/project-manager-iii/11872273",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "600a03e504e5",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Project Manager",
+          "url": "https://builtinchicago.org/job/senior-project-manager/11847826",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "978d5c5914c0",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Program Manager",
+          "url": "https://builtinchicago.org/job/program-manager/11810901",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "7e8c48812fd6",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Commercial Enablement Program Manager",
+          "url": "https://builtinchicago.org/job/commercial-enablement-program-manager/11798518",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "150480a779dd",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Advisor, Project Management",
+          "url": "https://builtinchicago.org/job/senior-advisor-project-management/11749479",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b09e371b0666",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11719623",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Symphony Project Manager PMO/IT",
+          "url": "https://builtinchicago.org/job/symphony-project-manager-pmo-it/11702495",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "dd8baf2f3ed4",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Director, Commercial Project Management",
+          "url": "https://builtinchicago.org/job/director-commercial-project-management/11661323",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "967e80425c7e",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Program Manager, Global Strategic Accounts",
+          "url": "https://builtinchicago.org/job/program-manager-global-strategic-accounts/11650759",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "db0179596af7",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Project Manager, Campaign Operations",
+          "url": "https://builtinchicago.org/job/senior-project-manager-campaign-operations/11632929",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "8f598c19c452",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Sr. Project Manager, EPMO",
+          "url": "https://builtinchicago.org/job/sr-project-manager-epmo/11619924",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "d2f47ddb6165",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11616877",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager Sr",
+          "url": "https://builtinchicago.org/job/project-manager-sr/11586121",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "b1a6dfbe7b70",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Program Manager I - RCCA Program Manager",
+          "url": "https://builtinchicago.org/job/senior-program-manager-i-rcca-program-manager/11563966",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "2310f6392bb1",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11535953",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Implementation Project Manager",
+          "url": "https://builtinchicago.org/job/implementation-project-manager/11343665",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "45667e36e6f4",
+          "discovered_at": "2026-09-24T01:02:46.063422+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Project Manager, Imaging Installations",
+          "url": "https://builtinchicago.org/job/project-manager-imaging-installations/11309365",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "2f7cceb618a8",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11298377",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11050814",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Finance Sr. Project Manager (Remote)",
+          "url": "https://builtinchicago.org/job/finance-sr-project-manager-remote/10901030",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "e76e3dc431c0",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior IT Project Manager",
+          "url": "https://builtinchicago.org/job/senior-it-project-manager/8358648",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "4e3e55360c98",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Senior Client Coding Project Manager",
+          "url": "https://builtinchicago.org/job/senior-client-coding-project-manager/6950600",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "c3262a431aaa",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Project Manager III",
+          "url": "https://builtinchicago.org/job/project-manager-iii/10668082",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "600a03e504e5",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Technical Program Manager",
+          "url": "https://builtinchicago.org/job/technical-program-manager/10653097",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "3018546dc3aa",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
           "is_new": true
         }
       ]
@@ -202,6 +672,26 @@
           "is_new": false
         },
         {
+          "title": "Product Manager - Content",
+          "url": "https://builtinchicago.org/job/product-manager-content/11971426",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "eea80cc38859",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager - Enrollment",
+          "url": "https://builtinchicago.org/job/product-manager-enrollment/11971375",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "d6c251f2de3e",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
           "title": "Senior Product Manager",
           "url": "https://builtinchicago.org/job/senior-product-manager/11599579",
           "location": "",
@@ -209,16 +699,6 @@
           "department": "product_management",
           "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Product Manager, Eligibility & Learning Enablement",
-          "url": "https://builtinchicago.org/job/senior-product-manager-eligibility-learning-enablement/11944873",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "c1fa76d58c6b",
-          "discovered_at": "2026-10-29T02:06:13.045381+00:00",
           "is_new": false
         },
         {
@@ -890,16 +1370,6 @@
           "_hash": "0e656f4fa9f2",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
-        },
-        {
-          "title": "Senior Product Manager, Payments",
-          "url": "https://builtinchicago.org/job/senior-product-manager-payments/10108730",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "75532b7f741f",
-          "discovered_at": "2026-10-28T19:23:36.751046+00:00",
-          "is_new": false
         }
       ]
     },
@@ -935,7 +1405,7 @@
           "department": "customer_success",
           "_hash": "f9397f0665eb",
           "discovered_at": "2026-10-29T19:28:59.670185+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Account Manager-Customer Success",
@@ -1038,6 +1508,26 @@
           "is_new": false
         },
         {
+          "title": "Customer Success Program Manager",
+          "url": "https://builtinchicago.org/job/customer-success-program-manager/11975164",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "eaeef41e94fa",
+          "discovered_at": "2026-10-30T02:25:38.135978+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Client Success Manager",
+          "url": "https://builtinchicago.org/job/client-success-manager/11975112",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "1914c7c46c8e",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
           "title": "Senior SaaS Client Relationship Manager",
           "url": "https://builtinchicago.org/job/senior-saas-client-relationship-manager/11963980",
           "location": "",
@@ -1045,7 +1535,7 @@
           "department": "customer_success",
           "_hash": "0ca7f4e94136",
           "discovered_at": "2026-10-29T19:28:59.670185+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Customer Success Manager",
@@ -1335,7 +1825,7 @@
           "department": "customer_success",
           "_hash": "7ed2c7081885",
           "discovered_at": "2026-10-29T19:28:59.670185+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Client Experience Consultant, Client Enablement",
@@ -1515,16 +2005,6 @@
           "department": "customer_success",
           "_hash": "f93957d7c2da",
           "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Executive Client Partner",
-          "url": "https://builtinchicago.org/job/executive-client-partner/11231756",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "561a99fe6249",
-          "discovered_at": "2026-10-28T19:23:36.751046+00:00",
           "is_new": false
         }
       ]
