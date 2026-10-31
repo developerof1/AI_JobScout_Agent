@@ -1,31 +1,10 @@
 {
-  "last_run": "2026-10-30T19:01:41.610284+00:00",
+  "last_run": "2026-10-31T02:01:22.747805+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
-      "jobs": [
-        {
-          "title": "Sr. Product Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/sr-product-manager-163321/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "f53f4f83352d",
-          "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": false
-        },
-        {
-          "title": "AV Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/av-project-manager-163103/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "13a4fe8148d9",
-          "discovered_at": "2026-10-09T19:18:17.975326+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Peterson Technology Partners",
@@ -44,6 +23,16 @@
           "department": null,
           "_hash": "966a120165c8",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
+          "is_new": false
+        },
+        {
+          "title": "associate project manager lead",
+          "url": "https://www.randstadusa.com/jobs/4/1366981/associate-project-manager-lead_cleveland/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "7fe030543c4b",
+          "discovered_at": "2026-10-30T19:01:41.610284+00:00",
           "is_new": false
         },
         {
@@ -117,16 +106,6 @@
           "is_new": false
         },
         {
-          "title": "it facets/tapestry project manager- 1347",
-          "url": "https://www.randstadusa.com/jobs/4/1366297/it-facets-tapestry-project-manager-1347_grand-rapids/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "7303b48d3b4c",
-          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
           "title": "project manager- curtain wall",
           "url": "https://www.randstadusa.com/jobs/141/1365793/project-manager-curtain-wall_reddick/",
           "location": "",
@@ -155,16 +134,6 @@
           "_hash": "267a9c97415f",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
           "is_new": false
-        },
-        {
-          "title": "associate project manager lead",
-          "url": "https://www.randstadusa.com/jobs/4/1366981/associate-project-manager-lead_cleveland/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "7fe030543c4b",
-          "discovered_at": "2026-10-30T19:01:41.610284+00:00",
-          "is_new": true
         }
       ]
     },
@@ -259,16 +228,6 @@
           "firm": "Mondo",
           "department": null,
           "_hash": "8a503ec37a1e",
-          "discovered_at": "2026-10-24T01:23:55.241894+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior IT Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02115-33272208/b485cd2a-cc9f-11f1-96f9-024201c20d84",
-          "location": "Boston, MA, 02115",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "5895c619a44e",
           "discovered_at": "2026-10-24T01:23:55.241894+00:00",
           "is_new": false
         },
@@ -472,7 +431,7 @@
           "department": null,
           "_hash": "1495b52cdb26",
           "discovered_at": "2026-10-30T19:01:41.610284+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager",
