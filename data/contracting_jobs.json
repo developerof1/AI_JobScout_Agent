@@ -1,10 +1,31 @@
 {
-  "last_run": "2026-10-31T02:01:22.747805+00:00",
+  "last_run": "2026-10-31T18:11:36.942282+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sr-product-manager-163321/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "f53f4f83352d",
+          "discovered_at": "2026-10-31T18:11:36.942282+00:00",
+          "is_new": true
+        },
+        {
+          "title": "AV Project Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/av-project-manager-163103/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "13a4fe8148d9",
+          "discovered_at": "2026-10-31T18:11:36.942282+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Peterson Technology Partners",
@@ -15,16 +36,6 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
-        {
-          "title": "senior product manager - ai",
-          "url": "https://www.randstadusa.com/jobs/4/1362025/senior-product-manager-ai_chicago/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "966a120165c8",
-          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
         {
           "title": "associate project manager lead",
           "url": "https://www.randstadusa.com/jobs/4/1366981/associate-project-manager-lead_cleveland/",
@@ -112,16 +123,6 @@
           "firm": "Randstad",
           "department": null,
           "_hash": "fd1142bddfdc",
-          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
-          "title": "program manager iii",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5084193/program-manager-iii_fort-lauderdale/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "abfb7e79c802",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
           "is_new": false
         },
