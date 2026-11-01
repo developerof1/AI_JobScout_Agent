@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-31T18:16:15.120240+00:00",
+  "last_run": "2026-11-01T01:51:10.587950+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -1258,16 +1258,6 @@
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "065da81d6bba",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Principal Product Manager - Benefits",
-          "url": "https://builtinchicago.org/job/principal-product-manager-benefits/9508642",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "5c0dc464d7e9",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
