@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-04T02:55:49.490231+00:00",
+  "last_run": "2026-11-04T20:43:11.539612+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -32,14 +32,54 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Senior Product Manager, Sales and Events",
-          "url": "https://www.ptechpartners.com/job/remote-usa/senior-product-manager-sales-and-events/106289",
+          "title": "Product Manager II, Enterprise Merchandising",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-ii-enterprise-merchandising/106296",
           "location": "",
           "firm": "Peterson Technology Partners",
           "department": null,
-          "_hash": "6019438cb4d4",
-          "discovered_at": "2026-11-02T22:38:26.532710+00:00",
-          "is_new": false
+          "_hash": "99b4ff9940ff",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager, Store Systems",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-store-systems/106297",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "f42c3c80b001",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager, Supply Chain Vendor Platform",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-supply-chain-vendor-platform/106298",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "7439eba8161b",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager( Point-of-Sales)",
+          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-point-of-sales/106299",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "7cc5c57e166c",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
+        {
+          "title": "ServiceNow Project Manager",
+          "url": "https://www.ptechpartners.com/job/irving-tx/servicenow-project-manager/106301",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "7090b91ce17e",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
         }
       ]
     },
@@ -47,6 +87,26 @@
       "name": "Randstad",
       "url": "https://www.randstadusa.com/jobs/q-project-manager/illinois/chicago/mi-25/",
       "jobs": [
+        {
+          "title": "program manager",
+          "url": "https://www.randstadusa.com/jobs/141/1367367/program-manager_chicago/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "9f2a0a837ae6",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
+        {
+          "title": "associate project manager lead",
+          "url": "https://www.randstadusa.com/jobs/4/1367424/associate-project-manager-lead_cleveland/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "7fe030543c4b",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
+        },
         {
           "title": "usa - project manager - business professional",
           "url": "https://www.randstadusa.com/jobs/308/ab_5105375/usa-project-manager-business-professional_cambridge/",
@@ -115,7 +175,7 @@
           "department": null,
           "_hash": "f23b4cd8fdd6",
           "discovered_at": "2026-11-04T02:55:49.490231+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager - onboarding process improvement",
@@ -146,6 +206,16 @@
           "_hash": "267a9c97415f",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
           "is_new": false
+        },
+        {
+          "title": "data center environmental permitting program manager",
+          "url": "https://www.randstadusa.com/jobs/141/1367387/data-center-environmental-permitting-program-manager_redmond/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "3e2ce66af784",
+          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
+          "is_new": true
         }
       ]
     },
@@ -281,7 +351,7 @@
           "department": null,
           "_hash": "533c0e8de457",
           "discovered_at": "2026-11-04T02:55:49.490231+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager",
@@ -473,7 +543,7 @@
           "department": null,
           "_hash": "5db7308af0b2",
           "discovered_at": "2026-11-04T02:55:49.490231+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager \u2013 Personalization & MarTech Innovation",
@@ -506,16 +576,6 @@
           "is_new": false
         },
         {
-          "title": "Project Manager - Pharma",
-          "url": "https://aquent.com/find-work/213890",
-          "location": "Philadelphia, PA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "fe799c2e1ea2",
-          "discovered_at": "2026-10-21T18:25:13.903758+00:00",
-          "is_new": false
-        },
-        {
           "title": "Senior Digital Project Manager- Director Level",
           "url": "https://aquent.com/find-work/213872",
           "location": "Boston, MA",
@@ -523,16 +583,6 @@
           "department": null,
           "_hash": "8b3056a1ca98",
           "discovered_at": "2026-10-21T01:16:36.773765+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://aquent.com/find-work/213658",
-          "location": "Philadelphia, PA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "c6e0fc3709c3",
-          "discovered_at": "2026-10-12T22:01:30.537967+00:00",
           "is_new": false
         },
         {
