@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-06T03:08:04.564756+00:00",
+  "last_run": "2026-11-06T20:17:49.618721+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -54,16 +54,6 @@
           "department": null,
           "_hash": "92749d3154d7",
           "discovered_at": "2026-11-06T03:08:04.564756+00:00",
-          "is_new": true
-        },
-        {
-          "title": "associate project manager lead",
-          "url": "https://www.randstadusa.com/jobs/4/1367424/associate-project-manager-lead_cleveland/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "7fe030543c4b",
-          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
         },
         {
@@ -117,14 +107,14 @@
           "is_new": false
         },
         {
-          "title": "project manager",
-          "url": "https://www.randstadusa.com/jobs/308/ab_5113816/project-manager_washington/",
+          "title": "project manager iii (finance)",
+          "url": "https://www.randstadusa.com/jobs/308/ab_5140474/project-manager-iii-finance_mcallen/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "267a9c97415f",
-          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
+          "_hash": "531d0094c5b5",
+          "discovered_at": "2026-11-06T20:17:49.618721+00:00",
+          "is_new": true
         },
         {
           "title": "senior project manager",
@@ -158,7 +148,7 @@
         },
         {
           "title": "data center environmental permitting program manager",
-          "url": "https://www.randstadusa.com/jobs/141/1367387/data-center-environmental-permitting-program-manager_redmond/",
+          "url": "https://www.randstadusa.com/jobs/141/1367387/data-center-environmental-permitting-program-manager_denver/",
           "location": "",
           "firm": "Randstad",
           "department": null,
@@ -299,6 +289,16 @@
           "firm": "Mondo",
           "department": null,
           "_hash": "d025e96baa60",
+          "discovered_at": "2026-10-24T01:23:55.241894+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Sr Project Manager",
+          "url": "https://mondo.com/jobs/job/sr-project-manager-austin-tx-78702-33551742/6e0de851-d7ba-11f1-9170-0242db9b5dbc",
+          "location": "Austin, TX, 78702",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "537ce6709086",
           "discovered_at": "2026-10-24T01:23:55.241894+00:00",
           "is_new": false
         }
@@ -464,6 +464,16 @@
       "name": "Aquent",
       "url": "",
       "jobs": [
+        {
+          "title": "Sr. Scrum Master/Project Manager",
+          "url": "https://aquent.com/find-work/214272",
+          "location": "Boston, MA",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "ec802ca652b9",
+          "discovered_at": "2026-11-06T20:17:49.618721+00:00",
+          "is_new": true
+        },
         {
           "title": "Scrum Master and Project Manager",
           "url": "https://aquent.com/find-work/214250",
