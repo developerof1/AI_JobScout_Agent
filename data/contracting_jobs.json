@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-05T20:59:18.277429+00:00",
+  "last_run": "2026-11-06T03:08:04.564756+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,18 +30,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Product Manager II, Enterprise Merchandising",
-          "url": "https://www.ptechpartners.com/job/irving-tx/product-manager-ii-enterprise-merchandising/106296",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "99b4ff9940ff",
-          "discovered_at": "2026-11-04T20:43:11.539612+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -56,6 +45,16 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior project manager - payments & client implementations",
+          "url": "https://www.randstadusa.com/jobs/4/1367617/senior-project-manager-payments-client-implementations_atlanta/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "92749d3154d7",
+          "discovered_at": "2026-11-06T03:08:04.564756+00:00",
+          "is_new": true
         },
         {
           "title": "associate project manager lead",
@@ -85,7 +84,7 @@
           "department": null,
           "_hash": "1a559591e7fb",
           "discovered_at": "2026-11-05T20:59:18.277429+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "project manager",
@@ -135,16 +134,6 @@
           "department": null,
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager - onboarding process improvement",
-          "url": "https://www.randstadusa.com/jobs/4/1366939/project-manager-onboarding-process-improvement_durham/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "4c21d7857a98",
-          "discovered_at": "2026-10-30T02:24:54.608654+00:00",
           "is_new": false
         },
         {
@@ -483,7 +472,7 @@
           "department": null,
           "_hash": "48ef19626fa9",
           "discovered_at": "2026-11-05T20:59:18.277429+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Program Manager, Customer Marketing",
