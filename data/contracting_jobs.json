@@ -1,20 +1,10 @@
 {
-  "last_run": "2026-11-06T20:17:49.618721+00:00",
+  "last_run": "2026-11-07T02:34:36.619226+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "AV Project Manager",
-          "url": "https://www.thelasallenetwork.com/jobs/av-project-manager-163103/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "13a4fe8148d9",
-          "discovered_at": "2026-10-31T18:11:36.942282+00:00",
-          "is_new": false
-        },
         {
           "title": "Sr. Product Manager",
           "url": "https://www.thelasallenetwork.com/jobs/sr-product-manager-163321/",
@@ -45,6 +35,16 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
+        },
+        {
+          "title": "project manager -mergers acquisitions & divestures- healthcare sector",
+          "url": "https://www.randstadusa.com/jobs/4/1367896/project-manager-mergers-acquisitions-divestures-healthcare-sector_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "5fa73036e5fe",
+          "discovered_at": "2026-11-07T02:34:36.619226+00:00",
+          "is_new": true
         },
         {
           "title": "senior project manager - payments & client implementations",
@@ -114,7 +114,7 @@
           "department": null,
           "_hash": "531d0094c5b5",
           "discovered_at": "2026-11-06T20:17:49.618721+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior project manager",
@@ -125,6 +125,16 @@
           "_hash": "e5c1a84be0bd",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
           "is_new": false
+        },
+        {
+          "title": "construction engineering project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1367875/construction-engineering-project-manager_smyrna/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "990b16b3db74",
+          "discovered_at": "2026-11-07T02:34:36.619226+00:00",
+          "is_new": true
         },
         {
           "title": "project manager- curtain wall",
@@ -472,7 +482,7 @@
           "department": null,
           "_hash": "ec802ca652b9",
           "discovered_at": "2026-11-06T20:17:49.618721+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Scrum Master and Project Manager",
@@ -492,16 +502,6 @@
           "department": null,
           "_hash": "5719243becdb",
           "discovered_at": "2026-11-02T22:38:26.532710+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior IS Project Manager",
-          "url": "https://aquent.com/find-work/214171",
-          "location": "Missoula, MT",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "5db7308af0b2",
-          "discovered_at": "2026-11-04T02:55:49.490231+00:00",
           "is_new": false
         },
         {
