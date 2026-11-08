@@ -1,10 +1,21 @@
 {
-  "last_run": "2026-11-08T02:04:56.561178+00:00",
+  "last_run": "2026-11-08T18:41:53.026420+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Sr. Product Manager",
+          "url": "https://www.thelasallenetwork.com/jobs/sr-product-manager-163321/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "f53f4f83352d",
+          "discovered_at": "2026-11-08T18:41:53.026420+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Peterson Technology Partners",
