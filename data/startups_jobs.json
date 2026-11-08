@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-08T01:56:00.154550+00:00",
+  "last_run": "2026-11-08T18:43:02.861495+00:00",
   "firms": [
     {
       "name": "Y Combinator \u2014 Work at a Startup",
@@ -26,6 +26,16 @@
           "is_new": false
         },
         {
+          "title": "Closure \u2014 Forward-Deployed Product Manager",
+          "location": "New York, NY, US / Remote (San Francisco, CA, US; New York, NY, US)",
+          "url": "https://www.ycombinator.com/companies/closure/jobs/zkuorbG-forward-deployed-product-manager",
+          "firm": "Y Combinator \u2014 Work at a Startup",
+          "department": null,
+          "_hash": "d6244c243ad7",
+          "discovered_at": "2026-10-28T19:24:20.669400+00:00",
+          "is_new": false
+        },
+        {
           "title": "Alinea \u2014 Product Manager",
           "location": "New York, NY, US / Remote (US)",
           "url": "https://www.ycombinator.com/companies/alinea/jobs/hzNvoIY-product-manager",
@@ -43,16 +53,6 @@
           "department": null,
           "_hash": "f12c1f732c27",
           "discovered_at": "2026-10-27T19:17:42.938218+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Closure \u2014 Forward-Deployed Product Manager",
-          "location": "New York, NY, US / Remote (San Francisco, CA, US; New York, NY, US)",
-          "url": "https://www.ycombinator.com/companies/closure/jobs/zkuorbG-forward-deployed-product-manager",
-          "firm": "Y Combinator \u2014 Work at a Startup",
-          "department": null,
-          "_hash": "d6244c243ad7",
-          "discovered_at": "2026-10-28T19:24:20.669400+00:00",
           "is_new": false
         },
         {
