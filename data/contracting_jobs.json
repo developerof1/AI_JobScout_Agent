@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-10T04:32:02.198794+00:00",
+  "last_run": "2026-11-10T20:45:10.783158+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -64,16 +64,6 @@
           "department": null,
           "_hash": "37bb9d7bb0be",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
-          "title": "project manager - sre",
-          "url": "https://www.randstadusa.com/jobs/4/1367546/project-manager-sre_columbus/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "1a559591e7fb",
-          "discovered_at": "2026-11-05T20:59:18.277429+00:00",
           "is_new": false
         },
         {
@@ -190,7 +180,7 @@
           "department": null,
           "_hash": "8346b4237193",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Client Implementation Project Manager",
@@ -200,7 +190,7 @@
           "department": null,
           "_hash": "b123c54f49f8",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -210,7 +200,7 @@
           "department": null,
           "_hash": "e580ae707dc7",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AI Project Manager",
@@ -220,7 +210,7 @@
           "department": null,
           "_hash": "ea01addb3a20",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager, Credit",
@@ -230,7 +220,7 @@
           "department": null,
           "_hash": "b7ef155481ee",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Associate Project Manager / Business Administrator",
@@ -240,7 +230,7 @@
           "department": null,
           "_hash": "2a78fd28e13e",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Global Project/ Program Manager",
@@ -250,7 +240,7 @@
           "department": null,
           "_hash": "80ecff6405a3",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Deputy Program Manager",
@@ -260,7 +250,7 @@
           "department": null,
           "_hash": "7b473fe64dd7",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Manager, Program Management",
@@ -270,7 +260,7 @@
           "department": null,
           "_hash": "06bf5a2078a7",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Digital Product Manager",
@@ -280,7 +270,7 @@
           "department": null,
           "_hash": "533c0e8de457",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Technical Project Manager",
@@ -290,7 +280,7 @@
           "department": null,
           "_hash": "d025e96baa60",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr Project Manager",
@@ -300,7 +290,7 @@
           "department": null,
           "_hash": "537ce6709086",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Continuous Improvement Project Manager",
@@ -310,7 +300,7 @@
           "department": null,
           "_hash": "e15090f25c2a",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -320,6 +310,16 @@
           "department": null,
           "_hash": "e580ae707dc7",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior IT Project Manager",
+          "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02110-33604524/92502a40-da1d-11f1-9170-0242db9b5dbc",
+          "location": "Boston, MA, 02110",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "5895c619a44e",
+          "discovered_at": "2026-11-10T20:45:10.783158+00:00",
           "is_new": true
         }
       ]
@@ -552,16 +552,6 @@
           "department": null,
           "_hash": "8b3056a1ca98",
           "discovered_at": "2026-10-21T01:16:36.773765+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Creative Project Manager",
-          "url": "https://aquent.com/find-work/213647",
-          "location": "Cleveland, OH",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "3e510bedc284",
-          "discovered_at": "2026-10-08T02:28:51.289149+00:00",
           "is_new": false
         },
         {
