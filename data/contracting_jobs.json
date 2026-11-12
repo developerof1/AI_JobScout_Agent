@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-12T03:37:19.190416+00:00",
+  "last_run": "2026-11-12T21:21:53.923605+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,38 +30,7 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": [
-        {
-          "title": "Supplier Onboarding Project Manager",
-          "url": "https://www.ptechpartners.com/job/remote-usa/supplier-onboarding-project-manager/106327",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "28519450d1f4",
-          "discovered_at": "2026-11-12T03:37:19.190416+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Senior Project Manager - Supply Chain & Transportation (Business Separation)",
-          "url": "https://www.ptechpartners.com/job/remote-usa/senior-project-manager-supply-chain-transportation-business-separation/106322",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "0da172c23713",
-          "discovered_at": "2026-11-11T21:06:17.378329+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager - EHS, Quality & Compliance (Business Separation)",
-          "url": "https://www.ptechpartners.com/job/remote-usa/senior-project-manager-ehs-quality-compliance-business-separation/106323",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "f1f997e24d35",
-          "discovered_at": "2026-11-11T21:06:17.378329+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Randstad",
@@ -371,6 +340,16 @@
           "department": null,
           "_hash": "5895c619a44e",
           "discovered_at": "2026-11-10T20:45:10.783158+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://mondo.com/jobs/job/project-manager-oak-brook-il-60523-33616338/203aa71f-dd46-11f1-bb83-0242663b9cdc",
+          "location": "Oak Brook, IL, 60523",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "e580ae707dc7",
+          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
           "is_new": false
         }
       ]
