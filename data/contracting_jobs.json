@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-13T03:09:43.029831+00:00",
+  "last_run": "2026-11-13T20:48:00.186756+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,7 +30,18 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Supplier Onboarding Project Manager",
+          "url": "https://www.ptechpartners.com/job/remote-usa/supplier-onboarding-project-manager/106327",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "28519450d1f4",
+          "discovered_at": "2026-11-13T20:48:00.186756+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -195,6 +206,16 @@
           "_hash": "3e2ce66af784",
           "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
+        },
+        {
+          "title": "saas engineer / product manager",
+          "url": "https://www.randstadusa.com/jobs/4/1368526/saas-engineer-product-manager_new-york/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "38da78f001a2",
+          "discovered_at": "2026-11-13T20:48:00.186756+00:00",
+          "is_new": true
         }
       ]
     },
@@ -313,16 +334,6 @@
           "is_new": false
         },
         {
-          "title": "Continuous Improvement Project Manager",
-          "url": "https://mondo.com/jobs/job/continuous-improvement-project-manager-baltimore-md-21211-33603343/7ab5ad24-da0e-11f1-9170-0242db9b5dbc",
-          "location": "Baltimore, MD, 21211",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e15090f25c2a",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
           "title": "Project Manager",
           "url": "https://mondo.com/jobs/job/project-manager-la-ca-90292-33603972/7ab44d92-da0e-11f1-a865-0242663b9cdc",
           "location": "LA, CA, 90292",
@@ -351,6 +362,16 @@
           "_hash": "e580ae707dc7",
           "discovered_at": "2026-11-10T04:32:02.198794+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager, MarTech/AI",
+          "url": "https://mondo.com/jobs/job/product-manager-martechai-los-angeles-ca-91361-33618408/5a1914b3-dddd-11f1-a6aa-0242db9b5dbc",
+          "location": "Los Angeles, CA, 91361",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "4f78a11c9687",
+          "discovered_at": "2026-11-13T20:48:00.186756+00:00",
+          "is_new": true
         }
       ]
     },
@@ -514,6 +535,16 @@
       "name": "Aquent",
       "url": "",
       "jobs": [
+        {
+          "title": "Project Manager",
+          "url": "https://aquent.com/find-work/214465",
+          "location": "Louisville, KY",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "c6e0fc3709c3",
+          "discovered_at": "2026-11-13T20:48:00.186756+00:00",
+          "is_new": true
+        },
         {
           "title": "Sr. Scrum Master/Project Manager",
           "url": "https://aquent.com/find-work/214272",
