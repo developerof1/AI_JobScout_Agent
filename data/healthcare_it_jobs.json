@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-14T18:59:44.704663+00:00",
+  "last_run": "2026-11-15T02:23:55.361155+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -382,16 +382,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "e0adbc0b9e11",
-          "discovered_at": "2026-11-06T03:07:15.251342+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager - Advisory - Operations",
-          "url": "https://builtinchicago.org/job/project-manager-advisory-operations/11996681",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "65d6013767f1",
           "discovered_at": "2026-11-06T03:07:15.251342+00:00",
           "is_new": false
         },
@@ -1484,16 +1474,6 @@
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
           "_hash": "9f54bcd627aa",
-          "discovered_at": "2026-11-14T02:56:20.015004+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Junior Customer Success Engineer",
-          "url": "https://builtinchicago.org/job/junior-customer-success-engineer/12252729",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "2dd77a6f8509",
           "discovered_at": "2026-11-14T02:56:20.015004+00:00",
           "is_new": false
         },
