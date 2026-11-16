@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-15T19:36:20.418244+00:00",
+  "last_run": "2026-11-16T02:35:22.953826+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -1468,6 +1468,16 @@
           "is_new": false
         },
         {
+          "title": "Customer Success Manager",
+          "url": "https://builtinchicago.org/job/customer-success-manager/11798258",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "f93957d7c2da",
+          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
+          "is_new": false
+        },
+        {
           "title": "Director of Customer Success",
           "url": "https://builtinchicago.org/job/director-customer-success/12259096",
           "location": "",
@@ -1815,16 +1825,6 @@
           "department": "customer_success",
           "_hash": "d07c25ab484d",
           "discovered_at": "2026-10-22T18:25:06.121764+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Customer Success Manager",
-          "url": "https://builtinchicago.org/job/customer-success-manager/11798258",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "f93957d7c2da",
-          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
           "is_new": false
         },
         {
