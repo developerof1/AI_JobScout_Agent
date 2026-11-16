@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-16T02:35:46.803465+00:00",
+  "last_run": "2026-11-16T23:14:58.295141+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -30,7 +30,18 @@
     {
       "name": "Peterson Technology Partners",
       "url": "https://www.ptechpartners.com/jobs/",
-      "jobs": []
+      "jobs": [
+        {
+          "title": "Senior Project Manager, Cloning",
+          "url": "https://www.ptechpartners.com/job/chicago-il/senior-project-manager-cloning/106343",
+          "location": "",
+          "firm": "Peterson Technology Partners",
+          "department": null,
+          "_hash": "9dfa98bb7083",
+          "discovered_at": "2026-11-16T23:14:58.295141+00:00",
+          "is_new": true
+        }
+      ]
     },
     {
       "name": "Randstad",
@@ -74,16 +85,6 @@
           "department": null,
           "_hash": "267a9c97415f",
           "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
-          "title": "it assoc project manager ld",
-          "url": "https://www.randstadusa.com/jobs/4/1368005/it-assoc-project-manager-ld_cleveland/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "c68bf4b57eb2",
-          "discovered_at": "2026-11-09T23:19:37.353228+00:00",
           "is_new": false
         },
         {
@@ -165,6 +166,16 @@
           "_hash": "3e2ce66af784",
           "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
+        },
+        {
+          "title": "technical program manager (dashboard & ai transformation)",
+          "url": "https://www.randstadusa.com/jobs/4/1368678/technical-program-manager-dashboard-ai-transformation_san-francisco/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "819ddd2732af",
+          "discovered_at": "2026-11-16T23:14:58.295141+00:00",
+          "is_new": true
         },
         {
           "title": "saas engineer / product manager",
@@ -513,6 +524,16 @@
           "_hash": "3976dc27a137",
           "discovered_at": "2026-11-14T02:56:42.100088+00:00",
           "is_new": false
+        },
+        {
+          "title": "Program Manager (II)",
+          "url": "https://aquent.com/find-work/214451",
+          "location": "Atlanta, GA",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "2a52f947e87a",
+          "discovered_at": "2026-11-16T23:14:58.295141+00:00",
+          "is_new": true
         },
         {
           "title": "Sr. Scrum Master/Project Manager",
