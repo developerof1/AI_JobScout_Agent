@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-17T05:00:40.632222+00:00",
+  "last_run": "2026-11-17T22:03:33.146178+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -32,14 +32,14 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Senior Project Manager, Cloning",
-          "url": "https://www.ptechpartners.com/job/chicago-il/senior-project-manager-cloning/106343",
+          "title": "Project Manager (Pipeline)",
+          "url": "https://www.ptechpartners.com/job/baytown-tx/project-manager-pipeline/106260",
           "location": "",
           "firm": "Peterson Technology Partners",
           "department": null,
-          "_hash": "9dfa98bb7083",
-          "discovered_at": "2026-11-16T23:14:58.295141+00:00",
-          "is_new": false
+          "_hash": "eda2bfda8662",
+          "discovered_at": "2026-11-17T22:03:33.146178+00:00",
+          "is_new": true
         }
       ]
     },
@@ -66,6 +66,16 @@
           "_hash": "9f2a0a837ae6",
           "discovered_at": "2026-11-04T20:43:11.539612+00:00",
           "is_new": false
+        },
+        {
+          "title": "healthcare it project manager (revenue cycle)",
+          "url": "https://www.randstadusa.com/jobs/4/1368887/healthcare-it-project-manager-revenue-cycle_saint-louis/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "1ec9f96c5d2d",
+          "discovered_at": "2026-11-17T22:03:33.146178+00:00",
+          "is_new": true
         },
         {
           "title": "senior project manager - payments & client implementations",
@@ -352,6 +362,16 @@
           "_hash": "56a2d36c3c4c",
           "discovered_at": "2026-11-14T02:56:42.100088+00:00",
           "is_new": false
+        },
+        {
+          "title": "Sr. Project Manager",
+          "url": "https://mondo.com/jobs/job/sr-project-manager-philadelphia-pa-19103-33631237/677f34fd-df9f-11f1-bb83-0242663b9cdc",
+          "location": "Philadelphia, PA, 19103",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "fb1e72349905",
+          "discovered_at": "2026-11-17T22:03:33.146178+00:00",
+          "is_new": true
         }
       ]
     },
@@ -515,6 +535,26 @@
       "name": "Aquent",
       "url": "",
       "jobs": [
+        {
+          "title": "Product Manager",
+          "url": "https://aquent.com/find-work/214532",
+          "location": "Chicago, IL",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "3976dc27a137",
+          "discovered_at": "2026-11-14T02:56:42.100088+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Product Manager - License Sales & Management",
+          "url": "https://aquent.com/find-work/214525",
+          "location": "Chicago, IL",
+          "firm": "Aquent",
+          "department": null,
+          "_hash": "c55388e0e1ab",
+          "discovered_at": "2026-11-17T22:03:33.146178+00:00",
+          "is_new": true
+        },
         {
           "title": "Product Manager",
           "url": "https://aquent.com/find-work/214484",
