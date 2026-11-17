@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-16T23:14:58.295141+00:00",
+  "last_run": "2026-11-17T05:00:40.632222+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -39,7 +39,7 @@
           "department": null,
           "_hash": "9dfa98bb7083",
           "discovered_at": "2026-11-16T23:14:58.295141+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -175,7 +175,7 @@
           "department": null,
           "_hash": "819ddd2732af",
           "discovered_at": "2026-11-16T23:14:58.295141+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "saas engineer / product manager",
@@ -533,7 +533,7 @@
           "department": null,
           "_hash": "2a52f947e87a",
           "discovered_at": "2026-11-16T23:14:58.295141+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sr. Scrum Master/Project Manager",
