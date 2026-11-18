@@ -1,10 +1,30 @@
 {
-  "last_run": "2026-11-17T22:03:33.146178+00:00",
+  "last_run": "2026-11-18T04:03:59.394263+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
+        {
+          "title": "Senior Program Manager",
+          "url": "https://lasalleintel.com/jobs/senior-program-manager-163621/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "e87dd43e1584",
+          "discovered_at": "2026-11-18T04:03:59.394263+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager",
+          "url": "https://lasalleintel.com/jobs/product-manager-163622/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "d8ac151b5f06",
+          "discovered_at": "2026-11-18T04:03:59.394263+00:00",
+          "is_new": true
+        },
         {
           "title": "Senior Product Manager",
           "url": "https://lasalleintel.com/jobs/senior-product-manager-163541/",
@@ -39,7 +59,7 @@
           "department": null,
           "_hash": "eda2bfda8662",
           "discovered_at": "2026-11-17T22:03:33.146178+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -75,7 +95,7 @@
           "department": null,
           "_hash": "1ec9f96c5d2d",
           "discovered_at": "2026-11-17T22:03:33.146178+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "senior project manager - payments & client implementations",
@@ -314,16 +334,6 @@
           "is_new": false
         },
         {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-la-ca-90292-33603972/7ab44d92-da0e-11f1-a865-0242663b9cdc",
-          "location": "LA, CA, 90292",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
           "title": "Senior IT Project Manager",
           "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02110-33604524/92502a40-da1d-11f1-9170-0242db9b5dbc",
           "location": "Boston, MA, 02110",
@@ -371,7 +381,7 @@
           "department": null,
           "_hash": "fb1e72349905",
           "discovered_at": "2026-11-17T22:03:33.146178+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -553,7 +563,7 @@
           "department": null,
           "_hash": "c55388e0e1ab",
           "discovered_at": "2026-11-17T22:03:33.146178+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager",
