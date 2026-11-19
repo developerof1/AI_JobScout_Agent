@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-18T21:45:04.055136+00:00",
+  "last_run": "2026-11-19T04:01:07.008884+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -59,7 +59,7 @@
           "department": null,
           "_hash": "56b71269930a",
           "discovered_at": "2026-11-18T21:45:04.055136+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager (Pipeline)",
@@ -553,7 +553,7 @@
           "department": null,
           "_hash": "b326c7587fc9",
           "discovered_at": "2026-11-18T21:45:04.055136+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Pharma",
@@ -563,7 +563,7 @@
           "department": null,
           "_hash": "fe799c2e1ea2",
           "discovered_at": "2026-11-18T21:45:04.055136+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager",
@@ -642,16 +642,6 @@
           "firm": "Aquent",
           "department": null,
           "_hash": "c6dc4b51d890",
-          "discovered_at": "2026-10-26T19:46:30.868532+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Program Manager",
-          "url": "https://aquent.com/find-work/213984",
-          "location": "Phoenix, AZ",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "1454dacfa1f0",
           "discovered_at": "2026-10-26T19:46:30.868532+00:00",
           "is_new": false
         },
