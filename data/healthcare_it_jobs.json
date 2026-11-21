@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-21T03:46:16.892372+00:00",
+  "last_run": "2026-11-21T20:25:18.450258+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -16,14 +16,14 @@
           "is_new": false
         },
         {
-          "title": "MDM IT Project Manager, EDW",
+          "title": "IT Project Manager, EDW/MDM",
           "url": "https://builtinchicago.org/job/mdm-it-project-manager-edw/12208742",
           "location": "",
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
-          "_hash": "d4580957a87d",
-          "discovered_at": "2026-11-12T21:22:11.730820+00:00",
-          "is_new": false
+          "_hash": "fcbacf3d40ba",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
         },
         {
           "title": "Implementation Project Manager",
@@ -93,16 +93,6 @@
           "department": "program_management",
           "_hash": "a1017148a3c8",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
-          "is_new": true
-        },
-        {
-          "title": "Sr Project Manager - Pharmacy Portfolio",
-          "url": "https://builtinchicago.org/job/sr-project-manager-pharmacy-portfolio/12373521",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "33ef174639f5",
-          "discovered_at": "2026-11-20T21:43:35.080611+00:00",
           "is_new": false
         },
         {
@@ -243,7 +233,7 @@
           "department": "program_management",
           "_hash": "4c51a789460b",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Director, Customer Implementations",
@@ -253,7 +243,7 @@
           "department": "program_management",
           "_hash": "b53861bff7fc",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
@@ -282,16 +272,6 @@
           "firm": "Built In Chicago \u2014 Project/Program Management",
           "department": "program_management",
           "_hash": "57f0b01131d3",
-          "discovered_at": "2026-11-19T04:00:20.930268+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager, Strategic Projects",
-          "url": "https://builtinchicago.org/job/project-manager-strategic-projects/11802556",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Project/Program Management",
-          "department": "program_management",
-          "_hash": "0aef20114f97",
           "discovered_at": "2026-11-19T04:00:20.930268+00:00",
           "is_new": false
         },
@@ -594,6 +574,16 @@
           "_hash": "45667e36e6f4",
           "discovered_at": "2026-09-24T01:02:46.063422+00:00",
           "is_new": false
+        },
+        {
+          "title": "Project Manager",
+          "url": "https://builtinchicago.org/job/project-manager/11298377",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "03da8fe71904",
+          "discovered_at": "2026-11-06T03:07:15.251342+00:00",
+          "is_new": false
         }
       ]
     },
@@ -672,14 +662,24 @@
           "is_new": false
         },
         {
-          "title": "Global Product Manager, Connectivity & Interoperability",
-          "url": "https://builtinchicago.org/job/global-product-manager-connectivity-interoperability/12388576",
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/12393286",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "4cf0298c8ed5",
-          "discovered_at": "2026-11-21T03:46:16.892372+00:00",
-          "is_new": true
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product Manager",
+          "url": "https://builtinchicago.org/job/product-manager/12393280",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "0e656f4fa9f2",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
         },
         {
           "title": "Top  Companies in Chicago, IL Hiring Product Management Roles",
@@ -692,32 +692,22 @@
           "is_new": false
         },
         {
+          "title": "Global Product Manager, Connectivity & Interoperability",
+          "url": "https://builtinchicago.org/job/global-product-manager-connectivity-interoperability/12388576",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "4cf0298c8ed5",
+          "discovered_at": "2026-11-21T03:46:16.892372+00:00",
+          "is_new": false
+        },
+        {
           "title": "Sr. Analytics Product Manager",
           "url": "https://builtinchicago.org/job/sr-analytics-product-manager/12363670",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
           "_hash": "7dd2487d43a2",
-          "discovered_at": "2026-11-20T21:43:35.080611+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Strategic Product Manager",
-          "url": "https://builtinchicago.org/job/strategic-product-manager/12360886",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "e9d83af0bb01",
-          "discovered_at": "2026-11-12T03:36:14.053860+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr Strategic Product Manager",
-          "url": "https://builtinchicago.org/job/sr-strategic-product-manager/12360849",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "7ea7b539b10b",
           "discovered_at": "2026-11-20T21:43:35.080611+00:00",
           "is_new": false
         },
@@ -752,13 +742,23 @@
           "is_new": false
         },
         {
-          "title": "Sr Product Manager (Technology)",
-          "url": "https://builtinchicago.org/job/sr-product-manager-technology/12389403",
+          "title": "Senior Technical Product Manager (Clinical Data Platform), Remote",
+          "url": "https://builtinchicago.org/job/senior-technical-product-manager-clinical-data-platform-remote/12404016",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "2438a6f54357",
-          "discovered_at": "2026-11-21T03:46:16.892372+00:00",
+          "_hash": "c60e30aaea81",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Product Manager IV (Platform Product Manager)",
+          "url": "https://builtinchicago.org/job/product-manager-iv-platform-product-manager/12400221",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "8ed3cd69d1cb",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
           "is_new": true
         },
         {
@@ -769,7 +769,47 @@
           "department": "product_management",
           "_hash": "f48a48884aec",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Product Manager",
+          "url": "https://builtinchicago.org/job/senior-product-manager/12223742",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "c7d27a680e58",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Senior Product Manager",
+          "url": "https://builtinchicago.org/job/senior-product-manager/12398899",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "c7d27a680e58",
+          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
+          "is_new": false
+        },
+        {
+          "title": "(Remote) Product Manager",
+          "url": "https://builtinchicago.org/job/remote-product-manager/12397318",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "7db91ab7f96a",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
           "is_new": true
+        },
+        {
+          "title": "Sr Product Manager (Technology)",
+          "url": "https://builtinchicago.org/job/sr-product-manager-technology/12389403",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "2438a6f54357",
+          "discovered_at": "2026-11-21T03:46:16.892372+00:00",
+          "is_new": false
         },
         {
           "title": "AI Product Manager- Customer Success",
@@ -852,24 +892,14 @@
           "is_new": false
         },
         {
-          "title": "Senior Global Product Manager",
-          "url": "https://builtinchicago.org/job/senior-global-product-manager/12297797",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "44c7fa85eb21",
-          "discovered_at": "2026-11-17T22:04:43.685543+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Lead Project Manager, Activation",
+          "title": "Lead Product Manager, Activation",
           "url": "https://builtinchicago.org/job/lead-project-manager-activation/12266261",
           "location": "",
           "firm": "Built In Chicago \u2014 Product",
           "department": "product_management",
-          "_hash": "fc7ad92f4b8e",
-          "discovered_at": "2026-11-16T23:16:06.839830+00:00",
-          "is_new": false
+          "_hash": "2bf40640342d",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
         },
         {
           "title": "Senior Product Manager",
@@ -929,16 +959,6 @@
           "department": "product_management",
           "_hash": "4c46c56473e9",
           "discovered_at": "2026-11-12T03:36:14.053860+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Product Manager",
-          "url": "https://builtinchicago.org/job/senior-product-manager/12155877",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "c7d27a680e58",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
           "is_new": false
         },
         {
@@ -1420,16 +1440,6 @@
           "_hash": "75532b7f741f",
           "discovered_at": "2026-11-11T02:32:13.558894+00:00",
           "is_new": false
-        },
-        {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/9273778",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
         }
       ]
     },
@@ -1598,6 +1608,26 @@
           "is_new": false
         },
         {
+          "title": "Customer Success Manager, SMB",
+          "url": "https://builtinchicago.org/job/customer-success-manager-smb/12393990",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "83edf4a5a6c9",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Scaled Client Engagement & Success Manager",
+          "url": "https://builtinchicago.org/job/scaled-client-engagement-success-manager/12393827",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "942ffd537475",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
+        },
+        {
           "title": "Strategic Client Manager",
           "url": "https://builtinchicago.org/job/strategic-client-manager/12383061",
           "location": "",
@@ -1605,7 +1635,7 @@
           "department": "customer_success",
           "_hash": "96ece7b9716c",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Manager - Client Experience",
@@ -1628,14 +1658,14 @@
           "is_new": false
         },
         {
-          "title": "Head of Customer Experience",
+          "title": "Head of Client Success & Expansion",
           "url": "https://builtinchicago.org/job/head-client-success/12308318",
           "location": "",
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
-          "_hash": "aca68ea99224",
-          "discovered_at": "2026-11-20T21:43:35.080611+00:00",
-          "is_new": false
+          "_hash": "1b4493cafea5",
+          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
+          "is_new": true
         },
         {
           "title": "Manager, Client Strategy & Operations",
@@ -2034,36 +2064,6 @@
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
           "_hash": "69a2f19de13d",
-          "discovered_at": "2026-11-19T04:00:20.930268+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Customer Success Associate",
-          "url": "https://builtinchicago.org/job/customer-success-associate/11565361",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "fd6b92a3304d",
-          "discovered_at": "2026-11-19T04:00:20.930268+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Head of Customer Success, Payer & Employer",
-          "url": "https://builtinchicago.org/job/head-customer-success-payer-employer/11552713",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "f6f563e67065",
-          "discovered_at": "2026-11-19T04:00:20.930268+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Customer Success Director",
-          "url": "https://builtinchicago.org/job/customer-success-director/11547751",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "cfdcdaed8680",
           "discovered_at": "2026-11-19T04:00:20.930268+00:00",
           "is_new": false
         }
