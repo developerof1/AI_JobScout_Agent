@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-21T03:46:57.414803+00:00",
+  "last_run": "2026-11-21T20:24:30.336763+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -138,16 +138,6 @@
           "is_new": false
         },
         {
-          "title": "project manager- curtain wall",
-          "url": "https://www.randstadusa.com/jobs/141/1365793/project-manager-curtain-wall_reddick/",
-          "location": "",
-          "firm": "Randstad",
-          "department": null,
-          "_hash": "fd1142bddfdc",
-          "discovered_at": "2026-10-29T02:08:05.775344+00:00",
-          "is_new": false
-        },
-        {
           "title": "data center environmental permitting program manager",
           "url": "https://www.randstadusa.com/jobs/141/1367387/data-center-environmental-permitting-program-manager_denver/",
           "location": "",
@@ -192,168 +182,7 @@
     {
       "name": "Mondo",
       "url": "https://mondo.com/jobs/results/?geo=null&tag=null&type=null&division=null&company=null&industry=null&pageId=null&page=1",
-      "jobs": [
-        {
-          "title": "Group Product Manager, Platforms",
-          "url": "https://mondo.com/jobs/job/group-product-manager-platforms-centerville-va-20120-32906970/5525d352-a6cb-11f1-b939-02420a6c7775",
-          "location": "Centerville, VA, 20120",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "8346b4237193",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Project Manager",
-          "url": "https://mondo.com/jobs/job/project-manager-owings-mills-md-21117-32962969/b0b60051-a87a-11f1-8336-024201c20d84",
-          "location": "Owings Mills, MD, 21117",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "e580ae707dc7",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "AI Project Manager",
-          "url": "https://mondo.com/jobs/job/ai-project-manager-wilmington-de-19803-33148854/4a8479f7-c34d-11f1-ab76-02420a6c7775",
-          "location": "Wilmington, DE, 19803",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "ea01addb3a20",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Project Manager, Credit",
-          "url": "https://mondo.com/jobs/job/technical-project-manager-credit-new-york-nc-10022-33175202/81fb9a56-bd02-11f1-b265-024201c20d84",
-          "location": "New York, NC, 10022",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "b7ef155481ee",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Associate Project Manager / Business Administrator",
-          "url": "https://mondo.com/jobs/job/associate-project-manager-business-administrator-baltimore-md-21201-33194954/b0c499de-c0f9-11f1-ab76-02420a6c7775",
-          "location": "Baltimore, MD, 21201",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "2a78fd28e13e",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Global Project/ Program Manager",
-          "url": "https://mondo.com/jobs/job/global-project-program-manager-chicago-il-60018-33268907/88ea15e1-cbfe-11f1-96f9-024201c20d84",
-          "location": "CHicago, IL, 60018",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "80ecff6405a3",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Deputy Program Manager",
-          "url": "https://mondo.com/jobs/job/deputy-program-manager-andover-ma-01810-33294515/717fe602-d142-11f1-bde9-0242db9b5dbc",
-          "location": "Andover, MA, 01810",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "7b473fe64dd7",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Manager, Program Management",
-          "url": "https://mondo.com/jobs/job/senior-manager-program-management-dallas-tx-75201-33295195/3dfdd028-d157-11f1-a21a-0242663b9cdc",
-          "location": "Dallas, TX, 75201",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "06bf5a2078a7",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Technical Project Manager",
-          "url": "https://mondo.com/jobs/job/technical-project-manager-needham-ma-02494-33324782/ea88ef12-d4a9-11f1-910c-0242663b9cdc",
-          "location": "Needham, MA, 02494",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "d025e96baa60",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-project-manager-austin-tx-78702-33551742/6e0de851-d7ba-11f1-9170-0242db9b5dbc",
-          "location": "Austin, TX, 78702",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "537ce6709086",
-          "discovered_at": "2026-11-10T04:32:02.198794+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior IT Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02110-33604524/92502a40-da1d-11f1-9170-0242db9b5dbc",
-          "location": "Boston, MA, 02110",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "5895c619a44e",
-          "discovered_at": "2026-11-10T20:45:10.783158+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Product Manager, MarTech/AI",
-          "url": "https://mondo.com/jobs/job/product-manager-martechai-los-angeles-ca-91361-33618408/5a1914b3-dddd-11f1-a6aa-0242db9b5dbc",
-          "location": "Los Angeles, CA, 91361",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "4f78a11c9687",
-          "discovered_at": "2026-11-13T20:48:00.186756+00:00",
-          "is_new": false
-        },
-        {
-          "title": "ERP Project Manager",
-          "url": "https://mondo.com/jobs/job/erp-project-manager-greenwood-village-co-80111-33623440/02031a4d-de25-11f1-bb83-0242663b9cdc",
-          "location": "Greenwood Village, CO, 80111",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "56a2d36c3c4c",
-          "discovered_at": "2026-11-14T02:56:42.100088+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-project-manager-philadelphia-pa-19103-33631237/677f34fd-df9f-11f1-bb83-0242663b9cdc",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "fb1e72349905",
-          "discovered_at": "2026-11-17T22:03:33.146178+00:00",
-          "is_new": false
-        },
-        {
-          "title": "AI Product Manager",
-          "url": "https://mondo.com/jobs/job/ai-product-manager-baltimore-md-21231-33641456/01f7f27a-e29f-11f1-90d5-0242663b9cdc",
-          "location": "Baltimore, MD, 21231",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "89c11bf085e1",
-          "discovered_at": "2026-11-19T22:01:01.673005+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Director, Product Management",
-          "url": "https://mondo.com/jobs/job/director-product-management-atlanta-ga-10016-33643552/84c8a213-e2c2-11f1-94f7-0242db9b5dbc",
-          "location": "Atlanta, GA, 10016",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "1a423db3a537",
-          "discovered_at": "2026-11-19T22:01:01.673005+00:00",
-          "is_new": false
-        }
-      ]
+      "jobs": []
     },
     {
       "name": "Epitec",
