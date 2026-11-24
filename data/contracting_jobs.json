@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-24T01:32:01.130790+00:00",
+  "last_run": "2026-11-24T06:46:21.007156+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -49,7 +49,7 @@
           "department": null,
           "_hash": "146aa86f9fe5",
           "discovered_at": "2026-11-24T01:32:01.130790+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Senior Project Manager \u2013 Oil & Gas Transportation Infrastructure",
@@ -59,7 +59,7 @@
           "department": null,
           "_hash": "d2532759b52e",
           "discovered_at": "2026-11-24T01:32:01.130790+00:00",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -483,7 +483,7 @@
           "department": null,
           "_hash": "623a21501f29",
           "discovered_at": "2026-11-24T01:32:01.130790+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager",
