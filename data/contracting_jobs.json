@@ -1,20 +1,10 @@
 {
-  "last_run": "2026-11-24T06:46:21.007156+00:00",
+  "last_run": "2026-11-24T23:25:45.624719+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
       "url": "https://www.thelasallenetwork.com/job-search/?job_tax_job-category=technology",
       "jobs": [
-        {
-          "title": "Product Manager",
-          "url": "https://lasalleintel.com/jobs/product-manager-163622/",
-          "location": "",
-          "firm": "LaSalle Network",
-          "department": null,
-          "_hash": "d8ac151b5f06",
-          "discovered_at": "2026-11-18T04:03:59.394263+00:00",
-          "is_new": false
-        },
         {
           "title": "Senior Program Manager",
           "url": "https://lasalleintel.com/jobs/senior-program-manager-163621/",
@@ -22,6 +12,16 @@
           "firm": "LaSalle Network",
           "department": null,
           "_hash": "e87dd43e1584",
+          "discovered_at": "2026-11-18T04:03:59.394263+00:00",
+          "is_new": false
+        },
+        {
+          "title": "Product Manager",
+          "url": "https://lasalleintel.com/jobs/product-manager-163622/",
+          "location": "",
+          "firm": "LaSalle Network",
+          "department": null,
+          "_hash": "d8ac151b5f06",
           "discovered_at": "2026-11-18T04:03:59.394263+00:00",
           "is_new": false
         },
@@ -96,6 +96,16 @@
           "_hash": "92749d3154d7",
           "discovered_at": "2026-11-06T03:08:04.564756+00:00",
           "is_new": false
+        },
+        {
+          "title": "senior construction project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1369698/senior-construction-project-manager_houston/",
+          "location": "",
+          "firm": "Randstad",
+          "department": null,
+          "_hash": "f7f5e24b4846",
+          "discovered_at": "2026-11-24T23:25:45.624719+00:00",
+          "is_new": true
         },
         {
           "title": "project manager",
@@ -184,16 +194,6 @@
           "is_new": false
         },
         {
-          "title": "AI Project Manager",
-          "url": "https://mondo.com/jobs/job/ai-project-manager-wilmington-de-19803-33148854/4a8479f7-c34d-11f1-ab76-02420a6c7775",
-          "location": "Wilmington, DE, 19803",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "ea01addb3a20",
-          "discovered_at": "2026-11-22T02:50:56.847914+00:00",
-          "is_new": false
-        },
-        {
           "title": "Technical Project Manager, Credit",
           "url": "https://mondo.com/jobs/job/technical-project-manager-credit-new-york-nc-10022-33175202/81fb9a56-bd02-11f1-b265-024201c20d84",
           "location": "New York, NC, 10022",
@@ -254,16 +254,6 @@
           "is_new": false
         },
         {
-          "title": "Sr Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-project-manager-austin-tx-78702-33551742/6e0de851-d7ba-11f1-9170-0242db9b5dbc",
-          "location": "Austin, TX, 78702",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "537ce6709086",
-          "discovered_at": "2026-11-22T02:50:56.847914+00:00",
-          "is_new": false
-        },
-        {
           "title": "Senior IT Project Manager",
           "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02110-33604524/92502a40-da1d-11f1-9170-0242db9b5dbc",
           "location": "Boston, MA, 02110",
@@ -284,26 +274,6 @@
           "is_new": false
         },
         {
-          "title": "ERP Project Manager",
-          "url": "https://mondo.com/jobs/job/erp-project-manager-greenwood-village-co-80111-33623440/02031a4d-de25-11f1-bb83-0242663b9cdc",
-          "location": "Greenwood Village, CO, 80111",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "56a2d36c3c4c",
-          "discovered_at": "2026-11-22T02:50:56.847914+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. Project Manager",
-          "url": "https://mondo.com/jobs/job/sr-project-manager-philadelphia-pa-19103-33631237/677f34fd-df9f-11f1-bb83-0242663b9cdc",
-          "location": "Philadelphia, PA, 19103",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "fb1e72349905",
-          "discovered_at": "2026-11-22T02:50:56.847914+00:00",
-          "is_new": false
-        },
-        {
           "title": "Director, Product Management",
           "url": "https://mondo.com/jobs/job/director-product-management-atlanta-ga-10016-33643552/84c8a213-e2c2-11f1-94f7-0242db9b5dbc",
           "location": "Atlanta, GA, 10016",
@@ -312,6 +282,16 @@
           "_hash": "1a423db3a537",
           "discovered_at": "2026-11-22T02:50:56.847914+00:00",
           "is_new": false
+        },
+        {
+          "title": "Sr. IAM Program Manager",
+          "url": "https://mondo.com/jobs/job/sr-iam-program-manager-boston-ma-02115-33658461/611d2bed-e82d-11f1-922c-0242db9b5dbc",
+          "location": "Boston, MA, 02115",
+          "firm": "Mondo",
+          "department": null,
+          "_hash": "0d91b314483e",
+          "discovered_at": "2026-11-24T23:25:45.624719+00:00",
+          "is_new": true
         }
       ]
     },
@@ -543,26 +523,6 @@
           "department": null,
           "_hash": "2a52f947e87a",
           "discovered_at": "2026-11-16T23:14:58.295141+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Sr. Scrum Master/Project Manager",
-          "url": "https://aquent.com/find-work/214272",
-          "location": "Boston, MA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "ec802ca652b9",
-          "discovered_at": "2026-11-06T20:17:49.618721+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Scrum Master and Project Manager",
-          "url": "https://aquent.com/find-work/214250",
-          "location": "Boston, MA",
-          "firm": "Aquent",
-          "department": null,
-          "_hash": "48ef19626fa9",
-          "discovered_at": "2026-11-05T20:59:18.277429+00:00",
           "is_new": false
         },
         {
