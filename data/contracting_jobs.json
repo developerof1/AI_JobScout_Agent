@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-25T05:16:09.749100+00:00",
+  "last_run": "2026-11-25T22:59:01.459162+00:00",
   "firms": [
     {
       "name": "LaSalle Network",
@@ -42,24 +42,14 @@
       "url": "https://www.ptechpartners.com/jobs/",
       "jobs": [
         {
-          "title": "Project Manager (Oil and Gas Infrastructure)",
-          "url": "https://www.ptechpartners.com/job/allentown-pa/project-manager-oil-and-gas-infrastructure/106170",
+          "title": "Technical Product Manager - Retool",
+          "url": "https://www.ptechpartners.com/job/chicago-il/technical-product-manager-retool/106351",
           "location": "",
           "firm": "Peterson Technology Partners",
           "department": null,
-          "_hash": "146aa86f9fe5",
-          "discovered_at": "2026-11-24T01:32:01.130790+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior Project Manager \u2013 Oil & Gas Transportation Infrastructure",
-          "url": "https://www.ptechpartners.com/job/houston-tx/senior-project-manager-oil-gas-transportation-infrastructure/106247",
-          "location": "",
-          "firm": "Peterson Technology Partners",
-          "department": null,
-          "_hash": "d2532759b52e",
-          "discovered_at": "2026-11-24T01:32:01.130790+00:00",
-          "is_new": false
+          "_hash": "9b92b7777493",
+          "discovered_at": "2026-11-25T22:59:01.459162+00:00",
+          "is_new": true
         }
       ]
     },
@@ -98,14 +88,14 @@
           "is_new": false
         },
         {
-          "title": "senior construction project manager",
-          "url": "https://www.randstadusa.com/jobs/141/1369698/senior-construction-project-manager_houston/",
+          "title": "senior concrete construction project manager",
+          "url": "https://www.randstadusa.com/jobs/141/1369698/senior-concrete-construction-project-manager_houston/",
           "location": "",
           "firm": "Randstad",
           "department": null,
-          "_hash": "f7f5e24b4846",
-          "discovered_at": "2026-11-24T23:25:45.624719+00:00",
-          "is_new": false
+          "_hash": "da23ea949a2c",
+          "discovered_at": "2026-11-25T22:59:01.459162+00:00",
+          "is_new": true
         },
         {
           "title": "project manager",
@@ -250,16 +240,6 @@
           "firm": "Mondo",
           "department": null,
           "_hash": "d025e96baa60",
-          "discovered_at": "2026-11-22T02:50:56.847914+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Senior IT Project Manager",
-          "url": "https://mondo.com/jobs/job/senior-it-project-manager-boston-ma-02110-33604524/92502a40-da1d-11f1-9170-0242db9b5dbc",
-          "location": "Boston, MA, 02110",
-          "firm": "Mondo",
-          "department": null,
-          "_hash": "5895c619a44e",
           "discovered_at": "2026-11-22T02:50:56.847914+00:00",
           "is_new": false
         },
