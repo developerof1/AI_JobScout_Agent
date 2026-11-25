@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-25T05:15:27.399572+00:00",
+  "last_run": "2026-11-25T22:59:55.828140+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -226,6 +226,16 @@
           "is_new": false
         },
         {
+          "title": "Program Manager, Operations (Remote)",
+          "url": "https://builtinchicago.org/job/program-manager-operations-remote/12462070",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Project/Program Management",
+          "department": "program_management",
+          "_hash": "8522f8e15b8f",
+          "discovered_at": "2026-11-25T22:59:55.828140+00:00",
+          "is_new": true
+        },
+        {
           "title": "Project Manager, Business Improvement",
           "url": "https://builtinchicago.org/job/project-manager-business-improvement/11619682",
           "location": "",
@@ -233,7 +243,7 @@
           "department": "program_management",
           "_hash": "e141435a5100",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Epic Project Manager",
@@ -243,7 +253,7 @@
           "department": "program_management",
           "_hash": "c6b5e2cec57a",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Project Manager - Imaging",
@@ -253,7 +263,7 @@
           "department": "program_management",
           "_hash": "8af17fe6fd94",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Data Archival Project Manager",
@@ -682,16 +692,6 @@
           "is_new": false
         },
         {
-          "title": "Product Manager",
-          "url": "https://builtinchicago.org/job/product-manager/12433982",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "0e656f4fa9f2",
-          "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
           "title": "Global Product Manager, Connectivity & Interoperability",
           "url": "https://builtinchicago.org/job/global-product-manager-connectivity-interoperability/12388576",
           "location": "",
@@ -700,6 +700,16 @@
           "_hash": "4cf0298c8ed5",
           "discovered_at": "2026-11-21T03:46:16.892372+00:00",
           "is_new": false
+        },
+        {
+          "title": "Strategic Product Manager",
+          "url": "https://builtinchicago.org/job/strategic-product-manager/12360886",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "e9d83af0bb01",
+          "discovered_at": "2026-11-25T22:59:55.828140+00:00",
+          "is_new": true
         },
         {
           "title": "Product Manager, Clinical Programs & Case Management",
@@ -739,7 +749,7 @@
           "department": "product_management",
           "_hash": "28862d93a196",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Digital Product Manager II",
@@ -749,7 +759,7 @@
           "department": "product_management",
           "_hash": "998f15e1cd05",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Associate Product Manager, Data Governance",
@@ -759,7 +769,7 @@
           "department": "product_management",
           "_hash": "ce934a7c7014",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Product Manager",
@@ -849,16 +859,6 @@
           "department": "product_management",
           "_hash": "c7d27a680e58",
           "discovered_at": "2026-09-03T22:10:59.586864+00:00",
-          "is_new": false
-        },
-        {
-          "title": "(Remote) Product Manager",
-          "url": "https://builtinchicago.org/job/remote-product-manager/12397318",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Product",
-          "department": "product_management",
-          "_hash": "7db91ab7f96a",
-          "discovered_at": "2026-11-21T20:25:18.450258+00:00",
           "is_new": false
         },
         {
@@ -1410,6 +1410,16 @@
           "_hash": "30665e938f23",
           "discovered_at": "2026-09-11T00:50:30.198682+00:00",
           "is_new": false
+        },
+        {
+          "title": "Product Manager, Risk Adjustment Coding Data Integration",
+          "url": "https://builtinchicago.org/job/product-manager-risk-adjustment-coding-data-integration/6950603",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Product",
+          "department": "product_management",
+          "_hash": "7bb332bc9d0b",
+          "discovered_at": "2026-11-25T22:59:55.828140+00:00",
+          "is_new": true
         }
       ]
     },
@@ -1568,14 +1578,24 @@
           "is_new": false
         },
         {
-          "title": "Customer Success Manager",
-          "url": "https://builtinchicago.org/job/customer-success-manager/10157110",
+          "title": "Client Account Manager",
+          "url": "https://builtinchicago.org/job/client-account-manager/12484570",
           "location": "",
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
-          "_hash": "f93957d7c2da",
-          "discovered_at": "2026-10-01T19:19:53.978569+00:00",
-          "is_new": false
+          "_hash": "c28ccc85261a",
+          "discovered_at": "2026-11-25T22:59:55.828140+00:00",
+          "is_new": true
+        },
+        {
+          "title": "Manager, Account Management & Client Solutions - BeneCard PBF",
+          "url": "https://builtinchicago.org/job/manager-account-management-client-solutions-benecard-pbf/11993170",
+          "location": "",
+          "firm": "Built In Chicago \u2014 Customer Success",
+          "department": "customer_success",
+          "_hash": "d4d4e6c7c0f8",
+          "discovered_at": "2026-11-25T22:59:55.828140+00:00",
+          "is_new": true
         },
         {
           "title": "Client Success Associate",
@@ -1585,7 +1605,7 @@
           "department": "customer_success",
           "_hash": "2fe106a997c0",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Director, Customer Success",
@@ -1595,7 +1615,7 @@
           "department": "customer_success",
           "_hash": "776b7b7db627",
           "discovered_at": "2026-11-25T05:15:27.399572+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Vice President, Customer Success (Life Sciences)",
@@ -2054,16 +2074,6 @@
           "firm": "Built In Chicago \u2014 Customer Success",
           "department": "customer_success",
           "_hash": "fd6b92a3304d",
-          "discovered_at": "2026-11-24T23:25:39.100183+00:00",
-          "is_new": false
-        },
-        {
-          "title": "Head of Customer Success, Payer & Employer",
-          "url": "https://builtinchicago.org/job/head-customer-success-payer-employer/11552713",
-          "location": "",
-          "firm": "Built In Chicago \u2014 Customer Success",
-          "department": "customer_success",
-          "_hash": "f6f563e67065",
           "discovered_at": "2026-11-24T23:25:39.100183+00:00",
           "is_new": false
         }
