@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-27T22:32:53.183512+00:00",
+  "last_run": "2026-11-28T04:31:05.944230+00:00",
   "firms": [
     {
       "name": "Built In Chicago \u2014 Project/Program Management",
@@ -233,7 +233,7 @@
           "department": "program_management",
           "_hash": "5d3cf5cd8c39",
           "discovered_at": "2026-11-27T22:32:53.183512+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Group Project Manager, Healthcare and Pharmaceutical Advertising",
@@ -1635,7 +1635,7 @@
           "department": "customer_success",
           "_hash": "fa49127d42b5",
           "discovered_at": "2026-11-27T22:32:53.183512+00:00",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Customer Success Manager",
